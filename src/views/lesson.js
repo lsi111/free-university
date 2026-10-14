@@ -14,7 +14,12 @@ export function renderLesson(root, { meta, dept, catalog = [], errors, lessonId,
   const lesson = dept.lessons.find((l) => l.id === lessonId);
   const trunkIndex = dept.trunk.indexOf(lessonId);
   const branch = (dept.branches || []).find((b) => b.lessons.includes(lessonId));
-  const label = trunkIndex >= 0 ? `${trunkIndex + 1}교시` : branch ? `갈래 · ${branch.name}` : '';
+  const branchIndex = branch ? branch.lessons.indexOf(lessonId) : -1;
+  const label = trunkIndex >= 0
+    ? `공통 ${trunkIndex + 1}교시`
+    : branch
+      ? `갈래 · ${branch.name} · 심화 ${branchIndex + 1}교시`
+      : '';
   const crumbs = h('nav', { class: 'crumbs', 'aria-label': '위치' },
     h('a', { href: '#/' }, '학과 선택'), ' › ', h('a', { href: `#/d/${meta.id}` }, meta.name), ' › ', label);
 
@@ -28,7 +33,7 @@ export function renderLesson(root, { meta, dept, catalog = [], errors, lessonId,
   const branchOpen = !branch || (branch.opensAfter || []).every((r) => isDone(dp0, r));
   if (!isUnlocked(lesson, dp0) || !branchOpen) {
     const byId = new Map(dept.lessons.map((l) => [l.id, l]));
-    const need = [...(lesson.requires || []), ...(branch?.opensAfter || [])].filter((r) => !isDone(dp0, r));
+    const need = [...new Set([...(lesson.requires || []), ...(branch?.opensAfter || [])])].filter((r) => !isDone(dp0, r));
     fill(root, crumbs,
       h('h1', { tabindex: '-1' }, lesson.title),
       h('section', { class: 'panel' },
@@ -60,8 +65,8 @@ export function renderLesson(root, { meta, dept, catalog = [], errors, lessonId,
       results.includes('self') ? h('p', {}, '자기 확인으로 통과한 문항이 있어 진도에 "자기 확인 포함"으로 표시됩니다.') : null,
       next.length
         ? h('p', {}, '이제 열린 교시: ', ...next.flatMap((l, i) => [i ? ', ' : '', h('a', { href: `#/d/${meta.id}/l/${l.id}` }, l.title)]))
-        : h('p', {}, '이 학과에서 지금 열 수 있는 교시를 모두 마쳤습니다.'),
-      h('p', {}, h('a', { href: `#/d/${meta.id}` }, `${meta.name} 줄기로 돌아가기`))));
+        : h('p', {}, '이 학과의 공통 줄기와 전공 심화 갈래를 모두 마쳤습니다.'),
+      h('p', {}, h('a', { href: `#/d/${meta.id}` }, `${meta.name} 교육과정으로 돌아가기`))));
   };
 
   const report = reportPanel({ meta, lesson, site });
@@ -104,8 +109,10 @@ export function renderLesson(root, { meta, dept, catalog = [], errors, lessonId,
   }
 
   const byId = new Map(dept.lessons.map((l) => [l.id, l]));
-  const prevId = trunkIndex > 0 ? dept.trunk[trunkIndex - 1] : null;
-  const nextId = trunkIndex >= 0 && trunkIndex < dept.trunk.length - 1 ? dept.trunk[trunkIndex + 1] : null;
+  const seqList = trunkIndex >= 0 ? dept.trunk : (branch?.lessons || []);
+  const seqIdx = trunkIndex >= 0 ? trunkIndex : branchIndex;
+  const prevId = seqIdx > 0 ? seqList[seqIdx - 1] : null;
+  const nextId = seqIdx >= 0 && seqIdx < seqList.length - 1 ? seqList[seqIdx + 1] : null;
   const prevLesson = prevId ? byId.get(prevId) : null;
   const nextLesson = nextId && isUnlocked(byId.get(nextId), dp0) ? byId.get(nextId) : null;
 

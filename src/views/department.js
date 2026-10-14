@@ -25,6 +25,9 @@ export function renderDepartment(root, { meta, dept, errors, fields, catalog = [
   const s = summary(dept, dp);
   const byId = new Map(dept.lessons.map((l) => [l.id, l]));
   const number = new Map(dept.trunk.map((id, i) => [id, `${i + 1}교시`]));
+  for (const b of dept.branches || []) {
+    (b.lessons || []).forEach((id, i) => number.set(id, `${b.name} ${i + 1}교시`));
+  }
 
   const lessonItem = (id, n) => {
     const l = byId.get(id);
@@ -43,12 +46,22 @@ export function renderDepartment(root, { meta, dept, errors, fields, catalog = [
       !open ? h('span', { class: 'lesson-needs' }, `먼저: ${needs.join(', ')}`) : null);
   };
 
-  const branches = (dept.branches || []).map((b) => {
+  const branches = (dept.branches || []).map((b, idx) => {
     const opened = isBranchOpen(b, dp);
-    return h('section', { class: 'panel' },
-      h('h2', {}, `갈래 · ${b.name}`),
-      opened ? null : h('p', { class: 'input-note' }, `열리는 조건: ${(b.opensAfter || []).map((id) => number.get(id)).join(', ')} 마치기`),
-      h('ol', { class: 'lesson-list', role: 'list' }, b.lessons.map((id, i) => opened ? lessonItem(id, `${i + 1}`) : h('li', { class: 'lesson-item locked' }, byId.get(id).title))));
+    const bDone = (b.lessons || []).filter((id) => isDone(dp, id)).length;
+    const openReqs = (b.opensAfter || []).map((id) => `${dept.trunk.indexOf(id) + 1}교시(${byId.get(id)?.title || id})`).join(', ');
+    return h('section', { class: 'panel branch-panel' },
+      h('div', { class: 'panel-head' },
+        h('h2', {}, `전공 심화 갈래 ${idx + 1} · ${b.name}`),
+        h('span', { class: 'meta-line' }, `${bDone}/${b.lessons.length} 마침`)),
+      b.summary ? h('p', { class: 'input-note' }, b.summary) : null,
+      opened ? null : h('p', { class: 'input-note' }, `열리는 조건: 공통 줄기 ${openReqs} 마치기`),
+      h('ol', { class: 'lesson-list', role: 'list' },
+        b.lessons.map((id, i) => opened
+          ? lessonItem(id, `심화 ${i + 1}교시`)
+          : h('li', { class: 'lesson-item locked' },
+              h('span', { class: 'lesson-title' }, h('span', { class: 'lesson-no' }, `심화 ${i + 1}교시`), byId.get(id).title),
+              h('span', { class: 'lesson-state' }, '잠김')))));
   });
 
   const relatedDepts = findRelatedDepartments(meta, catalog);
@@ -65,15 +78,17 @@ export function renderDepartment(root, { meta, dept, errors, fields, catalog = [
     errors?.length ? errorPanel(errors) : null,
     reviewSummary(deptReviewSummary(dept, reviews[meta.id])),
     h('section', { class: 'panel' },
-      h('h2', {}, '누구에게 맞는가'),
+      h('h2', {}, '누구에게 맞는가 · 교육과정 구성'),
       h('p', {}, meta.audience),
+      h('p', { class: 'input-note' },
+        `이 학과는 1단계 공통 줄기(${s.trunkTotal}교시, 전공기초)와 2단계 전공 심화 갈래(${s.branchesTotal}개 갈래, 학사 핵심 이론·모형)를 합쳐 총 ${s.total}교시로 구성되어 있습니다. 현재 전체 ${s.done}/${s.total}교시를 마쳤습니다.`),
       meta.limits ? h('p', { class: 'limits' }, `범위 밖: ${meta.limits}`) : null),
     h('section', { class: 'panel' },
       h('div', { class: 'panel-head' },
-        h('h2', {}, '공통 줄기'),
-        h('span', { class: 'meta-line' }, `${s.done}/${s.total} 마침${s.self ? ` (자기 확인 ${s.self})` : ''}`)),
-      h('p', { class: 'input-note' }, '선행이 없는 교시는 바로 열립니다. 순서는 선행 관계로만 정해집니다.'),
-      h('ol', { class: 'lesson-list', role: 'list' }, dept.trunk.map((id) => lessonItem(id, number.get(id))))),
+        h('h2', {}, '1단계 · 공통 줄기 (전공기초)'),
+        h('span', { class: 'meta-line' }, `${s.trunkDoneCount}/${s.trunkTotal} 마침`)),
+      h('p', { class: 'input-note' }, '선행이 없는 첫 교시는 바로 열립니다. 주요 줄기 교시를 마치면 아래의 전공 심화 갈래들이 차례로 열립니다.'),
+      h('ol', { class: 'lesson-list', role: 'list' }, dept.trunk.map((id, i) => lessonItem(id, `${i + 1}교시`)))),
     ...branches,
     relatedPanel,
   );

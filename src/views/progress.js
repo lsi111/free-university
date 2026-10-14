@@ -14,6 +14,7 @@ export async function renderProgress(root, { catalog, progress, rerender }) {
   let totalDone = 0;
   let totalSelf = 0;
   let trunkCompletedDepts = 0;
+  let fullCompletedDepts = 0;
   const writtenItems = [];
 
   const rows = await Promise.all(started.map(async (meta) => {
@@ -25,6 +26,7 @@ export async function renderProgress(root, { catalog, progress, rerender }) {
     totalDone += s.done;
     totalSelf += s.self;
     if (s.trunkDone) trunkCompletedDepts += 1;
+    if (s.allDone) fullCompletedDepts += 1;
 
     const lessonMap = new Map(dept.lessons.map((l) => [l.id, l]));
     for (const [subKey, val] of Object.entries(dp.submissions || {})) {
@@ -49,7 +51,10 @@ export async function renderProgress(root, { catalog, progress, rerender }) {
       h('a', { href: `#/d/${meta.id}` }, meta.name),
       h('div', { class: 'bar', role: 'progressbar', 'aria-valuemin': '0', 'aria-valuemax': String(s.total), 'aria-valuenow': String(s.done), 'aria-label': `${meta.name} 진도` },
         h('span', { style: `width:${pct}%` })),
-      h('span', { class: 'meta-line' }, `${s.done}/${s.total}`, s.self ? ` · 자기 확인 ${s.self}` : '', s.trunkDone ? ' · 공통 줄기 끝' : ''));
+      h('span', { class: 'meta-line' },
+        `${s.done}/${s.total}`,
+        s.self ? ` · 자기 확인 ${s.self}` : '',
+        s.allDone ? ' · 전공 심화 완주' : s.trunkDone ? ' · 공통 줄기 끝' : ''));
   }));
 
   const activeRows = rows.filter(Boolean);
@@ -68,7 +73,7 @@ export async function renderProgress(root, { catalog, progress, rerender }) {
   const statsPanel = activeRows.length
     ? h('p', { class: 'review-summary' },
         h('strong', {}, '요약 '),
-        `시작한 학과 ${activeRows.length}개 · 마친 교시 ${totalDone}개${totalSelf ? ` (자기 확인 포함 ${totalSelf}개)` : ''} · 공통 줄기 완주 ${trunkCompletedDepts}개`)
+        `시작한 학과 ${activeRows.length}개 · 마친 교시 ${totalDone}개${totalSelf ? ` (자기 확인 포함 ${totalSelf}개)` : ''} · 공통 줄기 완주 ${trunkCompletedDepts}개 · 전공 심화 완주 ${fullCompletedDepts}개`)
     : null;
 
   const writtenPanel = writtenItems.length

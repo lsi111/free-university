@@ -7,7 +7,44 @@
     "gl-05",
     "gl-06"
   ],
-  "branches": [],
+  "branches": [
+    {
+      "id": "gl-b1",
+      "name": "독일어 문법·통사 심화",
+      "summary": "독일어 문장 틀(Satzklammer), 접속법(Konjunktiv I·II), 수동태·관형절 구조",
+      "opensAfter": [
+        "gl-03"
+      ],
+      "lessons": [
+        "gl-07",
+        "gl-08"
+      ]
+    },
+    {
+      "id": "gl-b2",
+      "name": "고전·낭만주의 독일문학",
+      "summary": "계몽주의, 질풍노도(Sturm und Drang), 바이마르 고전주의(괴테·실러)와 독일 낭만주의",
+      "opensAfter": [
+        "gl-04"
+      ],
+      "lessons": [
+        "gl-09",
+        "gl-10"
+      ]
+    },
+    {
+      "id": "gl-b3",
+      "name": "현대 독어권 문학·비평",
+      "summary": "카프카·토마스 만·브레히트와 전후 문학(집단 47, 뵐, 그라스)",
+      "opensAfter": [
+        "gl-06"
+      ],
+      "lessons": [
+        "gl-11",
+        "gl-12"
+      ]
+    }
+  ],
   "lessons": [
     {
       "id": "gl-01",
@@ -791,6 +828,393 @@
           ],
           "hint": "이 문항은 점수를 매기지 않습니다. 남긴 글은 이 기기에만 저장됩니다.",
           "explanation": "정답이 있는 문제가 아닙니다. 배운 틀에 자기 이야기를 넣어 보는 것이 목적입니다."
+        }
+      ]
+    },
+    {
+      "id": "gl-07",
+      "title": "문장 틀 구조(Satzklammer)와 종속절 어순",
+      "minutes": 35,
+      "requires": [
+        "gl-03"
+      ],
+      "features": [
+        "speech:de"
+      ],
+      "explain": [
+        "주문장의 동사 제2위(V2) 원칙, 분리동사·조동사의 문장 틀, 종속절의 동사 후치(VL)를 익힌다.",
+        "독일어 평서문(주문장)에서는 정동사(Personalform)가 항상 두 번째 성분 자리(V2)에 오고, 조동사·화법조동사와 함께 쓰인 본동사 원형이나 과거분사, 분리전철은 문장 맨 끝으로 가서 문장 틀(Satzklammer)을 이룬다.",
+        "접속사 'weil(왜냐하면)', 'dass(~라는 것)', 'obwohl(~에도 불구하고)'이나 관계대명사가 이끄는 종속절에서는 정동사가 문장 맨 끝(Verb-Letzt)으로 이동한다."
+      ],
+      "examples": [
+        {
+          "title": "V2 어순과 문장 틀(Satzklammer)",
+          "body": [
+            "예: 'Ich (1) habe (2: 정동사) gestern ein Buch (중간역) gelesen (문말: 과거분사).'"
+          ]
+        },
+        {
+          "title": "종속절(Nebensatz)의 정동사 후치",
+          "body": [
+            "예: 'Ich bleibe zu Hause, weil es heute stark regnet.'"
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "type": "choice",
+          "prompt": "독일어 주문장에서 부사 'Heute(오늘)'를 문두(1번 자리)로 옮겼을 때 올바른 어순은?",
+          "options": [
+            "Gehe heute ich in die Bibliothek.",
+            "Heute gehe ich in die Bibliothek.",
+            "Heute ich gehe in die Bibliothek.",
+            "Heute ich in die Bibliothek gehe."
+          ],
+          "answer": [
+            1
+          ],
+          "hint": "본문에서 정의한 핵심 원리를 떠올려 보세요.",
+          "explanation": "주문장에서는 정동사(gehe)가 반드시 두 번째 성분 자리(V2)를 지켜야 하므로 주어가 동사 뒤로 이동합니다."
+        },
+        {
+          "type": "choice",
+          "prompt": "'Er weiß, dass ...' 뒤에 'sie (그녀가) / kommt (온다) / morgen (내일)'을 배열할 때 올바른 종속절은?",
+          "options": [
+            "... dass kommt sie morgen.",
+            "... dass morgen kommt sie.",
+            "... dass sie morgen kommt.",
+            "... dass sie kommt morgen."
+          ],
+          "answer": [
+            2
+          ],
+          "hint": "본문에서 정의한 핵심 원리를 떠올려 보세요.",
+          "explanation": "종속접속사 dass가 이끄는 절에서는 정동사(kommt)가 절의 맨 끝으로 갑니다."
+        }
+      ]
+    },
+    {
+      "id": "gl-08",
+      "title": "접속법(Konjunktiv I·II)과 수동태",
+      "minutes": 35,
+      "requires": [
+        "gl-07"
+      ],
+      "features": [
+        "speech:de"
+      ],
+      "explain": [
+        "비현실 가정·정중한 표현의 접속법 2식과 간접화법의 접속법 1식, 상태·과정 수동태를 구분한다.",
+        "접속법 2식(예: wäre, hätte, würde + 동사원형)은 비현실적 가정('내가 부자라면'), 아쉬움, 정중한 부탁('Könnten Sie mir helfen?')에 쓰인다. 반면 접속법 1식(예: er sei, er habe)은 뉴스나 학술문에서 타인의 발언을 거리 두어 전달하는 간접화법(Indirekte Rede)에 쓰인다.",
+        "독일어 수동태는 동작이 진행되는 과정을 나타내는 'werden + 과거분사'(Vorgangspassiv)와 동작이 끝난 뒤의 결과 상태를 나타내는 'sein + 과거분사'(Zustandspassiv)로 엄격히 구분된다."
+      ],
+      "examples": [
+        {
+          "title": "접속법 2식(Konjunktiv II)과 접속법 1식(Konjunktiv I)",
+          "body": [
+            "예: 'Wenn ich Zeit hätte, käme ich mit.' (시간이 있다면 함께 갈 텐데 — 현재 사실의 반대)"
+          ]
+        },
+        {
+          "title": "과정 수동태(werden)와 상태 수동태(sein)",
+          "body": [
+            "'Die Tür wird geschlossen'(문이 닫히는 중이다) vs. 'Die Tür ist geschlossen'(문이 닫혀 있다)."
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "type": "match",
+          "prompt": "독일어 문장 형태와 문법적 기능을 바르게 연결하라.",
+          "pairs": [
+            [
+              "Wenn ich reich wäre, würde ich ein Haus kaufen.",
+              "접속법 2식 (Konjunktiv II) — 비현실 조건·가정"
+            ],
+            [
+              "Der Minister sagte, er sei krank.",
+              "접속법 1식 (Konjunktiv I) — 객관적 간접화법 전달"
+            ],
+            [
+              "Das Fenster wird geöffnet.",
+              "과정 수동태 (Vorgangspassiv: werden + 과거분사)"
+            ]
+          ],
+          "hint": "각 개념이 정의하는 대상과 역할을 비교하세요.",
+          "explanation": "wäre/würde는 접속법 2식, sei는 접속법 1식, wird + p.p.는 과정 수동태입니다."
+        },
+        {
+          "type": "choice",
+          "prompt": "‘그 편지가 (누군가에 의해) 쓰이고 있다’라는 행위 과정을 나타내는 독일어 수동태 문장은?",
+          "options": [
+            "Der Brief hat geschrieben.",
+            "Der Brief werde schreiben.",
+            "Der Brief wird geschrieben.",
+            "Der Brief ist geschrieben."
+          ],
+          "answer": [
+            2
+          ],
+          "hint": "본문에서 정의한 핵심 원리를 떠올려 보세요.",
+          "explanation": "과정 수동태는 조동사 werden의 인칭 변화형 + 과거분사(geschrieben)로 만듭니다."
+        }
+      ]
+    },
+    {
+      "id": "gl-09",
+      "title": "계몽주의에서 바이마르 고전주의까지",
+      "minutes": 35,
+      "requires": [
+        "gl-04"
+      ],
+      "features": [
+        "speech:de"
+      ],
+      "explain": [
+        "레싱의 계몽극, 괴테·실러의 질풍노도와 바이마르 고전주의 교양소설 전통을 분석한다.",
+        "18세기 후반 독일의 젊은 작가들은 이성 만능주의에 맞서 천재성·자연·격정을 찬양하는 질풍노도 운동을 일으켰다. 괴테(Goethe)의 서간체 소설 《젊은 베르테르의 슬픔》(1774)과 실러(Schiller)의 희곡 《군도》가 대표작이다.",
+        "괴테의 《빌헬름 마이스터의 수업시대》에서 확립된 교양소설(Bildungsroman)은 주인공이 세상과 부딪히며 내면적·도덕적·지적으로 성숙해 가는 과정을 그리는 독일 문학 고유의 소설 장르다."
+      ],
+      "examples": [
+        {
+          "title": "질풍노도(Sturm und Drang)와 괴테의 《젊은 베르테르의 슬픔》",
+          "body": [
+            "이후 괴테와 실러는 이탈리아 여행과 칸트 철학 수용을 거쳐 감정과 이성의 조화를 추구하는 바이마르 고전주의(Weimarer Klassik)를 확립했다."
+          ]
+        },
+        {
+          "title": "독일 교양소설(Bildungsroman)의 전통",
+          "body": [
+            "이후 토마스 만의 《마의 산》, 헤르만 헤세의 《데미안》으로 교양소설 전통이 이어졌다."
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "type": "choice",
+          "prompt": "괴테가 평생에 걸쳐 집필한 극시로, 끊임없이 노력하고 방황하는 인간과 악마 메피스토펠레스의 계약을 다룬 독일 문학의 정점은?",
+          "options": [
+            "마의 산 (Der Zauberberg)",
+            "파우스트 (Faust)",
+            "나탄 현자 (Nathan der Weise)",
+            "변신 (Die Verwandlung)"
+          ],
+          "answer": [
+            1
+          ],
+          "hint": "본문에서 정의한 핵심 원리를 떠올려 보세요.",
+          "explanation": "괴테의 《파우스트》는 '인간은 노력하는 한 방황한다'는 근대적 인간상을 집대성한 바이마르 고전주의의 걸작입니다."
+        },
+        {
+          "type": "choice",
+          "prompt": "주인공이 방황과 시련을 겪으며 자아를 형성하고 사회와 조화를 이루는 내면적 성숙 과정을 다룬 독일 소설 장르는?",
+          "options": [
+            "서간체 소설 (Briefroman)",
+            "범죄소설 (Kriminalroman)",
+            "교양소설 (Bildungsroman)",
+            "피카레스크 소설 (Schelmenroman)"
+          ],
+          "answer": [
+            2
+          ],
+          "hint": "본문에서 정의한 핵심 원리를 떠올려 보세요.",
+          "explanation": "Bildung(교양·자기형성)과 Roman(소설)이 결합된 교양소설(Bildungsroman)입니다."
+        }
+      ]
+    },
+    {
+      "id": "gl-10",
+      "title": "독일 낭만주의와 19세기 사실주의",
+      "minutes": 35,
+      "requires": [
+        "gl-09"
+      ],
+      "features": [
+        "speech:de"
+      ],
+      "explain": [
+        "노발리스·호프만·하이네의 낭만주의 시학과 뷔히너·폰타네의 문학을 살펴본다.",
+        "독일 낭만주의(Romantik)는 노발리스의 상징 '푸른 꽃(Blaue Blume)'처럼 무한한 동경, 밤과 꿈, 민담(그림 형제), 예술가적 아이러니를 탐구했다. 호프만(E. T. A. Hoffmann)의 《모래사나이》는 근대적 자아의 분열과 '두려운 낯섦(Das Unheimliche)'을 선취했다.",
+        "19세기 전반 게오르크 뷔히너(Georg Büchner)는 희곡 《보이체크》(Woyzeck)에서 하층민 병사가 사회적 착취와 인간 실험 속에 파멸해 가는 모습을 파편화된 장면 구성으로 그려 현대 표현주의·서사극의 선구자가 되었다."
+      ],
+      "examples": [
+        {
+          "title": "독일 낭만주의의 '푸른 꽃'과 무의식",
+          "body": [
+            "빌헬름 뮐러의 시에 슈베르트가 곡을 붙인 《겨울나그네》는 낭만주의 예술가곡(Lied)의 정수를 보여준다."
+          ]
+        },
+        {
+          "title": "게오르크 뷔히너와 사회적 리얼리즘의 선구",
+          "body": [
+            "《보이체크》는 문학사에서 최초로 무산 계급(프롤레타리아) 하층민을 비극의 주인공으로 세운 작품이다."
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "type": "match",
+          "prompt": "독일 문학 사조와 핵심 키워드를 바르게 연결하라.",
+          "pairs": [
+            [
+              "질풍노도 (Sturm und Drang)",
+              "규범 타파, 천재성, 자연과 격정의 폭발 (젊은 베르테르)"
+            ],
+            [
+              "바이마르 고전주의 (Weimarer Klassik)",
+              "고대 그리스적 조화·균형과 인도주의적 인격 도야 (파우스트)"
+            ],
+            [
+              "독일 낭만주의 (Romantik)",
+              "무한에의 동경(푸른 꽃), 꿈·환상과 민담 수집 (노발리스·호프만)"
+            ]
+          ],
+          "hint": "각 개념이 정의하는 대상과 역할을 비교하세요.",
+          "explanation": "18세기 후반~19세기 초 독일 문학의 세 사조를 대조합니다."
+        },
+        {
+          "type": "choice",
+          "prompt": "하층민 병사를 주인공으로 내세워 빈곤과 계급적 억압을 고발함으로써 근대 독일 드라마의 전환점을 이룬 게오르크 뷔히너의 희곡은?",
+          "options": [
+            "빌헬름 텔 (Wilhelm Tell)",
+            "억척어멈과 그 자식들",
+            "보이체크 (Woyzeck)",
+            "군도 (Die Räuber)"
+          ],
+          "answer": [
+            2
+          ],
+          "hint": "본문에서 정의한 핵심 원리를 떠올려 보세요.",
+          "explanation": "뷔히너의 《보이체크》는 개방형 희곡 형식과 사회 비판 의식으로 20세기 현대극에 지대한 영향을 미쳤습니다."
+        }
+      ]
+    },
+    {
+      "id": "gl-11",
+      "title": "20세기 모더니즘: 카프카, 토마스 만, 헤세, 릴케",
+      "minutes": 35,
+      "requires": [
+        "gl-06"
+      ],
+      "features": [
+        "speech:de"
+      ],
+      "explain": [
+        "프라하 독일어 문학(카프카·릴케)과 바이마르 공화국기 지성 소설을 분석한다.",
+        "프라하 출신 유대계 독일어 작가 프란츠 카프카(Franz Kafka)는 《변신》(Die Verwandlung), 《소송》(Der Prozess), 《성》(Das Schloss)에서 거대하고 불투명한 관료제·권력 앞에서 소외된 현대인의 실존적 불안과 부조리('카프카적, Kafkaesk')를 냉정하고도 명징한 문체로 형상화했다.",
+        "브레히트(Bertolt Brecht)는 관객이 극중 인물에 감정 이입(카타르시스)하는 아리스토텔레스적 연극을 거부하고, 낯설게 하기 효과(Verfremdungseffekt, 소외 효과)를 통해 관객이 사회 현실을 비판적·이성적으로 성찰하게 만드는 서사극(Episches Theater)을 창시했다."
+      ],
+      "examples": [
+        {
+          "title": "프란츠 카프카와 부조리의 세계",
+          "body": [
+            "《변신》의 첫 문장 '어느 날 아침 그레고르 잠자가 불안한 꿈에서 깨어났을 때, 그는 자신이 잠자리 속에서 한 마리 흉측한 해충으로 변해 있는 것을 발견했다'는 현대 문학의 가장 유명한 도입부다."
+          ]
+        },
+        {
+          "title": "베르톨트 브레히트와 서사극(Episches Theater)",
+          "body": [
+            "해설자의 개입, 노래(Song), 자막 플래카드 등은 관객의 환상을 깨뜨리는 대표적인 소외 기법이다."
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "type": "choice",
+          "prompt": "이유도 알지 못한 채 체포되어 보이지 않는 법정과 싸우다 처형당하는 은행원 요제프 K.를 통해 현대 관료제와 실존적 죄의식을 그린 카프카의 장편소설은?",
+          "options": [
+            "양철북 (Die Blechtrommel)",
+            "소송 (Der Prozess)",
+            "마의 산 (Der Zauberberg)",
+            "유리알 유희 (Das Glasperlenspiel)"
+          ],
+          "answer": [
+            1
+          ],
+          "hint": "본문에서 정의한 핵심 원리를 떠올려 보세요.",
+          "explanation": "카프카의 《소송》(Der Prozess)은 원인을 알 수 없는 기소와 보이지 않는 사법 체계를 통해 현대인의 실존적 부조리를 그렸습니다."
+        },
+        {
+          "type": "choice",
+          "prompt": "브레히트의 서사극에서 관객의 무비판적 감정 이입을 차단하고 익숙한 사회 현실을 낯설고 비판적으로 보게 만드는 기법은?",
+          "options": [
+            "제4의 벽 강화",
+            "의식의 흐름",
+            "소외 효과 / 낯설게 하기 (Verfremdungseffekt)",
+            "카타르시스 (Katharsis)"
+          ],
+          "answer": [
+            2
+          ],
+          "hint": "본문에서 정의한 핵심 원리를 떠올려 보세요.",
+          "explanation": "브레히트는 V-Effekt(Verfremdungseffekt)를 통해 연극을 사회 변혁을 위한 이성적 인식의 장으로 삼았습니다."
+        }
+      ]
+    },
+    {
+      "id": "gl-12",
+      "title": "전후 독일 문학(Trümmerliteratur)과 기억의 윤리",
+      "minutes": 35,
+      "requires": [
+        "gl-11"
+      ],
+      "features": [
+        "speech:de"
+      ],
+      "explain": [
+        "폐허 문학, '집단 47', 하인리히 뵐과 귄터 그라스의 과거사 성찰 문학을 다룬다.",
+        "1945년 패전 직후 독일 작가들은 나치에 의해 오염된 과장된 언어를 버리고 간결한 언어로 전쟁의 폐허와 죄책을 직시하는 '폐허 문학(Trümmerliteratur)'과 '집단 47(Gruppe 47)'을 결성했다.",
+        "동서독 분단기에는 크리스타 볼프(Christa Wolf, 《나누어진 하늘》) 등이 체제 내의 개인과 기억을 성찰했고, 통일 이후에는 제발트(W. G. Sebald)의 기억 서사와 이주 배경 작가들의 초문화적 독일어 문학이 활발히 전개되고 있다."
+      ],
+      "examples": [
+        {
+          "title": "폐허 문학과 과거 극복(Vergangenheitsbewältigung)",
+          "body": [
+            "하인리히 뵐(Heinrich Böll)과 귄터 그라스(Günter Grass, 《양철북》)는 전후 독일 사회의 나치 과거사 망각과 경제기적의 위선을 날카롭게 비판하며 노벨문학상을 수상했다."
+          ]
+        },
+        {
+          "title": "분단·통일 문학과 현대 독어권 다문화 문학",
+          "body": [
+            "독어권 문학은 독일뿐 아니라 오스트리아(토마스 베른하르트, 엘프리데 옐리네크), 스위스(뒤렌마트, 막스 프리슈)를 포괄한다."
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "type": "match",
+          "prompt": "20세기 독어권 주요 작가와 대표작을 바르게 연결하라.",
+          "pairs": [
+            [
+              "Franz Kafka (프란츠 카프카)",
+              "《변신》·《소송》 — 소외와 부조리의 실존 서사"
+            ],
+            [
+              "Bertolt Brecht (베르톨트 브레히트)",
+              "《억척어멈과 그 자식들》 — 소외 효과를 활용한 반전 서사극"
+            ],
+            [
+              "Günter Grass (귄터 그라스)",
+              "《양철북》 — 성장을 거부한 소년 오스카의 시선으로 본 나치 시대의 광기"
+            ]
+          ],
+          "hint": "각 개념이 정의하는 대상과 역할을 비교하세요.",
+          "explanation": "각 작가의 문학사적 대표작을 연결합니다."
+        },
+        {
+          "type": "choice",
+          "prompt": "제2차 세계대전 직후 나치의 선전 언어를 청산하고 전쟁의 참상과 죄책을 꾸밈없는 언어로 기록하려 한 독일 전후 문학 사조는?",
+          "options": [
+            "질풍노도",
+            "비더마이어",
+            "폐허 문학 (Trümmerliteratur)",
+            "바이마르 고전주의"
+          ],
+          "answer": [
+            2
+          ],
+          "hint": "본문에서 정의한 핵심 원리를 떠올려 보세요.",
+          "explanation": "1945년 직후 폐허 위에서 언어를 영점(Kahlschlag)에서 다시 시작하려 한 문학을 폐허 문학(Trümmerliteratur)이라 합니다."
         }
       ]
     }

@@ -7,7 +7,44 @@
     "ling-05",
     "ling-06"
   ],
-  "branches": [],
+  "branches": [
+    {
+      "id": "ling-b1",
+      "name": "음운론·형태론 심화",
+      "summary": "변별적 자질(Distinctive Features), 음운 규칙 형식화, 형태음운론과 조어 규칙",
+      "opensAfter": [
+        "ling-03"
+      ],
+      "lessons": [
+        "ling-07",
+        "ling-08"
+      ]
+    },
+    {
+      "id": "ling-b2",
+      "name": "통사론·의미론 심화",
+      "summary": "X-바 이론(X-bar Theory), 이동과 흔적(Wh-이동·NP-이동), 진리조건적 의미론과 화용론",
+      "opensAfter": [
+        "ling-04"
+      ],
+      "lessons": [
+        "ling-09",
+        "ling-10"
+      ]
+    },
+    {
+      "id": "ling-b3",
+      "name": "역사·사회·심리언어학",
+      "summary": "비교방법과 어족 재구, 변이형 사회언어학(라보프), 언어 습득과 실시간 문장 처리",
+      "opensAfter": [
+        "ling-06"
+      ],
+      "lessons": [
+        "ling-11",
+        "ling-12"
+      ]
+    }
+  ],
   "lessons": [
     {
       "id": "ling-01",
@@ -666,6 +703,380 @@
           ],
           "hint": "이 문항은 점수를 매기지 않습니다. 남긴 글은 이 기기에만 저장됩니다.",
           "explanation": "정답이 있는 문제가 아닙니다. 기술 문법의 태도로 말을 관찰해 보는 것이 목적입니다."
+        }
+      ]
+    },
+    {
+      "id": "ling-07",
+      "title": "변별적 자질과 음운 규칙의 형식화",
+      "minutes": 35,
+      "requires": [
+        "ling-03"
+      ],
+      "features": [
+        "formula"
+      ],
+      "explain": [
+        "최소대립쌍을 넘어 소리를 쪼개는 변별적 자질([±voice], [±nasal])과 음운 규칙 표기법을 익힌다.",
+        "음소는 더 작은 음성적 속성들의 묶음인 변별적 자질(예: [±syllabic], [±consonantal], [±sonorant], [±voice], [±nasal])로 분석된다. 적은 수의 자질만으로 함께 묶일 수 있고 동일한 음운 규칙의 적용을 받는 소리 집단을 자연부류(Natural Class)라 한다.",
+        "생성음운론에서는 기저형(/ /)이 표면형([ ])으로 도출되는 과정을 $A \\to B / X \\_ Y$ (‘X와 Y 사이에서 A가 B로 바뀐다’)로 형식화한다. 단어 경계는 $\\#$, 음절 경계는 $\\sigma$ 또는 $.$로 표기한다."
+      ],
+      "examples": [
+        {
+          "title": "변별적 자질(Distinctive Features)과 자연부류(Natural Class)",
+          "body": [
+            "예: [p, t, k]는 [-sonorant, -continuant, -voice](무성 파열음)라는 자연부류를 이룬다."
+          ]
+        },
+        {
+          "title": "음운 규칙 표기법($A \\to B / X \\_ Y$)과 규칙 순차",
+          "body": [
+            "예: 어말 장애음 무성화 규칙은 $[-\\text{sonorant}] \\to [-\\text{voice}] / \\_ \\#$로 적는다."
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "type": "choice",
+          "prompt": "음운론에서 [m, n, ŋ]을 하나의 자연부류(Natural Class)로 묶어 주는 핵심 변별적 자질 조합은?",
+          "options": [
+            "[-sonorant, +strident]",
+            "[+consonantal, +nasal]",
+            "[-voice, -continuant]",
+            "[+syllabic, +high]"
+          ],
+          "answer": [
+            1
+          ],
+          "hint": "본문에서 정의한 핵심 원리를 떠올려 보세요.",
+          "explanation": "[m, n, ŋ]은 모두 자음이면서 연구개가 내려가 코로 공기가 흐르는 비음([+consonantal, +nasal])입니다."
+        },
+        {
+          "type": "choice",
+          "prompt": "음운 규칙 $[-\\text{sonorant}] \\to [-\\text{voice}] / \\_ \\#$가 뜻하는 음운 현상은?",
+          "options": [
+            "비음 앞에서 파열음이 비음으로 바뀐다",
+            "어두에서 자음이 탈락한다",
+            "어말(단어 끝)에서 장애음이 무성음으로 바뀐다",
+            "모음 사이에서 무성음이 유성음으로 바뀐다"
+          ],
+          "answer": [
+            2
+          ],
+          "hint": "본문에서 정의한 핵심 원리를 떠올려 보세요.",
+          "explanation": "$[-\\text{sonorant}]$는 장애음, $[-\\text{voice}]$는 무성음, $\\_ \\#$는 단어 끝(어말) 환경을 뜻합니다."
+        }
+      ]
+    },
+    {
+      "id": "ling-08",
+      "title": "형태음운론적 교체와 단어 형성 이론",
+      "minutes": 35,
+      "requires": [
+        "ling-07"
+      ],
+      "features": [],
+      "explain": [
+        "이형태 교체의 기저형 설정 원리와 굴절·파생의 위계 구조(수형도)를 분석한다.",
+        "하나의 형태소가 음운 환경에 따라 여러 이형태로 실현될 때, 예측 가능한 방향(더 일반적인 음운 규칙)으로 표면형을 도출할 수 있는 단일 형태를 기저형으로 설정한다.",
+        "복합어나 파생어는 선형적 나열이 아니라 접사가 결합하는 선택 제약에 따른 위계적 수형도(tree structure)를 갖는다. 'unlockable'은 [[un + [lock]]V + able]A ('열고 잠글 수 있는')와 [un + [[lock]V + able]A]A ('잠글 수 없는')의 두 가지 구조로 분석되어 구조적 중의성을 띤다."
+      ],
+      "examples": [
+        {
+          "title": "기저형(Underlying Representation) 설정과 이형태",
+          "body": [
+            "예: 영어 복수 형태소 [-s](cats), [-z](dogs), [-əz](buses)는 기저형 /-z/에서 치찰음 뒤 모음 삽입과 무성 동화 규칙으로 모두 예측할 수 있다."
+          ]
+        },
+        {
+          "title": "단어의 내부 계층 구조와 구조적 중의성",
+          "body": [
+            "접두사 un-은 동사에 붙어 '역행(취소)'을 뜻하고, 형용사에 붙어 '부정(not)'을 뜻한다."
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "type": "order",
+          "prompt": "영어 복수형 'buses' [bʌsəz]와 'cats' [kæts]를 기저형 /-z/에서 도출할 때 두 음운 규칙의 올바른 적용 순서는?",
+          "items": [
+            "기저형 결합 (/bʌs + z/, /kæt + z/)",
+            "치찰음 뒤 모음 삽입 규칙 (epenthesis: /bʌs + z/ → [bʌsəz])",
+            "무성음 뒤 무성화 동화 규칙 (devoicing: /kæt + z/ → [kæts])"
+          ],
+          "hint": "선후 관계와 단계의 흐름을 확인하세요.",
+          "explanation": "만약 무성화가 먼저 적용되면 /bʌs+z/가 *[bʌss]가 되어 버리므로, 모음 삽입이 무성화보다 먼저 적용(급여·출혈 관계)되어야 합니다."
+        },
+        {
+          "type": "choice",
+          "prompt": "영어 단어 'unlockable'이 '잠글 수 없는(not able to be locked)'이라는 뜻일 때 올바른 형태소 결합 순서는?",
+          "options": [
+            "세 형태소가 순서 없이 동시에 결합",
+            "어근이 없이 접사만 결합",
+            "[un- + [[lock] + -able]] (lock에 -able이 먼저 결합한 뒤 un-이 결합)",
+            "[[un- + [lock]] + -able] (un-과 lock이 먼저 결합한 뒤 -able이 결합)"
+          ],
+          "answer": [
+            2
+          ],
+          "hint": "본문에서 정의한 핵심 원리를 떠올려 보세요.",
+          "explanation": "'잠글 수 있는(lockable)'이라는 형용사가 먼저 만들어진 뒤 부정 접두사 'un-'이 결합한 구조입니다."
+        }
+      ]
+    },
+    {
+      "id": "ling-09",
+      "title": "생성통사론: X-바 이론과 이동(Movement)",
+      "minutes": 35,
+      "requires": [
+        "ling-04"
+      ],
+      "features": [
+        "formula"
+      ],
+      "explain": [
+        "모든 구절(NP, VP, PP, CP)의 보편적 위계 구조와 의문문·수동문의 통사적 이동을 분석한다.",
+        "생성문법의 X-바 이론에 따르면 모든 구(XP)는 핵(Head, $X^0$)이 투사하여 이루어진다. 핵($X$)과 자매 관계를 이루며 핵심 논항으로 결합하는 요소는 보충어(Complement)이고, 중간 투사($X'$)에 자매로 결합해 수식하는 요소는 부가어(Adjunct)다.",
+        "영어 의문문 'What did you buy?'에서는 조동사 did가 시제 핵($T$)에서 보문소 핵($C$)으로 이동(핵 이동)하고, 목적어였던 의문사 'what'이 동사 뒤 원래 자리에서 문두($\\text{Spec, CP}$)로 이동(Wh-이동)하며 원래 자리에 흔적($t$) 또는 공백을 남긴다."
+      ],
+      "examples": [
+        {
+          "title": "X-바 도식(X-bar Schema): 보충어(Complement)와 부가어(Adjunct)",
+          "body": [
+            "예: 'a student of linguistics with long hair'에서 'of linguistics'는 N(student)의 보충어이고, 'with long hair'는 $N'$의 부가어다(대명사 'one' 대치 테스트로 검증 가능)."
+          ]
+        },
+        {
+          "title": "통사적 이동: 주어도치(T-to-C)와 Wh-이동",
+          "body": [
+            "타동사 buy는 목적어가 필수적이므로, 문두의 'what'이 원래 buy의 목적어 자리에서 이동해 왔음을 통사적으로 증명할 수 있다."
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "type": "choice",
+          "prompt": "명사구 'the destruction of the city in the morning'에서 핵 명사 'destruction'과 의미·통사적으로 가장 긴밀하게 결합하는 보충어(Complement)는?",
+          "options": [
+            "destruction",
+            "of the city",
+            "in the morning",
+            "the"
+          ],
+          "answer": [
+            1
+          ],
+          "hint": "본문에서 정의한 핵심 원리를 떠올려 보세요.",
+          "explanation": "타동사 'destroy the city'의 목적어에 대응하는 'of the city'가 핵 명사의 자매인 보충어이며, 시간 부사구 'in the morning'은 부가어입니다."
+        },
+        {
+          "type": "choice",
+          "prompt": "의문문 'Who did Mary see ___ ?'에서 문두의 의문사 'Who'가 이동해 나오기 전 기저(원래) 위치는?",
+          "options": [
+            "문장 맨 앞의 전치사 자리",
+            "명사 Mary의 관형어 자리",
+            "타동사 see 뒤의 직접목적어 자리",
+            "조동사 did 앞의 주어 자리"
+          ],
+          "answer": [
+            2
+          ],
+          "hint": "본문에서 정의한 핵심 원리를 떠올려 보세요.",
+          "explanation": "타동사 see의 목적어 논항이 의문사 구로 문두(Spec, CP)로 이동한 Wh-이동 구문입니다."
+        }
+      ]
+    },
+    {
+      "id": "ling-10",
+      "title": "형식의미론과 화용론(함축·전제·화행)",
+      "minutes": 35,
+      "requires": [
+        "ling-09"
+      ],
+      "features": [
+        "formula"
+      ],
+      "explain": [
+        "합성의 원리, 전제(Presupposition)와 그라이스 대화 함축(Implicature)의 차이를 검증한다.",
+        "프레게의 합성의 원리에 따르면 복합 표현(문장)의 의미는 그 구성 요소들의 의미와 그것들이 결합하는 통사적 방식에 의해 결정된다. 'Every student read a book'처럼 두 양화사($\\forall, \\exists$)가 한 문장에 쓰이면 작용역(scope)에 따라 의미가 두 가지로 해석된다.",
+        "전제(Presupposition)는 문장을 부정문이나 의문문으로 바꾸어도 그대로 유지되는 배경 전제다(예: '민수가 담배를 끊었다/끊지 않았다' 모두 '민수가 전에 담배를 피웠다'를 전제함). 반면 그라이스(Grice)의 대화 함축은 협력의 원리(양·질·관계·태도의 격률)에 기대어 추론되는 의미로, 맥락에 따라 취소(취소 가능성, cancellability)될 수 있다."
+      ],
+      "examples": [
+        {
+          "title": "프레게의 합성의 원리(Compositionality)와 양화사 작용역",
+          "body": [
+            "$\\forall x \\exists y$: 학생마다 각자 어떤 책을 읽었다(책이 다를 수 있음) vs. $\\exists y \\forall x$: 모든 학생이 읽은 특정한 한 권의 책이 있다."
+          ]
+        },
+        {
+          "title": "전제(Presupposition)와 대화 함축(Conversational Implicature)",
+          "body": [
+            "예: '일부 학생이 합격했다'는 '모두 합격한 것은 아니다'를 양의 격률로 함축하지만, '사실은 전원 합격했다'고 덧붙여 취소할 수 있다."
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "type": "choice",
+          "prompt": "문장 '모두가 누군가를 사랑한다(Everyone loves someone)'가 두 가지 뜻으로 해석되는 의미론적 현상은?",
+          "options": [
+            "화행의 실패",
+            "양화사 작용역 중의성 (Scope Ambiguity)",
+            "어휘적 동음이의어 (Homonymy)",
+            "음운 동화"
+          ],
+          "answer": [
+            1
+          ],
+          "hint": "본문에서 정의한 핵심 원리를 떠올려 보세요.",
+          "explanation": "전칭양화사(모두)와 존재양화사(누군가) 중 어느 것이 더 넓은 작용역(wide scope)을 갖느냐에 따라 의미가 달라지는 작용역 중의성입니다."
+        },
+        {
+          "type": "match",
+          "prompt": "의미·화용론적 개념과 진단적 특징을 바르게 연결하라.",
+          "pairs": [
+            [
+              "함의 (Entailment)",
+              "문장 A가 참이면 논리적으로 문장 B도 반드시 참임 (부정 시 유지 안 됨)"
+            ],
+            [
+              "전제 (Presupposition)",
+              "원래 문장을 부정문·의문문으로 바꾸어도 참으로 유지되는 배경 가정"
+            ],
+            [
+              "대화 함축 (Conversational Implicature)",
+              "대화의 협력 격률을 통해 추론되며 후속 발화로 취소가 가능함"
+            ]
+          ],
+          "hint": "각 개념이 정의하는 대상과 역할을 비교하세요.",
+          "explanation": "부정 테스트(전제 유지)와 취소 가능성 테스트(대화 함축)는 의미론·화용론의 핵심 진단 도구입니다."
+        }
+      ]
+    },
+    {
+      "id": "ling-11",
+      "title": "역사비교언어학과 사회언어학",
+      "minutes": 35,
+      "requires": [
+        "ling-06"
+      ],
+      "features": [],
+      "explain": [
+        "규칙적 음운 대응을 통한 조어(Proto-language) 재구와 사회적 변이(계층·연령·성별)를 분석한다.",
+        "역사언어학은 친족 관계에 있는 언어들의 동계어(cognates)에서 나타나는 규칙적 음운 대응을 분석해 기록 이전의 조어(예: 인도유럽조어 PIE)를 재구(*표시)한다. 그림의 법칙은 인도유럽조어의 무성 파열음(*p, *t, *k)이 게르만어파(영어·독일어)에서 무성 마찰음(f, θ, x/h)으로 규칙적으로 바뀐 연쇄 추이다.",
+        "라보프는 뉴욕 백화점 연구(1966)에서 사회경제적 계층이 높은 백화점 점원일수록, 그리고 천천히 주의를 기울여 발화할수록 모음 뒤 /r/('fourth floor')을 더 높은 비율로 발음함을 통계적으로 입증하여 언어 변이가 무작위가 아니라 사회 구조와 체계적으로 연동됨을 밝혔다."
+      ],
+      "examples": [
+        {
+          "title": "비교방법(Comparative Method)과 그림의 법칙(Grimm's Law)",
+          "body": [
+            "예: 라틴어 pater / 산스크리트어 pitár- vs. 영어 father / 독일어 Vater (*p > f)."
+          ]
+        },
+        {
+          "title": "윌리엄 라보프(Labov)와 변이형 사회언어학",
+          "body": [
+            "사회적 위신(Prestige)이 있는 변이형으로의 변화는 중산층이 격식체에서 과잉교정(hypercorrection)을 보이기도 한다."
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "type": "choice",
+          "prompt": "라틴어 'pater, ped-(발), piscis(물고기)'의 어두 자음 [p]가 영어 'father, foot, fish'에서 모두 [f]로 규칙적으로 대응하는 현상을 설명한 역사언어학 법칙은?",
+          "options": [
+            "사피어-워프 가설",
+            "그림의 법칙 (Grimm's Law)",
+            "대모음추이 (Great Vowel Shift)",
+            "구개음화 규칙"
+          ],
+          "answer": [
+            1
+          ],
+          "hint": "본문에서 정의한 핵심 원리를 떠올려 보세요.",
+          "explanation": "야코프 그림이 정립한 제1차 게르만 자음추이(그림의 법칙)에 의해 PIE *p가 게르만어 f로 변화했습니다."
+        },
+        {
+          "type": "choice",
+          "prompt": "라보프의 뉴욕 백화점 연구에서 점원들의 사회계층과 발화 주의도에 따라 체계적인 빈도 차이를 보인 음운 변수는?",
+          "options": [
+            "성조의 개수",
+            "모음조화 준수율",
+            "모음 뒤(음절말) /r/ 발음 유무 ('fourth floor')",
+            "어두 자음군 탈락"
+          ],
+          "answer": [
+            2
+          ],
+          "hint": "본문에서 정의한 핵심 원리를 떠올려 보세요.",
+          "explanation": "당시 뉴욕 영어에서 음절말 [r] 발음은 상위 계층 위신 변이형으로 작동하고 있었음을 입증한 고전적 연구입니다."
+        }
+      ]
+    },
+    {
+      "id": "ling-12",
+      "title": "심리언어학과 전산언어학 기초",
+      "minutes": 35,
+      "requires": [
+        "ling-11"
+      ],
+      "features": [
+        "formula"
+      ],
+      "explain": [
+        "인간의 실시간 문장 분석(정원길 문장), 실어증(브로카·베르니케), 코퍼스·언어모형을 이해한다.",
+        "인간의 문장 처리기(Parser)는 단어가 들어오는 즉시 실시간(incremental)으로 통사 구조를 예측한다. 'The horse raced past the barn fell'처럼 처음에 주절 동사로 해석했던 'raced'가 사실은 축약 관계절('which was raced')이었음이 마지막 동사 'fell'에서 밝혀져 재분석을 강제하는 문장을 정원길 문장이라 한다.",
+        "현대 전산언어학은 대규모 실제 언어 데이터(코퍼스, Corpus)에서 연어(collocation)와 조건부 확률 $P(w_n | w_{1}\\dots w_{n-1})$을 계산한다. 직전 $N-1$개 단어만 보고 다음 단어의 확률을 추정하는 모형을 N-gram 모형(예: 바이그램은 직전 1단어 참조)이라 한다."
+      ],
+      "examples": [
+        {
+          "title": "실시간 문장 처리와 정원길 문장(Garden-path Sentence)",
+          "body": [
+            "뇌의 좌반구 전두엽 브로카 영역 손상은 문법·발화 산출 장애(브로카 실어증)를, 측두엽 베르니케 영역 손상은 의미 이해 장애(베르니케 실어증)를 유발한다."
+          ]
+        },
+        {
+          "title": "코퍼스 언어학과 확률적 언어 모형(N-gram)",
+          "body": [
+            "단어 빈도 분포는 극소수의 고빈도 기능어가 전체 출현의 대다수를 차지하고 수많은 저빈도 어휘가 긴 꼬리를 이루는 지프의 법칙(Zipf's Law: 빈도 $\\propto 1/\\text{순위}$)을 따른다."
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "type": "match",
+          "prompt": "심리·신경언어학 현상과 그 특징을 바르게 연결하라.",
+          "pairs": [
+            [
+              "정원길 문장 (Garden-path Sentence)",
+              "초기 통사 분석이 후속 단어와 충돌해 독자가 문장 구조를 재분석하게 되는 현상"
+            ],
+            [
+              "브로카 실어증 (Broca's Aphasia)",
+              "발화가 느리고 기능어·굴절 어미가 생략되는 비유창성·실문법증"
+            ],
+            [
+              "베르니케 실어증 (Wernicke's Aphasia)",
+              "발화는 유창하나 의미가 통하지 않는 어휘 대치·이해 장애"
+            ]
+          ],
+          "hint": "각 개념이 정의하는 대상과 역할을 비교하세요.",
+          "explanation": "문장 처리 모형과 대뇌 언어 중추 손상 유형을 대조합니다."
+        },
+        {
+          "type": "choice",
+          "prompt": "코퍼스에서 단어들을 출현 빈도순으로 줄 세웠을 때, 단어의 빈도가 순위(rank)에 반비례한다는 경험적 법칙은?",
+          "options": [
+            "베르너의 법칙",
+            "합성의 원리",
+            "지프의 법칙 (Zipf's Law)",
+            "그림의 법칙 (Grimm's Law)"
+          ],
+          "answer": [
+            2
+          ],
+          "hint": "본문에서 정의한 핵심 원리를 떠올려 보세요.",
+          "explanation": "자연어 코퍼스에서 $k$번째로 자주 쓰이는 단어의 빈도가 $1/k$에 비례한다는 법칙을 지프의 법칙이라 합니다."
         }
       ]
     }

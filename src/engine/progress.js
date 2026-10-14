@@ -45,11 +45,19 @@ export function saveSubmission(progress, deptId, key, payload) {
 export function summary(dept, dp) {
   const ids = dept.lessons.map((l) => l.id);
   const done = ids.filter((id) => isDone(dp, id));
+  const trunkDoneCount = (dept.trunk || []).filter((id) => isDone(dp, id)).length;
+  const branches = dept.branches || [];
+  const branchesDoneCount = branches.filter((b) => (b.lessons || []).every((id) => isDone(dp, id))).length;
   return {
     total: ids.length,
     done: done.length,
     self: done.filter((id) => dp.lessons[id].kind === 'self').length,
-    trunkDone: dept.trunk.every((id) => isDone(dp, id)),
+    trunkTotal: (dept.trunk || []).length,
+    trunkDoneCount,
+    trunkDone: (dept.trunk || []).every((id) => isDone(dp, id)),
+    branchesTotal: branches.length,
+    branchesDoneCount,
+    allDone: ids.length > 0 && done.length === ids.length,
   };
 }
 
