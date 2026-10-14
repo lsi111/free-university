@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" width="360" height="220" font-family="sans-serif">
+  <rect width="360" height="220" fill="#f4efe6"/>
+  <text x="180" y="28" font-size="14" font-weight="700" fill="#1d1c1a" text-anchor="middle">고객이 느끼는 가치</text>
+  <rect x="20" y="48" width="140" height="90" rx="8" fill="none" stroke="#2f5d50" stroke-width="2"/>
+  <text x="90" y="76" font-size="14" font-weight="700" fill="#2f5d50" text-anchor="middle">얻는 것</text>
+  <text x="90" y="102" font-size="12" fill="#1d1c1a" text-anchor="middle">맛 · 편의 · 기분</text>
+  <text x="90" y="122" font-size="12" fill="#1d1c1a" text-anchor="middle">믿을 수 있다는 느낌</text>
+  <rect x="200" y="48" width="140" height="90" rx="8" fill="none" stroke="#e07a3f" stroke-width="2"/>
+  <text x="270" y="76" font-size="14" font-weight="700" fill="#e07a3f" text-anchor="middle">치르는 것</text>
+  <text x="270" y="102" font-size="12" fill="#1d1c1a" text-anchor="middle">돈 · 시간 · 수고</text>
+  <text x="270" y="122" font-size="12" fill="#1d1c1a" text-anchor="middle">고르는 부담</text>
+  <text x="180" y="98" font-size="12" font-weight="700" fill="#7a766d" text-anchor="middle">비교</text>
+  <line x1="164" y1="108" x2="196" y2="108" stroke="#7a766d" stroke-width="2"/>
+  <text x="180" y="176" font-size="12" fill="#1d1c1a" text-anchor="middle">얻는 것이 치르는 것보다 크다고 느끼면</text>
+  <text x="180" y="196" font-size="12" fill="#1d1c1a" text-anchor="middle">그 제품은 가치가 있다고 여겨진다</text>
+</svg>

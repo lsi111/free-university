@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" width="360" height="240" font-family="sans-serif">
+  <rect width="360" height="240" fill="#f4efe6"/>
+  <rect x="100" y="16" width="160" height="40" rx="8" fill="none" stroke="#e07a3f" stroke-width="2"/>
+  <text x="180" y="41" font-size="14" font-weight="700" fill="#e07a3f" text-anchor="middle">기온이 높은 날</text>
+  <line x1="140" y1="56" x2="90" y2="120" stroke="#e07a3f" stroke-width="2"/>
+  <polygon points="86,126 85,113 97,119" fill="#e07a3f"/>
+  <line x1="220" y1="56" x2="270" y2="120" stroke="#e07a3f" stroke-width="2"/>
+  <polygon points="274,126 263,119 275,113" fill="#e07a3f"/>
+  <rect x="15" y="130" width="150" height="44" rx="8" fill="none" stroke="#2f5d50" stroke-width="2"/>
+  <text x="90" y="157" font-size="13" font-weight="700" fill="#2f5d50" text-anchor="middle">아이스크림 판매 ↑</text>
+  <rect x="195" y="130" width="150" height="44" rx="8" fill="none" stroke="#2f5d50" stroke-width="2"/>
+  <text x="270" y="157" font-size="13" font-weight="700" fill="#2f5d50" text-anchor="middle">수영장 방문객 ↑</text>
+  <line x1="165" y1="152" x2="195" y2="152" stroke="#7a766d" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="180" y="146" font-size="14" font-weight="700" fill="#7a766d" text-anchor="middle">?</text>
+  <text x="180" y="206" font-size="12" fill="#1d1c1a" text-anchor="middle">두 숫자가 함께 오르내려도</text>
+  <text x="180" y="226" font-size="12" fill="#1d1c1a" text-anchor="middle">한쪽이 다른 쪽의 원인이라는 뜻은 아니다</text>
+</svg>

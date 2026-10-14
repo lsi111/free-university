@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 290" width="360" height="290">
+  <rect width="360" height="290" fill="#f4efe6"/>
+  <g font-family="sans-serif" fill="#1d1c1a" text-anchor="middle">
+    <text x="220" y="34" font-size="14">부모 1 (Aa)가 만드는 생식세포</text>
+    <text x="60" y="160" font-size="13">부모 2</text><text x="60" y="178" font-size="13">(Aa)의</text><text x="60" y="196" font-size="13">생식세포</text>
+    <text x="180" y="72" font-size="20" font-weight="bold">A</text><text x="260" y="72" font-size="20" font-weight="bold">a</text>
+    <text x="130" y="140" font-size="20" font-weight="bold">A</text><text x="130" y="210" font-size="20" font-weight="bold">a</text>
+  </g>
+  <rect x="140" y="85" width="80" height="70" fill="#ffffff" stroke="#1d1c1a" stroke-width="2"/>
+  <rect x="220" y="85" width="80" height="70" fill="#ffffff" stroke="#1d1c1a" stroke-width="2"/>
+  <rect x="140" y="155" width="80" height="70" fill="#ffffff" stroke="#1d1c1a" stroke-width="2"/>
+  <rect x="220" y="155" width="80" height="70" fill="#e07a3f" fill-opacity="0.35" stroke="#1d1c1a" stroke-width="2"/>
+  <g font-family="sans-serif" font-size="20" fill="#1d1c1a" text-anchor="middle">
+    <text x="180" y="127">AA</text><text x="260" y="127">Aa</text><text x="180" y="197">Aa</text><text x="260" y="197">aa</text>
+  </g>
+  <text x="180" y="256" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">A = 둥근 완두(우성), a = 주름진 완두(열성)</text>
+  <text x="180" y="276" font-family="sans-serif" font-size="12" fill="#7a766d" text-anchor="middle">색칠한 칸은 aa다.</text>
+</svg>

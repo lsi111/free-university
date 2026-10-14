@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" width="360" height="300">
+  <rect width="360" height="300" fill="#f4efe6"/>
+  <ellipse cx="180" cy="150" rx="150" ry="120" fill="#ffffff" fill-opacity="0.55" stroke="#1d1c1a" stroke-width="3"/>
+  <circle cx="150" cy="140" r="45" fill="#2f5d50" fill-opacity="0.25" stroke="#2f5d50" stroke-width="3"/>
+  <circle cx="150" cy="140" r="12" fill="#2f5d50"/>
+  <ellipse cx="255" cy="110" rx="32" ry="17" fill="#e07a3f" fill-opacity="0.3" stroke="#e07a3f" stroke-width="3"/>
+  <path d="M232 110 q8 -10 16 0 t16 0 t14 0" fill="none" stroke="#e07a3f" stroke-width="2"/>
+  <g fill="#1d1c1a"><circle cx="240" cy="190" r="4"/><circle cx="262" cy="205" r="4"/><circle cx="225" cy="215" r="4"/><circle cx="278" cy="185" r="4"/></g>
+  <g stroke="#7a766d" stroke-width="1.5" fill="none">
+    <line x1="150" y1="24" x2="150" y2="96"/><line x1="24" y1="150" x2="31" y2="150"/>
+    <line x1="336" y1="66" x2="284" y2="100"/><line x1="334" y1="252" x2="266" y2="208"/>
+  </g>
+  <g fill="#f4efe6" stroke="#1d1c1a" stroke-width="1.5">
+    <circle cx="150" cy="14" r="11"/><circle cx="14" cy="150" r="11"/><circle cx="345" cy="60" r="11"/><circle cx="342" cy="257" r="11"/>
+  </g>
+  <g font-family="sans-serif" font-size="13" font-weight="bold" fill="#1d1c1a" text-anchor="middle">
+    <text x="150" y="19">1</text><text x="14" y="155">2</text><text x="345" y="65">3</text><text x="342" y="262">4</text>
+  </g>
+</svg>

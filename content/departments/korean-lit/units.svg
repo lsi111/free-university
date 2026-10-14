@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260">
+<rect width="400" height="260" fill="#f4efe6"/>
+<text x="200" y="24" font-size="13" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">말의 단위는 작은 것에서 큰 것으로 쌓인다</text>
+<rect x="20" y="204" width="360" height="42" rx="6" fill="#2f5d50" fill-opacity="0.15" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="30" y="230" font-size="15" font-weight="bold" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">음운</text>
+<text x="86" y="223" font-size="11" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">뜻을 가르는 가장 작은 소리</text>
+<text x="86" y="238" font-size="11" text-anchor="start" font-family="sans-serif" fill="#e07a3f">예: ㅁ, ㅜ, ㄹ</text>
+<line x1="200" y1="204" x2="200" y2="195" stroke="#7a766d" stroke-width="1.5"/>
+<polygon points="200.0,195.0 203.1,202.4 196.9,202.4" fill="#7a766d"/>
+<rect x="30" y="152" width="340" height="42" rx="6" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="40" y="178" font-size="15" font-weight="bold" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">단어</text>
+<text x="96" y="171" font-size="11" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">뜻을 가진 낱말</text>
+<text x="96" y="186" font-size="11" text-anchor="start" font-family="sans-serif" fill="#e07a3f">예: 물</text>
+<line x1="200" y1="152" x2="200" y2="143" stroke="#7a766d" stroke-width="1.5"/>
+<polygon points="200.0,143.0 203.1,150.4 196.9,150.4" fill="#7a766d"/>
+<rect x="40" y="100" width="320" height="42" rx="6" fill="#2f5d50" fill-opacity="0.15" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="50" y="126" font-size="15" font-weight="bold" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">문장</text>
+<text x="106" y="119" font-size="11" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">생각을 한 덩이로 말함</text>
+<text x="106" y="134" font-size="11" text-anchor="start" font-family="sans-serif" fill="#e07a3f">예: 물이 맑다</text>
+<line x1="200" y1="100" x2="200" y2="91" stroke="#7a766d" stroke-width="1.5"/>
+<polygon points="200.0,91.0 203.1,98.4 196.9,98.4" fill="#7a766d"/>
+<rect x="50" y="48" width="300" height="42" rx="6" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="60" y="74" font-size="15" font-weight="bold" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">글</text>
+<text x="116" y="67" font-size="11" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">문장이 모여 이룬 덩어리</text>
+<text x="116" y="82" font-size="11" text-anchor="start" font-family="sans-serif" fill="#e07a3f">예: 시, 이야기, 편지</text>
+<text x="200" y="250" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#7a766d">아래 칸에서 위 칸으로 갈수록 단위가 커진다</text>
+</svg>

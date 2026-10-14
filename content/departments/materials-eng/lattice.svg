@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+<rect width="400" height="200" fill="#f4efe6"/>
+<rect x="10" y="30" width="180" height="140" rx="6" fill="#fbf8f2" stroke="#7a766d" stroke-width="1.5"/>
+<rect x="210" y="30" width="180" height="140" rx="6" fill="#fbf8f2" stroke="#7a766d" stroke-width="1.5"/>
+<circle cx="40" cy="55" r="9" fill="#2f5d50"/>
+<circle cx="70" cy="55" r="9" fill="#2f5d50"/>
+<circle cx="100" cy="55" r="9" fill="#2f5d50"/>
+<circle cx="130" cy="55" r="9" fill="#2f5d50"/>
+<circle cx="160" cy="55" r="9" fill="#2f5d50"/>
+<circle cx="40" cy="85" r="9" fill="#2f5d50"/>
+<circle cx="70" cy="85" r="9" fill="#2f5d50"/>
+<circle cx="100" cy="85" r="9" fill="#2f5d50"/>
+<circle cx="130" cy="85" r="9" fill="#2f5d50"/>
+<circle cx="160" cy="85" r="9" fill="#2f5d50"/>
+<circle cx="40" cy="115" r="9" fill="#2f5d50"/>
+<circle cx="70" cy="115" r="9" fill="#2f5d50"/>
+<circle cx="100" cy="115" r="9" fill="#2f5d50"/>
+<circle cx="130" cy="115" r="9" fill="#2f5d50"/>
+<circle cx="160" cy="115" r="9" fill="#2f5d50"/>
+<circle cx="40" cy="145" r="9" fill="#2f5d50"/>
+<circle cx="70" cy="145" r="9" fill="#2f5d50"/>
+<circle cx="100" cy="145" r="9" fill="#2f5d50"/>
+<circle cx="130" cy="145" r="9" fill="#2f5d50"/>
+<circle cx="160" cy="145" r="9" fill="#2f5d50"/>
+<circle cx="310" cy="67" r="9" fill="#e07a3f"/>
+<circle cx="329" cy="131" r="9" fill="#e07a3f"/>
+<circle cx="240" cy="57" r="9" fill="#e07a3f"/>
+<circle cx="365" cy="60" r="9" fill="#e07a3f"/>
+<circle cx="242" cy="112" r="9" fill="#e07a3f"/>
+<circle cx="282" cy="52" r="9" fill="#e07a3f"/>
+<circle cx="335" cy="56" r="9" fill="#e07a3f"/>
+<circle cx="369" cy="102" r="9" fill="#e07a3f"/>
+<circle cx="259" cy="76" r="9" fill="#e07a3f"/>
+<circle cx="302" cy="101" r="9" fill="#e07a3f"/>
+<circle cx="344" cy="94" r="9" fill="#e07a3f"/>
+<circle cx="274" cy="137" r="9" fill="#e07a3f"/>
+<circle cx="247" cy="145" r="9" fill="#e07a3f"/>
+<circle cx="359" cy="127" r="9" fill="#e07a3f"/>
+<circle cx="273" cy="103" r="9" fill="#e07a3f"/>
+<circle cx="347" cy="151" r="9" fill="#e07a3f"/>
+<circle cx="305" cy="148" r="9" fill="#e07a3f"/>
+<circle cx="233" cy="86" r="9" fill="#e07a3f"/>
+<text x="100" y="22" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#1d1c1a" font-weight="bold">A</text>
+<text x="300" y="22" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#1d1c1a" font-weight="bold">B</text>
+<text x="100" y="192" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">원자가 줄을 맞춘다</text>
+<text x="300" y="192" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">원자가 제멋대로다</text>
+</svg>

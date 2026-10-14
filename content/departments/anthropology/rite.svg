@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 176" width="360" height="176">
+<rect width="360" height="176" fill="#f4efe6"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7a766d"/></marker></defs>
+<text x="180" y="26" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a" font-weight="bold">가상의 새잎 의례</text>
+<rect x="12" y="44" width="96" height="82" rx="6" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<text x="60" y="68" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a" font-weight="bold">1 분리</text>
+<text x="60" y="92" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">아이가 마을을</text>
+<text x="60" y="111" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">떠나 숲으로 간다</text>
+<rect x="132" y="44" width="96" height="82" rx="6" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<text x="180" y="68" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a" font-weight="bold">2 전이</text>
+<text x="180" y="92" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">숲 오두막에서</text>
+<text x="180" y="111" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">사흘을 지낸다</text>
+<rect x="252" y="44" width="96" height="82" rx="6" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<text x="300" y="68" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a" font-weight="bold">3 통합</text>
+<text x="300" y="92" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">마을로 돌아와</text>
+<text x="300" y="111" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">새 이름을 받는다</text>
+<line x1="110" y1="85" x2="130" y2="85" stroke="#7a766d" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="230" y1="85" x2="250" y2="85" stroke="#7a766d" stroke-width="2" marker-end="url(#ar)"/>
+<text x="180" y="156" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">가운데 단계: 어느 쪽도 아닌 문턱 시기</text>
+</svg>

@@ -1,0 +1,11 @@
+{
+  "name": "free-university",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node tools/check.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "review": "node tools/review.mjs status",
+    "serve": "node tools/serve.mjs 8123"
+  }
+}

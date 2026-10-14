@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 230" width="360" height="230">
+<rect width="360" height="230" fill="#f4efe6"/>
+<text x="180" y="20" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a" font-weight="bold">인류학의 네 분야</text>
+<rect x="15" y="32" width="160" height="66" rx="6" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<text x="95" y="59" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a" font-weight="bold">문화인류학</text>
+<text x="95" y="81" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">생활 방식과 의미</text>
+<rect x="185" y="32" width="160" height="66" rx="6" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<text x="265" y="59" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a" font-weight="bold">생물인류학</text>
+<text x="265" y="81" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">몸의 변이와 진화</text>
+<rect x="15" y="150" width="160" height="66" rx="6" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<text x="95" y="177" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a" font-weight="bold">고고학</text>
+<text x="95" y="199" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">물질 흔적으로 과거를</text>
+<rect x="185" y="150" width="160" height="66" rx="6" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<text x="265" y="177" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a" font-weight="bold">언어인류학</text>
+<text x="265" y="199" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">말과 사회의 관계</text>
+<ellipse cx="180" cy="124" rx="44" ry="17" fill="#2f5d50"/>
+<text x="180" y="129" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#f4efe6" font-weight="bold">인류학</text>
+<line x1="150" y1="112" x2="95" y2="98" stroke="#7a766d" stroke-width="1.5"/>
+<line x1="210" y1="112" x2="265" y2="98" stroke="#7a766d" stroke-width="1.5"/>
+<line x1="150" y1="136" x2="95" y2="150" stroke="#7a766d" stroke-width="1.5"/>
+<line x1="210" y1="136" x2="265" y2="150" stroke="#7a766d" stroke-width="1.5"/>
+</svg>

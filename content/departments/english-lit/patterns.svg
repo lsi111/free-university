@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 268" width="400" height="268">
+<rect width="400" height="268" fill="#f4efe6"/>
+<text x="20" y="22" font-size="13" text-anchor="start" font-weight="bold" font-family="sans-serif" fill="#1d1c1a">다섯 가지 문장 틀 (전통 문법의 5형식)</text>
+<text x="12" y="61" font-size="12" text-anchor="start" font-weight="bold" font-family="sans-serif" fill="#1d1c1a">1형식</text>
+<rect x="58" y="38" width="81" height="32" rx="4" fill="#2f5d50" fill-opacity="0.15" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="98.5" y="59" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">Birds (S)</text>
+<rect x="145" y="38" width="74" height="32" rx="4" fill="#e07a3f" fill-opacity="0.15" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="182.0" y="59" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">sing (V)</text>
+<text x="12" y="101" font-size="12" text-anchor="start" font-weight="bold" font-family="sans-serif" fill="#1d1c1a">2형식</text>
+<rect x="58" y="78" width="66" height="32" rx="4" fill="#2f5d50" fill-opacity="0.15" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="91.0" y="99" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">She (S)</text>
+<rect x="130" y="78" width="59" height="32" rx="4" fill="#e07a3f" fill-opacity="0.15" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="159.5" y="99" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">is (V)</text>
+<rect x="195" y="78" width="81" height="32" rx="4" fill="#4a6fa5" fill-opacity="0.15" stroke="#4a6fa5" stroke-width="1.5"/>
+<text x="235.5" y="99" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">happy (C)</text>
+<text x="12" y="141" font-size="12" text-anchor="start" font-weight="bold" font-family="sans-serif" fill="#1d1c1a">3형식</text>
+<rect x="58" y="118" width="52" height="32" rx="4" fill="#2f5d50" fill-opacity="0.15" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="84.0" y="139" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">I (S)</text>
+<rect x="116" y="118" width="74" height="32" rx="4" fill="#e07a3f" fill-opacity="0.15" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="153.0" y="139" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">read (V)</text>
+<rect x="196" y="118" width="88" height="32" rx="4" fill="#7a766d" fill-opacity="0.15" stroke="#7a766d" stroke-width="1.5"/>
+<text x="240.0" y="139" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">a book (O)</text>
+<text x="12" y="181" font-size="12" text-anchor="start" font-weight="bold" font-family="sans-serif" fill="#1d1c1a">4형식</text>
+<rect x="58" y="158" width="59" height="32" rx="4" fill="#2f5d50" fill-opacity="0.15" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="87.5" y="179" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">He (S)</text>
+<rect x="123" y="158" width="74" height="32" rx="4" fill="#e07a3f" fill-opacity="0.15" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="160.0" y="179" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">gave (V)</text>
+<rect x="203" y="158" width="66" height="32" rx="4" fill="#7a766d" fill-opacity="0.15" stroke="#7a766d" stroke-width="1.5"/>
+<text x="236.0" y="179" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">me (IO)</text>
+<rect x="275" y="158" width="95" height="32" rx="4" fill="#7a766d" fill-opacity="0.15" stroke="#7a766d" stroke-width="1.5"/>
+<text x="322.5" y="179" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">a gift (DO)</text>
+<text x="12" y="221" font-size="12" text-anchor="start" font-weight="bold" font-family="sans-serif" fill="#1d1c1a">5형식</text>
+<rect x="58" y="198" width="59" height="32" rx="4" fill="#2f5d50" fill-opacity="0.15" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="87.5" y="219" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">We (S)</text>
+<rect x="123" y="198" width="74" height="32" rx="4" fill="#e07a3f" fill-opacity="0.15" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="160.0" y="219" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">call (V)</text>
+<rect x="203" y="198" width="66" height="32" rx="4" fill="#7a766d" fill-opacity="0.15" stroke="#7a766d" stroke-width="1.5"/>
+<text x="236.0" y="219" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">him (O)</text>
+<rect x="275" y="198" width="74" height="32" rx="4" fill="#4a6fa5" fill-opacity="0.15" stroke="#4a6fa5" stroke-width="1.5"/>
+<text x="312.0" y="219" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">Sam (OC)</text>
+<text x="20" y="242" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">S 주어 · V 동사 · O 목적어 · C 보어</text>
+<text x="20" y="259" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">IO 간접목적어 · DO 직접목적어 · OC 목적격 보어</text>
+</svg>

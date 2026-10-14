@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 240" width="380" height="240">
+  <rect width="380" height="240" fill="#f4efe6"/>
+  <text x="190" y="24" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1d1c1a">인지발달 단계 (피아제)</text>
+  <g font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">
+    <rect x="12" y="140" width="85" height="60" fill="#ffffff" stroke="#7a766d" stroke-width="2"/>
+    <text x="54" y="160">감각운동기</text><text x="54" y="180" fill="#7a766d">약 0~2세</text>
+    <rect x="102" y="110" width="85" height="90" fill="#ffffff" stroke="#7a766d" stroke-width="2"/>
+    <text x="144" y="130">전조작기</text><text x="144" y="150" fill="#7a766d">약 2~7세</text>
+    <rect x="192" y="80" width="85" height="120" fill="#ffffff" stroke="#e07a3f" stroke-width="2"/>
+    <text x="234" y="100">구체적</text><text x="234" y="116">조작기</text><text x="234" y="136" fill="#7a766d">약 7~11세</text>
+    <rect x="282" y="50" width="85" height="150" fill="#2f5d50" stroke="#2f5d50" stroke-width="2"/>
+    <text x="324" y="70" fill="#ffffff">형식적</text><text x="324" y="86" fill="#ffffff">조작기</text><text x="324" y="106" fill="#ffffff">약 11세~</text>
+    <text x="190" y="224" fill="#7a766d">순서는 같고, 나이는 대략의 기준이다</text>
+  </g>
+</svg>

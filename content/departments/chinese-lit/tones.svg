@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 262" width="400" height="262">
+<rect width="400" height="262" fill="#f4efe6"/>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#e07a3f"/></marker></defs>
+<text x="58" y="26" font-size="15" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">妈 mā</text>
+<rect x="16" y="36" width="84" height="160" rx="4" fill="#7a766d" fill-opacity="0.06" stroke="#7a766d" stroke-width="1"/>
+<line x1="20" y1="68" x2="96" y2="68" stroke="#7a766d" stroke-width="0.5" stroke-dasharray="3 3"/>
+<line x1="20" y1="96" x2="96" y2="96" stroke="#7a766d" stroke-width="0.5" stroke-dasharray="3 3"/>
+<line x1="20" y1="124" x2="96" y2="124" stroke="#7a766d" stroke-width="0.5" stroke-dasharray="3 3"/>
+<line x1="20" y1="152" x2="96" y2="152" stroke="#7a766d" stroke-width="0.5" stroke-dasharray="3 3"/>
+<line x1="20" y1="180" x2="96" y2="180" stroke="#7a766d" stroke-width="0.5" stroke-dasharray="3 3"/>
+<path d="M30,68 L86,68" fill="none" stroke="#e07a3f" stroke-width="3" marker-end="url(#a)"/>
+<text x="58" y="216" font-size="13" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a" font-weight="bold">1성</text>
+<text x="58" y="232" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">높고</text>
+<text x="58" y="246" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">평평하게</text>
+<text x="150" y="26" font-size="15" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">麻 má</text>
+<rect x="108" y="36" width="84" height="160" rx="4" fill="#7a766d" fill-opacity="0.06" stroke="#7a766d" stroke-width="1"/>
+<line x1="112" y1="68" x2="188" y2="68" stroke="#7a766d" stroke-width="0.5" stroke-dasharray="3 3"/>
+<line x1="112" y1="96" x2="188" y2="96" stroke="#7a766d" stroke-width="0.5" stroke-dasharray="3 3"/>
+<line x1="112" y1="124" x2="188" y2="124" stroke="#7a766d" stroke-width="0.5" stroke-dasharray="3 3"/>
+<line x1="112" y1="152" x2="188" y2="152" stroke="#7a766d" stroke-width="0.5" stroke-dasharray="3 3"/>
+<line x1="112" y1="180" x2="188" y2="180" stroke="#7a766d" stroke-width="0.5" stroke-dasharray="3 3"/>
+<path d="M122,124 L178,68" fill="none" stroke="#e07a3f" stroke-width="3" marker-end="url(#a)"/>
+<text x="150" y="216" font-size="13" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a" font-weight="bold">2성</text>
+<text x="150" y="232" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">중간에서</text>
+<text x="150" y="246" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">높게 올라감</text>
+<text x="242" y="26" font-size="15" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">马 mǎ</text>
+<rect x="200" y="36" width="84" height="160" rx="4" fill="#7a766d" fill-opacity="0.06" stroke="#7a766d" stroke-width="1"/>
+<line x1="204" y1="68" x2="280" y2="68" stroke="#7a766d" stroke-width="0.5" stroke-dasharray="3 3"/>
+<line x1="204" y1="96" x2="280" y2="96" stroke="#7a766d" stroke-width="0.5" stroke-dasharray="3 3"/>
+<line x1="204" y1="124" x2="280" y2="124" stroke="#7a766d" stroke-width="0.5" stroke-dasharray="3 3"/>
+<line x1="204" y1="152" x2="280" y2="152" stroke="#7a766d" stroke-width="0.5" stroke-dasharray="3 3"/>
+<line x1="204" y1="180" x2="280" y2="180" stroke="#7a766d" stroke-width="0.5" stroke-dasharray="3 3"/>
+<path d="M214,152 C226,196 244,188 270,96" fill="none" stroke="#e07a3f" stroke-width="3" marker-end="url(#a)"/>
+<text x="242" y="216" font-size="13" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a" font-weight="bold">3성</text>
+<text x="242" y="232" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">낮게 꺼졌다가</text>
+<text x="242" y="246" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">조금 올라감</text>
+<text x="334" y="26" font-size="15" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">骂 mà</text>
+<rect x="292" y="36" width="84" height="160" rx="4" fill="#7a766d" fill-opacity="0.06" stroke="#7a766d" stroke-width="1"/>
+<line x1="296" y1="68" x2="372" y2="68" stroke="#7a766d" stroke-width="0.5" stroke-dasharray="3 3"/>
+<line x1="296" y1="96" x2="372" y2="96" stroke="#7a766d" stroke-width="0.5" stroke-dasharray="3 3"/>
+<line x1="296" y1="124" x2="372" y2="124" stroke="#7a766d" stroke-width="0.5" stroke-dasharray="3 3"/>
+<line x1="296" y1="152" x2="372" y2="152" stroke="#7a766d" stroke-width="0.5" stroke-dasharray="3 3"/>
+<line x1="296" y1="180" x2="372" y2="180" stroke="#7a766d" stroke-width="0.5" stroke-dasharray="3 3"/>
+<path d="M306,68 L362,180" fill="none" stroke="#e07a3f" stroke-width="3" marker-end="url(#a)"/>
+<text x="334" y="216" font-size="13" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a" font-weight="bold">4성</text>
+<text x="334" y="232" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">높은 데서</text>
+<text x="334" y="246" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">아래로 뚝</text>
+</svg>

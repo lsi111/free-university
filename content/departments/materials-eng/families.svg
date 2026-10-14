@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 230" width="400" height="230">
+<rect width="400" height="230" fill="#f4efe6"/>
+<rect x="15" y="15" width="180" height="95" rx="8" fill="#fbf8f2" stroke="#2f5d50" stroke-width="2"/>
+<text x="105" y="43" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#1d1c1a" font-weight="bold">금속</text>
+<text x="105" y="70" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">전기·열이 잘 통한다</text>
+<text x="105" y="90" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">대체로 늘어난다</text>
+<rect x="205" y="15" width="180" height="95" rx="8" fill="#fbf8f2" stroke="#2f5d50" stroke-width="2"/>
+<text x="295" y="43" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#1d1c1a" font-weight="bold">세라믹</text>
+<text x="295" y="70" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">단단하고 열에 강하다</text>
+<text x="295" y="90" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">대체로 잘 깨진다</text>
+<rect x="15" y="120" width="180" height="95" rx="8" fill="#fbf8f2" stroke="#2f5d50" stroke-width="2"/>
+<text x="105" y="148" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#1d1c1a" font-weight="bold">고분자</text>
+<text x="105" y="175" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">가볍고 가공이 쉽다</text>
+<text x="105" y="195" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">열에 비교적 약하다</text>
+<rect x="205" y="120" width="180" height="95" rx="8" fill="#fbf8f2" stroke="#2f5d50" stroke-width="2"/>
+<text x="295" y="148" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#1d1c1a" font-weight="bold">복합 재료</text>
+<text x="295" y="175" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">둘 이상을 섞어 만든다</text>
+<text x="295" y="195" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">장점을 함께 얻는다</text>
+</svg>

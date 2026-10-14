@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 290" width="380" height="290">
+  <rect width="380" height="290" fill="#f4efe6"/>
+  <g stroke="#1d1c1a" stroke-width="1.5">
+    <rect x="40" y="20" width="300" height="120" fill="#dfe6dc"/>
+    <rect x="40" y="140" width="112.5" height="80" fill="#efe0d0"/>
+    <rect x="152.5" y="140" width="150" height="80" fill="#e3e8da"/>
+    <rect x="302.5" y="140" width="37.5" height="80" fill="#e9dcc3"/>
+  </g>
+  <g font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">
+    <text x="190" y="85">북구</text><text x="96" y="185">동구</text>
+    <text x="227" y="185">남구</text><text x="321" y="185">서구</text>
+  </g>
+  <g font-family="sans-serif" font-size="11" fill="#1d1c1a">
+    <text x="40" y="246">면적(㎢): 북 60 · 동 15 · 남 20 · 서 5</text>
+    <text x="40" y="266">인구(명): 북 1,200 · 동 3,000 · 남 2,000 · 서 1,500</text>
+    <text x="40" y="284" fill="#7a766d">칸의 넓이는 면적에 비례한다 (가상의 섬)</text>
+  </g>
+</svg>

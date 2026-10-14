@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 200" width="380" height="200">
+  <rect width="380" height="200" fill="#f4efe6"/>
+  <rect x="30" y="40" width="40" height="120" fill="#fffdf8" stroke="#1d1c1a" stroke-width="1.3"/>
+  <rect x="70" y="40" width="40" height="120" fill="#fffdf8" stroke="#1d1c1a" stroke-width="1.3"/>
+  <rect x="110" y="40" width="40" height="120" fill="#fffdf8" stroke="#1d1c1a" stroke-width="1.3"/>
+  <rect x="150" y="40" width="40" height="120" fill="#fffdf8" stroke="#1d1c1a" stroke-width="1.3"/>
+  <rect x="190" y="40" width="40" height="120" fill="#fffdf8" stroke="#1d1c1a" stroke-width="1.3"/>
+  <rect x="230" y="40" width="40" height="120" fill="#fffdf8" stroke="#1d1c1a" stroke-width="1.3"/>
+  <rect x="270" y="40" width="40" height="120" fill="#fffdf8" stroke="#1d1c1a" stroke-width="1.3"/>
+  <rect x="310" y="40" width="40" height="120" fill="#fffdf8" stroke="#1d1c1a" stroke-width="1.3"/>
+  <rect x="58" y="40" width="24" height="75" fill="#1d1c1a"/>
+  <rect x="98" y="40" width="24" height="75" fill="#1d1c1a"/>
+  <rect x="178" y="40" width="24" height="75" fill="#1d1c1a"/>
+  <rect x="218" y="40" width="24" height="75" fill="#1d1c1a"/>
+  <rect x="258" y="40" width="24" height="75" fill="#1d1c1a"/>
+  <text x="50" y="182" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#1d1c1a" font-weight="bold">C</text>
+  <text x="90" y="182" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#1d1c1a" font-weight="bold">D</text>
+  <text x="130" y="182" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#1d1c1a" font-weight="bold">E</text>
+  <text x="170" y="182" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#1d1c1a" font-weight="bold">F</text>
+  <text x="210" y="182" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#1d1c1a" font-weight="bold">G</text>
+  <text x="250" y="182" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#1d1c1a" font-weight="bold">A</text>
+  <text x="290" y="182" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#1d1c1a" font-weight="bold">B</text>
+  <text x="330" y="182" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#1d1c1a" font-weight="bold">C</text>
+  <path d="M50 36 L50 28 L90 28 L90 36" fill="none" stroke="#e07a3f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="70.0" y="20" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#1d1c1a" font-weight="bold">가</text>
+  <path d="M130 36 L130 28 L170 28 L170 36" fill="none" stroke="#e07a3f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="150.0" y="20" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#1d1c1a" font-weight="bold">나</text>
+  <path d="M210 36 L210 28 L250 28 L250 36" fill="none" stroke="#e07a3f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="230.0" y="20" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#1d1c1a" font-weight="bold">다</text>
+  <path d="M290 36 L290 28 L330 28 L330 36" fill="none" stroke="#e07a3f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="310.0" y="20" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#1d1c1a" font-weight="bold">라</text>
+</svg>

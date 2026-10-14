@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+<rect width="400" height="240" fill="#f4efe6"/>
+<text x="10" y="20" font-family="sans-serif" font-size="12" text-anchor="start" fill="#1d1c1a">강도 (가상 수치, MPa)</text>
+<line x1="70" y1="30" x2="70" y2="225" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="62" y="60" font-family="sans-serif" font-size="12" text-anchor="end" fill="#1d1c1a">재료 A</text>
+<rect x="70" y="40" width="120.0" height="30" fill="#2f5d50"/>
+<text x="196.0" y="60" font-family="sans-serif" font-size="12" text-anchor="start" fill="#1d1c1a">400</text>
+<text x="62" y="105" font-family="sans-serif" font-size="12" text-anchor="end" fill="#1d1c1a">재료 B</text>
+<rect x="70" y="85" width="81.0" height="30" fill="#2f5d50"/>
+<text x="157.0" y="105" font-family="sans-serif" font-size="12" text-anchor="start" fill="#1d1c1a">270</text>
+<text x="62" y="150" font-family="sans-serif" font-size="12" text-anchor="end" fill="#1d1c1a">재료 C</text>
+<rect x="70" y="130" width="19.8" height="30" fill="#2f5d50"/>
+<text x="95.8" y="150" font-family="sans-serif" font-size="12" text-anchor="start" fill="#1d1c1a">66</text>
+<text x="62" y="195" font-family="sans-serif" font-size="12" text-anchor="end" fill="#1d1c1a">재료 D</text>
+<rect x="70" y="175" width="270.0" height="30" fill="#2f5d50"/>
+<text x="346.0" y="195" font-family="sans-serif" font-size="12" text-anchor="start" fill="#1d1c1a">900</text>
+</svg>

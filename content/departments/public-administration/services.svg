@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 225" width="380" height="225">
+<rect width="380" height="225" fill="#f4efe6"/>
+<text x="190" y="22" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1d1c1a">세금과 공공 서비스의 흐름 (가상)</text>
+<rect x="10" y="60" width="90" height="100" fill="#fffaf0" stroke="#7a766d" stroke-width="1.2"/>
+<text x="55.0" y="106.5" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">시민</text>
+<text x="55.0" y="122.5" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">(주민)</text>
+<rect x="140" y="60" width="90" height="100" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<text x="185.0" y="106.5" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">정부</text>
+<text x="185.0" y="122.5" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">(나루시)</text>
+<rect x="270" y="55" width="100" height="31" fill="#e3efe9" stroke="#7a766d" stroke-width="1.2"/>
+<text x="320.0" y="74.7" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">도로 관리</text>
+<rect x="270" y="92" width="100" height="31" fill="#e3efe9" stroke="#7a766d" stroke-width="1.2"/>
+<text x="320.0" y="111.7" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">소방 출동</text>
+<rect x="270" y="129" width="100" height="31" fill="#e3efe9" stroke="#7a766d" stroke-width="1.2"/>
+<text x="320.0" y="148.7" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">학교 급식</text>
+<line x1="100" y1="100" x2="140" y2="100" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="140,100 133.7,103.0 133.7,97.0" fill="#2f5d50"/>
+<text x="120" y="92" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#2f5d50">세금</text>
+<line x1="230" y1="110" x2="270" y2="110" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="270,110 263.7,113.0 263.7,107.0" fill="#2f5d50"/>
+<text x="250" y="102" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#2f5d50">서비스</text>
+<line x1="320" y1="170" x2="320" y2="195" stroke="#e07a3f" stroke-width="2"/>
+<line x1="320" y1="195" x2="55" y2="195" stroke="#e07a3f" stroke-width="2"/>
+<line x1="55" y1="195" x2="55" y2="162" stroke="#e07a3f" stroke-width="2"/>
+<polygon points="55,162 58.0,168.3 52.0,168.3" fill="#e07a3f"/>
+<text x="188" y="189" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#e07a3f">의견·민원</text>
+<text x="188" y="215" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#7a766d">화살표는 돈과 서비스, 의견이 오가는 방향이다</text>
+</svg>

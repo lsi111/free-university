@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+<rect width="400" height="200" fill="#f4efe6"/>
+<rect x="20" y="14" width="360" height="30" fill="#2f5d50" fill-opacity="0.12"/>
+<text x="140" y="34" font-size="13" text-anchor="middle" font-family="sans-serif" fill="#2f5d50" font-weight="bold">남성 단수</text>
+<text x="240" y="34" font-size="13" text-anchor="middle" font-family="sans-serif" fill="#2f5d50" font-weight="bold">여성 단수</text>
+<text x="340" y="34" font-size="13" text-anchor="middle" font-family="sans-serif" fill="#2f5d50" font-weight="bold">복수</text>
+<line x1="20" y1="44" x2="380" y2="44" stroke="#7a766d" stroke-width="1"/>
+<line x1="20" y1="94" x2="380" y2="94" stroke="#d8d2c4" stroke-width="1"/>
+<line x1="20" y1="144" x2="380" y2="144" stroke="#7a766d" stroke-width="1"/>
+<text x="28" y="74" font-size="13" text-anchor="start" font-family="sans-serif" fill="#7a766d">정관사</text>
+<text x="28" y="124" font-size="13" text-anchor="start" font-family="sans-serif" fill="#7a766d">부정관사</text>
+<text x="140" y="74" font-size="14" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">le livre</text>
+<text x="140" y="124" font-size="14" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">un livre</text>
+<text x="240" y="74" font-size="14" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">la table</text>
+<text x="240" y="124" font-size="14" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">une table</text>
+<text x="340" y="74" font-size="14" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">les livres</text>
+<text x="340" y="124" font-size="14" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">des livres</text>
+<text x="20" y="166" font-size="12" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">모음 앞에서는 le, la가 l'로 줄어든다.</text>
+<text x="20" y="186" font-size="12" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">예: l'école (학교, 여성)   l'ami (친구, 남성)</text>
+</svg>

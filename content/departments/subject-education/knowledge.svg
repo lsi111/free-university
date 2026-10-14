@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 230" width="400" height="230">
+  <rect width="400" height="230" fill="#f4efe6"/>
+  <text x="200" y="24" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1d1c1a">교과를 가르치는 데 필요한 지식</text>
+  <g font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">
+    <rect x="20" y="44" width="150" height="62" fill="#ffffff" stroke="#7a766d" stroke-width="2"/>
+    <text x="95" y="70" font-weight="bold">교과 내용 지식</text><text x="95" y="90">무엇이 맞는가</text>
+    <rect x="230" y="44" width="150" height="62" fill="#ffffff" stroke="#7a766d" stroke-width="2"/>
+    <text x="305" y="70" font-weight="bold">일반 교수 지식</text><text x="305" y="90">수업 운영과 평가</text>
+    <text x="200" y="80" font-size="20" font-weight="bold">+</text>
+    <rect x="20" y="146" width="360" height="66" fill="#2f5d50"/>
+    <text x="200" y="172" fill="#ffffff" font-weight="bold" font-size="13">교과 교수 지식</text>
+    <text x="200" y="195" fill="#ffffff">이 내용을 이 학생에게 어떻게 이해시킬까</text>
+  </g>
+  <g fill="#1d1c1a" stroke="#1d1c1a" stroke-width="2">
+    <line x1="95" y1="108" x2="95" y2="130"/><polygon points="95,144 90,130 100,130"/>
+    <line x1="305" y1="108" x2="305" y2="130"/><polygon points="305,144 300,130 310,130"/>
+  </g>
+</svg>

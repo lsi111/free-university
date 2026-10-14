@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 200" width="380" height="200">
+<rect width="380" height="200" fill="#f4efe6"/>
+<rect x="12" y="20" width="104" height="160" fill="#fffaf0" stroke="#7a766d" stroke-width="1.5"/>
+<rect x="138" y="20" width="104" height="160" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<rect x="264" y="20" width="104" height="160" fill="#fffaf0" stroke="#e07a3f" stroke-width="2"/>
+<text x="64" y="48" font-family="sans-serif" fill="#1d1c1a" font-size="15" text-anchor="middle" font-weight="bold">자료</text>
+<text x="190" y="48" font-family="sans-serif" fill="#1d1c1a" font-size="15" text-anchor="middle" font-weight="bold">정보</text>
+<text x="316" y="48" font-family="sans-serif" fill="#1d1c1a" font-size="15" text-anchor="middle" font-weight="bold">지식</text>
+<text x="64" y="70" font-family="sans-serif" fill="#7a766d" font-size="12" text-anchor="middle">낱개의 기록</text>
+<text x="190" y="70" font-family="sans-serif" fill="#7a766d" font-size="12" text-anchor="middle">맥락이 붙음</text>
+<text x="316" y="70" font-family="sans-serif" fill="#7a766d" font-size="12" text-anchor="middle">이해로 연결</text>
+<line x1="24" y1="84" x2="104" y2="84" stroke="#7a766d"/><line x1="150" y1="84" x2="230" y2="84" stroke="#7a766d"/><line x1="276" y1="84" x2="356" y2="84" stroke="#7a766d"/>
+<text x="64" y="112" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">18</text>
+<text x="64" y="134" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">3월 2일</text>
+<text x="64" y="156" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">서울</text>
+<text x="190" y="112" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">3월 2일</text>
+<text x="190" y="134" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">서울 기온은</text>
+<text x="190" y="156" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">18도다</text>
+<text x="316" y="112" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">이맘때는</text>
+<text x="316" y="134" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">쌀쌀하다는</text>
+<text x="316" y="156" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">것을 안다</text>
+<path d="M118 100 L136 100 M130 94 L136 100 L130 106" fill="none" stroke="#1d1c1a" stroke-width="1.5"/>
+<path d="M244 100 L262 100 M256 94 L262 100 L256 106" fill="none" stroke="#1d1c1a" stroke-width="1.5"/>
+</svg>

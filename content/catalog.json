@@ -1,0 +1,363 @@
+[
+  {
+    "id": "korean-lit", "name": "국어국문학", "field": "humanities", "status": "open",
+    "summary": "한국어의 구조와 한국 문학의 흐름을 읽는다.",
+    "audience": "한국어와 한국 문학을 이론으로 처음 살펴보는 비전공자. 한글의 원리, 품사, 문학 갈래, 시와 이야기 읽기를 익히려는 사람.",
+    "limits": "실제 작품은 인용하지 않고 직접 지은 가상의 작품으로만 분석한다. 문학사와 작품 해설은 범위 밖이다.",
+    "file": "departments/korean-lit.json"
+  },
+  {
+    "id": "german-lit", "name": "독어독문학", "field": "humanities", "status": "open",
+    "summary": "독일어와 독일어권 문학·사상을 읽는다.",
+    "audience": "독일어를 처음 접하는 비전공자로, 문자·발음·기초 문법과 짧은 대화를 읽으며 첫걸음을 떼려는 학습자.",
+    "limits": "A1 수준의 입문 문법만 다룬다. 독일 문학 작품 분석, 여격·소유격, 회화 시험 준비는 범위 밖이다. 소리는 재생되지 않는다.",
+    "file": "departments/german-lit.json"
+  },
+  {
+    "id": "history-studies", "name": "사학", "field": "humanities", "status": "open",
+    "summary": "사료를 읽고 과거를 해석하는 방법을 배운다.",
+    "audience": "역사를 처음 배우는 비전공자. 특정 나라의 역사가 아니라 사료를 읽고 시간·원인·서술을 따지는 방법을 익히려는 사람.",
+    "limits": "특정 시대나 나라의 역사 지식은 다루지 않는다.",
+    "file": "departments/history-studies.json"
+  },
+  {
+    "id": "linguistics", "name": "언어학", "field": "humanities", "tags": ["social"], "status": "open",
+    "summary": "소리, 단어, 문장, 의미가 짜이는 규칙을 찾는다.",
+    "audience": "한국어 화자로서 말소리, 단어, 문장, 의미, 언어 변화를 처음 체계적으로 살펴보고 싶은 비전공자.",
+    "limits": "한국어 중심의 입문이다. 통사 이론의 세부, 음성 기호, 언어 습득과 뇌는 다루지 않는다.",
+    "file": "departments/linguistics.json"
+  },
+  {
+    "id": "english-lit", "name": "영어영문학", "field": "humanities", "status": "open",
+    "summary": "영어의 구조와 영어권 문학을 읽는다.",
+    "audience": "영어와 영어 문학을 이론으로 처음 살펴보는 비전공자. 영어의 구조와 짧은 글 읽기의 기초를 익히려는 사람.",
+    "limits": "소리는 재생되지 않는다. 실제 작품은 인용하지 않고 직접 지은 가상의 짧은 글만 쓴다. 시험·자격 준비는 범위 밖이다.",
+    "file": "departments/english-lit.json"
+  },
+  {
+    "id": "japanese-lit", "name": "일어일문학", "field": "humanities", "status": "open",
+    "summary": "일본어와 일본 문학·문화를 읽는다.",
+    "audience": "일본어를 처음 접하는 비전공자로, 문자와 기초 문장을 익히고 일본어 학습의 출발점을 잡고 싶은 사람.",
+    "limits": "문학 작품 감상, 일본 역사·문화 심화, 회화·청취 훈련, 고급 문법은 다루지 않는다. 소리는 재생되지 않는다.",
+    "file": "departments/japanese-lit.json"
+  },
+  {
+    "id": "chinese-lit", "name": "중어중문학", "field": "humanities", "status": "open",
+    "summary": "중국어와 중국 문학·고전을 읽는다.",
+    "audience": "중국어를 처음 접하는 비전공자. 간체자와 병음으로 기초 문장과 자기소개를 읽고 쓰려는 학습자.",
+    "limits": "소리는 재생되지 않으며 입문 어휘와 문법만 다룬다. 번체자 쓰기, 고급 문법, 실제 작품 읽기, 시험·자격 준비는 범위 밖이다.",
+    "file": "departments/chinese-lit.json"
+  },
+  {
+    "id": "philosophy", "name": "철학", "field": "humanities", "status": "open",
+    "summary": "주장을 근거로 따지는 법을 배운다.",
+    "audience": "문과·이과·비전공 누구나. 글을 끝까지 읽을 수 있으면 된다. 배경지식은 필요 없다.",
+    "file": "departments/philosophy.json"
+  },
+  {
+    "id": "french-lit", "name": "프랑스어문학", "field": "humanities", "status": "open",
+    "summary": "프랑스어와 프랑스어권 문학·사상을 읽는다.",
+    "audience": "프랑스어를 처음 접하는 비전공자로, 글자·발음·기초 문법·인사를 한국어로 익히고 싶은 사람.",
+    "limits": "입문 수준의 읽기와 쓰기만 다룬다. 소리는 재생되지 않고 한글 근사 표기뿐이며 문학 작품은 다루지 않는다.",
+    "file": "departments/french-lit.json"
+  },
+
+  {
+    "id": "economics", "name": "경제학", "field": "social", "status": "open",
+    "summary": "희소한 자원을 사람들이 어떻게 나누는지 모형으로 설명한다.",
+    "audience": "경제학을 처음 배우는 비전공자. 희소성부터 수요·공급, 비용, 시장 실패, 거시경제 입문까지 간단한 계산과 그래프로 익히려는 사람.",
+    "limits": "가상의 시장과 수치만 쓰며 투자·정책 조언이 아니다. 심화 이론은 범위 밖이다.",
+    "file": "departments/economics.json"
+  },
+  {
+    "id": "library-science", "name": "문헌정보학", "field": "social", "status": "open",
+    "summary": "정보를 모으고 분류하고 찾게 하는 원리를 배운다.",
+    "audience": "정보를 모으고 분류하고 찾는 방법을 처음 배우는 비전공자. 분류, 목록, 검색, 정보 평가의 기초를 익히려는 사람.",
+    "limits": "가상의 자료로 개념만 다룬다. 저작권은 일반 원리까지만 다루며 법률 자문이 아니다. 사서 자격은 범위 밖이다.",
+    "file": "departments/library-science.json"
+  },
+  {
+    "id": "media-communication", "name": "미디어커뮤니케이션", "field": "social", "status": "open",
+    "summary": "메시지가 만들어지고 퍼지고 해석되는 과정을 본다.",
+    "audience": "미디어와 뉴스를 처음 체계적으로 배우는 비전공자.",
+    "limits": "가상 매체·기사만 다루며 실제 언론사·플랫폼 분석, 언론 법제, 제작 실무는 범위 밖이다.",
+    "file": "departments/media-communication.json"
+  },
+  {
+    "id": "law-studies", "name": "법학", "field": "social", "status": "open",
+    "summary": "법이 무엇이고 어떻게 해석되고 적용되는지 배운다. 법률 상담은 범위 밖이다.",
+    "audience": "법학을 처음 접하는 비전공자.",
+    "limits": "가상의 나라 가나라 사례만 쓰며 실제 법을 사실로 다루지 않는다. 법률 자문이 아니다.",
+    "file": "departments/law-studies.json"
+  },
+  {
+    "id": "health-administration", "name": "보건행정학", "field": "social", "status": "open",
+    "summary": "보건 제도와 정책, 그 운영을 다룬다. 의료 행위는 범위 밖이다.",
+    "audience": "보건·의료 제도와 건강 지표를 처음 배우는 비전공자.",
+    "limits": "가상 사례 중심의 개념 입문이며 진단·치료·건강 조언이나 실제 정책·법규 판단은 다루지 않는다.",
+    "file": "departments/health-administration.json"
+  },
+  {
+    "id": "sociology", "name": "사회학", "field": "social", "status": "open",
+    "summary": "개인의 삶을 만드는 사회 구조와 관계를 본다.",
+    "audience": "사회를 개인의 일이 아닌 관계·구조·통계로 읽는 법을 처음 배우는 비전공자.",
+    "limits": "공통 기초만 다루며 모든 수치는 가상이다. 특정 국가·현재 이슈의 실제 사회 분석은 다루지 않는다.",
+    "file": "departments/sociology.json"
+  },
+  {
+    "id": "social-welfare", "name": "사회복지학", "field": "social", "status": "open",
+    "summary": "복지 제도와 그 이론적 근거를 배운다. 현장 실습은 범위 밖이다.",
+    "audience": "사회복지에 처음 관심을 갖는 비전공자로, 복지 제도의 기본 개념과 이념 논쟁을 균형 있게 익히려는 학습자.",
+    "limits": "가상의 나라와 수치로 개념만 다루며, 현장 실습·자격·실제 제도 이용 안내나 상담은 범위 밖이다.",
+    "file": "departments/social-welfare.json"
+  },
+  {
+    "id": "psychology", "name": "심리학", "field": "social", "tags": ["natural"], "status": "open",
+    "summary": "마음과 행동을 실험과 자료로 설명한다. 상담·진단은 범위 밖이다.",
+    "audience": "심리학을 처음 접하는 비전공자. 마음과 행동을 과학적으로 연구하는 방식과 기초 개념을 일반 이론으로 익히려는 사람.",
+    "limits": "일반 이론 교양 과정이다. 진단·상담·치료가 아니며 자신이나 타인을 판정하는 용도가 아니다.",
+    "file": "departments/psychology.json"
+  },
+  {
+    "id": "anthropology", "name": "인류학", "field": "social", "status": "open",
+    "summary": "다른 삶의 방식을 통해 문화를 이해한다.",
+    "audience": "인류학을 처음 접하는 비전공 성인과 청소년.",
+    "limits": "가상 사회만 다루며 실제 민족·집단에 관한 사실은 다루지 않는다.",
+    "file": "departments/anthropology.json"
+  },
+  {
+    "id": "political-science", "name": "정치외교학", "field": "social", "status": "open",
+    "summary": "권력, 제도, 국가 사이의 관계를 분석한다.",
+    "audience": "정치와 국제 관계를 처음 배우는 비전공자. 뉴스의 정치 용어와 여론조사 숫자를 차분히 읽고 싶은 사람에게 맞다.",
+    "limits": "가상 사례로 개념과 도구만 다룬다. 실제 국가·정당·현안 평가나 특정 국가의 제도 해설은 범위 밖이다.",
+    "file": "departments/political-science.json"
+  },
+  {
+    "id": "geography", "name": "지리학", "field": "social", "tags": ["natural"], "status": "open",
+    "summary": "장소와 공간이 사람과 자연을 어떻게 묶는지 본다.",
+    "audience": "지도와 장소, 사람이 사는 방식에 관심 있는 비전공 입문자. 중학생 이상이면 읽을 수 있다.",
+    "limits": "가상의 섬과 마을만 다룬다. 실제 국가·도시의 통계, 영토·국경 문제, 지도 제작과 GIS 기술은 다루지 않는다.",
+    "file": "departments/geography.json"
+  },
+  {
+    "id": "public-administration", "name": "행정학", "field": "social", "status": "open",
+    "summary": "정부가 정책을 만들고 집행하는 방식을 배운다.",
+    "audience": "행정학을 처음 접하는 비전공자. 정부와 정책, 예산, 시민 참여의 기본 개념을 가상 도시 사례로 익히고 싶은 사람.",
+    "limits": "가상의 도시와 수치만 쓴다. 특정 정책·정부 평가, 법률·행정 실무 조언, 공무원 시험·자격은 범위 밖이다.",
+    "file": "departments/public-administration.json"
+  },
+
+  {
+    "id": "business-administration", "name": "경영학", "field": "business", "status": "open",
+    "summary": "조직이 목표를 세우고 자원을 쓰는 방식을 배운다.",
+    "audience": "기업과 조직이 어떻게 움직이는지 처음 알고 싶은 비전공 성인과 청소년.",
+    "limits": "입문 개념 소개이며 실제 회사 경영, 투자, 창업 판단을 위한 조언이 아니다. 모든 회사는 가상이다.",
+    "file": "departments/business-administration.json"
+  },
+  {
+    "id": "international-trade", "name": "국제통상학", "field": "business", "status": "open",
+    "summary": "나라 사이의 거래와 그 규칙을 다룬다.",
+    "audience": "무역과 환율 뉴스를 이해하고 싶은 입문자, 국제통상학이 궁금한 청소년과 성인.",
+    "limits": "가상의 나라와 수치만 쓰며 실제 통상 정책·법률·투자 판단 자료가 아니다.",
+    "file": "departments/international-trade.json"
+  },
+  {
+    "id": "marketing", "name": "마케팅", "field": "business", "status": "open",
+    "summary": "고객이 무엇을 왜 선택하는지 이해하고 가치를 전달한다.",
+    "audience": "마케팅을 처음 배우는 비전공자. 고객 가치, 시장 나누기, 4P, 구매 결정, 브랜드, 조사 읽는 법의 기초를 익히고 싶은 사람.",
+    "limits": "기초 개념과 단순 계산만 다룬다. 광고 법규, 통계 분석, 디지털 마케팅 실무는 범위 밖이다.",
+    "file": "departments/marketing.json"
+  },
+  {
+    "id": "finance", "name": "재무학", "field": "business", "status": "open",
+    "summary": "돈의 시간 가치와 위험을 계산한다. 투자 조언은 범위 밖이다.",
+    "audience": "돈의 시간 가치, 현재가치, 위험, 자금 조달의 기본 개념을 처음 배우는 비전공자.",
+    "limits": "가상 회사와 가상 수치만 쓰며 투자·대출·세무 조언이 아니다.",
+    "file": "departments/finance.json"
+  },
+  {
+    "id": "accounting", "name": "회계학", "field": "business", "status": "open",
+    "summary": "거래를 기록하고 재무제표로 읽는 법을 배운다.",
+    "audience": "회계를 처음 접하는 비전공자. 가상 가게 사례로 장부와 재무제표의 기본 개념을 익히려는 사람.",
+    "limits": "세무, 감사, 자격시험, 투자 판단은 다루지 않는 입문 개념 과정이다.",
+    "file": "departments/accounting.json"
+  },
+
+  {
+    "id": "physics", "name": "물리학", "field": "natural", "status": "open",
+    "summary": "운동과 에너지를 몇 개의 법칙으로 설명한다.",
+    "audience": "물리학을 처음 배우는 비전공자. 측정, 운동, 힘, 에너지, 파동, 전기의 기초를 간단한 계산과 그림으로 익히려는 사람.",
+    "limits": "개념과 간단한 계산만 다룬다. 실험·전기 작업 방법이나 안전 지침이 아니다.",
+    "file": "departments/physics.json"
+  },
+  {
+    "id": "life-science", "name": "생명과학", "field": "natural", "status": "open",
+    "summary": "세포에서 생태계까지 생명이 작동하는 원리를 본다.",
+    "audience": "생명과학을 처음 배우는 사람. 고등학교 수준 이하의 입문이다.",
+    "limits": "질병·의학, 분자 수준의 깊은 내용은 다루지 않는다.",
+    "file": "departments/life-science.json"
+  },
+  {
+    "id": "mathematics", "name": "수학", "field": "natural", "status": "open",
+    "summary": "정의에서 출발해 증명으로 확인하는 언어를 배운다.",
+    "audience": "문과·이과·비전공 누구나. 사칙연산과 x 같은 문자를 쓰는 식에 거부감이 없으면 된다.",
+    "file": "departments/mathematics.json"
+  },
+  {
+    "id": "earth-science", "name": "지구과학", "field": "natural", "status": "open",
+    "summary": "땅, 바다, 대기가 서로 영향을 주고받는 방식을 본다.",
+    "audience": "지구과학을 처음 배우는 비전공자.",
+    "limits": "입문 개념만 다룬다. 기상 예보·지질 조사·재해 대비 판단 지침이 아니다.",
+    "file": "departments/earth-science.json"
+  },
+  {
+    "id": "astronomy", "name": "천문학", "field": "natural", "status": "open",
+    "summary": "빛을 읽어 별과 우주의 구조를 추론한다.",
+    "audience": "천문학을 처음 배우는 비전공자. 하늘의 관측, 태양계, 별과 은하, 천문학이 아는 방식을 큰 줄기로 훑고 싶은 사람.",
+    "limits": "우주론의 논쟁적 부분, 최신 발견, 계산 위주의 심화 내용은 다루지 않는다.",
+    "file": "departments/astronomy.json"
+  },
+  {
+    "id": "statistics", "name": "통계학", "field": "natural", "tags": ["social"], "status": "open",
+    "summary": "자료로부터 불확실성을 가지고 결론을 내리는 법을 배운다.",
+    "audience": "통계를 처음 배우는 비전공자. 자료를 읽고 요약하고, 불확실성과 상관·인과의 차이를 이해하고 싶은 사람.",
+    "limits": "가상 자료로 개념과 간단한 계산만 다룬다. 가설검정·회귀분석·실제 자료 분석은 범위 밖이다.",
+    "file": "departments/statistics.json"
+  },
+  {
+    "id": "chemistry", "name": "화학", "field": "natural", "status": "open",
+    "summary": "물질이 무엇으로 이루어지고 어떻게 바뀌는지 본다.",
+    "audience": "화학을 처음 배우는 비전공자. 원자·주기율표·결합·반응식·몰·산염기의 기초를 익히려는 사람.",
+    "limits": "개념과 간단한 계산만 다룬다. 실험 방법과 안전 지침은 아니다.",
+    "file": "departments/chemistry.json"
+  },
+
+  {
+    "id": "architecture", "name": "건축학", "field": "engineering", "tags": ["arts"], "status": "open",
+    "summary": "공간을 구상하고 구조로 세우는 원리를 배운다.",
+    "audience": "건축을 처음 배우는 비전공자. 공간·평면도·구조·빛과 바람·재료의 기본 개념을 가상의 집 예시로 익히고 싶은 사람.",
+    "limits": "건축사 자격, 구조 안전 계산, 건축 법규, 실제 건축물의 사실은 다루지 않는 입문 과정이다.",
+    "file": "departments/architecture.json"
+  },
+  {
+    "id": "mechanical-eng", "name": "기계공학", "field": "engineering", "status": "open",
+    "summary": "힘, 열, 운동을 다루는 장치를 해석하고 설계한다.",
+    "audience": "기계가 힘과 에너지를 다루는 방식을 처음 배우는 비전공자. 지렛대·응력·엔진·기어를 개념과 간단한 계산으로 익히려는 사람.",
+    "limits": "설계·제작·안전 판단 지침이 아니다. 개념과 간단한 계산만 다룬다.",
+    "file": "departments/mechanical-eng.json"
+  },
+  {
+    "id": "industrial-eng", "name": "산업공학", "field": "engineering", "status": "open",
+    "summary": "사람, 기계, 자원이 함께 일하는 시스템을 최적화한다.",
+    "audience": "일의 흐름·시간·재고·품질·불확실한 결정을 숫자로 다루는 방식이 궁금한 비전공자와 공학 입문자.",
+    "limits": "개념과 간단한 가상 계산만 다루며 실제 공장 설계·안전·투자 판단의 지침이 아니다.",
+    "file": "departments/industrial-eng.json"
+  },
+  {
+    "id": "materials-eng", "name": "신소재공학", "field": "engineering", "status": "open",
+    "summary": "재료의 구조와 성질의 관계를 배운다.",
+    "audience": "금속·세라믹·고분자가 무엇이고 왜 성질이 다른지 처음 배우고 싶은 비전공자와 공학 입문자.",
+    "limits": "개념과 간단한 계산만 다루며 재료 표의 수치는 가상이다. 실제 설계·안전·시공 판단 지침이 아니다.",
+    "file": "departments/materials-eng.json"
+  },
+  {
+    "id": "electrical-eng", "name": "전자전기공학", "field": "engineering", "status": "open",
+    "summary": "전기 신호와 에너지를 다루는 회로와 시스템을 배운다.",
+    "audience": "전기와 전자의 기본 원리를 처음 배우는 비전공자. 전류·전압·저항·전력과 신호를 개념과 간단한 계산으로 익히려는 사람.",
+    "limits": "개념과 간단한 계산만 다룬다. 배선·실습·고전압 작업 방법이나 안전 지침이 아니다.",
+    "file": "departments/electrical-eng.json"
+  },
+  {
+    "id": "computer-science", "name": "컴퓨터공학", "field": "engineering", "status": "open",
+    "summary": "계산을 정의하고 프로그램으로 문제를 푸는 법을 배운다.",
+    "audience": "코딩을 처음 접하는 비전공자. 컴퓨터가 정보를 다루는 방식과 알고리즘적 사고를 익히고 싶은 사람.",
+    "limits": "특정 프로그래밍 언어와 실습은 다루지 않는다. 코드는 손으로 따라가는 의사코드뿐이다.",
+    "file": "departments/computer-science.json"
+  },
+  {
+    "id": "civil-eng", "name": "토목공학", "field": "engineering", "status": "open",
+    "summary": "다리, 도로, 수자원 같은 기반 시설을 해석한다.",
+    "audience": "공학을 처음 접하는 비전공자로, 도로·다리·물 같은 사회기반시설이 어떤 원리로 서는지 개념과 간단한 계산으로 알고 싶은 사람.",
+    "limits": "설계·시공·안전 판단 기준이 아니며 모든 사업과 수치는 가상이다.",
+    "file": "departments/civil-eng.json"
+  },
+  {
+    "id": "chemical-eng", "name": "화학공학", "field": "engineering", "status": "open",
+    "summary": "화학 반응을 공정 규모로 옮기는 원리를 배운다.",
+    "audience": "공정이 원료를 제품으로 바꾸는 방식을 처음 접하는 비전공자와 공학 입문자.",
+    "limits": "개념과 간단한 계산만 다루며 설계·안전·운전 지침이 아니다. 공정과 수치는 모두 가상이다.",
+    "file": "departments/chemical-eng.json"
+  },
+  {
+    "id": "environmental-eng", "name": "환경공학", "field": "engineering", "status": "open",
+    "summary": "물, 공기, 폐기물 문제를 공학적으로 다룬다.",
+    "audience": "환경 문제를 처음 접하는 비전공자와 환경공학 진학을 탐색하는 학습자.",
+    "limits": "설계·안전·시공 판단이나 법규 지침이 아니며, 사업과 수치는 가상이다.",
+    "file": "departments/environmental-eng.json"
+  },
+
+  {
+    "id": "education-studies", "name": "교육학", "field": "education", "status": "open",
+    "summary": "사람이 어떻게 배우고 무엇이 배움을 돕는지 이론으로 본다.",
+    "audience": "교육을 이론으로 처음 접하는 비전공자. 학습, 발달, 동기, 수업 설계, 형평성의 기초 개념을 익히고 싶은 사람.",
+    "limits": "교원 자격·임용 준비나 교육 정책 평가와는 무관한 이론 입문이다.",
+    "file": "departments/education-studies.json"
+  },
+  {
+    "id": "subject-education", "name": "교과교육", "field": "education", "status": "open",
+    "summary": "교과 내용을 가르칠 수 있는 형태로 바꾸는 법을 배운다. 교원 자격과 무관하다.",
+    "audience": "교과를 어떻게 가르치고 배우게 할지 처음 알아보고 싶은 교육 입문자.",
+    "limits": "교원 자격·임용·현장 실습과 무관한 이론이며 수업 예시는 가상이다.",
+    "file": "departments/subject-education.json"
+  },
+  {
+    "id": "early-childhood-ed", "name": "유아교육", "field": "education", "status": "open",
+    "summary": "영유아의 발달과 놀이 중심 배움의 이론을 배운다. 현장 실습은 제출로만 남긴다.",
+    "audience": "유아교육을 처음 접하는 비전공자.",
+    "limits": "자격·임용·실습과 무관한 이론이며 안전 기준·돌봄 지침·진단은 다루지 않고 사례는 모두 가상이다.",
+    "file": "departments/early-childhood-ed.json"
+  },
+  {
+    "id": "special-education", "name": "특수교육", "field": "education", "status": "open",
+    "summary": "다양한 학습 요구에 맞춘 교육의 원리를 배운다. 현장 실습은 제출로만 남긴다.",
+    "audience": "특수교육을 처음 접하는 비전공자로, 다양한 학습 요구와 지원의 기본 생각을 이론으로 익히려는 사람.",
+    "limits": "진단·판정·치료·교원 자격·실제 지원 계획 수립은 다루지 않으며, 사례는 모두 가상이다.",
+    "file": "departments/special-education.json"
+  },
+
+  {
+    "id": "design-studies", "name": "디자인", "field": "arts", "status": "open",
+    "summary": "형태, 색, 배치가 의미를 전하는 방식을 분석하고 만들어 본다.",
+    "audience": "문과·이과·비전공 누구나. 그림 실력도 도구도 필요 없다. 눈으로 보고 판단하는 법을 배운다.",
+    "limits": "작품의 좋고 나쁨은 평가하지 않는다. 작품은 올리지 않고, 만든 과정을 글로 남기는 것까지만 한다.",
+    "file": "departments/design-studies.json"
+  },
+  {
+    "id": "fine-arts", "name": "미술", "field": "arts", "status": "open",
+    "summary": "작품을 형식과 맥락으로 읽고 직접 만들어 본다.",
+    "audience": "미술을 배운 적 없어도 작품을 보는 눈과 기본 용어를 익히고 싶은 입문자.",
+    "limits": "서양 미술 중심의 아주 큰 개관이다. 실기 지도나 동아시아·현대 미술 심화는 다루지 않는다.",
+    "file": "departments/fine-arts.json"
+  },
+  {
+    "id": "theater-film", "name": "연극영화", "field": "arts", "status": "open",
+    "summary": "장면이 어떻게 구성되고 관객에게 닿는지 분석한다.",
+    "audience": "연극과 영화를 처음 접하며 이야기를 장면과 화면으로 만드는 방식에 관심 있는 입문자.",
+    "limits": "가상의 작품만 다루며 실제 작품·인물 평가, 연기 실기와 촬영·편집 기술 훈련은 범위 밖이다.",
+    "file": "departments/theater-film.json"
+  },
+  {
+    "id": "music-studies", "name": "음악", "field": "arts", "status": "open",
+    "summary": "음높이, 리듬, 화성의 구조를 읽고 들어 본다.",
+    "audience": "악보를 처음 보는 비전공자. 소리 없이 그림과 글로 음악 이론의 기초를 익히고 싶은 사람.",
+    "limits": "소리가 재생되지 않으므로 청음 연습은 포함하지 않는다. 다장조와 기초 이론만 다루며 음악사나 실제 곡 분석은 하지 않는다.",
+    "file": "departments/music-studies.json"
+  },
+  {
+    "id": "sport-science", "name": "체육학", "field": "arts", "tags": ["natural"], "status": "open",
+    "summary": "움직임과 훈련을 과학과 이론으로 이해한다. 실기는 범위 밖이다.",
+    "audience": "체육학을 처음 접하는 비전공자로, 신체 활동·운동 원리·스포츠 심리·경기 규칙·스포츠 사회를 이론으로 훑고 싶은 사람.",
+    "limits": "실기, 운동 처방, 훈련 계획, 부상 치료 조언은 다루지 않으며 규칙 예시는 가상 종목이다.",
+    "file": "departments/sport-science.json"
+  }
+]

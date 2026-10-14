@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" width="300" height="400" font-family="sans-serif">
+  <rect width="300" height="400" fill="#f4efe6"/>
+  <circle cx="230" cy="300" r="70" fill="#e07a3f" opacity="0.35"/>
+  <text x="24" y="92" font-size="52" font-weight="800" fill="#1d1c1a">여름</text>
+  <text x="24" y="150" font-size="52" font-weight="800" fill="#1d1c1a">음악회</text>
+  <text x="24" y="200" font-size="20" font-weight="600" fill="#2f5d50">8월 15일 저녁 7시</text>
+  <text x="24" y="352" font-size="11" fill="#7a766d">시민공원 야외무대</text>
+  <text x="24" y="370" font-size="11" fill="#7a766d">문의 000-0000</text>
+</svg>

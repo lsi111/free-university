@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" viewBox="0 0 360 220" width="360" height="220">
+  <rect width="360" height="220" fill="#f4efe6"/>
+  <text x="180" y="26" font-size="14" font-weight="700" fill="#1d1c1a" text-anchor="middle">기능별 조직</text>
+  <g stroke="#7a766d" stroke-width="2" fill="none">
+    <path d="M180 70 V90 M65 90 H295 M65 90 V110 M180 90 V110 M295 90 V110"/>
+  </g>
+  <g fill="#f4efe6" stroke-width="2">
+    <rect x="130" y="40" width="100" height="30" rx="6" stroke="#2f5d50"/>
+    <rect x="20" y="110" width="90" height="34" rx="6" stroke="#e07a3f"/>
+    <rect x="135" y="110" width="90" height="34" rx="6" stroke="#e07a3f"/>
+    <rect x="250" y="110" width="90" height="34" rx="6" stroke="#e07a3f"/>
+  </g>
+  <g font-size="12" fill="#1d1c1a" text-anchor="middle">
+    <text x="180" y="60" font-weight="700">대표</text>
+    <text x="65" y="132">생산 부서</text><text x="180" y="132">영업 부서</text><text x="295" y="132">재무 부서</text>
+  </g>
+  <text x="180" y="180" font-size="11" fill="#7a766d" text-anchor="middle">같은 종류의 일을 하는 사람끼리 한 부서에 모인다</text>
+</svg>

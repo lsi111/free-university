@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+<rect width="400" height="200" fill="#f4efe6"/>
+<line x1="8" y1="140" x2="392" y2="140" stroke="#7a766d" stroke-width="2"/>
+<!-- A beam: x0=8 -->
+<rect x="18" y="104" width="10" height="36" fill="#7a766d"/>
+<rect x="106" y="104" width="10" height="36" fill="#7a766d"/>
+<line x1="13" y1="100" x2="121" y2="100" stroke="#2f5d50" stroke-width="5"/>
+<text x="68" y="168" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">A 보</text>
+<text x="68" y="186" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#7a766d">휘어서 버틴다</text>
+<!-- B arch: x0=136 -->
+<path d="M151 140 Q196 40 241 140" fill="none" stroke="#2f5d50" stroke-width="5"/>
+<line x1="141" y1="90" x2="251" y2="90" stroke="#2f5d50" stroke-width="3"/>
+<line x1="148" y1="130" x2="138" y2="130" stroke="#e07a3f" stroke-width="2.5"/><polygon points="134,130 141,126 141,134" fill="#e07a3f"/>
+<line x1="244" y1="130" x2="254" y2="130" stroke="#e07a3f" stroke-width="2.5"/><polygon points="258,130 251,126 251,134" fill="#e07a3f"/>
+<text x="196" y="168" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">B 아치</text>
+<text x="196" y="186" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#7a766d">눌러서 버틴다</text>
+<!-- C suspension: x0=264 -->
+<rect x="289" y="50" width="6" height="90" fill="#7a766d"/>
+<rect x="357" y="50" width="6" height="90" fill="#7a766d"/>
+<path d="M292 50 Q324 140 356 50" fill="none" stroke="#e07a3f" stroke-width="2.5"/>
+<line x1="292" y1="50" x2="268" y2="106" stroke="#e07a3f" stroke-width="2.5"/>
+<line x1="360" y1="50" x2="384" y2="106" stroke="#e07a3f" stroke-width="2.5"/>
+<line x1="308" y1="84" x2="308" y2="110" stroke="#e07a3f" stroke-width="1.5"/>
+<line x1="324" y1="95" x2="324" y2="110" stroke="#e07a3f" stroke-width="1.5"/>
+<line x1="340" y1="84" x2="340" y2="110" stroke="#e07a3f" stroke-width="1.5"/>
+<line x1="266" y1="110" x2="386" y2="110" stroke="#2f5d50" stroke-width="5"/>
+<text x="324" y="168" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">C 현수교</text>
+<text x="324" y="186" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#7a766d">당겨서 버틴다</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" width="360" height="240">
+<rect width="360" height="240" fill="#f4efe6"/>
+<text x="20" y="24" font-family="sans-serif" font-size="14" text-anchor="start" fill="#1d1c1a" font-weight="bold">가상 마을 두 곳의 일자리 현황</text>
+<text x="20" y="50" font-family="sans-serif" font-size="13" text-anchor="start" fill="#1d1c1a">가마을 (주민 20명)</text>
+<circle cx="30" cy="72" r="9" fill="#e07a3f" stroke="#e07a3f" stroke-width="1.5"/>
+<circle cx="60" cy="72" r="9" fill="#e07a3f" stroke="#e07a3f" stroke-width="1.5"/>
+<circle cx="90" cy="72" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="120" cy="72" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="150" cy="72" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="180" cy="72" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="210" cy="72" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="240" cy="72" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="270" cy="72" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="300" cy="72" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="30" cy="100" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="60" cy="100" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="90" cy="100" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="120" cy="100" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="150" cy="100" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="180" cy="100" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="210" cy="100" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="240" cy="100" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="270" cy="100" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="300" cy="100" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<text x="20" y="134" font-family="sans-serif" font-size="13" text-anchor="start" fill="#1d1c1a">나마을 (주민 20명)</text>
+<circle cx="30" cy="156" r="9" fill="#e07a3f" stroke="#e07a3f" stroke-width="1.5"/>
+<circle cx="60" cy="156" r="9" fill="#e07a3f" stroke="#e07a3f" stroke-width="1.5"/>
+<circle cx="90" cy="156" r="9" fill="#e07a3f" stroke="#e07a3f" stroke-width="1.5"/>
+<circle cx="120" cy="156" r="9" fill="#e07a3f" stroke="#e07a3f" stroke-width="1.5"/>
+<circle cx="150" cy="156" r="9" fill="#e07a3f" stroke="#e07a3f" stroke-width="1.5"/>
+<circle cx="180" cy="156" r="9" fill="#e07a3f" stroke="#e07a3f" stroke-width="1.5"/>
+<circle cx="210" cy="156" r="9" fill="#e07a3f" stroke="#e07a3f" stroke-width="1.5"/>
+<circle cx="240" cy="156" r="9" fill="#e07a3f" stroke="#e07a3f" stroke-width="1.5"/>
+<circle cx="270" cy="156" r="9" fill="#e07a3f" stroke="#e07a3f" stroke-width="1.5"/>
+<circle cx="300" cy="156" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="30" cy="184" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="60" cy="184" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="90" cy="184" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="120" cy="184" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="150" cy="184" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="180" cy="184" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="210" cy="184" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="240" cy="184" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="270" cy="184" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="300" cy="184" r="9" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="26" cy="218" r="7" fill="#e07a3f" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="38" y="222" font-family="sans-serif" font-size="12" text-anchor="start" fill="#1d1c1a">실직</text>
+<circle cx="96" cy="218" r="7" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<text x="108" y="222" font-family="sans-serif" font-size="12" text-anchor="start" fill="#1d1c1a">일하는 중</text>
+</svg>

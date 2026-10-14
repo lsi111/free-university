@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 220" width="380" height="220">
+<rect width="380" height="220" fill="#f4efe6"/>
+<text x="110" y="24" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">현금 계정 (T계정)</text>
+<text x="70" y="46" font-family="sans-serif" fill="#2f5d50" font-size="12" text-anchor="middle">차변(왼쪽)</text>
+<text x="150" y="46" font-family="sans-serif" fill="#e07a3f" font-size="12" text-anchor="middle">대변(오른쪽)</text>
+<line x1="20" y1="54" x2="200" y2="54" stroke="#1d1c1a" stroke-width="2"/>
+<line x1="110" y1="54" x2="110" y2="150" stroke="#1d1c1a" stroke-width="2"/>
+<text x="26" y="80" font-family="sans-serif" fill="#1d1c1a" font-size="12">출자 300</text>
+<text x="118" y="80" font-family="sans-serif" fill="#1d1c1a" font-size="12">재료 120</text>
+<text x="110" y="185" font-family="sans-serif" fill="#1d1c1a" font-size="12" text-anchor="middle">남은 현금: 300 − 120 = 180</text>
+<rect x="222" y="40" width="144" height="54" fill="#dfe8e4" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="294" y="63" font-family="sans-serif" fill="#1d1c1a" font-size="12" text-anchor="middle">차변에 적으면 늘어남</text>
+<text x="294" y="82" font-family="sans-serif" fill="#1d1c1a" font-size="12" text-anchor="middle">자산, 비용</text>
+<rect x="222" y="104" width="144" height="54" fill="#f3d9c5" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="294" y="127" font-family="sans-serif" fill="#1d1c1a" font-size="12" text-anchor="middle">대변에 적으면 늘어남</text>
+<text x="294" y="146" font-family="sans-serif" fill="#1d1c1a" font-size="12" text-anchor="middle">부채, 자본, 수익</text>
+</svg>

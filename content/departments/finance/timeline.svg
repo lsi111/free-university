@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 185" width="380" height="185">
+<rect width="380" height="185" fill="#f4efe6"/>
+<rect x="34" y="72" width="72" height="36" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<text x="70" y="95" font-family="sans-serif" fill="#1d1c1a" font-size="13" font-weight="normal" text-anchor="middle">1000원</text>
+<text x="70" y="128" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">현재</text>
+<rect x="154" y="72" width="72" height="36" fill="#fffaf0" stroke="#7a766d" stroke-width="2"/>
+<text x="190" y="95" font-family="sans-serif" fill="#1d1c1a" font-size="13" font-weight="normal" text-anchor="middle">1100원</text>
+<text x="190" y="128" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">1년 후</text>
+<rect x="274" y="72" width="72" height="36" fill="#fffaf0" stroke="#7a766d" stroke-width="2"/>
+<text x="310" y="95" font-family="sans-serif" fill="#1d1c1a" font-size="13" font-weight="normal" text-anchor="middle">1210원</text>
+<text x="310" y="128" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">2년 후</text>
+<line x1="70" y1="45" x2="182" y2="45" stroke="#e07a3f" stroke-width="2"/><polygon points="190,45 181,40 181,50" fill="#e07a3f"/>
+<line x1="190" y1="45" x2="302" y2="45" stroke="#e07a3f" stroke-width="2"/><polygon points="310,45 301,40 301,50" fill="#e07a3f"/>
+<text x="130" y="38" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">× 1.1</text>
+<text x="250" y="38" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">× 1.1</text>
+<line x1="310" y1="150" x2="198" y2="150" stroke="#2f5d50" stroke-width="2"/><polygon points="190,150 199,145 199,155" fill="#2f5d50"/>
+<line x1="190" y1="150" x2="78" y2="150" stroke="#2f5d50" stroke-width="2"/><polygon points="70,150 79,145 79,155" fill="#2f5d50"/>
+<text x="250" y="172" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">÷ 1.1</text>
+<text x="130" y="172" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">÷ 1.1</text>
+</svg>

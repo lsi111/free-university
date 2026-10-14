@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 190" width="400" height="190">
+  <rect width="400" height="190" fill="#f4efe6"/>
+  <line x1="8" y1="100" x2="388" y2="100" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="8" y1="90" x2="388" y2="90" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="8" y1="80" x2="388" y2="80" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="8" y1="70" x2="388" y2="70" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="8" y1="60" x2="388" y2="60" stroke="#1d1c1a" stroke-width="1"/>
+  <path d="M19 113 C19 121 28 121 28 112 L24 64 C22 50 34 50 33 62 C32 74 18 80 15 90" fill="none" stroke="#1d1c1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M15 90 C18 101 37 97 36 83 C35 70 12 70 13 83 C14 91 27 92 28 84" fill="none" stroke="#1d1c1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="28" cy="84" r="2" fill="#1d1c1a"/>
+  <text x="52" y="78" font-family="sans-serif" font-size="24" text-anchor="middle" fill="#1d1c1a" font-weight="bold">4</text>
+  <text x="52" y="98" font-family="sans-serif" font-size="24" text-anchor="middle" fill="#1d1c1a" font-weight="bold">4</text>
+  <line x1="176" y1="100" x2="176" y2="60" stroke="#1d1c1a" stroke-width="1.5"/>
+  <line x1="282" y1="100" x2="282" y2="60" stroke="#1d1c1a" stroke-width="1.5"/>
+  <line x1="388" y1="100" x2="388" y2="60" stroke="#1d1c1a" stroke-width="1.5"/>
+  <ellipse cx="92" cy="95" rx="6.2" ry="4.4" fill="#f4efe6" stroke="#1d1c1a" stroke-width="1.8" transform="rotate(-20 92 95)"/>
+  <line x1="97.8" y1="95" x2="97.8" y2="65" stroke="#1d1c1a" stroke-width="1.4"/>
+  <ellipse cx="128" cy="90" rx="6.2" ry="4.4" fill="#1d1c1a" transform="rotate(-20 128 90)"/>
+  <line x1="133.8" y1="90" x2="133.8" y2="60" stroke="#1d1c1a" stroke-width="1.4"/>
+  <ellipse cx="154" cy="85" rx="6.2" ry="4.4" fill="#1d1c1a" transform="rotate(-20 154 85)"/>
+  <line x1="159.8" y1="85" x2="159.8" y2="55" stroke="#1d1c1a" stroke-width="1.4"/>
+  <ellipse cx="198" cy="100" rx="6.2" ry="4.4" fill="#1d1c1a" transform="rotate(-20 198 100)"/>
+  <line x1="203.8" y1="100" x2="203.8" y2="70" stroke="#1d1c1a" stroke-width="1.4"/>
+  <ellipse cx="226" cy="90" rx="6.2" ry="4.4" fill="#1d1c1a" transform="rotate(-20 226 90)"/>
+  <line x1="231.8" y1="90" x2="231.8" y2="60" stroke="#1d1c1a" stroke-width="1.4"/>
+  <ellipse cx="254" cy="95" rx="6.2" ry="4.4" fill="#1d1c1a" transform="rotate(-20 254 95)"/>
+  <line x1="259.8" y1="95" x2="259.8" y2="65" stroke="#1d1c1a" stroke-width="1.4"/>
+  <ellipse cx="296" cy="90" rx="6.2" ry="4.4" fill="#1d1c1a" transform="rotate(-20 296 90)"/>
+  <line x1="301.8" y1="90" x2="301.8" y2="60" stroke="#1d1c1a" stroke-width="1.4"/>
+  <ellipse cx="313" cy="85" rx="6.2" ry="4.4" fill="#1d1c1a" transform="rotate(-20 313 85)"/>
+  <line x1="318.8" y1="85" x2="318.8" y2="55" stroke="#1d1c1a" stroke-width="1.4"/>
+  <ellipse cx="330" cy="95" rx="6.2" ry="4.4" fill="#1d1c1a" transform="rotate(-20 330 95)"/>
+  <line x1="335.8" y1="95" x2="335.8" y2="65" stroke="#1d1c1a" stroke-width="1.4"/>
+  <ellipse cx="347" cy="90" rx="6.2" ry="4.4" fill="#1d1c1a" transform="rotate(-20 347 90)"/>
+  <line x1="352.8" y1="90" x2="352.8" y2="60" stroke="#1d1c1a" stroke-width="1.4"/>
+  <line x1="301.8" y1="60" x2="318.8" y2="55" stroke="#1d1c1a" stroke-width="3.5"/>
+  <line x1="335.8" y1="65" x2="352.8" y2="60" stroke="#1d1c1a" stroke-width="3.5"/>
+  <ellipse cx="370" cy="100" rx="6.2" ry="4.4" fill="#f4efe6" stroke="#1d1c1a" stroke-width="1.8" transform="rotate(-20 370 100)"/>
+  <line x1="375.8" y1="100" x2="375.8" y2="70" stroke="#1d1c1a" stroke-width="1.4"/>
+  <text x="123" y="150" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#1d1c1a" font-weight="bold">가</text>
+  <text x="229" y="150" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#1d1c1a" font-weight="bold">나</text>
+  <text x="335" y="150" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#1d1c1a" font-weight="bold">다</text>
+</svg>

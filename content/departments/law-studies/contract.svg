@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+<rect width="400" height="240" fill="#f4efe6"/>
+<text x="200" y="22" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1d1c1a">자전거 매매 계약 (가상)</text>
+<rect x="15" y="70" width="90" height="70" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<rect x="295" y="70" width="90" height="70" fill="#fffaf0" stroke="#e07a3f" stroke-width="2"/>
+<g font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1d1c1a">
+<text x="60" y="100">갑</text><text x="340" y="100">을</text>
+</g>
+<g font-family="sans-serif" font-size="11" text-anchor="middle" fill="#1d1c1a">
+<text x="60" y="120">판매하는 사람</text><text x="340" y="120">사는 사람</text>
+</g>
+<line x1="108" y1="90" x2="290" y2="90" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="292,90 282,85 282,95" fill="#2f5d50"/>
+<line x1="292" y1="120" x2="110" y2="120" stroke="#e07a3f" stroke-width="2"/>
+<polygon points="108,120 118,115 118,125" fill="#e07a3f"/>
+<g font-family="sans-serif" font-size="11" text-anchor="middle" fill="#1d1c1a">
+<text x="200" y="76">자전거를 넘겨 준다</text>
+<text x="200" y="138">대금을 낸다</text>
+</g>
+<rect x="30" y="165" width="340" height="60" fill="#fffaf0" stroke="#7a766d"/>
+<g font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">
+<text x="200" y="185">대금 120,000원</text>
+<text x="200" y="203">을이 계약금 40,000원을 이미 냈다</text>
+<text x="200" y="219" font-size="11" fill="#7a766d">(계약금은 대금의 일부이다)</text>
+</g>
+</svg>

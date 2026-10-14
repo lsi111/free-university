@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 250" width="380" height="250">
+  <rect width="380" height="250" fill="#f4efe6"/>
+  <text x="190" y="24" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1d1c1a">발달의 네 영역</text>
+  <g stroke="#7a766d" stroke-width="2"><line x1="190" y1="130" x2="85" y2="72"/><line x1="190" y1="130" x2="295" y2="72"/><line x1="190" y1="130" x2="85" y2="188"/><line x1="190" y1="130" x2="295" y2="188"/></g>
+  <g font-family="sans-serif" fill="#1d1c1a" text-anchor="middle">
+    <rect x="10" y="40" width="150" height="56" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+    <text x="85" y="62" font-size="12" font-weight="bold">신체</text><text x="85" y="82" font-size="11">달리기 · 손으로 집기</text>
+    <rect x="220" y="40" width="150" height="56" fill="#ffffff" stroke="#e07a3f" stroke-width="2"/>
+    <text x="295" y="62" font-size="12" font-weight="bold">인지</text><text x="295" y="82" font-size="11">세기 · 비교 · 문제 풀기</text>
+    <rect x="10" y="164" width="150" height="56" fill="#ffffff" stroke="#e07a3f" stroke-width="2" stroke-dasharray="6 4"/>
+    <text x="85" y="186" font-size="12" font-weight="bold">언어</text><text x="85" y="206" font-size="11">듣기 · 말하기</text>
+    <rect x="220" y="164" width="150" height="56" fill="#ffffff" stroke="#2f5d50" stroke-width="2" stroke-dasharray="6 4"/>
+    <text x="295" y="186" font-size="12" font-weight="bold">사회정서</text><text x="295" y="206" font-size="11">감정 알기 · 친구 관계</text>
+    <circle cx="190" cy="130" r="32" fill="#2f5d50"/>
+    <text x="190" y="127" font-size="12" font-weight="bold" fill="#ffffff">한 아이</text><text x="190" y="143" font-size="11" fill="#ffffff">전체</text>
+    <text x="190" y="242" font-size="11" fill="#7a766d">영역은 따로 떨어져 있지 않고 서로 이어진다</text>
+  </g>
+</svg>

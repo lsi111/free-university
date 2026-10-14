@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 250" width="380" height="250">
+<rect width="380" height="250" fill="#f4efe6"/>
+<text x="190" y="24" font-family="sans-serif" fill="#1d1c1a" font-size="12" text-anchor="middle">한빛 제과점 한 달 손익 (단위: 만원)</text>
+<text x="16" y="59" font-family="sans-serif" fill="#1d1c1a" font-size="12">수익: 매출</text>
+<rect x="125" y="42" width="160" height="26" fill="#2f5d50"/>
+<text x="293" y="60" font-family="sans-serif" fill="#1d1c1a" font-size="12">800</text>
+<text x="16" y="99" font-family="sans-serif" fill="#1d1c1a" font-size="12">비용: 매출원가</text>
+<rect x="125" y="82" width="90" height="26" fill="#e07a3f"/>
+<text x="223" y="100" font-family="sans-serif" fill="#1d1c1a" font-size="12">450</text>
+<text x="16" y="139" font-family="sans-serif" fill="#1d1c1a" font-size="12">비용: 급여</text>
+<rect x="125" y="122" width="30" height="26" fill="#e07a3f"/>
+<text x="163" y="140" font-family="sans-serif" fill="#1d1c1a" font-size="12">150</text>
+<text x="16" y="179" font-family="sans-serif" fill="#1d1c1a" font-size="12">비용: 임차료</text>
+<rect x="125" y="162" width="12" height="26" fill="#e07a3f"/>
+<text x="145" y="180" font-family="sans-serif" fill="#1d1c1a" font-size="12">60</text>
+<line x1="16" y1="200" x2="364" y2="200" stroke="#7a766d" stroke-dasharray="5 4"/>
+<text x="16" y="233" font-family="sans-serif" fill="#1d1c1a" font-size="12">이익</text>
+<rect x="125" y="216" width="28" height="26" fill="#7a766d"/>
+<text x="161" y="234" font-family="sans-serif" fill="#1d1c1a" font-size="12">?</text>
+</svg>

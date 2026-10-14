@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 260" width="360" height="260">
+<rect width="360" height="260" fill="#f4efe6"/>
+<rect x="10" y="10" width="165" height="200" fill="#fffaf0" stroke="#7a766d" stroke-width="1.5"/>
+<rect x="185" y="10" width="165" height="200" fill="#fffaf0" stroke="#7a766d" stroke-width="1.5"/>
+<text x="92" y="34" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#1d1c1a" font-weight="bold">A 집단</text>
+<text x="267" y="34" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#1d1c1a" font-weight="bold">B 집단</text>
+<line x1="55" y1="95" x2="130" y2="95" stroke="#2f5d50" stroke-width="1.5"/>
+<line x1="55" y1="95" x2="55" y2="170" stroke="#2f5d50" stroke-width="1.5"/>
+<line x1="55" y1="95" x2="130" y2="170" stroke="#2f5d50" stroke-width="1.5"/>
+<line x1="130" y1="95" x2="55" y2="170" stroke="#2f5d50" stroke-width="1.5"/>
+<line x1="130" y1="95" x2="130" y2="170" stroke="#2f5d50" stroke-width="1.5"/>
+<line x1="55" y1="170" x2="130" y2="170" stroke="#2f5d50" stroke-width="1.5"/>
+<circle cx="55" cy="95" r="12" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="130" cy="95" r="12" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="55" cy="170" r="12" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="130" cy="170" r="12" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<line x1="267" y1="72" x2="227" y2="128" stroke="#2f5d50" stroke-width="1.5"/>
+<line x1="267" y1="72" x2="307" y2="128" stroke="#2f5d50" stroke-width="1.5"/>
+<line x1="227" y1="128" x2="203" y2="188" stroke="#2f5d50" stroke-width="1.5"/>
+<line x1="227" y1="128" x2="247" y2="188" stroke="#2f5d50" stroke-width="1.5"/>
+<line x1="307" y1="128" x2="287" y2="188" stroke="#2f5d50" stroke-width="1.5"/>
+<line x1="307" y1="128" x2="331" y2="188" stroke="#2f5d50" stroke-width="1.5"/>
+<circle cx="267" cy="72" r="12" fill="#fffaf0" stroke="#e07a3f" stroke-width="2"/>
+<circle cx="227" cy="128" r="12" fill="#fffaf0" stroke="#e07a3f" stroke-width="2"/>
+<circle cx="307" cy="128" r="12" fill="#fffaf0" stroke="#e07a3f" stroke-width="2"/>
+<circle cx="203" cy="188" r="12" fill="#fffaf0" stroke="#e07a3f" stroke-width="2"/>
+<circle cx="247" cy="188" r="12" fill="#fffaf0" stroke="#e07a3f" stroke-width="2"/>
+<circle cx="287" cy="188" r="12" fill="#fffaf0" stroke="#e07a3f" stroke-width="2"/>
+<circle cx="331" cy="188" r="12" fill="#fffaf0" stroke="#e07a3f" stroke-width="2"/>
+<text x="92" y="232" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">4명, 모두 서로 이어짐</text>
+<text x="267" y="232" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">7명, 위아래로 이어짐</text>
+</svg>

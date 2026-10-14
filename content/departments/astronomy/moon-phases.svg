@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 130" width="400" height="130">
+<rect width="400" height="130" fill="#f4efe6"/>
+<circle cx="40" cy="42" r="24" fill="#1d1c1a" stroke="#7a766d" stroke-width="1.5"/><path d="M40 18 A24 24 0 0 1 40 66 A12 24 0 0 0 40 18 Z" fill="#fffaf0"/><text x="40" y="92" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">초승달</text>
+<circle cx="120" cy="42" r="24" fill="#1d1c1a" stroke="#7a766d" stroke-width="1.5"/><path d="M120 18 A24 24 0 0 1 120 66 Z" fill="#fffaf0"/><text x="120" y="92" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">상현달</text>
+<circle cx="200" cy="42" r="24" fill="#1d1c1a" stroke="#7a766d" stroke-width="1.5"/><circle cx="200" cy="42" r="24" fill="#fffaf0"/><text x="200" y="92" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">보름달</text>
+<circle cx="280" cy="42" r="24" fill="#1d1c1a" stroke="#7a766d" stroke-width="1.5"/><path d="M280 18 A24 24 0 0 0 280 66 Z" fill="#fffaf0"/><text x="280" y="92" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">하현달</text>
+<circle cx="360" cy="42" r="24" fill="#1d1c1a" stroke="#7a766d" stroke-width="1.5"/><path d="M360 18 A24 24 0 0 0 360 66 A12 24 0 0 1 360 18 Z" fill="#fffaf0"/><text x="360" y="92" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">그믐달</text>
+<text x="200" y="116" font-family="sans-serif" fill="#1d1c1a" font-size="11" text-anchor="middle">북반구에서 본 모습, 왼쪽에서 오른쪽 순서</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 230" width="400" height="230">
+<rect width="400" height="230" fill="#f4efe6"/>
+<text x="20" y="24" font-size="13" text-anchor="start" font-weight="bold" font-family="sans-serif" fill="#1d1c1a">직유</text>
+<text x="20" y="40" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">비교하는 말(like, as)이 있다</text>
+<rect x="20" y="52" width="100" height="36" rx="4" fill="#7a766d" fill-opacity="0.18" stroke="#7a766d" stroke-width="1.5"/>
+<text x="70.0" y="75" font-size="14" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">my face</text>
+<rect x="130" y="52" width="60" height="36" rx="4" fill="#e07a3f" fill-opacity="0.18" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="160.0" y="75" font-size="14" text-anchor="middle" font-weight="bold" font-family="sans-serif" fill="#1d1c1a">like</text>
+<rect x="200" y="52" width="170" height="36" rx="4" fill="#7a766d" fill-opacity="0.18" stroke="#7a766d" stroke-width="1.5"/>
+<text x="285.0" y="75" font-size="14" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">a lantern</text>
+<text x="20" y="138" font-size="13" text-anchor="start" font-weight="bold" font-family="sans-serif" fill="#1d1c1a">은유</text>
+<text x="20" y="154" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">비교하는 말 없이 곧바로 이른다</text>
+<rect x="20" y="166" width="100" height="36" rx="4" fill="#7a766d" fill-opacity="0.18" stroke="#7a766d" stroke-width="1.5"/>
+<text x="70.0" y="189" font-size="14" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">the city</text>
+<rect x="130" y="166" width="40" height="36" rx="4" fill="#2f5d50" fill-opacity="0.18" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="150.0" y="189" font-size="14" text-anchor="middle" font-weight="bold" font-family="sans-serif" fill="#1d1c1a">is</text>
+<rect x="190" y="166" width="180" height="36" rx="4" fill="#7a766d" fill-opacity="0.18" stroke="#7a766d" stroke-width="1.5"/>
+<text x="280.0" y="189" font-size="14" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">a sleeping animal</text>
+</svg>

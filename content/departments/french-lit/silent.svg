@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 244" width="440" height="244">
+<rect width="440" height="244" fill="#f4efe6"/>
+<text x="20" y="22" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">낱말 끝의 t는 소리 나지 않는다</text>
+<rect x="30" y="30" width="32" height="34" rx="4" fill="#2f5d50" fill-opacity="0.12" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="46" y="54" font-size="18" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">p</text>
+<rect x="66" y="30" width="32" height="34" rx="4" fill="#2f5d50" fill-opacity="0.12" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="82" y="54" font-size="18" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">e</text>
+<rect x="102" y="30" width="32" height="34" rx="4" fill="#2f5d50" fill-opacity="0.12" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="118" y="54" font-size="18" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">t</text>
+<rect x="138" y="30" width="32" height="34" rx="4" fill="#2f5d50" fill-opacity="0.12" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="154" y="54" font-size="18" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">i</text>
+<rect x="174" y="30" width="32" height="34" rx="4" fill="none" stroke="#7a766d" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="190" y="54" font-size="18" text-anchor="middle" font-family="sans-serif" fill="#7a766d">t</text>
+<text x="190" y="80" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#7a766d">묵음</text>
+<text x="270" y="53" font-size="14" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">→ 쁘티</text>
+<text x="20" y="102" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">뒤에 e가 붙으면 t가 소리 난다</text>
+<rect x="30" y="110" width="32" height="34" rx="4" fill="#2f5d50" fill-opacity="0.12" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="46" y="134" font-size="18" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">p</text>
+<rect x="66" y="110" width="32" height="34" rx="4" fill="#2f5d50" fill-opacity="0.12" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="82" y="134" font-size="18" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">e</text>
+<rect x="102" y="110" width="32" height="34" rx="4" fill="#2f5d50" fill-opacity="0.12" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="118" y="134" font-size="18" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">t</text>
+<rect x="138" y="110" width="32" height="34" rx="4" fill="#2f5d50" fill-opacity="0.12" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="154" y="134" font-size="18" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">i</text>
+<rect x="174" y="110" width="32" height="34" rx="4" fill="#2f5d50" fill-opacity="0.12" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="190" y="134" font-size="18" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">t</text>
+<rect x="210" y="110" width="32" height="34" rx="4" fill="none" stroke="#7a766d" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="226" y="134" font-size="18" text-anchor="middle" font-family="sans-serif" fill="#7a766d">e</text>
+<text x="226" y="158" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#7a766d">묵음</text>
+<text x="270" y="133" font-size="14" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">→ 쁘띠트</text>
+<text x="20" y="182" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">연음: 앞 낱말의 s가 뒤 모음에 이어진다</text>
+<rect x="30" y="190" width="32" height="34" rx="4" fill="#2f5d50" fill-opacity="0.12" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="46" y="214" font-size="18" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">v</text>
+<rect x="66" y="190" width="32" height="34" rx="4" fill="#2f5d50" fill-opacity="0.12" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="82" y="214" font-size="18" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">o</text>
+<rect x="102" y="190" width="32" height="34" rx="4" fill="#2f5d50" fill-opacity="0.12" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="118" y="214" font-size="18" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">u</text>
+<rect x="138" y="190" width="32" height="34" rx="4" fill="#2f5d50" fill-opacity="0.12" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="154" y="214" font-size="18" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">s</text>
+<rect x="194" y="190" width="32" height="34" rx="4" fill="#2f5d50" fill-opacity="0.12" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="210" y="214" font-size="18" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">a</text>
+<rect x="230" y="190" width="32" height="34" rx="4" fill="#2f5d50" fill-opacity="0.12" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="246" y="214" font-size="18" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">v</text>
+<rect x="266" y="190" width="32" height="34" rx="4" fill="#2f5d50" fill-opacity="0.12" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="282" y="214" font-size="18" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">e</text>
+<rect x="302" y="190" width="32" height="34" rx="4" fill="#2f5d50" fill-opacity="0.12" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="318" y="214" font-size="18" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">z</text>
+<rect x="138" y="190" width="32" height="34" rx="4" fill="none" stroke="#e07a3f" stroke-width="2"/>
+<rect x="194" y="190" width="32" height="34" rx="4" fill="none" stroke="#e07a3f" stroke-width="2"/>
+<path d="M154,224 Q182,240 210,224" fill="none" stroke="#e07a3f" stroke-width="2"/>
+<text x="344" y="213" font-size="14" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">→ 부 자베</text>
+</svg>

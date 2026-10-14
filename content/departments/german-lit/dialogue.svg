@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 298" width="400" height="298">
+<rect width="400" height="298" fill="#f4efe6"/>
+<rect x="12" y="12" width="260" height="53" rx="5" fill="#2f5d50" fill-opacity="0.14" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="22" y="34" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">Hallo! Ich heiße Mina.</text>
+<text x="22" y="53" font-size="11" text-anchor="start" font-family="sans-serif" fill="#7a766d">미나: 안녕! 내 이름은 미나야.</text>
+<rect x="128" y="75" width="260" height="70" rx="5" fill="#e07a3f" fill-opacity="0.14" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="138" y="97" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">Hallo, Mina! Ich heiße Jonas.</text>
+<text x="138" y="114" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">Woher kommst du?</text>
+<text x="138" y="133" font-size="11" text-anchor="start" font-family="sans-serif" fill="#7a766d">요나스: 안녕! 요나스야. 어디서 왔어?</text>
+<rect x="12" y="155" width="260" height="53" rx="5" fill="#2f5d50" fill-opacity="0.14" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="22" y="177" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">Ich komme aus Korea. Und du?</text>
+<text x="22" y="196" font-size="11" text-anchor="start" font-family="sans-serif" fill="#7a766d">미나: 한국에서 왔어. 너는?</text>
+<rect x="128" y="218" width="260" height="70" rx="5" fill="#e07a3f" fill-opacity="0.14" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="138" y="240" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">Ich komme aus Deutschland.</text>
+<text x="138" y="257" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">Ich wohne in Berlin.</text>
+<text x="138" y="276" font-size="11" text-anchor="start" font-family="sans-serif" fill="#7a766d">요나스: 독일에서 왔어. 베를린에 살아.</text>
+</svg>

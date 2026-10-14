@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+<rect width="400" height="200" fill="#f4efe6"/>
+<rect x="10" y="110" width="380" height="80" fill="#e6dccb"/>
+<line x1="10" y1="110" x2="390" y2="110" stroke="#7a766d" stroke-width="2"/>
+<text x="60" y="160" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">흙 (지반)</text>
+<rect x="190" y="40" width="20" height="50" fill="#fbf8f2" stroke="#1d1c1a" stroke-width="2"/>
+<rect x="140" y="90" width="120" height="20" fill="#fbf8f2" stroke="#2f5d50" stroke-width="2.5"/>
+<line x1="200" y1="8" x2="200" y2="32" stroke="#e07a3f" stroke-width="3"/><polygon points="200,38 195,29 205,29" fill="#e07a3f"/>
+<text x="216" y="24" font-family="sans-serif" font-size="13" fill="#1d1c1a">누르는 힘 600 kN</text>
+<text x="70" y="104" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">기초판</text>
+<line x1="102" y1="100" x2="138" y2="100" stroke="#7a766d" stroke-width="1.5"/>
+<line x1="140" y1="124" x2="260" y2="124" stroke="#1d1c1a" stroke-width="1.5"/>
+<line x1="140" y1="119" x2="140" y2="129" stroke="#1d1c1a" stroke-width="1.5"/>
+<line x1="260" y1="119" x2="260" y2="129" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="200" y="142" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">폭 2 m</text>
+<text x="272" y="75" font-family="sans-serif" font-size="12" fill="#1d1c1a">안쪽 길이 1 m</text>
+</svg>

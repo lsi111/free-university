@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 230" width="380" height="230">
+<rect width="380" height="230" fill="#f4efe6"/>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#7a766d"/></marker></defs>
+<rect x="10" y="30" width="110" height="150" fill="#fffaf0" stroke="#2f5d50" stroke-width="1.5"/>
+<rect x="125" y="30" width="130" height="150" fill="#fffaf0" stroke="#e07a3f" stroke-width="1.5"/>
+<rect x="260" y="30" width="110" height="150" fill="#fffaf0" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="65" y="52" font-family="sans-serif" fill="#1d1c1a" font-size="14" text-anchor="middle">1막</text>
+<text x="190" y="52" font-family="sans-serif" fill="#1d1c1a" font-size="14" text-anchor="middle">2막</text>
+<text x="315" y="52" font-family="sans-serif" fill="#1d1c1a" font-size="14" text-anchor="middle">3막</text>
+<text x="65" y="72" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">설정</text>
+<text x="190" y="72" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">대립</text>
+<text x="315" y="72" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">해결</text>
+<path d="M20 165 L100 150 L130 140 L170 110 L210 100 L250 80 L280 60 L310 120 L360 150" stroke="#1d1c1a" stroke-width="1.5" fill="none"/>
+<circle cx="280" cy="60" r="4" stroke="#1d1c1a" stroke-width="1.5" fill="#1d1c1a"/>
+<text x="190" y="205" font-family="sans-serif" fill="#1d1c1a" font-size="12" text-anchor="middle">선이 높을수록 긴장이 높다</text>
+</svg>

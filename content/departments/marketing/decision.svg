@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 330" width="360" height="330" font-family="sans-serif">
+  <rect width="360" height="330" fill="#f4efe6"/>
+  <rect x="30" y="12" width="290" height="48" rx="8" fill="none" stroke="#2f5d50" stroke-width="2"/>
+  <text x="44" y="32" font-size="14" font-weight="700" fill="#2f5d50">① 문제 인식</text>
+  <text x="44" y="50" font-size="12" fill="#1d1c1a">필통이 낡았다고 느낀다</text>
+  <line x1="175" y1="60" x2="175" y2="72" stroke="#7a766d" stroke-width="2"/>
+  <polygon points="169,67 181,67 175,74" fill="#7a766d"/>
+  <rect x="30" y="74" width="290" height="48" rx="8" fill="none" stroke="#2f5d50" stroke-width="2"/>
+  <text x="44" y="94" font-size="14" font-weight="700" fill="#2f5d50">② 정보 탐색</text>
+  <text x="44" y="112" font-size="12" fill="#1d1c1a">후기와 가게 정보를 찾아본다</text>
+  <line x1="175" y1="122" x2="175" y2="134" stroke="#7a766d" stroke-width="2"/>
+  <polygon points="169,129 181,129 175,136" fill="#7a766d"/>
+  <rect x="30" y="136" width="290" height="48" rx="8" fill="none" stroke="#2f5d50" stroke-width="2"/>
+  <text x="44" y="156" font-size="14" font-weight="700" fill="#2f5d50">③ 대안 평가</text>
+  <text x="44" y="174" font-size="12" fill="#1d1c1a">가격과 품질을 견주어 본다</text>
+  <line x1="175" y1="184" x2="175" y2="196" stroke="#7a766d" stroke-width="2"/>
+  <polygon points="169,191 181,191 175,198" fill="#7a766d"/>
+  <rect x="30" y="198" width="290" height="48" rx="8" fill="none" stroke="#2f5d50" stroke-width="2"/>
+  <text x="44" y="218" font-size="14" font-weight="700" fill="#2f5d50">④ 구매</text>
+  <text x="44" y="236" font-size="12" fill="#1d1c1a">하나를 골라 값을 치른다</text>
+  <line x1="175" y1="246" x2="175" y2="258" stroke="#7a766d" stroke-width="2"/>
+  <polygon points="169,253 181,253 175,260" fill="#7a766d"/>
+  <rect x="30" y="260" width="290" height="48" rx="8" fill="none" stroke="#2f5d50" stroke-width="2"/>
+  <text x="44" y="280" font-size="14" font-weight="700" fill="#2f5d50">⑤ 구매 후 평가</text>
+  <text x="44" y="298" font-size="12" fill="#1d1c1a">만족·불만이 다음 구매에 영향</text>
+  <path d="M320 284 H340 V36 H326" fill="none" stroke="#e07a3f" stroke-width="2" stroke-dasharray="4 3"/>
+  <polygon points="326,30 326,42 319,36" fill="#e07a3f"/>
+</svg>

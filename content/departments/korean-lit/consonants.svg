@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 310" width="400" height="310">
+<rect width="400" height="310" fill="#f4efe6"/>
+<text x="200" y="24" font-size="13" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">기본 자음 다섯 글자: 발음 기관을 본뜸</text>
+<rect x="10" y="40" width="70" height="128" rx="6" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="45" y="86" font-size="34" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#2f5d50">ㄱ</text>
+<text x="45" y="112" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">혀뿌리가</text>
+<text x="45" y="128" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">목구멍을</text>
+<text x="45" y="144" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">막는 모양</text>
+<rect x="86" y="40" width="70" height="128" rx="6" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="121" y="86" font-size="34" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#2f5d50">ㄴ</text>
+<text x="121" y="112" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">혀가 윗</text>
+<text x="121" y="128" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">잇몸에</text>
+<text x="121" y="144" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">닿는 모양</text>
+<rect x="162" y="40" width="70" height="128" rx="6" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="197" y="86" font-size="34" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#2f5d50">ㅁ</text>
+<text x="197" y="112" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">입 모양</text>
+<rect x="238" y="40" width="70" height="128" rx="6" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="273" y="86" font-size="34" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#2f5d50">ㅅ</text>
+<text x="273" y="112" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">이(치아)</text>
+<text x="273" y="128" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">모양</text>
+<rect x="314" y="40" width="70" height="128" rx="6" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="349" y="86" font-size="34" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#2f5d50">ㅇ</text>
+<text x="349" y="112" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">목구멍</text>
+<text x="349" y="128" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">모양</text>
+<text x="200" y="194" font-size="13" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">획을 더해 만든 글자 (소리가 세어짐)</text>
+<rect x="10" y="208" width="70" height="44" rx="6" fill="#e07a3f" fill-opacity="0.12" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="45" y="236" font-size="12" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">ㄱ→ㅋ</text>
+<rect x="86" y="208" width="70" height="44" rx="6" fill="#e07a3f" fill-opacity="0.12" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="121" y="236" font-size="12" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">ㄴ→ㄷ→ㅌ</text>
+<rect x="162" y="208" width="70" height="44" rx="6" fill="#e07a3f" fill-opacity="0.12" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="197" y="236" font-size="12" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">ㅁ→ㅂ→ㅍ</text>
+<rect x="238" y="208" width="70" height="44" rx="6" fill="#e07a3f" fill-opacity="0.12" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="273" y="236" font-size="12" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">ㅅ→ㅈ→ㅊ</text>
+<rect x="314" y="208" width="70" height="44" rx="6" fill="#e07a3f" fill-opacity="0.12" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="349" y="236" font-size="12" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">ㅇ→ㅎ</text>
+<text x="200" y="282" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#7a766d">기본자는 모양, 나머지는 기본자에 획을 더해서 얻는다</text>
+</svg>

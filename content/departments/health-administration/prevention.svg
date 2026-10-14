@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 214" width="360" height="214">
+<rect width="360" height="214" fill="#f4efe6"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7a766d"/></marker></defs>
+<text x="180" y="22" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a" font-weight="bold">예방의 세 단계</text>
+<rect x="8" y="34" width="104" height="112" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<text x="60.0" y="56" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#1d1c1a" font-weight="bold">1차 예방</text>
+<text x="60.0" y="78" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">병이 생기기 전</text>
+<text x="60.0" y="98" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">위험을 줄인다</text>
+<rect x="128" y="34" width="104" height="112" fill="#fffaf0" stroke="#e07a3f" stroke-width="2"/>
+<text x="180.0" y="56" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#1d1c1a" font-weight="bold">2차 예방</text>
+<text x="180.0" y="78" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">일찍 찾아낸다</text>
+<text x="180.0" y="98" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">(조기 발견)</text>
+<rect x="248" y="34" width="104" height="112" fill="#fffaf0" stroke="#7a766d" stroke-width="2"/>
+<text x="300.0" y="56" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#1d1c1a" font-weight="bold">3차 예방</text>
+<text x="300.0" y="78" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">이미 생긴 뒤</text>
+<text x="300.0" y="98" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">악화와 후유를</text>
+<text x="300.0" y="118" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">줄인다</text>
+<line x1="20" y1="176" x2="336" y2="176" stroke="#7a766d" stroke-width="2" marker-end="url(#a)"/>
+<text x="180" y="198" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#7a766d">시간의 흐름</text>
+</svg>

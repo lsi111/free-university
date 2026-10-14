@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 215" width="400" height="215">
+<rect width="400" height="215" fill="#f4efe6"/>
+<text x="20" y="24" font-size="13" text-anchor="start" font-weight="bold" font-family="sans-serif" fill="#1d1c1a">영어: 주어 - 동사 - 목적어 (SVO)</text>
+<rect x="20" y="34" width="110" height="40" rx="4" fill="#2f5d50" fill-opacity="0.15" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="75" y="59" font-size="15" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">The cat</text>
+<text x="75" y="92" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">S 주어</text>
+<rect x="145" y="34" width="110" height="40" rx="4" fill="#e07a3f" fill-opacity="0.15" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="200" y="59" font-size="15" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">chased</text>
+<text x="200" y="92" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">V 동사</text>
+<rect x="270" y="34" width="110" height="40" rx="4" fill="#7a766d" fill-opacity="0.15" stroke="#7a766d" stroke-width="1.5"/>
+<text x="325" y="59" font-size="15" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">a mouse</text>
+<text x="325" y="92" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">O 목적어</text>
+<text x="20" y="128" font-size="13" text-anchor="start" font-weight="bold" font-family="sans-serif" fill="#1d1c1a">한국어: 주어 - 목적어 - 동사 (SOV)</text>
+<rect x="20" y="138" width="110" height="40" rx="4" fill="#2f5d50" fill-opacity="0.15" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="75" y="163" font-size="15" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">고양이가</text>
+<text x="75" y="196" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">S 주어</text>
+<rect x="145" y="138" width="110" height="40" rx="4" fill="#7a766d" fill-opacity="0.15" stroke="#7a766d" stroke-width="1.5"/>
+<text x="200" y="163" font-size="15" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">쥐를</text>
+<text x="200" y="196" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">O 목적어</text>
+<rect x="270" y="138" width="110" height="40" rx="4" fill="#e07a3f" fill-opacity="0.15" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="325" y="163" font-size="15" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">쫓았다</text>
+<text x="325" y="196" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">V 동사</text>
+</svg>

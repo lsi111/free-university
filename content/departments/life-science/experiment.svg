@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 260" width="360" height="260">
+  <rect width="360" height="260" fill="#f4efe6"/>
+  <g fill="#ffffff" stroke="#1d1c1a" stroke-width="2"><rect x="20" y="45" width="150" height="150" rx="8"/><rect x="190" y="45" width="150" height="150" rx="8"/></g>
+  <g font-family="sans-serif" fill="#1d1c1a" text-anchor="middle">
+    <text x="95" y="34" font-size="14" font-weight="bold">A 화분들</text><text x="265" y="34" font-size="14" font-weight="bold">B 화분들</text>
+    <g font-size="13"><text x="95" y="82">씨앗 10개</text><text x="95" y="108">흙·빛·물 같음</text><text x="265" y="82">씨앗 10개</text><text x="265" y="108">흙·빛·물 같음</text></g>
+    <text x="95" y="150" font-size="15" font-weight="bold" fill="#e07a3f">비료 줌</text>
+    <text x="265" y="150" font-size="15" font-weight="bold" fill="#7a766d">비료 안 줌</text>
+    <text x="180" y="232" font-size="13">2주 뒤 싹의 키를 재어 두 집단을 비교한다.</text>
+  </g>
+</svg>

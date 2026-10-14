@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260">
+<rect width="400" height="260" fill="#f4efe6"/>
+<text x="200" y="28" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">지층 단면 (위쪽이 지표)</text>
+<rect x="30" y="70" width="340" height="40" fill="#c3cfc9" stroke="#7a766d" stroke-width="1"/>
+<text x="60" y="95" font-family="sans-serif" font-size="15" fill="#1d1c1a" text-anchor="middle" font-weight="bold">라</text>
+<rect x="30" y="110" width="340" height="40" fill="#e6dcc4" stroke="#7a766d" stroke-width="1"/>
+<text x="60" y="135" font-family="sans-serif" font-size="15" fill="#1d1c1a" text-anchor="middle" font-weight="bold">다</text>
+<rect x="30" y="150" width="340" height="40" fill="#cbd6cf" stroke="#7a766d" stroke-width="1"/>
+<text x="60" y="175" font-family="sans-serif" font-size="15" fill="#1d1c1a" text-anchor="middle" font-weight="bold">나</text>
+<rect x="30" y="190" width="340" height="40" fill="#d9cdb4" stroke="#7a766d" stroke-width="1"/>
+<text x="60" y="215" font-family="sans-serif" font-size="15" fill="#1d1c1a" text-anchor="middle" font-weight="bold">가</text>
+<rect x="270" y="110" width="30" height="120" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1"/>
+<text x="285" y="175" font-family="sans-serif" font-size="15" fill="#1d1c1a" text-anchor="middle" font-weight="bold">마</text>
+</svg>

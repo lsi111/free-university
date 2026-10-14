@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 200" width="380" height="200">
+<rect width="380" height="200" fill="#f4efe6"/>
+<text x="190" y="26" font-family="sans-serif" fill="#1d1c1a" font-size="14" font-weight="bold" text-anchor="middle">두 가상 나라의 교환</text>
+<rect x="20" y="50" width="130" height="110" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<text x="85" y="78" font-family="sans-serif" fill="#1d1c1a" font-size="14" font-weight="bold" text-anchor="middle">바다나라</text>
+<text x="85" y="108" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">생선 수출</text>
+<text x="85" y="132" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">옷감 수입</text>
+<rect x="230" y="50" width="130" height="110" fill="#fffaf0" stroke="#e07a3f" stroke-width="2"/>
+<text x="295" y="78" font-family="sans-serif" fill="#1d1c1a" font-size="14" font-weight="bold" text-anchor="middle">들판나라</text>
+<text x="295" y="108" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">옷감 수출</text>
+<text x="295" y="132" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">생선 수입</text>
+<text x="190" y="84" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">생선</text>
+<line x1="158" y1="92" x2="216" y2="92" stroke="#2f5d50" stroke-width="3"/>
+<polygon points="224,92 214,86 214,98" fill="#2f5d50"/>
+<text x="190" y="132" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">옷감</text>
+<line x1="222" y1="140" x2="164" y2="140" stroke="#e07a3f" stroke-width="3"/>
+<polygon points="156,140 166,134 166,146" fill="#e07a3f"/>
+</svg>

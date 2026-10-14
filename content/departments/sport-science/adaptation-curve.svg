@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" width="360" height="220">
+  <rect width="360" height="220" fill="#f4efe6"/>
+  <line x1="40" y1="200" x2="340" y2="200" stroke="#1d1c1a" stroke-width="1.5"/>
+  <line x1="40" y1="30" x2="40" y2="200" stroke="#1d1c1a" stroke-width="1.5"/>
+  <line x1="40" y1="110" x2="340" y2="110" stroke="#7a766d" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="90" y1="50" x2="90" y2="200" stroke="#e07a3f" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <path d="M40 110 L90 110 C100 150 110 165 130 165 C160 165 190 95 215 85 C235 78 260 95 300 110" fill="none" stroke="#2f5d50" stroke-width="3"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="180" y="20" text-anchor="middle" font-size="13" font-weight="bold">자극 뒤의 몸 상태 (개념 모형)</text>
+    <text x="90" y="44" text-anchor="middle" font-size="12" fill="#e07a3f" font-weight="bold">운동 자극</text>
+    <text x="130" y="185" text-anchor="middle" font-size="12">피로</text>
+    <text x="215" y="70" text-anchor="middle" font-size="12">초과 회복</text>
+    <text x="340" y="128" text-anchor="end" font-size="11" fill="#7a766d">기준선(처음 수준)</text>
+    <text x="340" y="215" text-anchor="end" font-size="11">시간 →</text>
+    <text x="16" y="115" font-size="11" transform="rotate(-90 16 115)" text-anchor="middle">몸의 상태</text>
+  </g>
+</svg>

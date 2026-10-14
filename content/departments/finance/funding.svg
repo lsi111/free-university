@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 215" width="380" height="215">
+<rect width="380" height="215" fill="#f4efe6"/>
+<rect x="15" y="20" width="350" height="44" fill="#fffaf0" stroke="#1d1c1a" stroke-width="2"/>
+<text x="190" y="47" font-family="sans-serif" fill="#1d1c1a" font-size="14" font-weight="bold" text-anchor="middle">회사 (가상 회사 새싹전자)</text>
+<line x1="35" y1="138" x2="35" y2="76" stroke="#2f5d50" stroke-width="2"/><polygon points="30,76 40,76 35,66" fill="#2f5d50"/>
+<text x="43" y="108" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="start">투자금</text>
+<line x1="170" y1="66" x2="170" y2="128" stroke="#2f5d50" stroke-width="2"/><polygon points="165,128 175,128 170,138" fill="#2f5d50"/>
+<text x="162" y="108" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="end">배당</text>
+<line x1="215" y1="138" x2="215" y2="76" stroke="#e07a3f" stroke-width="2"/><polygon points="210,76 220,76 215,66" fill="#e07a3f"/>
+<text x="223" y="108" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="start">빌려줌</text>
+<line x1="350" y1="66" x2="350" y2="128" stroke="#e07a3f" stroke-width="2"/><polygon points="345,128 355,128 350,138" fill="#e07a3f"/>
+<text x="342" y="108" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="end">원금+이자</text>
+<rect x="15" y="140" width="170" height="60" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<text x="100" y="163" font-family="sans-serif" fill="#1d1c1a" font-size="13" font-weight="bold" text-anchor="middle">주주 (주식)</text>
+<text x="100" y="184" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">회사의 일부를 가짐</text>
+<rect x="195" y="140" width="170" height="60" fill="#fffaf0" stroke="#e07a3f" stroke-width="2"/>
+<text x="280" y="163" font-family="sans-serif" fill="#1d1c1a" font-size="13" font-weight="bold" text-anchor="middle">채권자 (채권)</text>
+<text x="280" y="184" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">정해진 날 돌려받음</text>
+</svg>

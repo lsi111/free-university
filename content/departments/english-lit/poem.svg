@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 215" width="400" height="215">
+<rect width="400" height="215" fill="#f4efe6"/>
+<rect x="20" y="14" width="360" height="187" rx="4" fill="#fffaf0" stroke="#7a766d" stroke-width="1.5"/>
+<text x="200" y="40" font-size="15" text-anchor="middle" font-weight="bold" font-family="sans-serif" fill="#1d1c1a">Last Bus</text>
+<text x="40" y="70" font-size="14" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">I ride the last bus home.</text>
+<text x="40" y="96" font-size="14" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">The window holds my face</text>
+<text x="40" y="122" font-size="14" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">like a lantern on black water.</text>
+<text x="40" y="148" font-size="14" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">The city is a sleeping animal,</text>
+<text x="40" y="174" font-size="14" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">and I, a thought it forgot to finish.</text>
+</svg>

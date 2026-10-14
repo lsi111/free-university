@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 225" width="380" height="225">
+<rect width="380" height="225" fill="#f4efe6"/>
+<circle cx="90" cy="115" r="40" fill="none" stroke="#e07a3f" stroke-width="9" stroke-dasharray="6.283 6.283"/>
+<circle cx="90" cy="115" r="36" fill="#fbf8f2" stroke="#1d1c1a" stroke-width="2"/>
+<circle cx="210" cy="115" r="80" fill="none" stroke="#2f5d50" stroke-width="9" stroke-dasharray="6.283 6.283"/>
+<circle cx="210" cy="115" r="76" fill="#fbf8f2" stroke="#1d1c1a" stroke-width="2"/>
+<text x="90" y="120" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#1d1c1a">20개</text>
+<text x="210" y="112" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#1d1c1a">40개</text>
+<text x="210" y="134" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">피동(출력)</text>
+<text x="90" y="62" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">구동(입력)</text>
+<text x="90" y="178" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">시계 방향</text>
+<text x="210" y="214" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">반시계 방향</text>
+</svg>

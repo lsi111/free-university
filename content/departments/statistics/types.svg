@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 230" width="400" height="230">
+<rect width="400" height="230" fill="#f4efe6"/>
+<text x="200" y="22" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1d1c1a">자료의 종류</text>
+<rect x="150" y="34" width="100" height="28" fill="#fffaf0" stroke="#7a766d" stroke-width="1.5" />
+<text x="200" y="52.55" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">변수(특성)</text>
+<line x1="200" y1="62" x2="200" y2="72" stroke="#7a766d" stroke-width="1.5"/>
+<line x1="103" y1="72" x2="297" y2="72" stroke="#7a766d" stroke-width="1.5"/>
+<line x1="103" y1="72" x2="103" y2="86" stroke="#7a766d" stroke-width="1.5"/>
+<line x1="297" y1="72" x2="297" y2="86" stroke="#7a766d" stroke-width="1.5"/>
+<rect x="28" y="86" width="150" height="28" fill="#fffaf0" stroke="#2f5d50" stroke-width="1.5" />
+<text x="103" y="104.55" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1d1c1a">범주형 (이름표)</text>
+<rect x="222" y="86" width="150" height="28" fill="#fffaf0" stroke="#e07a3f" stroke-width="1.5" />
+<text x="297" y="104.55" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1d1c1a">수치형 (숫자)</text>
+<line x1="103" y1="114" x2="103" y2="124" stroke="#7a766d" stroke-width="1.5"/>
+<line x1="53" y1="124" x2="153" y2="124" stroke="#7a766d" stroke-width="1.5"/>
+<line x1="53" y1="124" x2="53" y2="134" stroke="#7a766d" stroke-width="1.5"/>
+<line x1="153" y1="124" x2="153" y2="134" stroke="#7a766d" stroke-width="1.5"/>
+<line x1="297" y1="114" x2="297" y2="124" stroke="#7a766d" stroke-width="1.5"/>
+<line x1="247" y1="124" x2="347" y2="124" stroke="#7a766d" stroke-width="1.5"/>
+<line x1="247" y1="124" x2="247" y2="134" stroke="#7a766d" stroke-width="1.5"/>
+<line x1="347" y1="124" x2="347" y2="134" stroke="#7a766d" stroke-width="1.5"/>
+<rect x="8" y="134" width="90" height="28" fill="#fffaf0" stroke="#2f5d50" stroke-width="1.5" />
+<text x="53" y="152.55" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">명목형</text>
+<text x="53" y="184" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#1d1c1a">혈액형</text>
+<text x="53" y="202" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#1d1c1a">거주 지역</text>
+<rect x="108" y="134" width="90" height="28" fill="#fffaf0" stroke="#2f5d50" stroke-width="1.5" />
+<text x="153" y="152.55" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">순서형</text>
+<text x="153" y="184" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#1d1c1a">학점 등급</text>
+<text x="153" y="202" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#1d1c1a">만족도 단계</text>
+<rect x="202" y="134" width="90" height="28" fill="#fffaf0" stroke="#e07a3f" stroke-width="1.5" />
+<text x="247" y="152.55" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">이산형</text>
+<text x="247" y="184" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#1d1c1a">형제 수</text>
+<text x="247" y="202" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#1d1c1a">방문 횟수</text>
+<rect x="302" y="134" width="90" height="28" fill="#fffaf0" stroke="#e07a3f" stroke-width="1.5" />
+<text x="347" y="152.55" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">연속형</text>
+<text x="347" y="184" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#1d1c1a">키</text>
+<text x="347" y="202" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#1d1c1a">통학 시간</text>
+<text x="200" y="222" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#7a766d">(예시는 모두 가상의 자료에서 가져왔다)</text>
+</svg>

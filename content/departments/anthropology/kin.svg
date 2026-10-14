@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 284" width="360" height="284">
+<rect width="360" height="284" fill="#f4efe6"/>
+<text x="180" y="18" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a" font-weight="bold">가상 사회의 가계도</text>
+<line x1="124" y1="48" x2="186" y2="48" stroke="#1d1c1a" stroke-width="2"/>
+<line x1="124" y1="52" x2="186" y2="52" stroke="#1d1c1a" stroke-width="2"/>
+<line x1="40" y1="128" x2="86" y2="128" stroke="#1d1c1a" stroke-width="2"/>
+<line x1="40" y1="132" x2="86" y2="132" stroke="#1d1c1a" stroke-width="2"/>
+<line x1="224" y1="128" x2="286" y2="128" stroke="#1d1c1a" stroke-width="2"/>
+<line x1="224" y1="132" x2="286" y2="132" stroke="#1d1c1a" stroke-width="2"/>
+<line x1="155" y1="52" x2="155" y2="90" stroke="#1d1c1a" stroke-width="2"/>
+<line x1="100" y1="90" x2="210" y2="90" stroke="#1d1c1a" stroke-width="2"/>
+<line x1="100" y1="90" x2="100" y2="117" stroke="#1d1c1a" stroke-width="2"/>
+<line x1="210" y1="90" x2="210" y2="117" stroke="#1d1c1a" stroke-width="2"/>
+<line x1="63" y1="132" x2="63" y2="197" stroke="#1d1c1a" stroke-width="2"/>
+<line x1="255" y1="132" x2="255" y2="197" stroke="#1d1c1a" stroke-width="2"/>
+<polygon points="110,36 96,62 124,62" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="200" cy="50" r="13" fill="#e07a3f" stroke="#1d1c1a" stroke-width="2"/>
+<polygon points="100,116 86,142 114,142" fill="#e07a3f" stroke="#1d1c1a" stroke-width="2"/>
+<circle cx="210" cy="130" r="13" fill="#e07a3f" stroke="#1d1c1a" stroke-width="2"/>
+<circle cx="26" cy="130" r="13" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="300,116 286,142 314,142" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="63,196 49,222 77,222" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="255" cy="210" r="13" fill="#e07a3f" stroke="#1d1c1a" stroke-width="2"/>
+<text x="110" y="82" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">하늘</text>
+<text x="200" y="82" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">보라</text>
+<text x="100" y="162" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">이든</text>
+<text x="210" y="162" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">새롬</text>
+<text x="26" y="162" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">나래</text>
+<text x="300" y="162" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">도윤</text>
+<text x="63" y="242" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">가람</text>
+<text x="255" y="242" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">솔</text>
+<rect x="14" y="262" width="12" height="12" fill="#e07a3f" stroke="#1d1c1a" stroke-width="2"/>
+<text x="32" y="273" font-family="sans-serif" font-size="12" text-anchor="start" fill="#1d1c1a">주황 칸: 보라와 같은 계통</text>
+<text x="346" y="273" font-family="sans-serif" font-size="12" text-anchor="end" fill="#1d1c1a">△ 남자  ○ 여자  = 혼인</text>
+</svg>

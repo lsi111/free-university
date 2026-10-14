@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+<rect width="400" height="200" fill="#f4efe6"/>
+<text x="90" y="40" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a" font-weight="bold">회분식</text>
+<rect x="30" y="50" width="120" height="80" rx="6" fill="#fbf8f2" stroke="#2f5d50" stroke-width="2"/>
+<text x="90" y="85" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">한꺼번에 넣고</text>
+<text x="90" y="103" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">반응 뒤 꺼낸다</text>
+<text x="90" y="155" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">시간에 따라 변한다</text>
+<text x="300" y="40" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a" font-weight="bold">연속식</text>
+<rect x="230" y="70" width="140" height="40" rx="6" fill="#fbf8f2" stroke="#2f5d50" stroke-width="2"/>
+<text x="300" y="95" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">관 속을 흘러간다</text>
+<line x1="190" y1="90" x2="220.0" y2="90.0" stroke="#e07a3f" stroke-width="2"/><polygon points="228,90 220.0,94.0 220.0,86.0" fill="#e07a3f"/>
+<text x="205" y="82" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">원료</text>
+<line x1="372" y1="90" x2="388.0" y2="90.0" stroke="#e07a3f" stroke-width="2"/><polygon points="396,90 388.0,94.0 388.0,86.0" fill="#e07a3f"/>
+<text x="372" y="128" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">생성물</text>
+<text x="300" y="155" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">흐름이 계속 이어진다</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 180" width="360" height="180">
+  <rect width="360" height="180" fill="#f4efe6"/>
+  <g fill="none" stroke="#2f5d50" stroke-width="2"><rect x="10" y="50" width="90" height="70" rx="6"/><rect x="135" y="50" width="90" height="70" rx="6"/><rect x="260" y="50" width="90" height="70" rx="6"/></g>
+  <g font-family="sans-serif" fill="#1d1c1a" text-anchor="middle">
+    <text x="55" y="82" font-size="14" font-weight="bold">감각 기억</text><text x="55" y="102" font-size="11">아주 잠깐</text>
+    <text x="180" y="82" font-size="14" font-weight="bold">단기 기억</text><text x="180" y="102" font-size="11">짧고 작다</text>
+    <text x="305" y="82" font-size="14" font-weight="bold">장기 기억</text><text x="305" y="102" font-size="11">오래, 크다</text>
+    <text x="117" y="40" font-size="12">주의</text><text x="242" y="40" font-size="12">부호화</text>
+    <text x="242" y="170" font-size="12" fill="#e07a3f" font-weight="bold">인출</text>
+  </g>
+  <g stroke="#1d1c1a" stroke-width="2" fill="none"><line x1="104" y1="85" x2="124" y2="85"/><line x1="229" y1="85" x2="249" y2="85"/></g>
+  <g fill="#1d1c1a"><polygon points="131,85 123,81 123,89"/><polygon points="256,85 248,81 248,89"/></g>
+  <path d="M305 120 V150 H180 V131" fill="none" stroke="#e07a3f" stroke-width="2"/>
+  <polygon points="180,123 176,131 184,131" fill="#e07a3f"/>
+</svg>

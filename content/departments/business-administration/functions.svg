@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" viewBox="0 0 360 240" width="360" height="240">
+  <rect width="360" height="240" fill="#f4efe6"/>
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#7a766d"/></marker></defs>
+  <text x="180" y="26" font-size="14" font-weight="700" fill="#1d1c1a" text-anchor="middle">경영의 네 기능과 순환</text>
+  <g stroke="#7a766d" stroke-width="2" marker-end="url(#a)">
+    <line x1="160" y1="72" x2="198" y2="72"/><line x1="270" y1="98" x2="270" y2="146"/>
+    <line x1="200" y1="178" x2="162" y2="178"/><line x1="90" y1="152" x2="90" y2="100"/>
+  </g>
+  <g fill="#f4efe6" stroke="#2f5d50" stroke-width="2">
+    <rect x="20" y="46" width="140" height="52" rx="8"/><rect x="200" y="46" width="140" height="52" rx="8"/>
+    <rect x="200" y="152" width="140" height="52" rx="8"/><rect x="20" y="152" width="140" height="52" rx="8"/>
+  </g>
+  <g font-size="14" font-weight="700" fill="#2f5d50" text-anchor="middle">
+    <text x="90" y="68">1 계획</text><text x="270" y="68">2 조직</text>
+    <text x="270" y="174">3 지휘</text><text x="90" y="174">4 통제</text>
+  </g>
+  <g font-size="12" fill="#1d1c1a" text-anchor="middle">
+    <text x="90" y="88">목표와 방법 정하기</text><text x="270" y="88">일과 사람 나누기</text>
+    <text x="270" y="194">이끌고 동기 부여</text><text x="90" y="194">결과 재고 바로잡기</text>
+  </g>
+  <text x="180" y="228" font-size="11" fill="#7a766d" text-anchor="middle">통제에서 얻은 정보는 다음 계획에 쓰인다</text>
+</svg>

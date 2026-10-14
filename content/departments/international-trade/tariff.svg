@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 230" width="380" height="230">
+<rect width="380" height="230" fill="#f4efe6"/>
+<text x="190" y="22" font-family="sans-serif" fill="#1d1c1a" font-size="13" font-weight="bold" text-anchor="middle">수입품 한 개의 국내 가격(가상, 원)</text>
+<rect x="60" y="70" width="80" height="120" fill="#7a766d"/>
+<text x="100" y="64" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="bold" text-anchor="middle">200</text>
+<rect x="200" y="70" width="80" height="120" fill="#7a766d"/>
+<rect x="200" y="52" width="80" height="18" fill="#e07a3f"/>
+<text x="240" y="46" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="bold" text-anchor="middle">230</text>
+<text x="290" y="66" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="start">관세 30</text>
+<text x="290" y="130" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="start">수입 가격</text>
+<line x1="40" y1="190" x2="350" y2="190" stroke="#1d1c1a" stroke-width="1"/>
+<text x="100" y="210" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">관세가 없을 때</text>
+<text x="240" y="210" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">관세가 붙은 뒤</text>
+</svg>

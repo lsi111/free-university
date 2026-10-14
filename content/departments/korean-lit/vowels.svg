@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 270" width="400" height="270">
+<rect width="400" height="270" fill="#f4efe6"/>
+<text x="200" y="24" font-size="13" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">모음의 기본 세 글자: 하늘·땅·사람</text>
+<rect x="20" y="40" width="100" height="100" rx="6" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<circle cx="70" cy="78" r="7" fill="#2f5d50"/>
+<text x="70" y="114" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">하늘 (둥근 점)</text>
+<rect x="150" y="40" width="100" height="100" rx="6" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<line x1="172" y1="78" x2="228" y2="78" stroke="#2f5d50" stroke-width="5"/>
+<text x="200" y="114" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">땅 (평평한 선)</text>
+<rect x="280" y="40" width="100" height="100" rx="6" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<line x1="330" y1="56" x2="330" y2="100" stroke="#2f5d50" stroke-width="5"/>
+<text x="330" y="120" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">사람 (선 모양)</text>
+<text x="200" y="168" font-size="13" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">세 글자를 합쳐 만든 모음 (처음 네 글자)</text>
+<rect x="10" y="182" width="90" height="76" rx="6" fill="#e07a3f" fill-opacity="0.12" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="55" y="212" font-size="26" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#e07a3f">ㅗ</text>
+<text x="55" y="230" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">ㅡ 위에</text>
+<text x="55" y="244" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">점</text>
+<rect x="107" y="182" width="90" height="76" rx="6" fill="#e07a3f" fill-opacity="0.12" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="152" y="212" font-size="26" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#e07a3f">ㅏ</text>
+<text x="152" y="230" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">ㅣ 오른쪽에</text>
+<text x="152" y="244" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">점</text>
+<rect x="204" y="182" width="90" height="76" rx="6" fill="#e07a3f" fill-opacity="0.12" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="249" y="212" font-size="26" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#e07a3f">ㅜ</text>
+<text x="249" y="230" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">ㅡ 아래에</text>
+<text x="249" y="244" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">점</text>
+<rect x="301" y="182" width="90" height="76" rx="6" fill="#e07a3f" fill-opacity="0.12" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="346" y="212" font-size="26" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#e07a3f">ㅓ</text>
+<text x="346" y="230" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">ㅣ 왼쪽에</text>
+<text x="346" y="244" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">점</text>
+</svg>

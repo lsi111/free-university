@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 260" width="360" height="260">
+<rect width="360" height="260" fill="#f4efe6"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7a766d"/></marker></defs>
+<text x="180" y="16" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a" font-weight="bold">세 마을의 선물 고리</text>
+<rect x="130" y="26" width="100" height="36" rx="6" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<text x="180" y="49" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">물가 마을</text>
+<rect x="230" y="176" width="100" height="36" rx="6" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<text x="280" y="199" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">숲 마을</text>
+<rect x="30" y="176" width="100" height="36" rx="6" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<text x="80" y="199" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">언덕 마을</text>
+<line x1="215" y1="64" x2="285" y2="172" stroke="#7a766d" stroke-width="2" marker-end="url(#ar)"/>
+<text x="262" y="112" font-family="sans-serif" font-size="12" text-anchor="start" fill="#1d1c1a">구슬 줄</text>
+<line x1="228" y1="194" x2="132" y2="194" stroke="#7a766d" stroke-width="2" marker-end="url(#ar)"/>
+<text x="180" y="186" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">곡식 자루</text>
+<line x1="75" y1="172" x2="145" y2="64" stroke="#7a766d" stroke-width="2" marker-end="url(#ar)"/>
+<text x="98" y="112" font-family="sans-serif" font-size="12" text-anchor="end" fill="#1d1c1a">엮은 바구니</text>
+<text x="180" y="244" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">받은 마을은 언젠가 답례를 한다</text>
+</svg>

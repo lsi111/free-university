@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 200" width="380" height="200">
+<rect width="380" height="200" fill="#f4efe6"/>
+<text x="190" y="26" font-family="sans-serif" fill="#1d1c1a" font-size="14" font-weight="bold" text-anchor="middle">환율: 1파도 = 5이삭 (가상)</text>
+<rect x="20" y="50" width="130" height="64" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<text x="85" y="88" font-family="sans-serif" fill="#1d1c1a" font-size="18" font-weight="bold" text-anchor="middle">1 파도</text>
+<rect x="230" y="50" width="130" height="64" fill="#fffaf0" stroke="#e07a3f" stroke-width="2"/>
+<text x="295" y="88" font-family="sans-serif" fill="#1d1c1a" font-size="18" font-weight="bold" text-anchor="middle">5 이삭</text>
+<text x="85" y="134" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">바다나라 통화</text>
+<text x="295" y="134" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">들판나라 통화</text>
+<text x="190" y="66" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="bold" text-anchor="middle">× 5</text>
+<line x1="158" y1="74" x2="216" y2="74" stroke="#2f5d50" stroke-width="3"/>
+<polygon points="224,74 214,68 214,80" fill="#2f5d50"/>
+<text x="190" y="112" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="bold" text-anchor="middle">÷ 5</text>
+<line x1="222" y1="92" x2="164" y2="92" stroke="#e07a3f" stroke-width="3"/>
+<polygon points="156,92 166,86 166,98" fill="#e07a3f"/>
+<text x="190" y="176" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">파도 값이 오르면 1파도로 받는 이삭이 늘어난다</text>
+</svg>

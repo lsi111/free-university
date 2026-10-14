@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
+  <rect width="360" height="190" fill="#f4efe6"/>
+  <line x1="12" y1="90" x2="348" y2="90" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="12" y1="80" x2="348" y2="80" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="12" y1="70" x2="348" y2="70" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="12" y1="60" x2="348" y2="60" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="12" y1="50" x2="348" y2="50" stroke="#1d1c1a" stroke-width="1"/>
+  <path d="M25 103 C25 111 34 111 34 102 L30 54 C28 40 40 40 39 52 C38 64 24 70 21 80" fill="none" stroke="#1d1c1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M21 80 C24 91 43 87 42 73 C41 60 18 60 19 73 C20 81 33 82 34 74" fill="none" stroke="#1d1c1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="34" cy="74" r="2" fill="#1d1c1a"/>
+  <ellipse cx="110" cy="85" rx="7" ry="4.6" fill="#f4efe6" stroke="#1d1c1a" stroke-width="1.8"/>
+  <ellipse cx="110" cy="85" rx="2.4" ry="3.6" fill="none" stroke="#1d1c1a" stroke-width="1.6" transform="rotate(35 110 85)"/>
+  <ellipse cx="110" cy="75" rx="7" ry="4.6" fill="#f4efe6" stroke="#1d1c1a" stroke-width="1.8"/>
+  <ellipse cx="110" cy="75" rx="2.4" ry="3.6" fill="none" stroke="#1d1c1a" stroke-width="1.6" transform="rotate(35 110 75)"/>
+  <ellipse cx="110" cy="65" rx="7" ry="4.6" fill="#f4efe6" stroke="#1d1c1a" stroke-width="1.8"/>
+  <ellipse cx="110" cy="65" rx="2.4" ry="3.6" fill="none" stroke="#1d1c1a" stroke-width="1.6" transform="rotate(35 110 65)"/>
+  <text x="110" y="135" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#1d1c1a" font-weight="bold">가</text>
+  <ellipse cx="200" cy="80" rx="7" ry="4.6" fill="#f4efe6" stroke="#1d1c1a" stroke-width="1.8"/>
+  <ellipse cx="200" cy="80" rx="2.4" ry="3.6" fill="none" stroke="#1d1c1a" stroke-width="1.6" transform="rotate(35 200 80)"/>
+  <ellipse cx="200" cy="70" rx="7" ry="4.6" fill="#f4efe6" stroke="#1d1c1a" stroke-width="1.8"/>
+  <ellipse cx="200" cy="70" rx="2.4" ry="3.6" fill="none" stroke="#1d1c1a" stroke-width="1.6" transform="rotate(35 200 70)"/>
+  <ellipse cx="200" cy="60" rx="7" ry="4.6" fill="#f4efe6" stroke="#1d1c1a" stroke-width="1.8"/>
+  <ellipse cx="200" cy="60" rx="2.4" ry="3.6" fill="none" stroke="#1d1c1a" stroke-width="1.6" transform="rotate(35 200 60)"/>
+  <text x="200" y="135" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#1d1c1a" font-weight="bold">나</text>
+  <line x1="280" y1="100" x2="300" y2="100" stroke="#1d1c1a" stroke-width="1"/>
+  <ellipse cx="290" cy="100" rx="7" ry="4.6" fill="#f4efe6" stroke="#1d1c1a" stroke-width="1.8"/>
+  <ellipse cx="290" cy="100" rx="2.4" ry="3.6" fill="none" stroke="#1d1c1a" stroke-width="1.6" transform="rotate(35 290 100)"/>
+  <ellipse cx="290" cy="90" rx="7" ry="4.6" fill="#f4efe6" stroke="#1d1c1a" stroke-width="1.8"/>
+  <ellipse cx="290" cy="90" rx="2.4" ry="3.6" fill="none" stroke="#1d1c1a" stroke-width="1.6" transform="rotate(35 290 90)"/>
+  <ellipse cx="290" cy="80" rx="7" ry="4.6" fill="#f4efe6" stroke="#1d1c1a" stroke-width="1.8"/>
+  <ellipse cx="290" cy="80" rx="2.4" ry="3.6" fill="none" stroke="#1d1c1a" stroke-width="1.6" transform="rotate(35 290 80)"/>
+  <text x="290" y="135" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#1d1c1a" font-weight="bold">다</text>
+</svg>

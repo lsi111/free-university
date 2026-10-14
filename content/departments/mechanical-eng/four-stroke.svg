@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+<rect width="400" height="250" fill="#f4efe6"/>
+<rect x="8" y="6" width="90" height="196" fill="none" stroke="#7a766d" stroke-width="1"/>
+<text x="53" y="24" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#1d1c1a">가</text>
+<text x="36" y="42" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#1d1c1a">흡기</text>
+<text x="70" y="42" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#1d1c1a">배기</text>
+<line x1="23" y1="70" x2="83" y2="70" stroke="#1d1c1a" stroke-width="3"/><line x1="23" y1="70" x2="23" y2="190" stroke="#1d1c1a" stroke-width="3"/><line x1="83" y1="70" x2="83" y2="190" stroke="#1d1c1a" stroke-width="3"/>
+<rect x="25" y="72" width="56" height="48" fill="#f6c9a8"/>
+<rect x="23" y="120" width="60" height="14" fill="#cfd8d3" stroke="#1d1c1a" stroke-width="2"/>
+<polygon points="53,76 60,90 74,86 65,98 74,116 53,108 32,116 41,98 32,86 46,90" fill="#e07a3f"/>
+<line x1="31" y1="53" x2="41" y2="63" stroke="#7a766d" stroke-width="2"/><line x1="41" y1="53" x2="31" y2="63" stroke="#7a766d" stroke-width="2"/>
+<line x1="65" y1="53" x2="75" y2="63" stroke="#7a766d" stroke-width="2"/><line x1="75" y1="53" x2="65" y2="63" stroke="#7a766d" stroke-width="2"/>
+<line x1="91" y1="125" x2="91.0" y2="160.0" stroke="#1d1c1a" stroke-width="2"/><polygon points="91.0,165.0 87.1,156.9 94.9,156.9" fill="#1d1c1a"/>
+<rect x="106" y="6" width="90" height="196" fill="none" stroke="#7a766d" stroke-width="1"/>
+<text x="151" y="24" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#1d1c1a">나</text>
+<text x="134" y="42" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#1d1c1a">흡기</text>
+<text x="168" y="42" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#1d1c1a">배기</text>
+<line x1="121" y1="70" x2="181" y2="70" stroke="#1d1c1a" stroke-width="3"/><line x1="121" y1="70" x2="121" y2="190" stroke="#1d1c1a" stroke-width="3"/><line x1="181" y1="70" x2="181" y2="190" stroke="#1d1c1a" stroke-width="3"/>
+<rect x="123" y="72" width="56" height="48" fill="#e6e1d6"/>
+<rect x="121" y="120" width="60" height="14" fill="#cfd8d3" stroke="#1d1c1a" stroke-width="2"/>
+<line x1="134" y1="48" x2="134.0" y2="61.0" stroke="#2f5d50" stroke-width="3"/><polygon points="134.0,66.0 130.1,57.9 137.9,57.9" fill="#2f5d50"/>
+<line x1="163" y1="53" x2="173" y2="63" stroke="#7a766d" stroke-width="2"/><line x1="173" y1="53" x2="163" y2="63" stroke="#7a766d" stroke-width="2"/>
+<line x1="189" y1="125" x2="189.0" y2="160.0" stroke="#1d1c1a" stroke-width="2"/><polygon points="189.0,165.0 185.1,156.9 192.9,156.9" fill="#1d1c1a"/>
+<rect x="204" y="6" width="90" height="196" fill="none" stroke="#7a766d" stroke-width="1"/>
+<text x="249" y="24" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#1d1c1a">다</text>
+<text x="232" y="42" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#1d1c1a">흡기</text>
+<text x="266" y="42" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#1d1c1a">배기</text>
+<line x1="219" y1="70" x2="279" y2="70" stroke="#1d1c1a" stroke-width="3"/><line x1="219" y1="70" x2="219" y2="190" stroke="#1d1c1a" stroke-width="3"/><line x1="279" y1="70" x2="279" y2="190" stroke="#1d1c1a" stroke-width="3"/>
+<rect x="221" y="72" width="56" height="48" fill="#e6e1d6"/>
+<rect x="219" y="120" width="60" height="14" fill="#cfd8d3" stroke="#1d1c1a" stroke-width="2"/>
+<line x1="227" y1="53" x2="237" y2="63" stroke="#7a766d" stroke-width="2"/><line x1="237" y1="53" x2="227" y2="63" stroke="#7a766d" stroke-width="2"/>
+<line x1="266" y1="66" x2="266.0" y2="53.0" stroke="#2f5d50" stroke-width="3"/><polygon points="266.0,48.0 269.9,56.1 262.1,56.1" fill="#2f5d50"/>
+<line x1="287" y1="165" x2="287.0" y2="130.0" stroke="#1d1c1a" stroke-width="2"/><polygon points="287.0,125.0 290.9,133.1 283.1,133.1" fill="#1d1c1a"/>
+<rect x="302" y="6" width="90" height="196" fill="none" stroke="#7a766d" stroke-width="1"/>
+<text x="347" y="24" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#1d1c1a">라</text>
+<text x="330" y="42" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#1d1c1a">흡기</text>
+<text x="364" y="42" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#1d1c1a">배기</text>
+<line x1="317" y1="70" x2="377" y2="70" stroke="#1d1c1a" stroke-width="3"/><line x1="317" y1="70" x2="317" y2="190" stroke="#1d1c1a" stroke-width="3"/><line x1="377" y1="70" x2="377" y2="190" stroke="#1d1c1a" stroke-width="3"/>
+<rect x="319" y="72" width="56" height="48" fill="#e6e1d6"/>
+<rect x="317" y="120" width="60" height="14" fill="#cfd8d3" stroke="#1d1c1a" stroke-width="2"/>
+<line x1="325" y1="53" x2="335" y2="63" stroke="#7a766d" stroke-width="2"/><line x1="335" y1="53" x2="325" y2="63" stroke="#7a766d" stroke-width="2"/>
+<line x1="359" y1="53" x2="369" y2="63" stroke="#7a766d" stroke-width="2"/><line x1="369" y1="53" x2="359" y2="63" stroke="#7a766d" stroke-width="2"/>
+<line x1="385" y1="165" x2="385.0" y2="130.0" stroke="#1d1c1a" stroke-width="2"/><polygon points="385.0,125.0 388.9,133.1 381.1,133.1" fill="#1d1c1a"/>
+<text x="200" y="222" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">초록 화살표 = 열린 통로, × = 닫힌 통로</text>
+<text x="200" y="240" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">검은 화살표 = 피스톤이 움직이는 방향</text>
+</svg>

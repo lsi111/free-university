@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 250" width="380" height="250">
+<rect width="380" height="250" fill="#f4efe6"/>
+<text x="190" y="22" font-family="sans-serif" fill="#1d1c1a" font-size="14" font-weight="bold" text-anchor="middle">노동자 1명의 하루 생산(가상)</text>
+<rect x="20" y="34" width="340" height="32" fill="#e7e0d2"/>
+<text x="220" y="55" font-family="sans-serif" fill="#1d1c1a" font-size="14" font-weight="bold" text-anchor="middle">바다나라</text>
+<text x="315" y="55" font-family="sans-serif" fill="#1d1c1a" font-size="14" font-weight="bold" text-anchor="middle">들판나라</text>
+<rect x="20" y="34" width="340" height="144" fill="none" stroke="#7a766d" stroke-width="1"/>
+<line x1="20" y1="66" x2="360" y2="66" stroke="#7a766d" stroke-width="1"/>
+<line x1="20" y1="102" x2="360" y2="102" stroke="#7a766d" stroke-width="1"/>
+<line x1="20" y1="138" x2="360" y2="138" stroke="#7a766d" stroke-width="1"/>
+<line x1="170" y1="34" x2="170" y2="174" stroke="#7a766d" stroke-width="1"/>
+<line x1="270" y1="34" x2="270" y2="174" stroke="#7a766d" stroke-width="1"/>
+<rect x="20" y="174" width="340" height="36" fill="none" stroke="#7a766d" stroke-width="1"/>
+<line x1="170" y1="174" x2="170" y2="210" stroke="#7a766d" stroke-width="1"/>
+<line x1="270" y1="174" x2="270" y2="210" stroke="#7a766d" stroke-width="1"/>
+<text x="28" y="89" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="start">생선 생산량</text>
+<text x="220" y="89" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">12톤</text>
+<text x="315" y="89" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">4톤</text>
+<text x="28" y="125" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="start">옷감 생산량</text>
+<text x="220" y="125" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">6필</text>
+<text x="315" y="125" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">4필</text>
+<rect x="272" y="140" width="86" height="32" fill="none" stroke="#2f5d50" stroke-width="3"/>
+<text x="28" y="161" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="start">옷감 1필의 기회비용</text>
+<text x="220" y="161" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">생선 2톤</text>
+<text x="315" y="161" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="bold" text-anchor="middle">생선 1톤</text>
+<rect x="172" y="176" width="96" height="32" fill="none" stroke="#2f5d50" stroke-width="3"/>
+<text x="28" y="197" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="start">생선 1톤의 기회비용</text>
+<text x="220" y="197" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="bold" text-anchor="middle">옷감 0.5필</text>
+<text x="315" y="197" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">옷감 1필</text>
+<text x="190" y="236" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">초록 테두리와 굵은 글씨: 기회비용이 더 낮은 쪽</text>
+</svg>

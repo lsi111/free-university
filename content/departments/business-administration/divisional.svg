@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" viewBox="0 0 360 230" width="360" height="230">
+  <rect width="360" height="230" fill="#f4efe6"/>
+  <text x="180" y="26" font-size="14" font-weight="700" fill="#1d1c1a" text-anchor="middle">사업부별 조직</text>
+  <g stroke="#7a766d" stroke-width="2" fill="none">
+    <path d="M180 66 V80 M65 80 H295 M65 80 V96 M180 80 V96 M295 80 V96"/>
+    <path d="M65 124 V134 M43 134 H87 M43 134 V148 M87 134 V148"/>
+    <path d="M180 124 V134 M158 134 H202 M158 134 V148 M202 134 V148"/>
+    <path d="M295 124 V134 M273 134 H317 M273 134 V148 M317 134 V148"/>
+  </g>
+  <g fill="#f4efe6" stroke-width="2">
+    <rect x="130" y="38" width="100" height="28" rx="6" stroke="#2f5d50"/>
+    <rect x="15" y="96" width="100" height="28" rx="6" stroke="#e07a3f"/>
+    <rect x="130" y="96" width="100" height="28" rx="6" stroke="#e07a3f"/>
+    <rect x="245" y="96" width="100" height="28" rx="6" stroke="#e07a3f"/>
+  </g>
+  <g fill="#f4efe6" stroke="#7a766d" stroke-width="1.5">
+    <rect x="20" y="148" width="44" height="26" rx="4"/><rect x="66" y="148" width="44" height="26" rx="4"/>
+    <rect x="135" y="148" width="44" height="26" rx="4"/><rect x="181" y="148" width="44" height="26" rx="4"/>
+    <rect x="250" y="148" width="44" height="26" rx="4"/><rect x="296" y="148" width="44" height="26" rx="4"/>
+  </g>
+  <g font-size="12" fill="#1d1c1a" text-anchor="middle">
+    <text x="180" y="57" font-weight="700">대표</text>
+    <text x="65" y="114">의자 사업부</text><text x="180" y="114">책상 사업부</text><text x="295" y="114">수납 사업부</text>
+    <g font-size="11">
+    <text x="42" y="165">생산</text><text x="88" y="165">영업</text>
+    <text x="157" y="165">생산</text><text x="203" y="165">영업</text>
+    <text x="272" y="165">생산</text><text x="318" y="165">영업</text>
+    </g>
+  </g>
+  <text x="180" y="208" font-size="11" fill="#7a766d" text-anchor="middle">제품별로 나누고, 각 사업부가 필요한 기능을 갖춘다</text>
+</svg>

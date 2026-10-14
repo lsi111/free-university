@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 272" width="400" height="272">
+<rect width="400" height="272" fill="#f4efe6"/>
+<rect x="16" y="12" width="300" height="56" rx="4" fill="#2f5d50" fill-opacity="0.1" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="32" y="45" font-size="15" text-anchor="middle" font-family="sans-serif" fill="#2f5d50" font-weight="bold">A</text>
+<text x="50" y="34" font-size="17" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">你好！我叫王明。</text>
+<text x="50" y="49" font-size="11" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">Nǐ hǎo! Wǒ jiào Wáng Míng.</text>
+<text x="50" y="63" font-size="11" text-anchor="start" font-family="sans-serif" fill="#7a766d">안녕하세요! 저는 왕밍이라고 합니다.</text>
+<rect x="84" y="76" width="300" height="56" rx="4" fill="#e07a3f" fill-opacity="0.1" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="100" y="109" font-size="15" text-anchor="middle" font-family="sans-serif" fill="#e07a3f" font-weight="bold">B</text>
+<text x="118" y="98" font-size="17" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">你好！我叫李安。</text>
+<text x="118" y="113" font-size="11" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">Nǐ hǎo! Wǒ jiào Lǐ Ān.</text>
+<text x="118" y="127" font-size="11" text-anchor="start" font-family="sans-serif" fill="#7a766d">안녕하세요! 저는 리안이라고 합니다.</text>
+<rect x="16" y="140" width="300" height="56" rx="4" fill="#2f5d50" fill-opacity="0.1" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="32" y="173" font-size="15" text-anchor="middle" font-family="sans-serif" fill="#2f5d50" font-weight="bold">A</text>
+<text x="50" y="162" font-size="17" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">你是哪国人？</text>
+<text x="50" y="177" font-size="11" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">Nǐ shì nǎ guó rén?</text>
+<text x="50" y="191" font-size="11" text-anchor="start" font-family="sans-serif" fill="#7a766d">어느 나라 사람이세요?</text>
+<rect x="84" y="204" width="300" height="56" rx="4" fill="#e07a3f" fill-opacity="0.1" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="100" y="237" font-size="15" text-anchor="middle" font-family="sans-serif" fill="#e07a3f" font-weight="bold">B</text>
+<text x="118" y="226" font-size="17" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">我是韩国人。</text>
+<text x="118" y="241" font-size="11" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">Wǒ shì Hánguó rén.</text>
+<text x="118" y="255" font-size="11" text-anchor="start" font-family="sans-serif" fill="#7a766d">저는 한국 사람이에요.</text>
+</svg>

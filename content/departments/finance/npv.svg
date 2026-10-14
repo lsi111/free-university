@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 200" width="380" height="200">
+<rect width="380" height="200" fill="#f4efe6"/>
+<text x="5" y="63" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="start">그때의 돈</text>
+<text x="5" y="134" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="start">현재가치</text>
+<text x="5" y="150" font-family="sans-serif" fill="#1d1c1a" font-size="11" font-weight="normal" text-anchor="start">(할인율 10%)</text>
+<text x="130" y="28" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">지금</text>
+<text x="230" y="28" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">1년 후</text>
+<text x="330" y="28" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">2년 후</text>
+<rect x="95" y="40" width="70" height="36" fill="#fffaf0" stroke="#e07a3f" stroke-width="2"/>
+<text x="130" y="63" font-family="sans-serif" fill="#1d1c1a" font-size="13" font-weight="normal" text-anchor="middle">-1000</text>
+<rect x="95" y="116" width="70" height="36" fill="#fffaf0" stroke="#e07a3f" stroke-width="2"/>
+<text x="130" y="139" font-family="sans-serif" fill="#1d1c1a" font-size="13" font-weight="normal" text-anchor="middle">-1000</text>
+<rect x="195" y="40" width="70" height="36" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<text x="230" y="63" font-family="sans-serif" fill="#1d1c1a" font-size="13" font-weight="normal" text-anchor="middle">+660</text>
+<rect x="195" y="116" width="70" height="36" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<text x="230" y="139" font-family="sans-serif" fill="#1d1c1a" font-size="13" font-weight="normal" text-anchor="middle">600</text>
+<rect x="295" y="40" width="70" height="36" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<text x="330" y="63" font-family="sans-serif" fill="#1d1c1a" font-size="13" font-weight="normal" text-anchor="middle">+726</text>
+<rect x="295" y="116" width="70" height="36" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<text x="330" y="139" font-family="sans-serif" fill="#1d1c1a" font-size="13" font-weight="normal" text-anchor="middle">600</text>
+<line x1="230" y1="80" x2="230" y2="104" stroke="#7a766d" stroke-width="2"/><polygon points="225,104 235,104 230,114" fill="#7a766d"/>
+<text x="222" y="100" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="end">÷ 1.1</text>
+<line x1="330" y1="80" x2="330" y2="104" stroke="#7a766d" stroke-width="2"/><polygon points="325,104 335,104 330,114" fill="#7a766d"/>
+<text x="322" y="100" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="end">÷ 1.21</text>
+<text x="190" y="182" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">현재가치 합 1200 − 투자 1000 = 순현재가치 200</text>
+</svg>

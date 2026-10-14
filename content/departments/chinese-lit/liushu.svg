@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+<rect width="400" height="300" fill="#f4efe6"/>
+<rect x="16" y="14" width="368" height="62" rx="4" fill="#2f5d50" fill-opacity="0.1" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="28" y="40" font-size="15" text-anchor="start" font-family="sans-serif" fill="#1d1c1a" font-weight="bold">상형</text>
+<text x="28" y="60" font-size="11" text-anchor="start" font-family="sans-serif" fill="#7a766d">모양을 본뜸</text>
+<text x="185" y="50" font-size="26" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">日</text>
+<text x="245" y="50" font-size="26" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">月</text>
+<text x="305" y="50" font-size="26" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">山</text>
+<text x="365" y="50" font-size="26" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">木</text>
+<rect x="16" y="84" width="368" height="62" rx="4" fill="#e07a3f" fill-opacity="0.1" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="28" y="110" font-size="15" text-anchor="start" font-family="sans-serif" fill="#1d1c1a" font-weight="bold">지사</text>
+<text x="28" y="130" font-size="11" text-anchor="start" font-family="sans-serif" fill="#7a766d">뜻을 점·선으로 표시</text>
+<text x="185" y="120" font-size="26" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">上</text>
+<text x="245" y="120" font-size="26" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">下</text>
+<text x="305" y="120" font-size="26" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">本</text>
+<text x="365" y="120" font-size="26" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">三</text>
+<rect x="16" y="154" width="368" height="62" rx="4" fill="#2f5d50" fill-opacity="0.1" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="28" y="180" font-size="15" text-anchor="start" font-family="sans-serif" fill="#1d1c1a" font-weight="bold">회의</text>
+<text x="28" y="200" font-size="11" text-anchor="start" font-family="sans-serif" fill="#7a766d">뜻을 합침</text>
+<text x="185" y="190" font-size="26" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">明</text>
+<text x="185" y="208" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#7a766d">日+月</text>
+<text x="245" y="190" font-size="26" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">林</text>
+<text x="245" y="208" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#7a766d">木+木</text>
+<text x="305" y="190" font-size="26" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">休</text>
+<text x="305" y="208" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#7a766d">人+木</text>
+<text x="365" y="190" font-size="26" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">男</text>
+<text x="365" y="208" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#7a766d">田+力</text>
+<rect x="16" y="224" width="368" height="62" rx="4" fill="#e07a3f" fill-opacity="0.1" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="28" y="250" font-size="15" text-anchor="start" font-family="sans-serif" fill="#1d1c1a" font-weight="bold">형성</text>
+<text x="28" y="270" font-size="11" text-anchor="start" font-family="sans-serif" fill="#7a766d">뜻 + 소리</text>
+<text x="185" y="260" font-size="26" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">妈</text>
+<text x="185" y="278" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#7a766d">女+马</text>
+<text x="245" y="260" font-size="26" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">河</text>
+<text x="245" y="278" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#7a766d">氵+可</text>
+<text x="305" y="260" font-size="26" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">湖</text>
+<text x="305" y="278" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#7a766d">氵+胡</text>
+<text x="365" y="260" font-size="26" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">吗</text>
+<text x="365" y="278" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#7a766d">口+马</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 260" width="380" height="260">
+<rect width="380" height="260" fill="#f4efe6"/>
+<g fill="#fffaf0" stroke="#2f5d50" stroke-width="1.5"><rect x="15" y="60" width="90" height="30"/><rect x="135" y="30" width="100" height="30"/><rect x="135" y="90" width="100" height="30"/><rect x="265" y="10" width="100" height="30"/><rect x="265" y="50" width="100" height="30"/></g>
+<g fill="#fffaf0" stroke="#e07a3f" stroke-width="1.5"><rect x="15" y="185" width="90" height="30"/><rect x="135" y="160" width="100" height="30"/><rect x="135" y="210" width="100" height="30"/></g>
+<g stroke="#7a766d" stroke-width="1.5" fill="none"><path d="M105 75 H120 M120 45 V105 M120 45 H135 M120 105 H135"/><path d="M105 200 H120 M120 175 V225 M120 175 H135 M120 225 H135"/><path d="M235 45 H250 M250 25 V65 M250 25 H265 M250 65 H265"/></g>
+<g font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle"><text x="60" y="80">A 생물</text><text x="185" y="50">A1 동물</text><text x="185" y="110">A2 식물</text><text x="315" y="30">A1a 조류</text><text x="315" y="70">A1b 어류</text><text x="60" y="205">B 요리</text><text x="185" y="180">B1 한식</text><text x="185" y="230">B2 양식</text></g>
+</svg>

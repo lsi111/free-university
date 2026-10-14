@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+<rect width="400" height="200" fill="#f4efe6"/>
+<text x="30" y="28" font-family="sans-serif" font-size="12" fill="#1d1c1a">A 한산한 도로: 1 km에 5대, 80 km/h</text>
+<rect x="30" y="38" width="340" height="24" fill="#d8d2c6"/>
+<rect x="50" y="44" width="20" height="12" rx="3" fill="#2f5d50"/><rect x="110" y="44" width="20" height="12" rx="3" fill="#2f5d50"/><rect x="170" y="44" width="20" height="12" rx="3" fill="#2f5d50"/><rect x="230" y="44" width="20" height="12" rx="3" fill="#2f5d50"/><rect x="300" y="44" width="20" height="12" rx="3" fill="#2f5d50"/>
+<text x="30" y="98" font-family="sans-serif" font-size="12" fill="#1d1c1a">B 붐비는 도로: 1 km에 12대, 30 km/h</text>
+<rect x="30" y="108" width="340" height="24" fill="#d8d2c6"/>
+<rect x="36" y="114" width="20" height="12" rx="3" fill="#e07a3f"/><rect x="64" y="114" width="20" height="12" rx="3" fill="#e07a3f"/><rect x="92" y="114" width="20" height="12" rx="3" fill="#e07a3f"/><rect x="120" y="114" width="20" height="12" rx="3" fill="#e07a3f"/><rect x="148" y="114" width="20" height="12" rx="3" fill="#e07a3f"/><rect x="176" y="114" width="20" height="12" rx="3" fill="#e07a3f"/><rect x="204" y="114" width="20" height="12" rx="3" fill="#e07a3f"/><rect x="232" y="114" width="20" height="12" rx="3" fill="#e07a3f"/><rect x="260" y="114" width="20" height="12" rx="3" fill="#e07a3f"/><rect x="288" y="114" width="20" height="12" rx="3" fill="#e07a3f"/><rect x="316" y="114" width="20" height="12" rx="3" fill="#e07a3f"/><rect x="344" y="114" width="20" height="12" rx="3" fill="#e07a3f"/>
+<line x1="30" y1="150" x2="370" y2="150" stroke="#1d1c1a" stroke-width="1.5"/>
+<line x1="30" y1="145" x2="30" y2="155" stroke="#1d1c1a" stroke-width="1.5"/>
+<line x1="370" y1="145" x2="370" y2="155" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="200" y="174" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#7a766d">두 도로 모두 그림의 길이가 1 km이다</text>
+</svg>

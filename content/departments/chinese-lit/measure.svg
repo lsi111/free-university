@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 214" width="400" height="214">
+<rect width="400" height="214" fill="#f4efe6"/>
+<text x="200" y="20" font-size="13" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a" font-weight="bold">수 + 양사 + 명사</text>
+<rect x="40" y="32" width="90" height="62" rx="4" fill="#2f5d50" fill-opacity="0.12" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="85.0" y="62" font-size="22" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">三</text>
+<text x="85.0" y="80" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">sān</text>
+<text x="85.0" y="112" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">수</text>
+<rect x="150" y="32" width="90" height="62" rx="4" fill="#e07a3f" fill-opacity="0.12" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="195.0" y="62" font-size="22" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">个</text>
+<text x="195.0" y="80" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">gè</text>
+<text x="195.0" y="112" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">양사</text>
+<rect x="260" y="32" width="100" height="62" rx="4" fill="#7a766d" fill-opacity="0.12" stroke="#7a766d" stroke-width="1.5"/>
+<text x="310.0" y="62" font-size="22" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">学生</text>
+<text x="310.0" y="80" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">xuésheng</text>
+<text x="310.0" y="112" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">명사</text>
+<rect x="40" y="124" width="90" height="62" rx="4" fill="#2f5d50" fill-opacity="0.12" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="85.0" y="154" font-size="22" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">两</text>
+<text x="85.0" y="172" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">liǎng</text>
+<text x="85.0" y="204" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">수</text>
+<rect x="150" y="124" width="90" height="62" rx="4" fill="#e07a3f" fill-opacity="0.12" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="195.0" y="154" font-size="22" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">只</text>
+<text x="195.0" y="172" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">zhī</text>
+<text x="195.0" y="204" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">양사</text>
+<rect x="260" y="124" width="100" height="62" rx="4" fill="#7a766d" fill-opacity="0.12" stroke="#7a766d" stroke-width="1.5"/>
+<text x="310.0" y="154" font-size="22" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">猫</text>
+<text x="310.0" y="172" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">māo</text>
+<text x="310.0" y="204" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">명사</text>
+</svg>

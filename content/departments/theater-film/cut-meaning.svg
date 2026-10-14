@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 230" width="380" height="230">
+<rect width="380" height="230" fill="#f4efe6"/>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#7a766d"/></marker></defs>
+<rect x="15" y="25" width="100" height="80" fill="#fffaf0" stroke="#2f5d50" stroke-width="1.5"/>
+<rect x="135" y="25" width="100" height="80" fill="#fffaf0" stroke="#e07a3f" stroke-width="1.5"/>
+<rect x="255" y="25" width="110" height="80" fill="#fffaf0" stroke="#7a766d" stroke-width="1.5"/>
+<text x="65" y="20" font-family="sans-serif" fill="#1d1c1a" font-size="12" text-anchor="middle">컷 A</text>
+<text x="185" y="20" font-family="sans-serif" fill="#1d1c1a" font-size="12" text-anchor="middle">컷 B</text>
+<circle cx="65" cy="51.0" r="6.0" stroke="#1d1c1a" stroke-width="1.5" fill="none"/>
+<path d="M65 57.0 V75.0" stroke="#1d1c1a" stroke-width="1.5" fill="none"/>
+<path d="M55.0 70.0 L65 60.0 L75.0 70.0" stroke="#1d1c1a" stroke-width="1.5" fill="none"/>
+<path d="M57.5 95.0 L65 75.0 L72.5 95.0" stroke="#1d1c1a" stroke-width="1.5" fill="none"/>
+<rect x="160" y="40" width="50" height="60" fill="none" stroke="#1d1c1a" stroke-width="1.5"/>
+<circle cx="200" cy="72" r="3" stroke="#1d1c1a" stroke-width="1.5" fill="#1d1c1a"/>
+<text x="310" y="60" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">문 앞에서</text>
+<text x="310" y="80" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">망설이는 사람?</text>
+<path d="M115 65 H133" stroke="#7a766d" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
+<path d="M235 65 H253" stroke="#7a766d" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
+<text x="65" y="125" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">서 있는 사람</text>
+<text x="185" y="125" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">닫힌 문</text>
+<text x="190" y="165" font-family="sans-serif" fill="#1d1c1a" font-size="12" text-anchor="middle">같은 컷도 이어 붙이는 순서와 짝에 따라</text>
+<text x="190" y="183" font-family="sans-serif" fill="#1d1c1a" font-size="12" text-anchor="middle">관객이 만드는 뜻이 달라진다</text>
+<text x="190" y="213" font-family="sans-serif" fill="#1d1c1a" font-size="11" text-anchor="middle">(가상의 장면)</text>
+</svg>

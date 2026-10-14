@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 260" width="360" height="260" font-family="sans-serif" font-size="12" fill="#1d1c1a">
+  <rect width="360" height="260" fill="#f4efe6"/>
+  <g stroke="#7a766d" stroke-width="1.5">
+    <line x1="180" y1="58" x2="100" y2="92"/><line x1="180" y1="58" x2="260" y2="92"/>
+    <line x1="100" y1="128" x2="60" y2="162"/><line x1="100" y1="128" x2="140" y2="162"/>
+    <line x1="260" y1="128" x2="260" y2="162"/>
+  </g>
+  <g stroke="#1d1c1a" stroke-width="1.5">
+    <circle cx="180" cy="40" r="18" fill="#f6d9c4"/>
+    <circle cx="100" cy="110" r="18" fill="#cfe0d8"/><circle cx="260" cy="110" r="18" fill="#cfe0d8"/>
+    <circle cx="60" cy="180" r="18" fill="#cfe0d8"/><circle cx="140" cy="180" r="18" fill="#cfe0d8"/><circle cx="260" cy="180" r="18" fill="#cfe0d8"/>
+  </g>
+  <g text-anchor="middle" font-size="14">
+    <text x="180" y="45">A</text><text x="100" y="115">B</text><text x="260" y="115">C</text>
+    <text x="60" y="185">D</text><text x="140" y="185">E</text><text x="260" y="185">F</text>
+  </g>
+  <text x="206" y="45" fill="#e07a3f">뿌리</text>
+  <text x="20" y="235" fill="#7a766d">위에서 아래로 갈라지는 구조. 선은 부모와 자식을 잇는다.</text>
+</svg>

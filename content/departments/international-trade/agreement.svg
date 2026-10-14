@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 230" width="380" height="230">
+<rect width="380" height="230" fill="#f4efe6"/>
+<text x="190" y="24" font-family="sans-serif" fill="#1d1c1a" font-size="13" font-weight="bold" text-anchor="middle">협정을 맺은 나라끼리만 관세를 낮춘다(가상)</text>
+<line x1="130" y1="67" x2="250" y2="67" stroke="#2f5d50" stroke-width="4"/>
+<text x="190" y="58" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="bold" text-anchor="middle">협정 0%</text>
+<line x1="80" y1="84" x2="160" y2="180" stroke="#7a766d" stroke-width="2"/>
+<text x="100" y="140" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="end">관세 10%</text>
+<line x1="300" y1="84" x2="220" y2="180" stroke="#7a766d" stroke-width="2"/>
+<text x="280" y="140" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="start">관세 10%</text>
+<rect x="30" y="50" width="100" height="34" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<text x="80" y="72" font-family="sans-serif" fill="#1d1c1a" font-size="14" font-weight="bold" text-anchor="middle">바다나라</text>
+<rect x="250" y="50" width="100" height="34" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<text x="300" y="72" font-family="sans-serif" fill="#1d1c1a" font-size="14" font-weight="bold" text-anchor="middle">들판나라</text>
+<rect x="140" y="180" width="100" height="34" fill="#fffaf0" stroke="#e07a3f" stroke-width="2"/>
+<text x="190" y="202" font-family="sans-serif" fill="#1d1c1a" font-size="14" font-weight="bold" text-anchor="middle">산나라</text>
+</svg>

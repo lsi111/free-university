@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" width="360" height="300">
+  <rect width="360" height="300" fill="#f4efe6"/>
+  <polygon points="130,100 200,85 290,110 315,170 300,210 220,200 160,190 125,150" fill="#e3e8da" stroke="#7a766d" stroke-width="1.5"/>
+  <g stroke="#7a766d" stroke-width="1">
+    <line x1="60" y1="40" x2="60" y2="250"/><line x1="150" y1="40" x2="150" y2="250"/>
+    <line x1="240" y1="40" x2="240" y2="250"/><line x1="330" y1="40" x2="330" y2="250"/>
+    <line x1="60" y1="40" x2="330" y2="40"/><line x1="60" y1="110" x2="330" y2="110"/>
+    <line x1="60" y1="180" x2="330" y2="180"/><line x1="60" y1="250" x2="330" y2="250"/>
+  </g>
+  <g font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="end">
+    <text x="54" y="44">40°N</text><text x="54" y="114">30°N</text>
+    <text x="54" y="184">20°N</text><text x="54" y="254">10°N</text>
+  </g>
+  <g font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">
+    <text x="60" y="268">100°E</text><text x="150" y="268">110°E</text>
+    <text x="240" y="268">120°E</text><text x="330" y="268">130°E</text>
+  </g>
+  <circle cx="150" cy="110" r="4" fill="#e07a3f"/>
+  <text x="158" y="130" font-family="sans-serif" font-size="13" fill="#1d1c1a">가</text>
+  <circle cx="285" cy="180" r="4" fill="#e07a3f"/>
+  <text x="293" y="200" font-family="sans-serif" font-size="13" fill="#1d1c1a">나</text>
+  <line x1="342" y1="70" x2="342" y2="46" stroke="#1d1c1a" stroke-width="2"/>
+  <polygon points="342,38 337,48 347,48" fill="#1d1c1a"/>
+  <text x="336" y="86" font-family="sans-serif" font-size="12" fill="#1d1c1a">북</text>
+  <text x="180" y="26" font-family="sans-serif" font-size="12" fill="#7a766d">가상의 섬과 격자</text>
+</svg>

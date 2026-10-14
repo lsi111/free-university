@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 330" width="380" height="330">
+<rect width="380" height="330" fill="#f4efe6"/>
+<rect x="15" y="15" width="350" height="66" fill="#fffaf0" stroke="#7a766d" stroke-width="1.5"/>
+<rect x="15" y="15" width="64" height="66" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<text x="47" y="53" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2f5d50">아침</text>
+<text x="95" y="42" font-family="sans-serif" font-size="20" font-weight="normal" text-anchor="start" fill="#1d1c1a">おはようございます</text>
+<text x="95" y="60" font-family="sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#7a766d">ohayo gozaimasu</text>
+<text x="95" y="75" font-family="sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#1d1c1a">아침 인사</text>
+<rect x="15" y="93" width="350" height="66" fill="#fffaf0" stroke="#7a766d" stroke-width="1.5"/>
+<rect x="15" y="93" width="64" height="66" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<text x="47" y="131" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2f5d50">낮</text>
+<text x="95" y="120" font-family="sans-serif" font-size="20" font-weight="normal" text-anchor="start" fill="#1d1c1a">こんにちは</text>
+<text x="95" y="138" font-family="sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#7a766d">konnichiwa</text>
+<text x="95" y="153" font-family="sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#1d1c1a">낮 인사</text>
+<rect x="15" y="171" width="350" height="66" fill="#fffaf0" stroke="#7a766d" stroke-width="1.5"/>
+<rect x="15" y="171" width="64" height="66" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<text x="47" y="209" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2f5d50">저녁</text>
+<text x="95" y="198" font-family="sans-serif" font-size="20" font-weight="normal" text-anchor="start" fill="#1d1c1a">こんばんは</text>
+<text x="95" y="216" font-family="sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#7a766d">konbanwa</text>
+<text x="95" y="231" font-family="sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#1d1c1a">저녁 인사</text>
+<rect x="15" y="249" width="350" height="66" fill="#fffaf0" stroke="#7a766d" stroke-width="1.5"/>
+<rect x="15" y="249" width="64" height="66" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<text x="47" y="287" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2f5d50">감사</text>
+<text x="95" y="276" font-family="sans-serif" font-size="20" font-weight="normal" text-anchor="start" fill="#1d1c1a">ありがとうございます</text>
+<text x="95" y="294" font-family="sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#7a766d">arigato gozaimasu</text>
+<text x="95" y="309" font-family="sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#1d1c1a">고맙다는 인사</text>
+</svg>

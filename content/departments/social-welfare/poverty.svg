@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 262" width="380" height="262">
+<rect width="380" height="262" fill="#f4efe6"/>
+<rect x="22" y="167.6" width="28" height="22.4" fill="#e07a3f" fill-opacity="0.85"/>
+<text x="36" y="207" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">A</text>
+<text x="36" y="223" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#7a766d">80</text>
+<rect x="60" y="156.4" width="28" height="33.6" fill="#2f5d50" fill-opacity="0.85"/>
+<text x="74" y="207" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">B</text>
+<text x="74" y="223" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#7a766d">120</text>
+<rect x="98" y="148.0" width="28" height="42.0" fill="#2f5d50" fill-opacity="0.85"/>
+<text x="112" y="207" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">C</text>
+<text x="112" y="223" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#7a766d">150</text>
+<rect x="136" y="139.6" width="28" height="50.4" fill="#2f5d50" fill-opacity="0.85"/>
+<text x="150" y="207" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">D</text>
+<text x="150" y="223" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#7a766d">180</text>
+<rect x="174" y="134.0" width="28" height="56.0" fill="#2f5d50" fill-opacity="0.85"/>
+<text x="188" y="207" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">E</text>
+<text x="188" y="223" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#7a766d">200</text>
+<rect x="212" y="122.8" width="28" height="67.2" fill="#2f5d50" fill-opacity="0.85"/>
+<text x="226" y="207" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">F</text>
+<text x="226" y="223" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#7a766d">240</text>
+<rect x="250" y="106.0" width="28" height="84.0" fill="#2f5d50" fill-opacity="0.85"/>
+<text x="264" y="207" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">G</text>
+<text x="264" y="223" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#7a766d">300</text>
+<rect x="288" y="89.2" width="28" height="100.8" fill="#2f5d50" fill-opacity="0.85"/>
+<text x="302" y="207" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">H</text>
+<text x="302" y="223" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#7a766d">360</text>
+<rect x="326" y="50.0" width="28" height="140.0" fill="#2f5d50" fill-opacity="0.85"/>
+<text x="340" y="207" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">I</text>
+<text x="340" y="223" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#7a766d">500</text>
+<line x1="14" y1="134.0" x2="366" y2="134.0" stroke="#1d1c1a" stroke-width="2"/>
+<line x1="14" y1="162.0" x2="366" y2="162.0" stroke="#1d1c1a" stroke-width="2" stroke-dasharray="6 4"/>
+<line x1="14" y1="190" x2="366" y2="190" stroke="#7a766d" stroke-width="1"/>
+<line x1="20" y1="18" x2="48" y2="18" stroke="#1d1c1a" stroke-width="2"/>
+<text x="54" y="22" font-family="sans-serif" font-size="12" text-anchor="start" fill="#1d1c1a">실선: 중위소득</text>
+<line x1="20" y1="38" x2="48" y2="38" stroke="#1d1c1a" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="54" y="42" font-family="sans-serif" font-size="12" text-anchor="start" fill="#1d1c1a">점선: 중위소득의 50%</text>
+<text x="190" y="250" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#7a766d">가구별 월 소득 (만원, 가상) · 주황 막대: 점선 아래</text>
+</svg>

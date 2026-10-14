@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 230" width="380" height="230">
+<rect width="380" height="230" fill="#f4efe6"/>
+<rect x="20" y="40" width="340" height="180" fill="#fffaf0" stroke="#7a766d" stroke-width="1.5"/>
+<circle cx="140" cy="125" r="65" fill="#2f5d50" fill-opacity="0.3" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="240" cy="125" r="65" fill="#e07a3f" fill-opacity="0.3" stroke="#e07a3f" stroke-width="2"/>
+<g font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle"><text x="105" y="26">'고양이' 포함</text><text x="275" y="26">'강아지' 포함</text></g>
+<g font-family="sans-serif" fill="#1d1c1a" font-size="18" text-anchor="middle"><text x="120" y="131">30</text><text x="190" y="131">10</text><text x="260" y="131">20</text></g>
+<text x="30" y="212" font-family="sans-serif" fill="#7a766d" font-size="12">그 밖의 기록 40건 (전체 100건)</text>
+</svg>

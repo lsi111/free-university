@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 230" width="400" height="230">
+<rect width="400" height="230" fill="#f4efe6"/>
+<text x="200" y="24" font-size="13" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">작은 아이가 도서관에서 책을 읽는다</text>
+<rect x="21.0" y="50" width="52" height="36" rx="6" fill="#ffffff" stroke="#7a766d" stroke-width="1.5"/>
+<text x="47.0" y="73" font-size="13" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">작은</text>
+<text x="47.0" y="108" font-size="12" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#7a766d">관형어</text>
+<rect x="79.0" y="50" width="64" height="36" rx="6" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="111.0" y="73" font-size="13" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">아이가</text>
+<text x="111.0" y="108" font-size="12" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#2f5d50">주어</text>
+<rect x="149.0" y="50" width="92" height="36" rx="6" fill="#ffffff" stroke="#7a766d" stroke-width="1.5"/>
+<text x="195.0" y="73" font-size="13" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">도서관에서</text>
+<text x="195.0" y="108" font-size="12" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#7a766d">부사어</text>
+<rect x="247.0" y="50" width="56" height="36" rx="6" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="275.0" y="73" font-size="13" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">책을</text>
+<text x="275.0" y="108" font-size="12" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#2f5d50">목적어</text>
+<rect x="309.0" y="50" width="70" height="36" rx="6" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="344.0" y="73" font-size="13" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">읽는다</text>
+<text x="344.0" y="108" font-size="12" font-weight="bold" text-anchor="middle" font-family="sans-serif" fill="#2f5d50">서술어</text>
+<rect x="10" y="138" width="380" height="80" rx="6" fill="#ffffff" stroke="#7a766d" stroke-width="1.5"/>
+<text x="20" y="160" font-size="11" font-weight="bold" text-anchor="start" font-family="sans-serif" fill="#2f5d50">초록 테두리: 주성분 (문장의 뼈대)</text>
+<text x="20" y="180" font-size="11" font-weight="bold" text-anchor="start" font-family="sans-serif" fill="#7a766d">회색 테두리: 부속 성분 (뒤의 말을 꾸밈)</text>
+<text x="20" y="200" font-size="11" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">작은은 아이가를, 도서관에서는 읽는다를 꾸민다</text>
+</svg>

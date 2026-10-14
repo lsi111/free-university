@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 250" width="360" height="250">
+<rect width="360" height="250" fill="#f4efe6"/>
+<text x="180" y="26" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a" font-weight="bold">가상 마을 도서관 이용 조사 (무작위 200명)</text>
+<rect x="10" y="40" width="340" height="40" fill="#e6dfd0" stroke="#7a766d" stroke-width="1.5"/>
+<text x="24" y="65" font-family="sans-serif" font-size="13" text-anchor="start" fill="#1d1c1a" font-weight="bold">연령대</text>
+<text x="190" y="65" font-family="sans-serif" font-size="13" text-anchor="end" fill="#1d1c1a" font-weight="bold">응답자(명)</text>
+<text x="265" y="65" font-family="sans-serif" font-size="13" text-anchor="end" fill="#1d1c1a" font-weight="bold">이용(명)</text>
+<text x="340" y="65" font-family="sans-serif" font-size="13" text-anchor="end" fill="#1d1c1a" font-weight="bold">이용 비율</text>
+<rect x="10" y="80" width="340" height="38" fill="#fffaf0" stroke="#7a766d" stroke-width="1"/>
+<text x="24" y="104" font-family="sans-serif" font-size="13" text-anchor="start" fill="#1d1c1a">10~20대</text>
+<text x="190" y="104" font-family="sans-serif" font-size="13" text-anchor="end" fill="#1d1c1a">50</text>
+<text x="265" y="104" font-family="sans-serif" font-size="13" text-anchor="end" fill="#1d1c1a">30</text>
+<text x="340" y="104" font-family="sans-serif" font-size="13" text-anchor="end" fill="#1d1c1a">60%</text>
+<rect x="10" y="118" width="340" height="38" fill="#fffaf0" stroke="#7a766d" stroke-width="1"/>
+<text x="24" y="142" font-family="sans-serif" font-size="13" text-anchor="start" fill="#1d1c1a">30~40대</text>
+<text x="190" y="142" font-family="sans-serif" font-size="13" text-anchor="end" fill="#1d1c1a">70</text>
+<text x="265" y="142" font-family="sans-serif" font-size="13" text-anchor="end" fill="#1d1c1a">28</text>
+<text x="340" y="142" font-family="sans-serif" font-size="13" text-anchor="end" fill="#1d1c1a">40%</text>
+<rect x="10" y="156" width="340" height="38" fill="#fffaf0" stroke="#7a766d" stroke-width="1"/>
+<text x="24" y="180" font-family="sans-serif" font-size="13" text-anchor="start" fill="#1d1c1a">50대 이상</text>
+<text x="190" y="180" font-family="sans-serif" font-size="13" text-anchor="end" fill="#1d1c1a">80</text>
+<text x="265" y="180" font-family="sans-serif" font-size="13" text-anchor="end" fill="#1d1c1a">24</text>
+<text x="340" y="180" font-family="sans-serif" font-size="13" text-anchor="end" fill="#1d1c1a">30%</text>
+<text x="20" y="214" font-family="sans-serif" font-size="12" text-anchor="start" fill="#1d1c1a">문항: 지난 한 달 동안 도서관을</text>
+<text x="20" y="232" font-family="sans-serif" font-size="12" text-anchor="start" fill="#1d1c1a">이용한 적이 있습니까? (예 / 아니오)</text>
+</svg>

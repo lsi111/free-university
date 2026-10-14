@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 260" width="380" height="260">
+  <rect width="380" height="260" fill="#f4efe6"/>
+  <rect x="0" y="205" width="380" height="55" fill="#d7e3e0"/>
+  <line x1="0" y1="205" x2="380" y2="205" stroke="#7a766d" stroke-width="1.5"/>
+  <text x="14" y="245" font-family="sans-serif" font-size="12" fill="#1d1c1a">바다</text>
+  <polygon points="25,80 52,42 79,80" fill="#7a766d"/>
+  <polygon points="62,80 92,36 122,80" fill="#7a766d"/>
+  <text x="14" y="104" font-family="sans-serif" font-size="12" fill="#1d1c1a">상류</text>
+  <text x="300" y="150" font-family="sans-serif" font-size="12" fill="#1d1c1a">하류</text>
+  <path d="M95 80 C100 100 120 105 135 118 C155 138 190 103 215 123 C240 143 225 172 250 180 C270 187 265 200 262 206" fill="none" stroke="#2f5d50" stroke-width="4"/>
+  <circle cx="80" cy="102" r="9" fill="#f4efe6" stroke="#1d1c1a" stroke-width="1.2"/>
+  <text x="80" y="106" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">가</text>
+  <ellipse cx="170" cy="178" rx="22" ry="7" transform="rotate(-18 170 178)" fill="#d7e3e0" stroke="#2f5d50" stroke-width="2"/>
+  <circle cx="170" cy="152" r="9" fill="#f4efe6" stroke="#1d1c1a" stroke-width="1.2"/>
+  <text x="170" y="156" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">나</text>
+  <polygon points="262,200 232,226 294,226" fill="#e9dcc3" stroke="#7a766d" stroke-width="1.5"/>
+  <circle cx="318" cy="222" r="9" fill="#f4efe6" stroke="#1d1c1a" stroke-width="1.2"/>
+  <text x="318" y="226" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">다</text>
+  <text x="170" y="30" font-family="sans-serif" font-size="12" fill="#7a766d">물은 산에서 바다로 흐른다</text>
+</svg>

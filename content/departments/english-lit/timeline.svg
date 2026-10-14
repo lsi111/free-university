@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 215" width="400" height="215">
+<rect width="400" height="215" fill="#f4efe6"/>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#7a766d"/></marker></defs>
+<text x="20" y="24" font-size="13" text-anchor="start" font-weight="bold" font-family="sans-serif" fill="#1d1c1a">I lived there in 2015.</text>
+<line x1="30" y1="74" x2="375" y2="74" stroke="#7a766d" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="30" y="94" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">과거</text>
+<text x="375" y="94" font-size="12" text-anchor="end" font-family="sans-serif" fill="#7a766d">미래</text>
+<line x1="270" y1="50" x2="270" y2="82" stroke="#e07a3f" stroke-width="2"/>
+<text x="270" y="96" font-size="12" text-anchor="middle" font-weight="bold" font-family="sans-serif" fill="#1d1c1a">현재</text>
+<rect x="80" y="68" width="50" height="12" fill="#e07a3f" fill-opacity="0.55" stroke="#e07a3f"/>
+<text x="80" y="60" font-size="12" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">끝난 일</text>
+<text x="20" y="134" font-size="13" text-anchor="start" font-weight="bold" font-family="sans-serif" fill="#1d1c1a">I have lived here for five years.</text>
+<line x1="30" y1="184" x2="375" y2="184" stroke="#7a766d" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="30" y="204" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">과거</text>
+<text x="375" y="204" font-size="12" text-anchor="end" font-family="sans-serif" fill="#7a766d">미래</text>
+<line x1="270" y1="160" x2="270" y2="192" stroke="#e07a3f" stroke-width="2"/>
+<text x="270" y="206" font-size="12" text-anchor="middle" font-weight="bold" font-family="sans-serif" fill="#1d1c1a">현재</text>
+<rect x="130" y="178" width="140" height="12" fill="#e07a3f" fill-opacity="0.55" stroke="#e07a3f"/>
+<text x="130" y="170" font-size="12" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">지금까지 이어진 기간</text>
+</svg>

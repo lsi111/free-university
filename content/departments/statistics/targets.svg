@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 392 200" width="392" height="200">
+<rect width="392" height="200" fill="#f4efe6"/>
+<text x="196" y="18" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1d1c1a">과녁 비유: 중심이 모집단의 참값</text>
+<circle cx="52" cy="80" r="40" fill="#fffaf0" stroke="#7a766d" stroke-width="1.5"/>
+<circle cx="52" cy="80" r="26" fill="#fffaf0" stroke="#7a766d" stroke-width="1"/>
+<circle cx="52" cy="80" r="12" fill="#fffaf0" stroke="#7a766d" stroke-width="1"/>
+<circle cx="47" cy="77" r="3.8" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1.2"/>
+<circle cx="56" cy="75" r="3.8" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1.2"/>
+<circle cx="58" cy="83" r="3.8" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1.2"/>
+<circle cx="49" cy="85" r="3.8" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1.2"/>
+<circle cx="53" cy="80" r="3.8" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1.2"/>
+<text x="52" y="148" font-family="sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#1d1c1a">A</text>
+<circle cx="148" cy="80" r="40" fill="#fffaf0" stroke="#7a766d" stroke-width="1.5"/>
+<circle cx="148" cy="80" r="26" fill="#fffaf0" stroke="#7a766d" stroke-width="1"/>
+<circle cx="148" cy="80" r="12" fill="#fffaf0" stroke="#7a766d" stroke-width="1"/>
+<circle cx="124" cy="70" r="3.8" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1.2"/>
+<circle cx="166" cy="58" r="3.8" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1.2"/>
+<circle cx="174" cy="92" r="3.8" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1.2"/>
+<circle cx="136" cy="104" r="3.8" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1.2"/>
+<circle cx="150" cy="78" r="3.8" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1.2"/>
+<text x="148" y="148" font-family="sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#1d1c1a">B</text>
+<circle cx="244" cy="80" r="40" fill="#fffaf0" stroke="#7a766d" stroke-width="1.5"/>
+<circle cx="244" cy="80" r="26" fill="#fffaf0" stroke="#7a766d" stroke-width="1"/>
+<circle cx="244" cy="80" r="12" fill="#fffaf0" stroke="#7a766d" stroke-width="1"/>
+<circle cx="262" cy="58" r="3.8" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1.2"/>
+<circle cx="268" cy="62" r="3.8" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1.2"/>
+<circle cx="266" cy="56" r="3.8" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1.2"/>
+<circle cx="270" cy="60" r="3.8" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1.2"/>
+<circle cx="264" cy="63" r="3.8" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1.2"/>
+<text x="244" y="148" font-family="sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#1d1c1a">C</text>
+<circle cx="340" cy="80" r="40" fill="#fffaf0" stroke="#7a766d" stroke-width="1.5"/>
+<circle cx="340" cy="80" r="26" fill="#fffaf0" stroke="#7a766d" stroke-width="1"/>
+<circle cx="340" cy="80" r="12" fill="#fffaf0" stroke="#7a766d" stroke-width="1"/>
+<circle cx="312" cy="86" r="3.8" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1.2"/>
+<circle cx="330" cy="104" r="3.8" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1.2"/>
+<circle cx="310" cy="66" r="3.8" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1.2"/>
+<circle cx="336" cy="110" r="3.8" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1.2"/>
+<circle cx="320" cy="56" r="3.8" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1.2"/>
+<text x="340" y="148" font-family="sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#1d1c1a">D</text>
+<text x="196" y="178" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">점 하나 = 표본 하나에서 얻은 추정값</text>
+</svg>

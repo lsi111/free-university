@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 220" width="380" height="220">
+<rect width="380" height="220" fill="#f4efe6"/>
+<text x="40" y="34" font-family="sans-serif" fill="#1d1c1a" font-size="12">가온상회 (자산 1000)</text>
+<rect x="40" y="44" width="180" height="34" fill="#f3d9c5" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="130" y="66" font-family="sans-serif" fill="#1d1c1a" font-size="12" text-anchor="middle">부채 600</text>
+<rect x="220" y="44" width="120" height="34" fill="#dfe8e4" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="280" y="66" font-family="sans-serif" fill="#1d1c1a" font-size="12" text-anchor="middle">자본 400</text>
+<text x="40" y="122" font-family="sans-serif" fill="#1d1c1a" font-size="12">나루공방 (자산 1000)</text>
+<rect x="40" y="132" width="60" height="34" fill="#f3d9c5" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="70" y="154" font-family="sans-serif" fill="#1d1c1a" font-size="11" text-anchor="middle">부채 200</text>
+<rect x="100" y="132" width="240" height="34" fill="#dfe8e4" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="220" y="154" font-family="sans-serif" fill="#1d1c1a" font-size="12" text-anchor="middle">자본 800</text>
+<text x="190" y="198" font-family="sans-serif" fill="#1d1c1a" font-size="12" text-anchor="middle">막대 전체 길이 = 자산 1000 (단위: 만원)</text>
+</svg>

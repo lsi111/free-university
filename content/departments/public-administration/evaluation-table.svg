@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 252" width="380" height="252">
+<rect width="380" height="252" fill="#f4efe6"/>
+<text x="190" y="22" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1d1c1a">두 사업의 비교 (가상, 한 해 기준)</text>
+<rect x="15" y="40" width="150" height="36" fill="#e3efe9" stroke="#7a766d"/>
+<text x="90" y="63" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1d1c1a">항목</text>
+<rect x="165" y="40" width="100" height="36" fill="#e3efe9" stroke="#7a766d"/>
+<text x="215" y="63" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1d1c1a">사업 가</text>
+<rect x="265" y="40" width="100" height="36" fill="#e3efe9" stroke="#7a766d"/>
+<text x="315" y="63" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1d1c1a">사업 나</text>
+<rect x="15" y="76" width="150" height="36" fill="#fffaf0" stroke="#7a766d"/>
+<text x="90" y="99" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">쓴 돈 (억 원)</text>
+<rect x="165" y="76" width="100" height="36" fill="#fffaf0" stroke="#7a766d"/>
+<text x="215" y="99" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">18</text>
+<rect x="265" y="76" width="100" height="36" fill="#fffaf0" stroke="#7a766d"/>
+<text x="315" y="99" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">24</text>
+<rect x="15" y="112" width="150" height="36" fill="#fffaf0" stroke="#7a766d"/>
+<text x="90" y="135" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">목표 인원 (명)</text>
+<rect x="165" y="112" width="100" height="36" fill="#fffaf0" stroke="#7a766d"/>
+<text x="215" y="135" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">1,000</text>
+<rect x="265" y="112" width="100" height="36" fill="#fffaf0" stroke="#7a766d"/>
+<text x="315" y="135" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">1,000</text>
+<rect x="15" y="148" width="150" height="36" fill="#fffaf0" stroke="#7a766d"/>
+<text x="90" y="171" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">도움받은 인원 (명)</text>
+<rect x="165" y="148" width="100" height="36" fill="#fffaf0" stroke="#7a766d"/>
+<text x="215" y="171" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">900</text>
+<rect x="265" y="148" width="100" height="36" fill="#fffaf0" stroke="#7a766d"/>
+<text x="315" y="171" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">800</text>
+<rect x="15" y="184" width="150" height="36" fill="#fffaf0" stroke="#7a766d"/>
+<text x="90" y="207" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">외곽 지역 주민 비율</text>
+<rect x="165" y="184" width="100" height="36" fill="#fffaf0" stroke="#7a766d"/>
+<text x="215" y="207" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">10%</text>
+<rect x="265" y="184" width="100" height="36" fill="#fffaf0" stroke="#7a766d"/>
+<text x="315" y="207" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">40%</text>
+<text x="190" y="242" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#7a766d">외곽 지역 주민 비율은 도움받은 사람 중 외곽 거주자의 몫이다</text>
+</svg>

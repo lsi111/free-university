@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 230" width="380" height="230">
+<rect width="380" height="230" fill="#f4efe6"/>
+<text x="190" y="20" font-family="sans-serif" fill="#1d1c1a" font-size="13" font-weight="bold" text-anchor="middle">원금 100, 연 10%일 때 불어나는 돈</text>
+<rect x="60" y="32" width="10" height="10" fill="#7a766d"/><text x="75" y="41" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="start">단리</text>
+<rect x="150" y="32" width="10" height="10" fill="#2f5d50"/><text x="165" y="41" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="start">복리</text>
+<rect x="30" y="95" width="30" height="100" fill="#7a766d"/>
+<text x="45" y="91" font-family="sans-serif" fill="#1d1c1a" font-size="11" font-weight="normal" text-anchor="middle">100</text>
+<rect x="62" y="95" width="30" height="100" fill="#2f5d50"/>
+<text x="77" y="91" font-family="sans-serif" fill="#1d1c1a" font-size="11" font-weight="normal" text-anchor="middle">100</text>
+<text x="61" y="213" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">0년 후</text>
+<rect x="115" y="85" width="30" height="110" fill="#7a766d"/>
+<text x="130" y="81" font-family="sans-serif" fill="#1d1c1a" font-size="11" font-weight="normal" text-anchor="middle">110</text>
+<rect x="147" y="85" width="30" height="110" fill="#2f5d50"/>
+<text x="162" y="81" font-family="sans-serif" fill="#1d1c1a" font-size="11" font-weight="normal" text-anchor="middle">110</text>
+<text x="146" y="213" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">1년 후</text>
+<rect x="200" y="75" width="30" height="120" fill="#7a766d"/>
+<text x="215" y="71" font-family="sans-serif" fill="#1d1c1a" font-size="11" font-weight="normal" text-anchor="middle">120</text>
+<rect x="232" y="74" width="30" height="121" fill="#2f5d50"/>
+<text x="247" y="70" font-family="sans-serif" fill="#1d1c1a" font-size="11" font-weight="normal" text-anchor="middle">121</text>
+<text x="231" y="213" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">2년 후</text>
+<rect x="285" y="65" width="30" height="130" fill="#7a766d"/>
+<text x="300" y="61" font-family="sans-serif" fill="#1d1c1a" font-size="11" font-weight="normal" text-anchor="middle">130</text>
+<rect x="317" y="61.900000000000006" width="30" height="133.1" fill="#2f5d50"/>
+<text x="332" y="57.9" font-family="sans-serif" fill="#1d1c1a" font-size="11" font-weight="normal" text-anchor="middle">133.1</text>
+<text x="316" y="213" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">3년 후</text>
+<line x1="20" y1="195" x2="360" y2="195" stroke="#1d1c1a" stroke-width="1"/>
+</svg>

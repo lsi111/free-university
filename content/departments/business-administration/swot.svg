@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" viewBox="0 0 380 264" width="380" height="264">
+  <rect width="380" height="264" fill="#f4efe6"/>
+  <text x="190" y="22" font-size="14" font-weight="700" fill="#1d1c1a" text-anchor="middle">SWOT 매트릭스</text>
+  <g font-size="12" font-weight="700" fill="#1d1c1a" text-anchor="middle">
+    <text x="130" y="53">도움이 되는 것</text><text x="290" y="53">해가 되는 것</text>
+    <text x="26" y="116">내부</text><text x="26" y="206">외부</text>
+  </g>
+  <g fill="#f4efe6" stroke-width="2">
+    <rect x="50" y="62" width="160" height="90" rx="6" stroke="#2f5d50"/>
+    <rect x="210" y="62" width="160" height="90" rx="6" stroke="#e07a3f"/>
+    <rect x="50" y="156" width="160" height="90" rx="6" stroke="#2f5d50"/>
+    <rect x="210" y="156" width="160" height="90" rx="6" stroke="#e07a3f"/>
+  </g>
+  <g font-size="14" font-weight="700" fill="#1d1c1a">
+    <text x="62" y="90">S 강점</text><text x="222" y="90">W 약점</text>
+    <text x="62" y="184">O 기회</text><text x="222" y="184">T 위협</text>
+  </g>
+  <g font-size="12" fill="#1d1c1a">
+    <text x="62" y="114">회사 안의 유리한 점</text><text x="222" y="114">회사 안의 불리한 점</text>
+    <text x="62" y="208">회사 밖의 유리한 변화</text><text x="222" y="208">회사 밖의 불리한 변화</text>
+  </g>
+</svg>

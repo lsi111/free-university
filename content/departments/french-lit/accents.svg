@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 230" width="400" height="230">
+<rect width="400" height="230" fill="#f4efe6"/>
+<text x="36" y="28" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#7a766d">기호</text>
+<text x="70" y="28" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">이름</text>
+<text x="215" y="28" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">예</text>
+<text x="300" y="28" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">근사 소리</text>
+<line x1="20" y1="38" x2="380" y2="38" stroke="#7a766d" stroke-width="1"/>
+<text x="36" y="64" font-size="24" text-anchor="middle" font-family="sans-serif" fill="#e07a3f">é</text>
+<text x="70" y="61" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">accent aigu</text>
+<text x="215" y="61" font-size="13" text-anchor="start" font-family="sans-serif" fill="#2f5d50">café</text>
+<text x="300" y="61" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">카페</text>
+<line x1="20" y1="74" x2="380" y2="74" stroke="#d8d2c4" stroke-width="1"/>
+<text x="36" y="100" font-size="24" text-anchor="middle" font-family="sans-serif" fill="#e07a3f">è</text>
+<text x="70" y="97" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">accent grave</text>
+<text x="215" y="97" font-size="13" text-anchor="start" font-family="sans-serif" fill="#2f5d50">mère</text>
+<text x="300" y="97" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">메르</text>
+<line x1="20" y1="110" x2="380" y2="110" stroke="#d8d2c4" stroke-width="1"/>
+<text x="36" y="136" font-size="24" text-anchor="middle" font-family="sans-serif" fill="#e07a3f">ê</text>
+<text x="70" y="133" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">accent circonflexe</text>
+<text x="215" y="133" font-size="13" text-anchor="start" font-family="sans-serif" fill="#2f5d50">être</text>
+<text x="300" y="133" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">에트르</text>
+<line x1="20" y1="146" x2="380" y2="146" stroke="#d8d2c4" stroke-width="1"/>
+<text x="36" y="172" font-size="24" text-anchor="middle" font-family="sans-serif" fill="#e07a3f">à</text>
+<text x="70" y="169" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">accent grave</text>
+<text x="215" y="169" font-size="13" text-anchor="start" font-family="sans-serif" fill="#2f5d50">là</text>
+<text x="300" y="169" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">라</text>
+<line x1="20" y1="182" x2="380" y2="182" stroke="#d8d2c4" stroke-width="1"/>
+<text x="36" y="208" font-size="24" text-anchor="middle" font-family="sans-serif" fill="#e07a3f">ç</text>
+<text x="70" y="205" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">cédille</text>
+<text x="215" y="205" font-size="13" text-anchor="start" font-family="sans-serif" fill="#2f5d50">garçon</text>
+<text x="300" y="205" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">가르쏭</text>
+<line x1="20" y1="218" x2="380" y2="218" stroke="#d8d2c4" stroke-width="1"/>
+</svg>

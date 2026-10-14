@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 220" width="380" height="220">
+<rect width="380" height="220" fill="#f4efe6"/>
+<text x="190" y="20" font-size="13" text-anchor="middle" font-family="sans-serif" fill="#7a766d">요일 (월요일부터)</text>
+<rect x="12" y="34" width="85" height="62" rx="5" fill="#2f5d50" fill-opacity="0.14" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="54" y="54" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#7a766d">월요일</text>
+<text x="54" y="78" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a" font-weight="bold">Montag</text>
+<rect x="103" y="34" width="85" height="62" rx="5" fill="#2f5d50" fill-opacity="0.14" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="145" y="54" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#7a766d">화요일</text>
+<text x="145" y="78" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a" font-weight="bold">Dienstag</text>
+<rect x="194" y="34" width="85" height="62" rx="5" fill="#2f5d50" fill-opacity="0.14" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="236" y="54" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#7a766d">수요일</text>
+<text x="236" y="78" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a" font-weight="bold">Mittwoch</text>
+<rect x="285" y="34" width="85" height="62" rx="5" fill="#2f5d50" fill-opacity="0.14" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="327" y="54" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#7a766d">목요일</text>
+<text x="327" y="78" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a" font-weight="bold">Donnerstag</text>
+<rect x="12" y="108" width="85" height="62" rx="5" fill="#2f5d50" fill-opacity="0.14" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="54" y="128" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#7a766d">금요일</text>
+<text x="54" y="152" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a" font-weight="bold">Freitag</text>
+<rect x="103" y="108" width="85" height="62" rx="5" fill="#e07a3f" fill-opacity="0.14" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="145" y="128" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#7a766d">토요일</text>
+<text x="145" y="152" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a" font-weight="bold">Samstag</text>
+<rect x="194" y="108" width="85" height="62" rx="5" fill="#e07a3f" fill-opacity="0.14" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="236" y="128" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#7a766d">일요일</text>
+<text x="236" y="152" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a" font-weight="bold">Sonntag</text>
+<text x="327" y="140" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#e07a3f">주말은</text>
+<text x="327" y="158" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#e07a3f">주황 칸</text>
+<text x="190" y="200" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#7a766d">Samstag와 Sonntag가 주말</text>
+</svg>

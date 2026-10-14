@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" viewBox="0 0 360 270" width="360" height="270">
+  <rect width="360" height="270" fill="#f4efe6"/>
+  <text x="180" y="26" font-size="14" font-weight="700" fill="#1d1c1a" text-anchor="middle">기업을 둘러싼 이해관계자</text>
+  <g stroke="#7a766d" stroke-width="2">
+    <line x1="180" y1="125" x2="70" y2="62"/><line x1="180" y1="125" x2="290" y2="62"/>
+    <line x1="180" y1="125" x2="70" y2="188"/><line x1="180" y1="125" x2="290" y2="188"/>
+    <line x1="180" y1="125" x2="180" y2="231"/>
+  </g>
+  <rect x="130" y="100" width="100" height="50" rx="8" fill="#f4efe6" stroke="#2f5d50" stroke-width="3"/>
+  <text x="180" y="130" font-size="14" font-weight="700" fill="#2f5d50" text-anchor="middle">기업</text>
+  <g fill="#f4efe6" stroke="#e07a3f" stroke-width="2">
+    <rect x="20" y="44" width="100" height="36" rx="6"/><rect x="240" y="44" width="100" height="36" rx="6"/>
+    <rect x="20" y="170" width="100" height="36" rx="6"/><rect x="240" y="170" width="100" height="36" rx="6"/>
+    <rect x="130" y="214" width="100" height="36" rx="6"/>
+  </g>
+  <g font-size="12" fill="#1d1c1a" text-anchor="middle">
+    <text x="70" y="67">고객</text><text x="290" y="67">직원</text>
+    <text x="70" y="193">공급자</text><text x="290" y="193">투자자(주주)</text>
+    <text x="180" y="237">지역 사회</text>
+  </g>
+</svg>

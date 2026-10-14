@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 236" width="380" height="236">
+<rect width="380" height="236" fill="#f4efe6"/>
+<g font-family="sans-serif">
+<text x="190" y="26" text-anchor="middle" font-size="13" fill="#1d1c1a" font-weight="bold">조정과 수정: 무엇이 바뀌는가</text>
+<text x="95" y="52" text-anchor="middle" font-size="13" fill="#2f5d50" font-weight="bold">조정</text>
+<text x="285" y="52" text-anchor="middle" font-size="13" fill="#e07a3f" font-weight="bold">수정</text>
+<rect x="10" y="64" width="170" height="52" fill="#2f5d50" stroke="#2f5d50" stroke-width="2"/>
+<text x="95.0" y="85.0" text-anchor="middle" font-size="12" fill="#ffffff" font-weight="bold">같은 목표</text>
+<text x="95.0" y="103.0" text-anchor="middle" font-size="12" fill="#ffffff">방법이 바뀐다</text>
+<rect x="200" y="64" width="170" height="52" fill="#ffffff" stroke="#e07a3f" stroke-width="2"/>
+<text x="285.0" y="85.0" text-anchor="middle" font-size="12" fill="#1d1c1a" font-weight="bold">목표나 기대 수준</text>
+<text x="285.0" y="103.0" text-anchor="middle" font-size="12" fill="#1d1c1a">자체가 바뀐다</text>
+<rect x="10" y="130" width="170" height="40" fill="#ffffff" stroke="#7a766d" stroke-width="2"/>
+<text x="95.0" y="154.0" text-anchor="middle" font-size="12" fill="#1d1c1a" font-weight="bold">예: 시험 시간 늘리기</text>
+<rect x="200" y="130" width="170" height="40" fill="#ffffff" stroke="#7a766d" stroke-width="2"/>
+<text x="285.0" y="154.0" text-anchor="middle" font-size="12" fill="#1d1c1a" font-weight="bold">예: 다룰 내용의 양 줄이기</text>
+<rect x="10" y="180" width="170" height="40" fill="#ffffff" stroke="#7a766d" stroke-width="2"/>
+<text x="95.0" y="204.0" text-anchor="middle" font-size="12" fill="#1d1c1a" font-weight="bold">예: 글자 크게 보여 주기</text>
+<rect x="200" y="180" width="170" height="40" fill="#ffffff" stroke="#7a766d" stroke-width="2"/>
+<text x="285.0" y="204.0" text-anchor="middle" font-size="12" fill="#1d1c1a" font-weight="bold">예: 더 쉬운 목표 세우기</text>
+</g>
+</svg>

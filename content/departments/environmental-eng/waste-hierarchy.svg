@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 270" width="400" height="270">
+<rect width="400" height="270" fill="#f4efe6"/>
+<text x="200" y="18" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">우선순위 높음</text>
+<rect x="30" y="28" width="340" height="36" rx="6" fill="#b9c8be" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="200.0" y="50.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">1 줄이기 (발생 억제)</text>
+<rect x="47" y="70" width="305" height="36" rx="6" fill="#cfd8cf" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="199.5" y="92.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">2 다시 쓰기 (재사용)</text>
+<rect x="65" y="112" width="270" height="36" rx="6" fill="#dfe3d8" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="200.0" y="134.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">3 재활용</text>
+<rect x="82" y="154" width="235" height="36" rx="6" fill="#e9e2d3" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="199.5" y="176.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">4 에너지 회수</text>
+<rect x="100" y="196" width="200" height="36" rx="6" fill="#eddccb" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="200.0" y="218.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">5 최종 처분 (매립 등)</text>
+<text x="200" y="258" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">우선순위 낮음</text>
+</svg>

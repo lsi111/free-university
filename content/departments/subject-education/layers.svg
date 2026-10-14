@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+  <rect width="400" height="240" fill="#f4efe6"/>
+  <text x="200" y="24" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1d1c1a">교육과정의 세 층</text>
+  <g font-family="sans-serif" font-size="12" fill="#1d1c1a">
+    <rect x="20" y="40" width="360" height="44" fill="#ffffff" stroke="#7a766d" stroke-width="2"/>
+    <text x="32" y="67" font-size="13" font-weight="bold">계획된 교육과정</text><text x="170" y="67">문서에 담긴 목표와 내용</text>
+    <rect x="20" y="108" width="360" height="44" fill="#e07a3f" fill-opacity="0.35" stroke="#e07a3f" stroke-width="2"/>
+    <text x="32" y="135" font-size="13" font-weight="bold">실행된 교육과정</text><text x="170" y="135">교실에서 실제로 가르친 것</text>
+    <rect x="20" y="176" width="360" height="44" fill="#2f5d50"/>
+    <text x="32" y="203" font-size="13" font-weight="bold" fill="#ffffff">성취된 교육과정</text><text x="170" y="203" fill="#ffffff">학생이 실제로 익힌 것</text>
+  </g>
+  <g fill="#1d1c1a" stroke="#1d1c1a" stroke-width="2">
+    <line x1="60" y1="86" x2="60" y2="98"/><polygon points="60,106 55,98 65,98"/>
+    <line x1="60" y1="154" x2="60" y2="166"/><polygon points="60,174 55,166 65,166"/>
+  </g>
+  <g font-family="sans-serif" font-size="11" fill="#7a766d">
+    <text x="74" y="101">차이가 생길 수 있다</text>
+    <text x="74" y="169">차이가 생길 수 있다</text>
+  </g>
+</svg>

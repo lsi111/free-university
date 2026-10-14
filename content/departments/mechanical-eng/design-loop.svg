@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 190" width="400" height="190">
+<rect width="400" height="190" fill="#f4efe6"/>
+<rect x="10" y="60" width="80" height="50" rx="6" fill="#fbf8f2" stroke="#2f5d50" stroke-width="2"/>
+<text x="50" y="52" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#7a766d">1</text>
+<text x="50" y="90" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">문제 정의</text>
+<line x1="92" y1="85" x2="113.0" y2="85.0" stroke="#2f5d50" stroke-width="2"/><polygon points="118.0,85.0 109.9,88.9 109.9,81.1" fill="#2f5d50"/>
+<rect x="110" y="60" width="80" height="50" rx="6" fill="#fbf8f2" stroke="#2f5d50" stroke-width="2"/>
+<text x="150" y="52" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#7a766d">2</text>
+<text x="150" y="90" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">아이디어</text>
+<line x1="192" y1="85" x2="213.0" y2="85.0" stroke="#2f5d50" stroke-width="2"/><polygon points="218.0,85.0 209.9,88.9 209.9,81.1" fill="#2f5d50"/>
+<rect x="210" y="60" width="80" height="50" rx="6" fill="#fbf8f2" stroke="#2f5d50" stroke-width="2"/>
+<text x="250" y="52" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#7a766d">3</text>
+<text x="250" y="83" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">시제품</text>
+<text x="250" y="100" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">제작</text>
+<line x1="292" y1="85" x2="313.0" y2="85.0" stroke="#2f5d50" stroke-width="2"/><polygon points="318.0,85.0 309.9,88.9 309.9,81.1" fill="#2f5d50"/>
+<rect x="310" y="60" width="80" height="50" rx="6" fill="#fbf8f2" stroke="#2f5d50" stroke-width="2"/>
+<text x="350" y="52" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#7a766d">4</text>
+<text x="350" y="90" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">시험</text>
+<polyline points="350,112 350,148 150,148 150,116" fill="none" stroke="#e07a3f" stroke-width="2.5"/>
+<line x1="150" y1="150" x2="150.0" y2="118.0" stroke="#e07a3f" stroke-width="2.5"/><polygon points="150.0,113.0 153.9,121.1 146.1,121.1" fill="#e07a3f"/>
+<text x="250" y="170" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">요구 조건을 못 맞추면 되돌아간다</text>
+</svg>

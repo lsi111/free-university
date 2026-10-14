@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 222" width="380" height="222">
+<rect width="380" height="222" fill="#f4efe6"/>
+<text x="190" y="20" font-size="13" text-anchor="middle" font-family="sans-serif" fill="#7a766d">누가 무엇을 하는가: 격이 역할을 알려 준다</text>
+<rect x="20" y="36" width="112" height="34" rx="5" fill="#2f5d50" fill-opacity="0.14" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="76.0" y="58" font-size="14" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">Der Hund</text>
+<text x="76.0" y="88" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#2f5d50">주어(주격)</text>
+<rect x="140" y="36" width="84" height="34" rx="5" fill="#7a766d" fill-opacity="0.14" stroke="#7a766d" stroke-width="1.5"/>
+<text x="182.0" y="58" font-size="14" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">sieht</text>
+<text x="182.0" y="88" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#7a766d">동사</text>
+<rect x="232" y="36" width="128" height="34" rx="5" fill="#e07a3f" fill-opacity="0.14" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="296.0" y="58" font-size="14" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">den Ball</text>
+<text x="296.0" y="88" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#e07a3f">목적어(목적격)</text>
+<rect x="20" y="122" width="112" height="34" rx="5" fill="#e07a3f" fill-opacity="0.14" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="76.0" y="144" font-size="14" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">Den Ball</text>
+<text x="76.0" y="174" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#e07a3f">목적어(목적격)</text>
+<rect x="140" y="122" width="84" height="34" rx="5" fill="#7a766d" fill-opacity="0.14" stroke="#7a766d" stroke-width="1.5"/>
+<text x="182.0" y="144" font-size="14" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">sieht</text>
+<text x="182.0" y="174" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#7a766d">동사</text>
+<rect x="232" y="122" width="128" height="34" rx="5" fill="#2f5d50" fill-opacity="0.14" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="296.0" y="144" font-size="14" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">der Hund</text>
+<text x="296.0" y="174" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#2f5d50">주어(주격)</text>
+<text x="190" y="100" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#7a766d">개가 공을 본다</text>
+<text x="190" y="186" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#7a766d">어순이 바뀌어도 개가 공을 본다</text>
+<text x="190" y="210" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#7a766d">남성 관사만 der가 den으로 바뀐다</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
+  <rect width="360" height="190" fill="#f4efe6"/>
+  <line x1="12" y1="110" x2="348" y2="110" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="12" y1="100" x2="348" y2="100" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="12" y1="90" x2="348" y2="90" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="12" y1="80" x2="348" y2="80" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="12" y1="70" x2="348" y2="70" stroke="#1d1c1a" stroke-width="1"/>
+  <path d="M25 123 C25 131 34 131 34 122 L30 74 C28 60 40 60 39 72 C38 84 24 90 21 100" fill="none" stroke="#1d1c1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M21 100 C24 111 43 107 42 93 C41 80 18 80 19 93 C20 101 33 102 34 94" fill="none" stroke="#1d1c1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="34" cy="94" r="2" fill="#1d1c1a"/>
+  <ellipse cx="90" cy="90" rx="7" ry="4.6" fill="#f4efe6" stroke="#1d1c1a" stroke-width="1.8"/>
+  <ellipse cx="90" cy="90" rx="2.4" ry="3.6" fill="none" stroke="#1d1c1a" stroke-width="1.6" transform="rotate(35 90 90)"/>
+  <text x="90" y="44" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#e07a3f" font-weight="bold">1</text>
+  <ellipse cx="156" cy="110" rx="7" ry="4.6" fill="#f4efe6" stroke="#1d1c1a" stroke-width="1.8"/>
+  <ellipse cx="156" cy="110" rx="2.4" ry="3.6" fill="none" stroke="#1d1c1a" stroke-width="1.6" transform="rotate(35 156 110)"/>
+  <text x="156" y="44" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#e07a3f" font-weight="bold">2</text>
+  <ellipse cx="222" cy="80" rx="7" ry="4.6" fill="#f4efe6" stroke="#1d1c1a" stroke-width="1.8"/>
+  <ellipse cx="222" cy="80" rx="2.4" ry="3.6" fill="none" stroke="#1d1c1a" stroke-width="1.6" transform="rotate(35 222 80)"/>
+  <text x="222" y="44" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#e07a3f" font-weight="bold">3</text>
+  <ellipse cx="288" cy="100" rx="7" ry="4.6" fill="#f4efe6" stroke="#1d1c1a" stroke-width="1.8"/>
+  <ellipse cx="288" cy="100" rx="2.4" ry="3.6" fill="none" stroke="#1d1c1a" stroke-width="1.6" transform="rotate(35 288 100)"/>
+  <text x="288" y="44" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#e07a3f" font-weight="bold">4</text>
+  <text x="180" y="178" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">번호가 붙은 네 음</text>
+</svg>

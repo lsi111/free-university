@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 300" width="380" height="300">
+<rect width="380" height="300" fill="#f4efe6"/>
+<defs><marker id="ah" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><polygon points="0,0 8,4 0,8" fill="#1d1c1a"/></marker></defs>
+<text x="190" y="22" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1d1c1a">가나라의 권력 분립 (가상)</text>
+<rect x="125" y="40" width="130" height="44" rx="6" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<text x="190" y="66" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#1d1c1a">의회(입법부)</text>
+<rect x="15" y="220" width="130" height="44" rx="6" fill="#fffaf0" stroke="#e07a3f" stroke-width="2"/>
+<text x="80" y="246" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#1d1c1a">정부(행정부)</text>
+<rect x="235" y="220" width="130" height="44" rx="6" fill="#fffaf0" stroke="#7a766d" stroke-width="2"/>
+<text x="300" y="246" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#1d1c1a">법원(사법부)</text>
+<line x1="160" y1="86" x2="92" y2="216" stroke="#1d1c1a" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="147" y1="242" x2="231" y2="242" stroke="#1d1c1a" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="288" y1="216" x2="220" y2="88" stroke="#1d1c1a" stroke-width="1.5" marker-end="url(#ah)"/>
+<text x="112" y="152" font-family="sans-serif" font-size="12" text-anchor="end" fill="#1d1c1a">예산 심사</text>
+<text x="190" y="234" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">법관 임명</text>
+<text x="268" y="152" font-family="sans-serif" font-size="12" fill="#1d1c1a">위헌 심사</text>
+<text x="190" y="288" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#7a766d">화살표는 "누가 누구에게 하는 일"을 뜻한다</text>
+</svg>

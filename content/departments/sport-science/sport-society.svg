@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" width="360" height="220">
+  <rect width="360" height="220" fill="#f4efe6"/>
+  <rect x="10" y="30" width="165" height="175" rx="8" fill="none" stroke="#2f5d50" stroke-width="2"/>
+  <rect x="185" y="30" width="165" height="175" rx="8" fill="none" stroke="#e07a3f" stroke-width="2"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="180" y="20" text-anchor="middle" font-size="13" font-weight="bold">스포츠를 보는 두 시선</text>
+    <text x="92" y="56" text-anchor="middle" font-size="13" font-weight="bold" fill="#2f5d50">기대되는 면</text>
+    <text x="267" y="56" text-anchor="middle" font-size="13" font-weight="bold" fill="#e07a3f">우려되는 면</text>
+    <text x="22" y="90" font-size="12">• 건강 증진</text>
+    <text x="22" y="124" font-size="12">• 공동체 소속감</text>
+    <text x="22" y="158" font-size="12">• 규칙을 배우는 경험</text>
+    <text x="197" y="90" font-size="12">• 승리 지상주의</text>
+    <text x="197" y="124" font-size="12">• 접근 기회의 격차</text>
+    <text x="197" y="158" font-size="12">• 지나친 상업화</text>
+    <text x="180" y="195" text-anchor="middle" font-size="11" fill="#7a766d">둘 다 근거로 따져 볼 대상이다</text>
+  </g>
+</svg>

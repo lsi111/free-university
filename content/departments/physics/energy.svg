@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 220" width="380" height="220">
+<rect width="380" height="220" fill="#f4efe6"/>
+<polyline points="30,80 150,180 230,180 330,120" fill="none" stroke="#7a766d" stroke-width="3"/><line x1="20" y1="180" x2="360" y2="180" stroke="#7a766d" stroke-dasharray="4 4"/><circle cx="30" cy="80" r="7" fill="#e07a3f"/><circle cx="190" cy="180" r="7" fill="#e07a3f"/><circle cx="330" cy="120" r="7" fill="#e07a3f"/><text x="42" y="70" font-family="sans-serif" fill="#1d1c1a" font-size="12" text-anchor="start">A 높이 5 m</text><text x="190" y="165" font-family="sans-serif" fill="#1d1c1a" font-size="12" text-anchor="middle">B 높이 0 m</text><text x="320" y="108" font-family="sans-serif" fill="#1d1c1a" font-size="12" text-anchor="end">C 높이 3 m</text><text x="190" y="205" font-family="sans-serif" fill="#1d1c1a" font-size="12" text-anchor="middle">마찰 없는 레일</text>
+</svg>

@@ -1,0 +1,735 @@
+{
+  "trunk": [
+    "el-01",
+    "el-02",
+    "el-03",
+    "el-04",
+    "el-05",
+    "el-06"
+  ],
+  "branches": [],
+  "lessons": [
+    {
+      "id": "el-01",
+      "title": "영어는 어떤 언어인가",
+      "minutes": 24,
+      "requires": [],
+      "features": [],
+      "explain": [
+        "**영어**는 지금 세계에서 가장 널리 쓰이는 언어 가운데 하나다. 이 학과에서는 영어를 말과 글의 도구로만 보지 않고, 영어로 쓰인 말의 짜임(**영어학**)과 영어로 쓰인 글(**영문학**)을 함께 살핀다. 이번 교시는 영어가 어떤 언어인지 큰 그림을 잡는다.",
+        "언어학에서는 언어를 계통에 따라 묶는다. 영어는 **인도유럽어족** 가운데 **게르만어파**에 속한다고 설명한다. 독일어, 네덜란드어와 친척 관계라는 뜻이다. 한국어는 이 어족에 속하지 않는다. 그래서 두 언어는 낱말도, 문장을 만드는 방식도 많이 다르다.",
+        "가장 눈에 띄는 차이는 **어순**이다. 영어는 기본적으로 **주어(S) - 동사(V) - 목적어(O)** 순서로 말한다. 한국어는 보통 **주어 - 목적어 - 동사** 순서다.",
+        {
+          "figure": "departments/english-lit/svo.svg",
+          "alt": "영어와 한국어의 어순 비교. 위쪽 영어 줄은 왼쪽부터 The cat(S 주어), chased(V 동사), a mouse(O 목적어) 순이다. 아래쪽 한국어 줄은 왼쪽부터 고양이가(S 주어), 쥐를(O 목적어), 쫓았다(V 동사) 순이다."
+        },
+        "한국어는 \"가\", \"를\" 같은 조사가 붙어서 누가 주어이고 무엇이 목적어인지 알려 준다. 그래서 \"고양이가 쥐를 쫓았다\"와 \"쥐를 고양이가 쫓았다\"는 쓰임은 달라도 같은 사실을 말한다. 영어는 이런 조사가 거의 없어서 **자리**가 역할을 알려 준다. *The cat chased a mouse.*(고양이가 쥐를 쫓았다)에서 두 명사의 자리를 바꾸면 *A mouse chased the cat.*이 되고, 쫓는 쪽과 쫓기는 쪽이 뒤바뀐다.",
+        "영어는 어떻게 이렇게 널리 퍼졌을까? 한 가지 원인으로 설명되지는 않지만, 흔히 다음 요인들을 든다.\n- 오랜 세월 영국이 여러 지역과 무역하고 식민 지배를 하며 영어를 퍼뜨렸다.\n- 20세기에 미국의 경제·과학·대중문화가 영어 사용을 넓혔다.\n- 국제 무역, 학술 연구, 인터넷에서 서로 다른 모어를 쓰는 사람들이 공통어로 영어를 골랐다.",
+        "이 때문에 영어를 모어로 쓰는 사람보다 제2언어나 외국어로 쓰는 사람이 더 많다고 흔히 말한다. 영어에도 지역마다 다른 발음과 낱말이 있고, 어느 한 가지가 \"진짜\" 영어인 것은 아니다.",
+        "영어는 다른 언어에서 낱말도 많이 빌렸다. *restaurant*는 프랑스어, *piano*는 이탈리아어, *kindergarten*은 독일어에서 왔다. 이렇게 낱말을 들여오는 것을 **차용**이라 한다. 한국어 \"컴퓨터\", \"버스\"도 영어에서 빌린 말이다."
+      ],
+      "examples": [
+        {
+          "title": "어순이 뜻을 바꾸는 예",
+          "body": [
+            "*The dog bit the man.*은 개가 사람을 문 상황이다. 두 명사 자리를 바꾼 *The man bit the dog.*은 사람이 개를 문 상황이다. 낱말은 똑같은데 어순만 달라졌다. 영어에서 어순이 뜻을 가르는 힘이 얼마나 센지 보여 준다.",
+            "한국어로 옮기면 \"개가 사람을 물었다\"와 \"사람이 개를 물었다\"다. 한국어에서는 조사 \"가\"와 \"를\"이 붙는 자리가 바뀌므로 뜻이 달라진다. 영어와 한국어가 같은 구별을 서로 다른 수단으로 한다."
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "type": "choice",
+          "prompt": "그림에서 영어 문장 *The cat chased a mouse.*의 동사 *chased*는 어디에 놓이는가?",
+          "figure": {
+            "figure": "departments/english-lit/svo.svg",
+            "alt": "영어와 한국어의 어순 비교. 위쪽 영어 줄은 왼쪽부터 The cat(S 주어), chased(V 동사), a mouse(O 목적어) 순이다. 아래쪽 한국어 줄은 왼쪽부터 고양이가(S 주어), 쥐를(O 목적어), 쫓았다(V 동사) 순이다."
+          },
+          "options": [
+            "맨 앞",
+            "주어와 목적어 사이",
+            "맨 뒤",
+            "어순과 관계없이 아무 데나"
+          ],
+          "answer": [
+            1
+          ],
+          "hint": "영어 줄에서 S, V, O 순서를 읽어 보세요.",
+          "explanation": "영어는 주어 - 동사 - 목적어 순서다. 동사는 주어와 목적어 사이에 놓인다. 한국어는 동사가 맨 뒤에 온다."
+        },
+        {
+          "type": "order",
+          "prompt": "영어의 기본 어순에 맞게 배열하세요: 고양이가 쥐를 쫓았다.",
+          "figure": {
+            "figure": "departments/english-lit/svo.svg",
+            "alt": "영어와 한국어의 어순 비교. 위쪽 영어 줄은 왼쪽부터 The cat(S 주어), chased(V 동사), a mouse(O 목적어) 순이다. 아래쪽 한국어 줄은 왼쪽부터 고양이가(S 주어), 쥐를(O 목적어), 쫓았다(V 동사) 순이다."
+          },
+          "items": [
+            "The cat",
+            "chased",
+            "a mouse"
+          ],
+          "hint": "주어, 동사, 목적어 순서입니다.",
+          "explanation": "영어는 SVO 순서이므로 The cat, chased, a mouse 순서가 된다."
+        },
+        {
+          "type": "choice",
+          "prompt": "*The man bit the dog.*을 가장 알맞게 옮긴 것은?",
+          "options": [
+            "개가 사람을 물었다",
+            "사람이 개를 물었다",
+            "사람과 개가 서로 물었다",
+            "누가 물었는지 알 수 없다"
+          ],
+          "answer": [
+            1
+          ],
+          "hint": "주어 자리에 있는 낱말이 행동을 하는 쪽입니다.",
+          "explanation": "The man이 주어이고 the dog가 목적어이므로 사람이 개를 문 상황이다."
+        },
+        {
+          "type": "match",
+          "prompt": "영어가 빌려 온 낱말과 그 출처 언어를 짝지으세요.",
+          "pairs": [
+            [
+              "restaurant",
+              "프랑스어"
+            ],
+            [
+              "piano",
+              "이탈리아어"
+            ],
+            [
+              "kindergarten",
+              "독일어"
+            ],
+            [
+              "sushi",
+              "일본어"
+            ]
+          ],
+          "hint": "음식, 악기, 교육과 관련된 낱말이 어디서 왔는지 떠올려 보세요.",
+          "explanation": "restaurant는 프랑스어, piano는 이탈리아어, kindergarten은 독일어, sushi는 일본어에서 영어로 들어온 낱말이다."
+        },
+        {
+          "type": "choice",
+          "prompt": "영어가 세계에서 널리 쓰이는 까닭에 대한 설명으로 가장 알맞은 것은?",
+          "options": [
+            "영어가 다른 언어보다 문법이 언제나 쉽기 때문이다",
+            "영어를 쓰는 사람은 모두 같은 발음을 쓰기 때문이다",
+            "역사적 영향력, 무역·학술·인터넷에서의 공통어 역할 등이 겹쳤기 때문이다",
+            "한국어와 같은 어족이기 때문이다"
+          ],
+          "answer": [
+            2
+          ],
+          "hint": "언어 자체의 우수함이 아니라 사람들이 그 언어를 쓰게 된 사정을 생각해 보세요.",
+          "explanation": "영어가 널리 퍼진 것은 언어 자체가 우월해서가 아니라 역사적·경제적 영향과 공통어 수요가 겹친 결과로 설명된다."
+        }
+      ]
+    },
+    {
+      "id": "el-02",
+      "title": "소리와 철자",
+      "minutes": 26,
+      "requires": [
+        "el-01"
+      ],
+      "features": [],
+      "explain": [
+        "영어를 처음 배우는 사람이 자주 놀라는 점은 글자와 소리가 일대일로 맞지 않는다는 것이다. 한글은 글자 하나가 대체로 정해진 소리를 내지만, 영어 알파벳은 26자뿐인데 영어의 소리는 그보다 훨씬 많다. 그래서 같은 글자가 여러 소리를 내고, 같은 소리가 여러 철자로 쓰인다.",
+        "아래 용어를 먼저 정리한다. **철자**는 낱말을 글자로 적는 방식이고, **발음**은 그 낱말을 소리 내는 방식이다. 이 교시의 한글 소리 표기는 영어 소리에 가까운 **근사**일 뿐 정확한 발음이 아니다. 소리는 이 화면에서 재생되지 않으므로 실제 소리는 사전의 발음 안내나 원어민의 말로 확인해야 한다.",
+        {
+          "figure": "departments/english-lit/spelling-sound.svg",
+          "alt": "철자와 소리의 관계 두 가지. 위쪽은 글자 c에서 두 낱말로 화살표가 나가며 cat은 첫 소리 ㅋ(근사), city는 첫 소리 ㅅ(근사)라고 적혀 있다. 아래쪽은 see, sea, key 세 낱말에서 화살표가 모여 하나의 [iː] 길게 \"이\"(근사), 세 낱말이 같은 모음 소리라는 상자로 향한다."
+        },
+        "그림처럼 *c*는 *cat*에서는 ㅋ에 가까운 소리, *city*에서는 ㅅ에 가까운 소리다. 반대로 *see*, *sea*, *key*는 철자가 다르지만 모음 소리가 같다.",
+        "왜 이렇게 어긋났을까? 흔히 드는 설명은 이렇다. 영어는 오랜 세월 동안 발음이 바뀌었는데, 글로 적는 철자는 인쇄가 퍼지면서 어느 정도 굳어졌다. 그 뒤로 발음은 계속 바뀌었으나 철자는 그대로 남아 옛 발음의 흔적을 가진 경우가 많다. 예를 들어 *knight*의 *k*와 *gh*는 지금은 소리 나지 않는 **묵음**이다. 또 다른 언어에서 낱말을 빌릴 때 원래 철자를 그대로 두는 일도 많았다.",
+        "그래도 규칙이 전혀 없는 것은 아니다. 대표적인 예가 낱말 끝의 *e*다. 끝에 소리 나지 않는 *e*가 붙으면 앞의 모음이 \"알파벳 이름\"에 가까운 긴 소리로 바뀌는 낱말이 많다.\n- *cap*(캡에 가까움) → *cape*(케이프에 가까움)\n- *kit*(킷에 가까움) → *kite*(카이트에 가까움)",
+        "예외도 많다. 그래서 새 낱말을 만날 때는 철자로 소리를 추측해 보되, 확신이 없으면 발음 안내를 확인하는 습관이 좋다."
+      ],
+      "examples": [
+        {
+          "title": "묵음 글자 찾기",
+          "body": [
+            "*knee*(무릎)는 *k*를 읽지 않고 *nee*에 가깝게 읽는다. *lamb*(어린 양)은 *b*를 읽지 않는다. *write*(쓰다)는 *w*를 읽지 않고, *island*(섬)는 *s*를 읽지 않는다.",
+            "이 글자들이 쓸데없어 보여도 철자는 그 낱말이 걸어온 역사를 담고 있다고 설명하는 경우가 많다."
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "type": "choice",
+          "prompt": "그림에서 *see*, *sea*, *key*에 대해 알 수 있는 것은?",
+          "figure": {
+            "figure": "departments/english-lit/spelling-sound.svg",
+            "alt": "철자와 소리의 관계 두 가지. 위쪽은 글자 c에서 두 낱말로 화살표가 나가며 cat은 첫 소리 ㅋ(근사), city는 첫 소리 ㅅ(근사)라고 적혀 있다. 아래쪽은 see, sea, key 세 낱말에서 화살표가 모여 하나의 [iː] 길게 \"이\"(근사), 세 낱말이 같은 모음 소리라는 상자로 향한다."
+          },
+          "options": [
+            "철자가 같아서 소리도 같다",
+            "철자는 다르지만 같은 모음 소리를 낸다",
+            "모두 묵음이다",
+            "모두 c로 시작한다"
+          ],
+          "answer": [
+            1
+          ],
+          "hint": "그림의 아래쪽 화살표가 어디로 모이는지 보세요.",
+          "explanation": "세 낱말은 철자가 다르지만 [iː]라는 같은 모음 소리를 낸다. 같은 소리가 여러 철자로 쓰이는 예다."
+        },
+        {
+          "type": "numeric",
+          "prompt": "*knight*를 읽을 때 소리 나지 않는 글자는 모두 몇 개인가? (*k*, *g*, *h*를 묵음으로 본다)",
+          "answer": 3,
+          "hint": "n, i, t는 소리가 납니다. 나머지를 세어 보세요.",
+          "explanation": "knight는 k, n, i, g, h, t 여섯 글자 가운데 k, g, h 세 글자가 묵음이다."
+        },
+        {
+          "type": "match",
+          "prompt": "낱말과 그 낱말에서 소리 나지 않는 글자를 짝지으세요.",
+          "pairs": [
+            [
+              "knee",
+              "k"
+            ],
+            [
+              "lamb",
+              "b"
+            ],
+            [
+              "write",
+              "w"
+            ],
+            [
+              "island",
+              "s"
+            ]
+          ],
+          "hint": "한 낱말씩 소리 내어 읽어 보고 빠진 소리를 찾으세요.",
+          "explanation": "knee는 k, lamb은 b, write는 w, island는 s가 묵음이다."
+        },
+        {
+          "type": "choice",
+          "prompt": "*cap*에 소리 나지 않는 *e*를 붙인 *cape*는 모음 소리가 어떻게 달라지는가?",
+          "options": [
+            "소리가 같다",
+            "긴 소리(알파벳 이름에 가까운 소리)로 바뀐다",
+            "모음이 사라진다",
+            "자음이 바뀐다"
+          ],
+          "answer": [
+            1
+          ],
+          "hint": "cap은 캡, cape는 케이프에 가깝게 읽습니다.",
+          "explanation": "낱말 끝에 소리 나지 않는 e가 붙으면 앞의 모음이 긴 소리가 되는 경우가 많다. cap → cape, kit → kite가 그 예다."
+        },
+        {
+          "type": "keywords",
+          "prompt": "영어의 철자와 발음이 어긋나는 까닭을 두세 문장으로 설명하세요.",
+          "groups": [
+            [
+              "철자",
+              "표기",
+              "글자"
+            ],
+            [
+              "발음",
+              "소리"
+            ],
+            [
+              "변하",
+              "바뀌",
+              "옛",
+              "굳",
+              "고정",
+              "남"
+            ]
+          ],
+          "minLength": 40,
+          "model": "영어는 오랜 세월 동안 발음이 변해 왔는데, 철자는 인쇄가 퍼지면서 어느 정도 굳어져 옛 발음의 흔적이 남았다. 그래서 지금의 발음과 철자가 어긋나는 낱말이 많다. 다른 언어에서 빌린 낱말의 철자를 그대로 둔 것도 한 원인이다.",
+          "selfCheck": [
+            "발음이 시간이 지나며 변했다고 말했다",
+            "철자는 어느 정도 굳어져 그대로 남았다고 말했다",
+            "그래서 둘이 어긋난다는 결론을 말했다"
+          ],
+          "hint": "소리와 글자 중 어느 쪽이 더 빨리 변했는지 생각해 보세요.",
+          "explanation": "핵심은 발음은 변해 왔고 철자는 비교적 고정되어 간격이 생겼다는 점이다. 이는 일반적인 설명이며 낱말마다 사정은 다르다."
+        }
+      ]
+    },
+    {
+      "id": "el-03",
+      "title": "문장 구조: 품사와 5형식",
+      "minutes": 30,
+      "requires": [
+        "el-02"
+      ],
+      "features": [],
+      "explain": [
+        "문장을 이해하려면 낱말의 종류와 문장 안에서의 역할을 구별해야 한다. 낱말을 문법적 성질에 따라 나눈 종류를 **품사**라고 한다. 입문에서 자주 쓰는 품사는 다음과 같다.\n- **명사**: 사람·사물·개념의 이름 (*teacher*, *idea*)\n- **대명사**: 명사를 대신하는 말 (*she*, *it*)\n- **동사**: 동작이나 상태 (*run*, *is*)\n- **형용사**: 명사를 꾸미거나 설명 (*happy*, *red*)\n- **부사**: 동사·형용사·다른 부사를 꾸밈 (*quickly*, *very*)\n- **전치사**: 명사 앞에서 위치·방향 등을 나타냄 (*in*, *on*)\n- **접속사**: 낱말이나 문장을 이음 (*and*, *but*)",
+        "같은 낱말도 쓰임에 따라 품사가 달라진다. *a run*(달리기)의 *run*은 명사이고, *I run*의 *run*은 동사다. 품사는 낱말 자체에 붙은 이름표라기보다 문장 속 쓰임이다.",
+        "다음은 문장 안에서의 **역할**, 곧 문장 성분이다. **주어**는 문장의 주인공, **동사**는 그 행동이나 상태, **목적어**는 동작을 받는 대상, **보어**는 주어나 목적어가 무엇인지 보충해 주는 말이다.",
+        "전통적인 영어 문법은 문장의 기본 틀을 필요한 성분에 따라 다섯 가지로 나눈다. 이것을 **5형식**이라 한다. 학교 문법에서 널리 쓰이는 방법이며, 현대 문법서 중에는 틀을 다르게 나누는 것도 있다는 점은 알아 두자.",
+        {
+          "figure": "departments/english-lit/patterns.svg",
+          "alt": "다섯 가지 문장 틀. 1형식 Birds(S) sing(V), 2형식 She(S) is(V) happy(C), 3형식 I(S) read(V) a book(O), 4형식 He(S) gave(V) me(IO) a gift(DO), 5형식 We(S) call(V) him(O) Sam(OC). 아래에 S 주어, V 동사, O 목적어, C 보어, IO 간접목적어, DO 직접목적어, OC 목적격 보어라는 범례가 있다."
+        },
+        "1형식은 주어와 동사만으로 문장이 된다. 2형식은 동사 뒤의 보어가 주어를 설명한다(*She = happy*). 3형식은 동사 뒤에 목적어가 하나 온다. 4형식은 \"누구에게\"에 해당하는 간접목적어와 \"무엇을\"에 해당하는 직접목적어가 차례로 온다. 5형식은 목적어 뒤에 목적격 보어가 와서 목적어를 설명한다(*him = Sam*)."
+      ],
+      "examples": [
+        {
+          "title": "문장을 분해해 보기",
+          "body": [
+            "*She gave me a gift.*에서 She는 주어, gave는 동사, me는 간접목적어(선물을 받는 사람), a gift는 직접목적어(주는 것)다. 4형식이다.",
+            "*They elected her captain.*에서 They는 주어, elected는 동사, her는 목적어, captain은 목적격 보어다. her와 captain 사이에는 \"그녀 = 주장\"이라는 관계가 있으므로 5형식이다."
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "type": "choice",
+          "prompt": "그림에서 *She is happy*는 몇 형식인가?",
+          "figure": {
+            "figure": "departments/english-lit/patterns.svg",
+            "alt": "다섯 가지 문장 틀. 1형식 Birds(S) sing(V), 2형식 She(S) is(V) happy(C), 3형식 I(S) read(V) a book(O), 4형식 He(S) gave(V) me(IO) a gift(DO), 5형식 We(S) call(V) him(O) Sam(OC). 아래에 S 주어, V 동사, O 목적어, C 보어, IO 간접목적어, DO 직접목적어, OC 목적격 보어라는 범례가 있다."
+          },
+          "options": [
+            "1형식",
+            "2형식",
+            "3형식",
+            "4형식"
+          ],
+          "answer": [
+            1
+          ],
+          "hint": "happy가 주어 She를 설명하는 보어입니다.",
+          "explanation": "S + V + C 구조인 2형식이다. 동사 is 뒤의 happy가 주어를 보충한다."
+        },
+        {
+          "type": "match",
+          "prompt": "낱말과 품사를 짝지으세요.",
+          "pairs": [
+            [
+              "idea",
+              "명사"
+            ],
+            [
+              "quickly",
+              "부사"
+            ],
+            [
+              "red",
+              "형용사"
+            ],
+            [
+              "on",
+              "전치사"
+            ]
+          ],
+          "hint": "주로 무엇을 꾸미거나 나타내는지 생각해 보세요.",
+          "explanation": "idea는 명사, quickly는 동사를 꾸미는 부사, red는 명사를 꾸미는 형용사, on은 전치사다."
+        },
+        {
+          "type": "numeric",
+          "prompt": "*He gave me a gift.*에서 목적어(간접목적어와 직접목적어)는 모두 몇 개인가?",
+          "figure": {
+            "figure": "departments/english-lit/patterns.svg",
+            "alt": "다섯 가지 문장 틀. 1형식 Birds(S) sing(V), 2형식 She(S) is(V) happy(C), 3형식 I(S) read(V) a book(O), 4형식 He(S) gave(V) me(IO) a gift(DO), 5형식 We(S) call(V) him(O) Sam(OC). 아래에 S 주어, V 동사, O 목적어, C 보어, IO 간접목적어, DO 직접목적어, OC 목적격 보어라는 범례가 있다."
+          },
+          "answer": 2,
+          "hint": "그림의 4형식 줄에서 IO와 DO를 세어 보세요.",
+          "explanation": "me가 간접목적어, a gift가 직접목적어이므로 두 개다."
+        },
+        {
+          "type": "choice",
+          "prompt": "*She sings beautifully.*에서 *beautifully*의 품사는?",
+          "options": [
+            "명사",
+            "형용사",
+            "부사",
+            "전치사"
+          ],
+          "answer": [
+            2
+          ],
+          "hint": "동사 sings를 꾸미는 말입니다.",
+          "explanation": "beautifully는 동사 sings를 꾸미므로 부사다."
+        },
+        {
+          "type": "choice",
+          "prompt": "*I read a book.*은 어떤 형식인가?",
+          "options": [
+            "1형식",
+            "2형식",
+            "4형식",
+            "3형식"
+          ],
+          "answer": [
+            3
+          ],
+          "hint": "read의 대상인 a book이 목적어입니다.",
+          "explanation": "주어 I, 동사 read, 목적어 a book으로 이루어진 3형식이다."
+        }
+      ]
+    },
+    {
+      "id": "el-04",
+      "title": "시제와 상: 현재완료",
+      "minutes": 28,
+      "requires": [
+        "el-03"
+      ],
+      "features": [],
+      "explain": [
+        "**시제**는 동사의 형태로 때를 나타내는 문법 범주다. 영어 동사는 현재형(*walk*)과 과거형(*walked*)이 뚜렷하다. 미래는 *will*, *be going to* 같은 표현을 앞에 두어 나타낸다. **상**은 일이 어떤 모습으로 진행되고 끝나는지를 나타내는 범주다. 대표적인 상은 **진행**(*be + -ing*)과 **완료**(*have + 과거분사*)다.",
+        "**현재완료**(*have/has + 과거분사*)는 한국어에 정확히 대응하는 문법이 없어서 어렵게 느껴진다. 핵심은 **과거의 일을 현재와 연결한다**는 점이다. 단순과거는 지금과 끊어진 과거의 일을 말하고, 현재완료는 그 일이 지금까지 이어지거나 지금에 영향을 준다는 느낌을 담는다.",
+        {
+          "figure": "departments/english-lit/timeline.svg",
+          "alt": "시간 축 두 개. 위쪽 문장 I lived there in 2015.에서는 과거와 현재 사이의 짧은 구간에 끝난 일 표시가 있고 현재 선 앞에서 끝난다. 아래쪽 문장 I have lived here for five years.에서는 과거의 한 지점에서 현재 선까지 이어진 기간이 칠해져 있고 지금까지 이어진 기간이라고 적혀 있다."
+        },
+        "현재완료는 흔히 세 가지 의미로 나눈다.\n- **계속**: 과거에 시작해 지금도 이어진다. *I have lived here for five years.*(여기 5년째 산다)\n- **경험**: 지금까지 한 적이 있다. *I have been to Jeju twice.*(제주에 두 번 가 봤다)\n- **결과**: 과거의 일 결과가 지금 남아 있다. *She has lost her phone.*(그녀는 휴대폰을 잃어버렸고, 지금 없다)",
+        "주의할 점이 있다. 현재완료는 *yesterday*, *last year*, *in 2015*처럼 끝난 때를 콕 집는 말과 함께 쓰지 않는다. 그런 때에는 단순과거를 쓴다. *I saw him yesterday.*는 맞고 *I have seen him yesterday.*는 틀린다. 반대로 *for*(~동안), *since*(~이래로), *ever*(지금까지 언젠가), *just*(막)는 현재완료와 어울린다."
+      ],
+      "examples": [
+        {
+          "title": "단순과거와 현재완료 견주기",
+          "body": [
+            "*I lost my key.*는 열쇠를 잃어버린 과거의 일을 말할 뿐 지금 찾았는지는 알려 주지 않는다. *I have lost my key.*는 지금 열쇠가 없다는 현재의 상황이 함께 전해진다.",
+            "*I lived there in 2015.*는 2015년이라는 끝난 때를 말하는 단순과거다. *I have lived here for five years.*는 5년 전에 시작해 지금도 사는 현재완료다."
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "type": "choice",
+          "prompt": "그림에서 *I have lived here for five years.*가 단순과거 문장과 다른 점은?",
+          "figure": {
+            "figure": "departments/english-lit/timeline.svg",
+            "alt": "시간 축 두 개. 위쪽 문장 I lived there in 2015.에서는 과거와 현재 사이의 짧은 구간에 끝난 일 표시가 있고 현재 선 앞에서 끝난다. 아래쪽 문장 I have lived here for five years.에서는 과거의 한 지점에서 현재 선까지 이어진 기간이 칠해져 있고 지금까지 이어진 기간이라고 적혀 있다."
+          },
+          "options": [
+            "일이 현재 선 앞에서 끝난다",
+            "일이 과거에서 현재까지 이어진다",
+            "일이 미래에 시작된다",
+            "시간과 관계가 없다"
+          ],
+          "answer": [
+            1
+          ],
+          "hint": "아래쪽 시간 축에서 칠해진 기간이 어디까지 닿는지 보세요.",
+          "explanation": "현재완료의 계속 용법은 과거에 시작된 일이 현재까지 이어짐을 나타낸다. 위쪽 단순과거는 현재 앞에서 끝난다."
+        },
+        {
+          "type": "choice",
+          "prompt": "다음 중 틀린 문장은?",
+          "options": [
+            "I saw him yesterday.",
+            "I have known her for ten years.",
+            "I have seen him yesterday.",
+            "She has lost her phone."
+          ],
+          "answer": [
+            2
+          ],
+          "hint": "yesterday는 끝난 때를 콕 집는 말입니다.",
+          "explanation": "현재완료는 yesterday 같은 끝난 때와 함께 쓰지 않는다. 이때는 단순과거 saw를 쓴다."
+        },
+        {
+          "type": "match",
+          "prompt": "현재완료 문장과 의미를 짝지으세요.",
+          "pairs": [
+            [
+              "I have known her for ten years.",
+              "계속"
+            ],
+            [
+              "I have been to Jeju twice.",
+              "경험"
+            ],
+            [
+              "She has lost her phone.",
+              "결과"
+            ]
+          ],
+          "hint": "각 문장이 지금까지 이어지는지, 해 본 일인지, 지금 남은 결과인지 보세요.",
+          "explanation": "for ten years는 이어진 기간(계속), twice는 해 본 횟수(경험), lost her phone은 지금 없는 결과(결과)를 나타낸다."
+        },
+        {
+          "type": "numeric",
+          "prompt": "*I have lived here since 2020.*이라는 문장을 2025년에 말했다면, 몇 년째 살고 있는 것인가?",
+          "answer": 5,
+          "hint": "2025에서 2020을 빼 보세요.",
+          "explanation": "2025 - 2020 = 5. since 2020은 2020년부터 지금까지 이어진다는 뜻이다."
+        },
+        {
+          "type": "choice",
+          "prompt": "진행의 상을 나타내는 형태는?",
+          "options": [
+            "have + 과거분사",
+            "be + -ing",
+            "will + 동사원형",
+            "to + 동사원형"
+          ],
+          "answer": [
+            1
+          ],
+          "hint": "I am reading처럼 지금 하는 중임을 나타냅니다.",
+          "explanation": "진행은 be + -ing, 완료는 have + 과거분사다."
+        }
+      ]
+    },
+    {
+      "id": "el-05",
+      "title": "문학 읽기: 화자와 비유",
+      "minutes": 30,
+      "requires": [
+        "el-03"
+      ],
+      "features": [],
+      "explain": [
+        "문학 작품은 정보를 전하는 데서 그치지 않고 말하는 방식으로 경험을 느끼게 한다. 시를 읽을 때 먼저 던질 질문은 \"누가 말하고 있는가\"다. 시 속에서 말하는 목소리를 **화자**라고 한다. 화자는 작가와 같은 사람일 수도 있지만, 작품 속에서 만든 인물일 수도 있다. 그래서 \"시를 쓴 사람이 이런 생각을 했다\"고 곧바로 단정하지 않고, 먼저 화자가 말하는 것으로 읽는다.",
+        "아래는 이 교시를 위해 직접 지은 짧은 시다. 제목은 *Last Bus*(마지막 버스)다.",
+        {
+          "figure": "departments/english-lit/poem.svg",
+          "alt": "Last Bus라는 제목의 짧은 영어 시. 첫 줄 I ride the last bus home. 둘째 줄 The window holds my face 셋째 줄 like a lantern on black water. 넷째 줄 The city is a sleeping animal, 다섯째 줄 and I, a thought it forgot to finish."
+        },
+        "우리말로 풀면 대략 이렇다. \"나는 집으로 가는 마지막 버스를 탄다. 창은 내 얼굴을 담고 있다, 검은 물 위의 등불처럼. 도시는 잠든 동물이다, 그리고 나는 도시가 끝맺지 못하고 잊어버린 생각 하나.\"",
+        "화자는 버스에 앉아 창에 비친 자기 얼굴과 도시를 바라보는 \"나\"다. 시는 이 화자의 눈으로 밤의 도시를 보여 준다.",
+        "시는 **비유**로 낯선 느낌을 만든다. 비유는 어떤 것을 다른 것에 빗대어 말하는 방법이다. 대표적인 두 가지가 있다.\n- **직유**: *like*나 *as* 같은 말로 두 가지를 드러내 놓고 견준다. 3행의 \"my face ... like a lantern\"이 그렇다.\n- **은유**: 비교하는 말 없이 \"A는 B다\"라고 말한다. 4행의 \"The city is a sleeping animal\"이 그렇다.",
+        {
+          "figure": "departments/english-lit/simile-metaphor.svg",
+          "alt": "직유와 은유 비교. 직유 줄은 my face, like, a lantern 세 상자로 비교하는 말(like, as)이 있다고 적혀 있다. 은유 줄은 the city, is, a sleeping animal 세 상자로 비교하는 말 없이 곧바로 이른다고 적혀 있다."
+        },
+        "비유를 읽을 때는 두 가지를 묻는다. 무엇을 무엇에 빗대었는가, 그리고 그 둘의 어떤 점이 닮았는가. 어두운 창에 비친 얼굴을 등불에 견주면 어둠 속에서 홀로 떠 있는 환한 얼굴이 그려진다. 도시를 잠든 동물에 빗대면 조용하고 큰 덩어리의 느낌이 난다. 이런 해석은 하나로 정해지지 않으며, 읽는 사람이 근거를 들어 말할 수 있으면 된다."
+      ],
+      "examples": [
+        {
+          "title": "다른 비유 하나 읽어 보기",
+          "body": [
+            "*Her laugh was as bright as a morning window.*는 *as ... as*를 쓴 직유다. 웃음을 아침 창문에 견주었으므로 환하고 맑다는 느낌이 전해진다.",
+            "*The classroom was a beehive.*는 비교하는 말 없이 \"이다\"로 이은 은유다. 교실이 바쁘고 웅성거리는 곳임을 벌집에 빗대어 말한다."
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "type": "choice",
+          "prompt": "그림의 시 *Last Bus*에서 직유가 쓰인 줄은?",
+          "figure": {
+            "figure": "departments/english-lit/poem.svg",
+            "alt": "Last Bus라는 제목의 짧은 영어 시. 첫 줄 I ride the last bus home. 둘째 줄 The window holds my face 셋째 줄 like a lantern on black water. 넷째 줄 The city is a sleeping animal, 다섯째 줄 and I, a thought it forgot to finish."
+          },
+          "options": [
+            "I ride the last bus home.",
+            "like a lantern on black water.",
+            "and I, a thought it forgot to finish.",
+            "The city is a sleeping animal,"
+          ],
+          "answer": [
+            1
+          ],
+          "hint": "like나 as로 견주는 줄을 찾으세요.",
+          "explanation": "like를 써서 얼굴을 등불에 견준 줄이 직유다. 도시를 동물이라고 한 줄은 은유다."
+        },
+        {
+          "type": "choice",
+          "prompt": "그림에서 *the city is a sleeping animal*과 같은 비유를 무엇이라 하는가?",
+          "figure": {
+            "figure": "departments/english-lit/simile-metaphor.svg",
+            "alt": "직유와 은유 비교. 직유 줄은 my face, like, a lantern 세 상자로 비교하는 말(like, as)이 있다고 적혀 있다. 은유 줄은 the city, is, a sleeping animal 세 상자로 비교하는 말 없이 곧바로 이른다고 적혀 있다."
+          },
+          "options": [
+            "직유",
+            "은유",
+            "화자",
+            "어순"
+          ],
+          "answer": [
+            1
+          ],
+          "hint": "비교하는 말이 있는지 보세요.",
+          "explanation": "like나 as 없이 A는 B다라고 곧바로 말했으므로 은유다."
+        },
+        {
+          "type": "match",
+          "prompt": "용어와 설명을 짝지으세요.",
+          "pairs": [
+            [
+              "화자",
+              "시 속에서 말하는 목소리"
+            ],
+            [
+              "직유",
+              "like나 as로 두 가지를 견주는 비유"
+            ],
+            [
+              "은유",
+              "비교하는 말 없이 A는 B다라고 말하는 비유"
+            ]
+          ],
+          "hint": "각 용어의 뜻을 문학 용어로 떠올려 보세요.",
+          "explanation": "화자는 말하는 목소리, 직유는 like·as로 견주는 비유, 은유는 비교하는 말이 없는 비유다."
+        },
+        {
+          "type": "choice",
+          "prompt": "*The classroom was a beehive.*에서 *beehive*가 뜻하는 바로 가장 알맞은 것은?",
+          "options": [
+            "교실에 벌이 실제로 산다",
+            "교실이 바쁘고 웅성거린다",
+            "교실이 달콤하다",
+            "교실이 비어 있다"
+          ],
+          "answer": [
+            1
+          ],
+          "hint": "실제로 벌집이 있다는 뜻일까요, 빗대어 한 말일까요?",
+          "explanation": "교실을 벌집에 빗댄 은유로, 사람들이 바쁘게 오가고 웅성대는 모습을 나타낸다."
+        },
+        {
+          "type": "keywords",
+          "prompt": "직유와 은유의 차이를 예를 들어 두세 문장으로 설명하세요.",
+          "groups": [
+            [
+              "직유"
+            ],
+            [
+              "은유"
+            ],
+            [
+              "like",
+              "as",
+              "처럼",
+              "같이",
+              "비교하는 말",
+              "견주"
+            ]
+          ],
+          "minLength": 40,
+          "model": "직유는 like나 as 같은 말을 써서 두 가지를 드러내 놓고 견주는 비유이고, 은유는 그런 말 없이 A는 B다라고 곧바로 말하는 비유다. 예를 들어 my face like a lantern은 직유이고 the city is a sleeping animal은 은유다.",
+          "selfCheck": [
+            "직유에는 like나 as 같은 비교하는 말이 있다고 말했다",
+            "은유에는 비교하는 말이 없다고 말했다",
+            "각각 예를 들었다"
+          ],
+          "hint": "그림의 두 줄을 비교해 보세요.",
+          "explanation": "핵심은 비교하는 말이 있느냐 없느냐이다."
+        }
+      ]
+    },
+    {
+      "id": "el-06",
+      "title": "읽기 전략과 짧은 글쓰기",
+      "minutes": 28,
+      "requires": [
+        "el-04",
+        "el-05"
+      ],
+      "features": [],
+      "explain": [
+        "영어 글을 읽다가 모르는 낱말을 만날 때마다 사전을 찾으면 읽는 흐름이 끊긴다. 모르는 낱말의 뜻을 둘레의 글에서 짐작하는 방법이 있다. 이것을 **문맥 단서**를 이용한다고 한다. **문맥**은 낱말 앞뒤의 글이 이루는 흐름이다.",
+        {
+          "figure": "departments/english-lit/context.svg",
+          "alt": "문맥으로 낱말 뜻 짐작하기. 맨 위 문장은 The trail was so ______ that we kept resting. 이고 빈칸이 있다. 아래로 화살표가 이어지며 단서: kept resting(계속 쉬었다), 추측: 힘들고 고된 길이었을 것이다, 확인: 넣어서 다시 읽어 본다 순서의 상자가 있다."
+        },
+        "그림의 빈칸에는 *arduous*(힘들고 고된)가 들어간다. 이 낱말을 몰라도 \"계속 쉬었다\"는 단서에서 힘든 길이었음을 짐작할 수 있다. 문맥 단서는 다음과 같이 나눌 수 있다.\n- **풀이**: 낱말 뒤에서 뜻을 알려 준다. *…, that is, …*\n- **대조**: 반대되는 뜻의 말로 짐작한다. *but*, *however*\n- **예시**: 예로 든 것에서 짐작한다. *such as*, *for example*\n- **원인과 결과**: 이유나 결과에서 짐작한다. *so ... that*, *therefore*",
+        "낱말의 **짜임**도 단서가 된다. 낱말은 뜻을 가진 조각으로 나뉠 때가 많다. *un-*은 \"아닌\"(*unhappy*), *re-*는 \"다시\"(*rewrite*), *-less*는 \"없는\"(*careless* = 조심이 없는), *-ful*은 \"가득한\"(*careful*)을 더한다.",
+        "문맥으로 뜻을 짐작하는 순서는 다음과 같다.\n1. 모르는 낱말이 있는 문장을 끝까지 읽는다.\n2. 낱말 둘레에서 단서가 되는 말을 찾는다.\n3. 단서를 바탕으로 뜻을 짐작한다.\n4. 짐작한 뜻을 넣어 다시 읽어 말이 되는지 확인한다.",
+        "짐작은 어림일 뿐이라 중요한 낱말은 나중에 사전으로 확인하는 것이 좋다. 이제 이 줄기에서 배운 것을 직접 써서 써 본다. 마지막 문항은 점수가 없는 글쓰기 과제다."
+      ],
+      "examples": [
+        {
+          "title": "단서로 뜻 짐작하기",
+          "body": [
+            "*Unlike her talkative brother, Mina is quite taciturn.*에서 *Unlike*가 대조를 알린다. 오빠는 말이 많은데 미나는 그와 다르다고 했으므로 *taciturn*은 \"말이 없는\"에 가까운 뜻임을 짐작할 수 있다.",
+            "*He has a hobby such as stamp collecting.*처럼 *such as*가 있으면 뒤의 말이 앞의 말의 보기다."
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "type": "choice",
+          "prompt": "그림의 문장 *The trail was so ______ that we kept resting.*에서 빈칸에 알맞은 뜻은?",
+          "figure": {
+            "figure": "departments/english-lit/context.svg",
+            "alt": "문맥으로 낱말 뜻 짐작하기. 맨 위 문장은 The trail was so ______ that we kept resting. 이고 빈칸이 있다. 아래로 화살표가 이어지며 단서: kept resting(계속 쉬었다), 추측: 힘들고 고된 길이었을 것이다, 확인: 넣어서 다시 읽어 본다 순서의 상자가 있다."
+          },
+          "options": [
+            "쉽고 편한",
+            "짧은",
+            "힘들고 고된",
+            "조용한"
+          ],
+          "answer": [
+            2
+          ],
+          "hint": "계속 쉬어야 했던 까닭을 생각해 보세요.",
+          "explanation": "계속 쉬었다는 결과에서 길이 힘들었음을 짐작할 수 있다. 빈칸에는 arduous가 들어간다."
+        },
+        {
+          "type": "order",
+          "prompt": "모르는 낱말의 뜻을 문맥으로 짐작하는 순서대로 배열하세요.",
+          "items": [
+            "문장을 끝까지 읽는다",
+            "둘레에서 단서를 찾는다",
+            "단서로 뜻을 짐작한다",
+            "넣어서 다시 읽어 확인한다"
+          ],
+          "hint": "단서를 찾기 전에 먼저 문장을 읽어야 하고, 확인은 짐작한 뒤에 합니다.",
+          "explanation": "읽기, 단서 찾기, 짐작, 확인 순서이다."
+        },
+        {
+          "type": "match",
+          "prompt": "문맥 단서의 종류와 신호가 되는 표현을 짝지으세요.",
+          "pairs": [
+            [
+              "대조",
+              "however"
+            ],
+            [
+              "예시",
+              "for example"
+            ],
+            [
+              "결과",
+              "therefore"
+            ],
+            [
+              "풀이",
+              "that is"
+            ]
+          ],
+          "hint": "각 표현이 앞뒤 글을 어떻게 잇는지 생각해 보세요.",
+          "explanation": "however는 대조, for example은 예시, therefore는 결과, that is는 풀이를 알리는 신호다."
+        },
+        {
+          "type": "choice",
+          "prompt": "*careless*는 무슨 뜻에 가장 가까운가? (*care*는 조심, *-less*는 없음)",
+          "options": [
+            "조심하는",
+            "조심이 없는",
+            "조심을 다시 하는",
+            "조심이 가득한"
+          ],
+          "answer": [
+            1
+          ],
+          "hint": "-less가 더하는 뜻을 보세요.",
+          "explanation": "care(조심)에 없음을 뜻하는 -less가 붙어 조심이 없는, 곧 부주의한 뜻이다."
+        },
+        {
+          "type": "submit",
+          "prompt": "이 줄기에서 배운 것을 써서 영어 문장을 세 개 쓰세요. 각 문장 뒤에 한국어로 우리말 뜻과, 쓴 문장이 몇 형식인지 또는 어떤 시제인지(현재완료 등)를 적으세요. 비유(직유나 은유)를 쓴 문장이 하나 있으면 더 좋다.",
+          "minLength": 60,
+          "checklist": [
+            "영어 문장 세 개를 썼다",
+            "각 문장에 우리말 뜻을 달았다",
+            "각 문장이 몇 형식인지 또는 어떤 시제인지 적었다",
+            "직유나 은유를 하나 시도했다"
+          ],
+          "hint": "이 문항은 점수를 매기지 않습니다. 남긴 글은 이 기기에만 저장됩니다.",
+          "explanation": "정답이 있는 문제가 아닙니다. 배운 문법과 비유를 내 문장으로 써 보는 것이 목적입니다."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 205" width="380" height="205">
+<rect width="380" height="205" fill="#f4efe6"/>
+<text x="190" y="18" font-family="sans-serif" fill="#1d1c1a" font-size="13" font-weight="bold" text-anchor="middle">해마다 수익률(%)</text>
+<rect x="30" y="30" width="10" height="10" fill="#7a766d"/><text x="45" y="39" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="start">회사 A</text>
+<rect x="120" y="30" width="10" height="10" fill="#e07a3f"/><text x="135" y="39" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="start">회사 B</text>
+<rect x="215" y="30" width="10" height="10" fill="#2f5d50"/><text x="230" y="39" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="start">A·B 반반 섞음</text>
+<rect x="35" y="60" width="22" height="60" fill="#7a766d"/>
+<text x="46" y="56" font-family="sans-serif" fill="#1d1c1a" font-size="11" font-weight="normal" text-anchor="middle">+20</text>
+<rect x="59" y="120" width="22" height="30" fill="#e07a3f"/>
+<text x="70" y="163" font-family="sans-serif" fill="#1d1c1a" font-size="11" font-weight="normal" text-anchor="middle">-10</text>
+<rect x="83" y="105" width="22" height="15" fill="#2f5d50"/>
+<text x="94" y="101" font-family="sans-serif" fill="#1d1c1a" font-size="11" font-weight="normal" text-anchor="middle">+5</text>
+<text x="70" y="190" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">1년차</text>
+<rect x="120" y="120" width="22" height="30" fill="#7a766d"/>
+<text x="131" y="163" font-family="sans-serif" fill="#1d1c1a" font-size="11" font-weight="normal" text-anchor="middle">-10</text>
+<rect x="144" y="60" width="22" height="60" fill="#e07a3f"/>
+<text x="155" y="56" font-family="sans-serif" fill="#1d1c1a" font-size="11" font-weight="normal" text-anchor="middle">+20</text>
+<rect x="168" y="105" width="22" height="15" fill="#2f5d50"/>
+<text x="179" y="101" font-family="sans-serif" fill="#1d1c1a" font-size="11" font-weight="normal" text-anchor="middle">+5</text>
+<text x="155" y="190" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">2년차</text>
+<rect x="205" y="60" width="22" height="60" fill="#7a766d"/>
+<text x="216" y="56" font-family="sans-serif" fill="#1d1c1a" font-size="11" font-weight="normal" text-anchor="middle">+20</text>
+<rect x="229" y="120" width="22" height="30" fill="#e07a3f"/>
+<text x="240" y="163" font-family="sans-serif" fill="#1d1c1a" font-size="11" font-weight="normal" text-anchor="middle">-10</text>
+<rect x="253" y="105" width="22" height="15" fill="#2f5d50"/>
+<text x="264" y="101" font-family="sans-serif" fill="#1d1c1a" font-size="11" font-weight="normal" text-anchor="middle">+5</text>
+<text x="240" y="190" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">3년차</text>
+<rect x="290" y="120" width="22" height="30" fill="#7a766d"/>
+<text x="301" y="163" font-family="sans-serif" fill="#1d1c1a" font-size="11" font-weight="normal" text-anchor="middle">-10</text>
+<rect x="314" y="60" width="22" height="60" fill="#e07a3f"/>
+<text x="325" y="56" font-family="sans-serif" fill="#1d1c1a" font-size="11" font-weight="normal" text-anchor="middle">+20</text>
+<rect x="338" y="105" width="22" height="15" fill="#2f5d50"/>
+<text x="349" y="101" font-family="sans-serif" fill="#1d1c1a" font-size="11" font-weight="normal" text-anchor="middle">+5</text>
+<text x="325" y="190" font-family="sans-serif" fill="#1d1c1a" font-size="12" font-weight="normal" text-anchor="middle">4년차</text>
+<line x1="20" y1="120" x2="365" y2="120" stroke="#1d1c1a" stroke-width="1"/>
+</svg>

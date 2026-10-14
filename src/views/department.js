@@ -1,0 +1,84 @@
+import { h, fill } from '../dom.js';
+import { fieldName } from '../data.js';
+import { deptReviewSummary } from '../engine/review.js';
+import { deptProgress, isDone, isUnlocked, isBranchOpen, isStale, summary } from '../engine/progress.js';
+
+export function renderDepartment(root, { meta, dept, errors, fields, progress, reviews = {} }) {
+  const crumbs = h('nav', { class: 'crumbs', 'aria-label': '위치' }, h('a', { href: '#/' }, '학과 선택'), ' › ', meta.name);
+  const tags = (meta.tags || []).map((t) => fieldName(fields, t));
+  const head = h('header', { class: 'dept-head' },
+    crumbs,
+    h('h1', { tabindex: '-1' }, meta.name),
+    h('p', { class: 'lede' }, meta.summary),
+    h('p', { class: 'meta-line' }, `계열: ${fieldName(fields, meta.field)}`, tags.length ? ` · 함께 걸친 계열: ${tags.join(', ')}` : ''));
+
+  if (meta.status !== 'open') {
+    fill(root, head, h('section', { class: 'panel' },
+      h('h2', {}, '준비 중'),
+      h('p', {}, '이 학과의 칸은 열려 있고, 교시를 쓰는 중입니다. 다른 학과와 같은 목록, 같은 위치에 있습니다.'),
+      h('p', {}, h('a', { href: '#/' }, '다른 학과 고르기'))));
+    return;
+  }
+
+  const dp = deptProgress(progress, meta.id);
+  const s = summary(dept, dp);
+  const byId = new Map(dept.lessons.map((l) => [l.id, l]));
+  const number = new Map(dept.trunk.map((id, i) => [id, `${i + 1}교시`]));
+
+  const lessonItem = (id, n) => {
+    const l = byId.get(id);
+    const done = isDone(dp, id);
+    const open = isUnlocked(l, dp);
+    let state;
+    if (done) state = dp.lessons[id].kind === 'self' ? '마침 · 자기 확인 포함' : '마침';
+    else state = open ? '열림' : '잠김';
+    const needs = (l.requires || []).filter((r) => !isDone(dp, r)).map((r) => `${number.get(r) || ''} ${byId.get(r).title}`.trim());
+    const title = h('span', { class: 'lesson-title' }, h('span', { class: 'lesson-no' }, n), l.title);
+    return h('li', { class: `lesson-item ${done ? 'done' : open ? 'open' : 'locked'}` },
+      open ? h('a', { href: `#/d/${meta.id}/l/${id}` }, title) : h('span', {}, title),
+      h('span', { class: 'lesson-state' }, state,
+        isStale(l, dp) ? ' · 내용 갱신됨' : '',
+        l.minutes ? ` · 약 ${l.minutes}분` : ''),
+      !open ? h('span', { class: 'lesson-needs' }, `먼저: ${needs.join(', ')}`) : null);
+  };
+
+  const branches = (dept.branches || []).map((b) => {
+    const opened = isBranchOpen(b, dp);
+    return h('section', { class: 'panel' },
+      h('h2', {}, `갈래 · ${b.name}`),
+      opened ? null : h('p', { class: 'input-note' }, `열리는 조건: ${(b.opensAfter || []).map((id) => number.get(id)).join(', ')} 마치기`),
+      h('ol', { class: 'lesson-list', role: 'list' }, b.lessons.map((id, i) => opened ? lessonItem(id, `${i + 1}`) : h('li', { class: 'lesson-item locked' }, byId.get(id).title))));
+  });
+
+  fill(root,
+    head,
+    errors?.length ? errorPanel(errors) : null,
+    reviewSummary(deptReviewSummary(dept, reviews[meta.id])),
+    h('section', { class: 'panel' },
+      h('h2', {}, '누구에게 맞는가'),
+      h('p', {}, meta.audience),
+      meta.limits ? h('p', { class: 'limits' }, `범위 밖: ${meta.limits}`) : null),
+    h('section', { class: 'panel' },
+      h('div', { class: 'panel-head' },
+        h('h2', {}, '공통 줄기'),
+        h('span', { class: 'meta-line' }, `${s.done}/${s.total} 마침${s.self ? ` (자기 확인 ${s.self})` : ''}`)),
+      h('p', { class: 'input-note' }, '선행이 없는 교시는 바로 열립니다. 순서는 선행 관계로만 정해집니다.'),
+      h('ol', { class: 'lesson-list', role: 'list' }, dept.trunk.map((id) => lessonItem(id, number.get(id))))),
+    ...branches,
+  );
+}
+
+export function errorPanel(errors) {
+  return h('section', { class: 'panel error' },
+    h('h2', {}, '데이터 오류'),
+    h('ul', {}, errors.map((e) => h('li', {}, e))));
+}
+
+function reviewSummary(c) {
+  const parts = [`${c.total}교시 중 검수됨 ${c.reviewed}`];
+  if (c.stale) parts.push(`검수 뒤 바뀜 ${c.stale}`);
+  parts.push(`검수 전 ${c.unreviewed}`);
+  return h('p', { class: `review-summary ${c.reviewed === c.total ? 'all' : ''}` },
+    h('strong', {}, '검수 현황 '), parts.join(' · '),
+    c.unreviewed + c.stale ? h('span', { class: 'input-note' }, ' 검수 전 교시는 AI가 쓴 초안이며, 사람이 사실과 난이도를 확인하기 전입니다.') : null);
+}

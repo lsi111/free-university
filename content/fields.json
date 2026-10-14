@@ -1,0 +1,9 @@
+[
+  { "id": "business", "name": "경영", "note": "계산과 사례" },
+  { "id": "engineering", "name": "공학", "note": "설계와 해석" },
+  { "id": "education", "name": "교육", "note": "이론은 열리고 실습은 제출" },
+  { "id": "social", "name": "사회", "note": "개념과 자료" },
+  { "id": "arts", "name": "예술", "note": "형식 분석은 채점, 작품은 제출" },
+  { "id": "humanities", "name": "인문", "note": "텍스트와 논증" },
+  { "id": "natural", "name": "자연", "note": "계산과 모형" }
+]

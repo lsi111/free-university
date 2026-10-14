@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 260" width="360" height="260" font-family="sans-serif" font-size="12" fill="#1d1c1a">
+  <rect width="360" height="260" fill="#f4efe6"/>
+  <text x="50" y="35" font-size="14">스택</text>
+  <text x="190" y="35" font-size="14">큐</text>
+  <g stroke="#1d1c1a" stroke-width="1.5">
+    <rect x="50" y="55" width="60" height="40" fill="#f6d9c4"/>
+    <rect x="50" y="95" width="60" height="40" fill="#cfe0d8"/>
+    <rect x="50" y="135" width="60" height="40" fill="#cfe0d8"/>
+    <rect x="190" y="95" width="46" height="40" fill="#f6d9c4"/>
+    <rect x="236" y="95" width="46" height="40" fill="#cfe0d8"/>
+    <rect x="282" y="95" width="46" height="40" fill="#cfe0d8"/>
+  </g>
+  <g text-anchor="middle" font-size="16">
+    <text x="80" y="81">C</text><text x="80" y="121">B</text><text x="80" y="161">A</text>
+    <text x="213" y="121">A</text><text x="259" y="121">B</text><text x="305" y="121">C</text>
+  </g>
+  <text x="118" y="79" fill="#e07a3f">← 맨 위</text>
+  <text x="190" y="157" fill="#e07a3f">앞(꺼냄)</text>
+  <text x="282" y="157" fill="#2f5d50">뒤(넣음)</text>
+  <text x="20" y="215">스택: 마지막에 넣은 것이 먼저 나온다</text>
+  <text x="20" y="237">큐: 먼저 넣은 것이 먼저 나온다</text>
+</svg>

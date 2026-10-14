@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 210" width="380" height="210">
+<rect width="380" height="210" fill="#f4efe6"/>
+<g font-family="sans-serif">
+<text x="190" y="26" text-anchor="middle" font-size="13" fill="#1d1c1a" font-weight="bold">보편적 학습 설계의 세 원칙</text>
+<rect x="10" y="50" width="115" height="110" fill="#2f5d50" stroke="#2f5d50" stroke-width="2"/>
+<text x="67.5" y="82.0" text-anchor="middle" font-size="12" fill="#ffffff" font-weight="bold">참여</text>
+<text x="67.5" y="100.0" text-anchor="middle" font-size="12" fill="#ffffff">왜 배우는가</text>
+<text x="67.5" y="118.0" text-anchor="middle" font-size="12" fill="#ffffff">여러 방식으로</text>
+<text x="67.5" y="136.0" text-anchor="middle" font-size="12" fill="#ffffff">흥미와 노력 이끌기</text>
+<rect x="133" y="50" width="115" height="110" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="190.5" y="82.0" text-anchor="middle" font-size="12" fill="#1d1c1a" font-weight="bold">제시</text>
+<text x="190.5" y="100.0" text-anchor="middle" font-size="12" fill="#1d1c1a">무엇을 보는가</text>
+<text x="190.5" y="118.0" text-anchor="middle" font-size="12" fill="#1d1c1a">여러 방식으로</text>
+<text x="190.5" y="136.0" text-anchor="middle" font-size="12" fill="#1d1c1a">내용 보여 주기</text>
+<rect x="256" y="50" width="115" height="110" fill="#e07a3f" stroke="#e07a3f" stroke-width="2"/>
+<text x="313.5" y="82.0" text-anchor="middle" font-size="12" fill="#1d1c1a" font-weight="bold">행동·표현</text>
+<text x="313.5" y="100.0" text-anchor="middle" font-size="12" fill="#1d1c1a">어떻게 보이는가</text>
+<text x="313.5" y="118.0" text-anchor="middle" font-size="12" fill="#1d1c1a">여러 방식으로</text>
+<text x="313.5" y="136.0" text-anchor="middle" font-size="12" fill="#1d1c1a">이해 나타내기</text>
+<text x="190" y="190" text-anchor="middle" font-size="11" fill="#7a766d">목표는 같고, 길을 여러 개 마련한다</text>
+</g>
+</svg>

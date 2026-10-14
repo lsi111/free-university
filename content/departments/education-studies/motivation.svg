@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 190" width="380" height="190">
+  <rect width="380" height="190" fill="#f4efe6"/>
+  <text x="190" y="24" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1d1c1a">동기의 두 갈래: 이유가 어디에 있는가</text>
+  <g font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">
+    <rect x="12" y="46" width="170" height="96" fill="#ffffff" stroke="#e07a3f" stroke-width="2" stroke-dasharray="6 4"/>
+    <text x="97" y="70" font-weight="bold">외재 동기</text>
+    <text x="97" y="94">활동 바깥의 결과가</text><text x="97" y="110">이유 (점수, 보상, 칭찬)</text>
+    <rect x="198" y="46" width="170" height="96" rx="14" fill="#2f5d50"/>
+    <text x="283" y="70" fill="#ffffff" font-weight="bold">내재 동기</text>
+    <text x="283" y="94" fill="#ffffff">활동 자체가 주는</text><text x="283" y="110" fill="#ffffff">흥미와 즐거움</text>
+    <text x="190" y="170" fill="#7a766d">같은 행동도 이유에 따라 갈래가 달라진다</text>
+  </g>
+</svg>

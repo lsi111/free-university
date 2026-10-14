@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 270" width="400" height="270">
+<rect width="400" height="270" fill="#f4efe6"/>
+<line x1="50" y1="220" x2="50" y2="36" stroke="#1d1c1a" stroke-width="1.5"/><line x1="50" y1="220" x2="372" y2="220" stroke="#1d1c1a" stroke-width="1.5"/>
+<line x1="46" y1="220.0" x2="50" y2="220.0" stroke="#1d1c1a"/>
+<text x="43" y="224.0" font-family="sans-serif" font-size="11" text-anchor="end" fill="#1d1c1a">0</text>
+<line x1="46" y1="184.0" x2="50" y2="184.0" stroke="#1d1c1a"/>
+<text x="43" y="188.0" font-family="sans-serif" font-size="11" text-anchor="end" fill="#1d1c1a">100</text>
+<line x1="46" y1="148.0" x2="50" y2="148.0" stroke="#1d1c1a"/>
+<text x="43" y="152.0" font-family="sans-serif" font-size="11" text-anchor="end" fill="#1d1c1a">200</text>
+<line x1="46" y1="112.0" x2="50" y2="112.0" stroke="#1d1c1a"/>
+<text x="43" y="116.0" font-family="sans-serif" font-size="11" text-anchor="end" fill="#1d1c1a">300</text>
+<line x1="46" y1="76.0" x2="50" y2="76.0" stroke="#1d1c1a"/>
+<text x="43" y="80.0" font-family="sans-serif" font-size="11" text-anchor="end" fill="#1d1c1a">400</text>
+<line x1="46" y1="40.0" x2="50" y2="40.0" stroke="#1d1c1a"/>
+<text x="43" y="44.0" font-family="sans-serif" font-size="11" text-anchor="end" fill="#1d1c1a">500</text>
+<line x1="50" y1="220" x2="50" y2="224" stroke="#1d1c1a"/>
+<text x="50" y="238" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#1d1c1a">0</text>
+<line x1="130" y1="220" x2="130" y2="224" stroke="#1d1c1a"/>
+<text x="130" y="238" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#1d1c1a">5</text>
+<line x1="210" y1="220" x2="210" y2="224" stroke="#1d1c1a"/>
+<text x="210" y="238" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#1d1c1a">10</text>
+<line x1="290" y1="220" x2="290" y2="224" stroke="#1d1c1a"/>
+<text x="290" y="238" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#1d1c1a">15</text>
+<line x1="370" y1="220" x2="370" y2="224" stroke="#1d1c1a"/>
+<text x="370" y="238" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#1d1c1a">20</text>
+<text x="210" y="258" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">변형률 (%)</text>
+<text x="10" y="20" font-family="sans-serif" font-size="12" text-anchor="start" fill="#1d1c1a">응력 (MPa)</text>
+<path d="M50,220 L82,130 C110,100 150,82 190,78 C215,76 230,75 242,76 C290,78 320,86 338,98" fill="none" stroke="#2f5d50" stroke-width="3"/>
+<circle cx="82" cy="130" r="5" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1"/>
+<circle cx="242" cy="76" r="5" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1"/>
+<circle cx="338" cy="98" r="5" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1"/>
+<text x="92" y="148" font-family="sans-serif" font-size="12" text-anchor="start" fill="#1d1c1a">P 항복</text>
+<text x="242" y="62" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">Q 최대 응력</text>
+<text x="346" y="122" font-family="sans-serif" font-size="12" text-anchor="end" fill="#1d1c1a">R 파단</text>
+</svg>

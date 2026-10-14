@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 305" width="380" height="305">
+<rect width="380" height="305" fill="#f4efe6"/>
+<text x="10" y="22" font-family="sans-serif" font-size="12" text-anchor="start" fill="#1d1c1a" font-weight="bold">물 회로</text>
+<rect x="60" y="40" width="260" height="80" fill="none" stroke="#7a766d" stroke-width="5"/>
+<rect x="166" y="32" width="68" height="16" fill="#f4efe6"/>
+<line x1="170" y1="40" x2="230" y2="40" stroke="#7a766d" stroke-width="2"/>
+<circle cx="60" cy="80" r="18" fill="#f4efe6" stroke="#1d1c1a" stroke-width="2"/>
+<text x="60" y="84" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#1d1c1a">펌프</text>
+<text x="200" y="64" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">좁은 관</text>
+<line x1="160" y1="100" x2="217" y2="100" stroke="#2f5d50" stroke-width="2.5"/>
+<polygon points="225,100 216,95 216,105" fill="#2f5d50"/>
+<text x="190" y="140" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#2f5d50">물의 흐름</text>
+<text x="10" y="175" font-family="sans-serif" font-size="12" text-anchor="start" fill="#1d1c1a" font-weight="bold">전기 회로</text>
+<rect x="60" y="195" width="260" height="80" fill="none" stroke="#1d1c1a" stroke-width="2"/>
+<rect x="166" y="185" width="68" height="20" fill="#f4efe6"/>
+<polyline points="170,195 180,195 185,187 195,203 205,187 215,203 220,195 230,195" fill="none" stroke="#1d1c1a" stroke-width="2"/>
+<text x="200" y="222" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">저항</text>
+<rect x="50" y="222" width="20" height="26" fill="#f4efe6"/>
+<line x1="46" y1="226" x2="74" y2="226" stroke="#1d1c1a" stroke-width="2.5"/>
+<line x1="53" y1="244" x2="67" y2="244" stroke="#1d1c1a" stroke-width="5"/>
+<text x="42" y="230" font-family="sans-serif" font-size="12" text-anchor="end" fill="#1d1c1a">+</text>
+<text x="42" y="250" font-family="sans-serif" font-size="12" text-anchor="end" fill="#1d1c1a">−</text>
+<text x="80" y="240" font-family="sans-serif" font-size="12" text-anchor="start" fill="#1d1c1a">전지</text>
+<line x1="160" y1="260" x2="217" y2="260" stroke="#2f5d50" stroke-width="2.5"/>
+<polygon points="225,260 216,255 216,265" fill="#2f5d50"/>
+<text x="190" y="298" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#2f5d50">전류</text>
+</svg>

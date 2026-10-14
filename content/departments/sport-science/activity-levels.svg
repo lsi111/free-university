@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" width="360" height="240">
+  <rect width="360" height="240" fill="#f4efe6"/>
+  <rect x="10" y="30" width="340" height="200" rx="8" fill="none" stroke="#7a766d" stroke-width="2"/>
+  <rect x="30" y="80" width="300" height="140" rx="8" fill="none" stroke="#2f5d50" stroke-width="2"/>
+  <rect x="50" y="130" width="260" height="80" rx="8" fill="none" stroke="#e07a3f" stroke-width="2.5"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="180" y="20" text-anchor="middle" font-size="13" font-weight="bold">신체 활동, 운동, 스포츠</text>
+    <text x="20" y="50" font-size="12" font-weight="bold">신체 활동: 몸을 움직여 에너지를 쓰는 모든 것</text>
+    <text x="20" y="67" font-size="11">예: 이동하려고 계단 오르기, 집안일</text>
+    <text x="40" y="100" font-size="12" font-weight="bold">운동: 체력을 위해 계획하고 반복</text>
+    <text x="40" y="117" font-size="11">예: 체력을 기르려는 계획된 걷기</text>
+    <text x="60" y="152" font-size="12" font-weight="bold">스포츠: 규칙이 있는 경쟁 활동</text>
+    <text x="60" y="170" font-size="11">예: 가상 구기 종목 링볼 경기</text>
+    <text x="60" y="190" font-size="11" fill="#7a766d">(경계는 겹치기도 한다)</text>
+  </g>
+</svg>

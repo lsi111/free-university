@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 310" width="400" height="310">
+<rect width="400" height="310" fill="#f4efe6"/>
+<rect x="12" y="10" width="376" height="290" rx="6" fill="none" stroke="#7a766d" stroke-width="1.5"/>
+<circle cx="34" cy="32" r="9" fill="#e07a3f" fill-opacity="0.2" stroke="#e07a3f" stroke-width="1.2"/>
+<text x="34" y="36" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">1</text>
+<text x="54" y="36" font-size="13" text-anchor="start" font-family="sans-serif" fill="#2f5d50">Bonjour !</text>
+<text x="54" y="52" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">안녕하세요!</text>
+<circle cx="34" cy="66" r="9" fill="#e07a3f" fill-opacity="0.2" stroke="#e07a3f" stroke-width="1.2"/>
+<text x="34" y="70" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">2</text>
+<text x="54" y="70" font-size="13" text-anchor="start" font-family="sans-serif" fill="#2f5d50">Je m'appelle Léa.</text>
+<text x="54" y="86" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">내 이름은 레아다.</text>
+<circle cx="34" cy="100" r="9" fill="#e07a3f" fill-opacity="0.2" stroke="#e07a3f" stroke-width="1.2"/>
+<text x="34" y="104" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">3</text>
+<text x="54" y="104" font-size="13" text-anchor="start" font-family="sans-serif" fill="#2f5d50">Je suis étudiante.</text>
+<text x="54" y="120" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">나는 학생(여성)이다.</text>
+<circle cx="34" cy="134" r="9" fill="#e07a3f" fill-opacity="0.2" stroke="#e07a3f" stroke-width="1.2"/>
+<text x="34" y="138" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">4</text>
+<text x="54" y="138" font-size="13" text-anchor="start" font-family="sans-serif" fill="#2f5d50">J'habite à Lyon.</text>
+<text x="54" y="154" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">나는 리옹에 산다.</text>
+<circle cx="34" cy="168" r="9" fill="#e07a3f" fill-opacity="0.2" stroke="#e07a3f" stroke-width="1.2"/>
+<text x="34" y="172" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">5</text>
+<text x="54" y="172" font-size="13" text-anchor="start" font-family="sans-serif" fill="#2f5d50">J'ai un chat.</text>
+<text x="54" y="188" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">나는 고양이 한 마리가 있다.</text>
+<circle cx="34" cy="202" r="9" fill="#e07a3f" fill-opacity="0.2" stroke="#e07a3f" stroke-width="1.2"/>
+<text x="34" y="206" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">6</text>
+<text x="54" y="206" font-size="13" text-anchor="start" font-family="sans-serif" fill="#2f5d50">Le chat est petit.</text>
+<text x="54" y="222" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">그 고양이는 작다.</text>
+<circle cx="34" cy="236" r="9" fill="#e07a3f" fill-opacity="0.2" stroke="#e07a3f" stroke-width="1.2"/>
+<text x="34" y="240" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">7</text>
+<text x="54" y="240" font-size="13" text-anchor="start" font-family="sans-serif" fill="#2f5d50">Je parle français et coréen.</text>
+<text x="54" y="256" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">나는 프랑스어와 한국어를 말한다.</text>
+<circle cx="34" cy="270" r="9" fill="#e07a3f" fill-opacity="0.2" stroke="#e07a3f" stroke-width="1.2"/>
+<text x="34" y="274" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">8</text>
+<text x="54" y="274" font-size="13" text-anchor="start" font-family="sans-serif" fill="#2f5d50">Au revoir !</text>
+<text x="54" y="290" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">안녕히 가세요!</text>
+</svg>

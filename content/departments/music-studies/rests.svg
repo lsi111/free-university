@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 160" width="380" height="160">
+  <rect width="380" height="160" fill="#f4efe6"/>
+  <line x1="11" y1="90" x2="83" y2="90" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="11" y1="80" x2="83" y2="80" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="11" y1="70" x2="83" y2="70" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="11" y1="60" x2="83" y2="60" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="11" y1="50" x2="83" y2="50" stroke="#1d1c1a" stroke-width="1"/>
+  <text x="47" y="140" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#1d1c1a" font-weight="bold">가</text>
+  <line x1="106" y1="90" x2="178" y2="90" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="106" y1="80" x2="178" y2="80" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="106" y1="70" x2="178" y2="70" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="106" y1="60" x2="178" y2="60" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="106" y1="50" x2="178" y2="50" stroke="#1d1c1a" stroke-width="1"/>
+  <text x="142" y="140" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#1d1c1a" font-weight="bold">나</text>
+  <line x1="201" y1="90" x2="273" y2="90" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="201" y1="80" x2="273" y2="80" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="201" y1="70" x2="273" y2="70" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="201" y1="60" x2="273" y2="60" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="201" y1="50" x2="273" y2="50" stroke="#1d1c1a" stroke-width="1"/>
+  <text x="237" y="140" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#1d1c1a" font-weight="bold">다</text>
+  <line x1="296" y1="90" x2="368" y2="90" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="296" y1="80" x2="368" y2="80" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="296" y1="70" x2="368" y2="70" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="296" y1="60" x2="368" y2="60" stroke="#1d1c1a" stroke-width="1"/>
+  <line x1="296" y1="50" x2="368" y2="50" stroke="#1d1c1a" stroke-width="1"/>
+  <text x="332" y="140" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#1d1c1a" font-weight="bold">라</text>
+  <path d="M44 51 L51 60 L43 69 L50 77 C41 76 42 87 49 84" fill="none" stroke="#1d1c1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="135" y="60" width="14" height="6" fill="#1d1c1a"/>
+  <rect x="230" y="64" width="14" height="6" fill="#1d1c1a"/>
+  <circle cx="329" cy="63" r="3" fill="#1d1c1a"/>
+  <path d="M331 64 C335 63 336 61 337 58 L328 82" fill="none" stroke="#1d1c1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

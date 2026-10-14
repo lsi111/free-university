@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 200" width="380" height="200">
+<rect width="380" height="200" fill="#f4efe6"/>
+<rect x="15" y="14" width="110" height="46" rx="5" fill="#2f5d50" fill-opacity="0.14" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="70" y="36" font-size="18" text-anchor="middle" font-family="sans-serif" fill="#2f5d50" font-weight="bold">der</text>
+<text x="70" y="54" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">남성</text>
+<rect x="15" y="66" width="110" height="64" rx="5" fill="none" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="70" y="92" font-size="14" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">der Tisch</text>
+<text x="70" y="114" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#7a766d">탁자</text>
+<rect x="135" y="14" width="110" height="46" rx="5" fill="#e07a3f" fill-opacity="0.14" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="190" y="36" font-size="18" text-anchor="middle" font-family="sans-serif" fill="#e07a3f" font-weight="bold">die</text>
+<text x="190" y="54" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">여성</text>
+<rect x="135" y="66" width="110" height="64" rx="5" fill="none" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="190" y="92" font-size="14" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">die Lampe</text>
+<text x="190" y="114" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#7a766d">램프</text>
+<rect x="255" y="14" width="110" height="46" rx="5" fill="#7a766d" fill-opacity="0.14" stroke="#7a766d" stroke-width="1.5"/>
+<text x="310" y="36" font-size="18" text-anchor="middle" font-family="sans-serif" fill="#7a766d" font-weight="bold">das</text>
+<text x="310" y="54" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">중성</text>
+<rect x="255" y="66" width="110" height="64" rx="5" fill="none" stroke="#7a766d" stroke-width="1.5"/>
+<text x="310" y="92" font-size="14" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">das Buch</text>
+<text x="310" y="114" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#7a766d">책</text>
+<rect x="15" y="142" width="350" height="44" rx="5" fill="none" stroke="#7a766d" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="190" y="162" font-size="13" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">복수형 앞에는 성과 관계없이 모두 die</text>
+<text x="190" y="179" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#7a766d">die Tische / die Lampen / die Bücher</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" width="400" height="225">
+<rect width="400" height="225" fill="#f4efe6"/>
+<rect x="20" y="150" width="180" height="55" fill="#cfdcd6" stroke="#2f5d50" stroke-width="1.2"/>
+<rect x="200" y="150" width="180" height="55" fill="#e3d6bd" stroke="#2f5d50" stroke-width="1.2"/>
+<text x="110" y="184" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">바다 (가)</text>
+<text x="290" y="184" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">육지 (나)</text>
+<line x1="130" y1="140" x2="261.0" y2="140.0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="270.0,140.0 261.0,144.5 261.0,135.5" fill="#2f5d50"/>
+<text x="200" y="130" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">지표 부근 바람</text>
+<line x1="270" y1="60" x2="139.0" y2="60.0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="130.0,60.0 139.0,55.5 139.0,64.5" fill="#2f5d50"/>
+<text x="200" y="48" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">상층 바람</text>
+<line x1="300" y1="125" x2="300.0" y2="94.0" stroke="#e07a3f" stroke-width="3"/>
+<polygon points="300.0,85.0 304.5,94.0 295.5,94.0" fill="#e07a3f"/>
+<line x1="100" y1="85" x2="100.0" y2="116.0" stroke="#e07a3f" stroke-width="3"/>
+<polygon points="100.0,125.0 95.5,116.0 104.5,116.0" fill="#e07a3f"/>
+<text x="308" y="108" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">상승</text>
+<text x="108" y="108" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">하강</text>
+</svg>

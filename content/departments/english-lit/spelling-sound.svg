@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 245" width="400" height="245">
+<rect width="400" height="245" fill="#f4efe6"/>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#7a766d"/></marker></defs>
+<text x="20" y="22" font-size="13" text-anchor="start" font-weight="bold" font-family="sans-serif" fill="#1d1c1a">같은 철자, 다른 소리</text>
+<rect x="30" y="40" width="50" height="40" rx="4" fill="#2f5d50" fill-opacity="0.15" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="55" y="67" font-size="20" text-anchor="middle" font-weight="bold" font-family="sans-serif" fill="#1d1c1a">c</text>
+<line x1="82" y1="56" x2="168" y2="48" stroke="#7a766d" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="82" y1="66" x2="168" y2="80" stroke="#7a766d" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="170" y="34" width="210" height="28" rx="4" fill="none" stroke="#7a766d" stroke-width="1.5"/>
+<text x="180" y="53" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">cat: 첫 소리 ㅋ(근사)</text>
+<rect x="170" y="68" width="210" height="28" rx="4" fill="none" stroke="#7a766d" stroke-width="1.5"/>
+<text x="180" y="87" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">city: 첫 소리 ㅅ(근사)</text>
+<text x="20" y="128" font-size="13" text-anchor="start" font-weight="bold" font-family="sans-serif" fill="#1d1c1a">다른 철자, 같은 소리</text>
+<rect x="30" y="140" width="60" height="26" rx="4" fill="none" stroke="#7a766d" stroke-width="1.5"/>
+<text x="60" y="158" font-size="14" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">see</text>
+<line x1="92" y1="153" x2="168" y2="187" stroke="#7a766d" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="30" y="172" width="60" height="26" rx="4" fill="none" stroke="#7a766d" stroke-width="1.5"/>
+<text x="60" y="190" font-size="14" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">sea</text>
+<line x1="92" y1="185" x2="168" y2="187" stroke="#7a766d" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="30" y="204" width="60" height="26" rx="4" fill="none" stroke="#7a766d" stroke-width="1.5"/>
+<text x="60" y="222" font-size="14" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">key</text>
+<line x1="92" y1="217" x2="168" y2="187" stroke="#7a766d" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="170" y="166" width="210" height="42" rx="4" fill="#2f5d50" fill-opacity="0.15" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="180" y="184" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">[iː] 길게 "이"(근사)</text>
+<text x="180" y="201" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">세 낱말이 같은 모음 소리</text>
+</svg>

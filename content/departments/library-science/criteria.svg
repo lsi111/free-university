@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 210" width="380" height="210">
+<rect width="380" height="210" fill="#f4efe6"/>
+<g fill="#fffaf0" stroke="#7a766d" stroke-width="1.5"><rect x="15" y="15" width="170" height="85"/><rect x="195" y="15" width="170" height="85"/><rect x="15" y="110" width="170" height="85"/><rect x="195" y="110" width="170" height="85"/></g>
+<g fill="#2f5d50"><rect x="15" y="15" width="6" height="85"/><rect x="195" y="15" width="6" height="85"/></g><g fill="#e07a3f"><rect x="15" y="110" width="6" height="85"/><rect x="195" y="110" width="6" height="85"/></g>
+<g font-family="sans-serif" fill="#1d1c1a" font-size="15" font-weight="bold"><text x="32" y="40">저자</text><text x="212" y="40">근거</text><text x="32" y="135">시기</text><text x="212" y="135">목적</text></g>
+<g font-family="sans-serif" fill="#1d1c1a" font-size="12"><text x="32" y="64">누가 썼는가</text><text x="32" y="84">그 분야를 아는 사람인가</text><text x="212" y="64">무엇에 근거하는가</text><text x="212" y="84">자료·출처가 밝혀져 있는가</text><text x="32" y="159">언제 쓰였는가</text><text x="32" y="179">지금도 맞는 내용인가</text><text x="212" y="159">왜 만들었는가</text><text x="212" y="179">알리려는가, 팔려는가</text></g>
+</svg>

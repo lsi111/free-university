@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 240" width="380" height="240">
+<rect width="380" height="240" fill="#f4efe6"/>
+<g font-family="sans-serif">
+<text x="190" y="26" text-anchor="middle" font-size="13" fill="#1d1c1a" font-weight="bold">한 학생의 영역별 지원 필요 (가상 사례)</text>
+<text x="14" y="72" text-anchor="start" font-size="12" fill="#1d1c1a">글 읽기</text>
+<rect x="92" y="52" width="150" height="28" fill="#2f5d50" stroke="#2f5d50" stroke-width="2"/>
+<text x="250" y="71" text-anchor="start" font-size="12" fill="#1d1c1a">많음</text>
+<text x="14" y="112" text-anchor="start" font-size="12" fill="#1d1c1a">모둠 대화</text>
+<rect x="92" y="92" width="90" height="28" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="190" y="111" text-anchor="start" font-size="12" fill="#1d1c1a">보통</text>
+<text x="14" y="152" text-anchor="start" font-size="12" fill="#1d1c1a">교실 이동</text>
+<rect x="92" y="132" width="40" height="28" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="140" y="151" text-anchor="start" font-size="12" fill="#1d1c1a">적음</text>
+<text x="14" y="192" text-anchor="start" font-size="12" fill="#1d1c1a">수학 개념</text>
+<rect x="92" y="172" width="40" height="28" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="140" y="191" text-anchor="start" font-size="12" fill="#1d1c1a">적음</text>
+<line x1="92" y1="46" x2="92" y2="206" stroke="#7a766d" stroke-width="1.5"/>
+<text x="190" y="226" text-anchor="middle" font-size="11" fill="#7a766d">같은 학생도 영역마다 필요한 지원이 다르다</text>
+</g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 240" width="380" height="240">
+<rect width="380" height="240" fill="#f4efe6"/>
+<g font-family="sans-serif">
+<text x="190" y="26" text-anchor="middle" font-size="13" fill="#1d1c1a" font-weight="bold">지원 계획의 순환</text>
+<rect x="14" y="50" width="160" height="56" fill="#2f5d50" stroke="#2f5d50" stroke-width="2"/>
+<text x="94.0" y="73.0" text-anchor="middle" font-size="12" fill="#ffffff" font-weight="bold">1 현재 모습</text>
+<text x="94.0" y="91.0" text-anchor="middle" font-size="12" fill="#ffffff">강점과 필요</text>
+<rect x="206" y="50" width="160" height="56" fill="#ffffff" stroke="#7a766d" stroke-width="2"/>
+<text x="286.0" y="73.0" text-anchor="middle" font-size="12" fill="#1d1c1a" font-weight="bold">2 목표</text>
+<text x="286.0" y="91.0" text-anchor="middle" font-size="12" fill="#1d1c1a">작고 분명하게</text>
+<rect x="206" y="140" width="160" height="56" fill="#ffffff" stroke="#7a766d" stroke-width="2"/>
+<text x="286.0" y="163.0" text-anchor="middle" font-size="12" fill="#1d1c1a" font-weight="bold">3 지원 방법</text>
+<text x="286.0" y="181.0" text-anchor="middle" font-size="12" fill="#1d1c1a">누가 무엇을</text>
+<rect x="14" y="140" width="160" height="56" fill="#ffffff" stroke="#7a766d" stroke-width="2"/>
+<text x="94.0" y="163.0" text-anchor="middle" font-size="12" fill="#1d1c1a" font-weight="bold">4 점검</text>
+<text x="94.0" y="181.0" text-anchor="middle" font-size="12" fill="#1d1c1a">잘 되는지 보기</text>
+<g stroke="#e07a3f" stroke-width="2" fill="#e07a3f"><line x1="176" y1="78" x2="198" y2="78"/><polygon points="206,78 198,73 198,83"/><line x1="286" y1="108" x2="286" y2="130"/><polygon points="286,138 281,130 291,130"/><line x1="204" y1="168" x2="182" y2="168"/><polygon points="174,168 182,163 182,173"/><line x1="94" y1="138" x2="94" y2="116"/><polygon points="94,108 89,116 99,116"/></g>
+<text x="190" y="226" text-anchor="middle" font-size="11" fill="#7a766d">점검한 결과로 다시 현재 모습을 살핀다</text>
+</g>
+</svg>

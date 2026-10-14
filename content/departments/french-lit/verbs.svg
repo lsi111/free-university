@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 256" width="400" height="256">
+<rect width="400" height="256" fill="#f4efe6"/>
+<text x="18" y="28" font-size="13" text-anchor="start" font-family="sans-serif" fill="#2f5d50" font-weight="bold">주어</text>
+<text x="92" y="28" font-size="13" text-anchor="start" font-family="sans-serif" fill="#2f5d50" font-weight="bold">être (이다)</text>
+<text x="190" y="28" font-size="13" text-anchor="start" font-family="sans-serif" fill="#2f5d50" font-weight="bold">avoir (가지다)</text>
+<text x="285" y="28" font-size="13" text-anchor="start" font-family="sans-serif" fill="#2f5d50" font-weight="bold">parler (말하다)</text>
+<line x1="18" y1="38" x2="382" y2="38" stroke="#7a766d" stroke-width="1"/>
+<text x="18" y="62" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">나</text>
+<text x="92" y="62" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">je suis</text>
+<text x="190" y="62" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">j'ai</text>
+<text x="285" y="62" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">je parle</text>
+<line x1="18" y1="72" x2="382" y2="72" stroke="#d8d2c4" stroke-width="1"/>
+<text x="18" y="92" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">너</text>
+<text x="92" y="92" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">tu es</text>
+<text x="190" y="92" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">tu as</text>
+<text x="285" y="92" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">tu parles</text>
+<line x1="18" y1="102" x2="382" y2="102" stroke="#d8d2c4" stroke-width="1"/>
+<text x="18" y="122" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">그, 그녀</text>
+<text x="92" y="122" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">il est</text>
+<text x="190" y="122" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">il a</text>
+<text x="285" y="122" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">il parle</text>
+<line x1="18" y1="132" x2="382" y2="132" stroke="#d8d2c4" stroke-width="1"/>
+<text x="18" y="152" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">우리</text>
+<text x="92" y="152" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">nous sommes</text>
+<text x="190" y="152" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">nous avons</text>
+<text x="285" y="152" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">nous parlons</text>
+<line x1="18" y1="162" x2="382" y2="162" stroke="#d8d2c4" stroke-width="1"/>
+<text x="18" y="182" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">너희, 당신</text>
+<text x="92" y="182" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">vous êtes</text>
+<text x="190" y="182" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">vous avez</text>
+<text x="285" y="182" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">vous parlez</text>
+<line x1="18" y1="192" x2="382" y2="192" stroke="#d8d2c4" stroke-width="1"/>
+<text x="18" y="212" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">그들, 그녀들</text>
+<text x="92" y="212" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">ils sont</text>
+<text x="190" y="212" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">ils ont</text>
+<text x="285" y="212" font-size="13" text-anchor="start" font-family="sans-serif" fill="#1d1c1a">ils parlent</text>
+<line x1="18" y1="222" x2="382" y2="222" stroke="#d8d2c4" stroke-width="1"/>
+<text x="18" y="246" font-size="12" text-anchor="start" font-family="sans-serif" fill="#7a766d">elle은 il과, elles는 ils와 같은 형태를 쓴다.</text>
+</svg>

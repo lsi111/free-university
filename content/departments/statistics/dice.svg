@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320" width="300" height="320">
+<rect width="300" height="320" fill="#f4efe6"/>
+<text x="150" y="20" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1d1c1a">주사위 두 개의 눈의 합</text>
+<text x="162" y="44" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#1d1c1a">둘째 주사위</text>
+<text x="8" y="176" font-family="sans-serif" font-size="12" text-anchor="start" fill="#1d1c1a">첫째</text>
+<text x="77" y="64" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1d1c1a">1</text>
+<text x="46" y="91" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1d1c1a">1</text>
+<text x="111" y="64" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1d1c1a">2</text>
+<text x="46" y="125" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1d1c1a">2</text>
+<text x="145" y="64" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1d1c1a">3</text>
+<text x="46" y="159" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1d1c1a">3</text>
+<text x="179" y="64" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1d1c1a">4</text>
+<text x="46" y="193" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1d1c1a">4</text>
+<text x="213" y="64" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1d1c1a">5</text>
+<text x="46" y="227" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1d1c1a">5</text>
+<text x="247" y="64" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1d1c1a">6</text>
+<text x="46" y="261" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1d1c1a">6</text>
+<rect x="60" y="70" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="77" y="91" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">2</text>
+<rect x="94" y="70" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="111" y="91" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">3</text>
+<rect x="128" y="70" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="145" y="91" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">4</text>
+<rect x="162" y="70" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="179" y="91" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">5</text>
+<rect x="196" y="70" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="213" y="91" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">6</text>
+<rect x="230" y="70" width="34" height="34" fill="#e07a3f" stroke="#1d1c1a" stroke-width="2" />
+<text x="247" y="91" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1d1c1a">7</text>
+<rect x="60" y="104" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="77" y="125" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">3</text>
+<rect x="94" y="104" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="111" y="125" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">4</text>
+<rect x="128" y="104" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="145" y="125" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">5</text>
+<rect x="162" y="104" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="179" y="125" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">6</text>
+<rect x="196" y="104" width="34" height="34" fill="#e07a3f" stroke="#1d1c1a" stroke-width="2" />
+<text x="213" y="125" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1d1c1a">7</text>
+<rect x="230" y="104" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="247" y="125" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">8</text>
+<rect x="60" y="138" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="77" y="159" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">4</text>
+<rect x="94" y="138" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="111" y="159" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">5</text>
+<rect x="128" y="138" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="145" y="159" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">6</text>
+<rect x="162" y="138" width="34" height="34" fill="#e07a3f" stroke="#1d1c1a" stroke-width="2" />
+<text x="179" y="159" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1d1c1a">7</text>
+<rect x="196" y="138" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="213" y="159" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">8</text>
+<rect x="230" y="138" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="247" y="159" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">9</text>
+<rect x="60" y="172" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="77" y="193" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">5</text>
+<rect x="94" y="172" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="111" y="193" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">6</text>
+<rect x="128" y="172" width="34" height="34" fill="#e07a3f" stroke="#1d1c1a" stroke-width="2" />
+<text x="145" y="193" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1d1c1a">7</text>
+<rect x="162" y="172" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="179" y="193" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">8</text>
+<rect x="196" y="172" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="213" y="193" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">9</text>
+<rect x="230" y="172" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="247" y="193" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">10</text>
+<rect x="60" y="206" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="77" y="227" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">6</text>
+<rect x="94" y="206" width="34" height="34" fill="#e07a3f" stroke="#1d1c1a" stroke-width="2" />
+<text x="111" y="227" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1d1c1a">7</text>
+<rect x="128" y="206" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="145" y="227" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">8</text>
+<rect x="162" y="206" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="179" y="227" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">9</text>
+<rect x="196" y="206" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="213" y="227" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">10</text>
+<rect x="230" y="206" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="247" y="227" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">11</text>
+<rect x="60" y="240" width="34" height="34" fill="#e07a3f" stroke="#1d1c1a" stroke-width="2" />
+<text x="77" y="261" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1d1c1a">7</text>
+<rect x="94" y="240" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="111" y="261" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">8</text>
+<rect x="128" y="240" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="145" y="261" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">9</text>
+<rect x="162" y="240" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="179" y="261" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">10</text>
+<rect x="196" y="240" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="213" y="261" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">11</text>
+<rect x="230" y="240" width="34" height="34" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="247" y="261" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">12</text>
+<rect x="60" y="290" width="16" height="16" fill="#e07a3f" stroke="#1d1c1a" stroke-width="2" />
+<text x="84" y="303" font-family="sans-serif" font-size="12" text-anchor="start" fill="#1d1c1a">굵은 글자 + 주황 칸: 합이 7</text>
+</svg>

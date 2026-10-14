@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 290" width="360" height="290">
+<rect width="360" height="290" fill="#f4efe6"/>
+<circle cx="58" cy="150" r="36" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<text x="58" y="155" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#1d1c1a" font-weight="bold">민서</text>
+<text x="58" y="205" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#7a766d">(가상 인물)</text>
+<rect x="140" y="24" width="205" height="60" fill="#fffaf0" stroke="#2f5d50" stroke-width="1.5"/>
+<line x1="94" y1="150" x2="140" y2="54" stroke="#7a766d" stroke-width="1.5"/>
+<text x="152" y="49" font-family="sans-serif" font-size="13" text-anchor="start" fill="#1d1c1a" font-weight="bold">지위: 학생</text>
+<text x="152" y="70" font-family="sans-serif" font-size="12" text-anchor="start" fill="#1d1c1a">토요일 오후 2시 보충 수업</text>
+<rect x="140" y="104" width="205" height="60" fill="#fffaf0" stroke="#7a766d" stroke-width="1.5"/>
+<line x1="94" y1="150" x2="140" y2="134" stroke="#7a766d" stroke-width="1.5"/>
+<text x="152" y="129" font-family="sans-serif" font-size="13" text-anchor="start" fill="#1d1c1a" font-weight="bold">지위: 동아리 회장</text>
+<text x="152" y="150" font-family="sans-serif" font-size="12" text-anchor="start" fill="#1d1c1a">일요일 오전 10시 행사 준비</text>
+<rect x="140" y="184" width="205" height="60" fill="#fffaf0" stroke="#2f5d50" stroke-width="1.5"/>
+<line x1="94" y1="150" x2="140" y2="214" stroke="#7a766d" stroke-width="1.5"/>
+<text x="152" y="209" font-family="sans-serif" font-size="13" text-anchor="start" fill="#1d1c1a" font-weight="bold">지위: 아르바이트 직원</text>
+<text x="152" y="230" font-family="sans-serif" font-size="12" text-anchor="start" fill="#1d1c1a">토요일 오후 2시 근무</text>
+<text x="20" y="272" font-family="sans-serif" font-size="11" text-anchor="start" fill="#7a766d">상자: 한 사람이 가진 지위와 그 지위의 일정</text>
+</svg>

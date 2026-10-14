@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 280" width="380" height="280">
+<rect width="380" height="280" fill="#f4efe6"/>
+<text x="190" y="22" font-family="sans-serif" fill="#1d1c1a" font-size="12" text-anchor="middle">한빛 제과점 재무상태표 (단위: 만원)</text>
+<text x="100" y="44" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">자산 (왼쪽)</text>
+<text x="280" y="44" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">부채 + 자본 (오른쪽)</text>
+<rect x="20" y="52" width="160" height="72" fill="#dfe8e4" stroke="#2f5d50" stroke-width="2"/>
+<text x="100" y="82" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">유동자산 200</text>
+<text x="100" y="104" font-family="sans-serif" fill="#1d1c1a" font-size="11" text-anchor="middle">현금 120, 재고 80</text>
+<rect x="20" y="124" width="160" height="108" fill="#dfe8e4" stroke="#2f5d50" stroke-width="2"/>
+<text x="100" y="172" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">비유동자산 300</text>
+<text x="100" y="194" font-family="sans-serif" fill="#1d1c1a" font-size="11" text-anchor="middle">오븐 등 설비 300</text>
+<rect x="200" y="52" width="160" height="72" fill="#f3d9c5" stroke="#e07a3f" stroke-width="2"/>
+<text x="280" y="82" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">부채 200</text>
+<text x="280" y="104" font-family="sans-serif" fill="#1d1c1a" font-size="11" text-anchor="middle">남에게 갚을 돈</text>
+<rect x="200" y="124" width="160" height="108" fill="#dfe8e4" stroke="#2f5d50" stroke-width="2"/>
+<text x="280" y="172" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">자본 300</text>
+<text x="280" y="194" font-family="sans-serif" fill="#1d1c1a" font-size="11" text-anchor="middle">주인의 몫</text>
+<text x="190" y="260" font-family="sans-serif" fill="#1d1c1a" font-size="12" text-anchor="middle">합계 500 = 합계 500</text>
+</svg>

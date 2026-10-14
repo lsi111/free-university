@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+<rect width="400" height="300" fill="#f4efe6"/>
+<text x="200" y="22" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1d1c1a">가상 조문 읽기</text>
+<rect x="20" y="35" width="360" height="100" fill="#fffaf0" stroke="#7a766d" stroke-width="2"/>
+<g font-family="sans-serif" font-size="12" fill="#1d1c1a">
+<text x="35" y="56" font-weight="bold">물품대여법 제3조(연체금)</text>
+<text x="35" y="78">빌린 물건을 기한까지 돌려주지 않은 사람은</text>
+<text x="35" y="97">기한 다음 날부터 하루마다 대여료의 10%를</text>
+<text x="35" y="116">연체금으로 내야 한다.</text>
+</g>
+<rect x="20" y="170" width="150" height="100" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<rect x="230" y="170" width="150" height="100" fill="#fffaf0" stroke="#e07a3f" stroke-width="2"/>
+<g font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1d1c1a">
+<text x="95" y="192">요건</text><text x="305" y="192">효과</text>
+</g>
+<g font-family="sans-serif" font-size="11" text-anchor="middle" fill="#1d1c1a">
+<text x="95" y="215">물건을 빌렸다</text><text x="95" y="233">기한이 지났다</text><text x="95" y="251">돌려주지 않았다</text>
+<text x="305" y="215">하루마다</text><text x="305" y="233">대여료의 10%를</text><text x="305" y="251">연체금으로 낸다</text>
+</g>
+<line x1="172" y1="220" x2="224" y2="220" stroke="#1d1c1a" stroke-width="2"/>
+<polygon points="228,220 219,215 219,225" fill="#1d1c1a"/>
+<text x="200" y="210" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2f5d50">이면</text>
+<line x1="200" y1="138" x2="200" y2="164" stroke="#7a766d" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="200" y="155" font-family="sans-serif" font-size="11" text-anchor="start" dx="8" fill="#7a766d">나누어 읽는다</text>
+</svg>

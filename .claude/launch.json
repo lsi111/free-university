@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "free-university", "runtimeExecutable": "node", "runtimeArgs": ["tools/serve.mjs", "8123"], "port": 8123 }
+  ]
+}

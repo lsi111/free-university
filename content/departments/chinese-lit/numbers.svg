@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 222" width="400" height="222">
+<rect width="400" height="222" fill="#f4efe6"/>
+<rect x="20" y="14" width="64" height="90" rx="4" fill="#2f5d50" fill-opacity="0.1" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="52" y="52" font-size="28" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">一</text>
+<text x="52" y="72" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">yī</text>
+<text x="52" y="92" font-size="13" text-anchor="middle" font-family="sans-serif" fill="#7a766d" font-weight="bold">1</text>
+<rect x="94" y="14" width="64" height="90" rx="4" fill="#2f5d50" fill-opacity="0.1" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="126" y="52" font-size="28" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">二</text>
+<text x="126" y="72" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">èr</text>
+<text x="126" y="92" font-size="13" text-anchor="middle" font-family="sans-serif" fill="#7a766d" font-weight="bold">2</text>
+<rect x="168" y="14" width="64" height="90" rx="4" fill="#2f5d50" fill-opacity="0.1" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="200" y="52" font-size="28" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">三</text>
+<text x="200" y="72" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">sān</text>
+<text x="200" y="92" font-size="13" text-anchor="middle" font-family="sans-serif" fill="#7a766d" font-weight="bold">3</text>
+<rect x="242" y="14" width="64" height="90" rx="4" fill="#2f5d50" fill-opacity="0.1" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="274" y="52" font-size="28" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">四</text>
+<text x="274" y="72" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">sì</text>
+<text x="274" y="92" font-size="13" text-anchor="middle" font-family="sans-serif" fill="#7a766d" font-weight="bold">4</text>
+<rect x="316" y="14" width="64" height="90" rx="4" fill="#2f5d50" fill-opacity="0.1" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="348" y="52" font-size="28" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">五</text>
+<text x="348" y="72" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">wǔ</text>
+<text x="348" y="92" font-size="13" text-anchor="middle" font-family="sans-serif" fill="#7a766d" font-weight="bold">5</text>
+<rect x="20" y="118" width="64" height="90" rx="4" fill="#e07a3f" fill-opacity="0.1" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="52" y="156" font-size="28" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">六</text>
+<text x="52" y="176" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">liù</text>
+<text x="52" y="196" font-size="13" text-anchor="middle" font-family="sans-serif" fill="#7a766d" font-weight="bold">6</text>
+<rect x="94" y="118" width="64" height="90" rx="4" fill="#e07a3f" fill-opacity="0.1" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="126" y="156" font-size="28" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">七</text>
+<text x="126" y="176" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">qī</text>
+<text x="126" y="196" font-size="13" text-anchor="middle" font-family="sans-serif" fill="#7a766d" font-weight="bold">7</text>
+<rect x="168" y="118" width="64" height="90" rx="4" fill="#e07a3f" fill-opacity="0.1" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="200" y="156" font-size="28" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">八</text>
+<text x="200" y="176" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">bā</text>
+<text x="200" y="196" font-size="13" text-anchor="middle" font-family="sans-serif" fill="#7a766d" font-weight="bold">8</text>
+<rect x="242" y="118" width="64" height="90" rx="4" fill="#e07a3f" fill-opacity="0.1" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="274" y="156" font-size="28" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">九</text>
+<text x="274" y="176" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">jiǔ</text>
+<text x="274" y="196" font-size="13" text-anchor="middle" font-family="sans-serif" fill="#7a766d" font-weight="bold">9</text>
+<rect x="316" y="118" width="64" height="90" rx="4" fill="#e07a3f" fill-opacity="0.1" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="348" y="156" font-size="28" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">十</text>
+<text x="348" y="176" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#1d1c1a">shí</text>
+<text x="348" y="196" font-size="13" text-anchor="middle" font-family="sans-serif" fill="#7a766d" font-weight="bold">10</text>
+</svg>

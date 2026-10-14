@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 215" width="320" height="215">
+<rect width="320" height="215" fill="#f4efe6"/>
+<text x="160" y="20" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1d1c1a">가상 학생 5명의 자료</text>
+<rect x="20" y="32" width="280" height="28" fill="#e8e0d0" stroke="#7a766d" stroke-width="1.5" />
+<text x="45" y="51" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1d1c1a">번호</text>
+<text x="100" y="51" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1d1c1a">반</text>
+<text x="175" y="51" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1d1c1a">키(cm)</text>
+<text x="260" y="51" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1d1c1a">형제 수</text>
+<rect x="20" y="60" width="280" height="28" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="45" y="79" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">1</text>
+<text x="100" y="79" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">3반</text>
+<text x="175" y="79" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">162.4</text>
+<text x="260" y="79" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">1</text>
+<rect x="20" y="88" width="280" height="28" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="45" y="107" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">2</text>
+<text x="100" y="107" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">1반</text>
+<text x="175" y="107" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">170.1</text>
+<text x="260" y="107" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">0</text>
+<rect x="20" y="116" width="280" height="28" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="45" y="135" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">3</text>
+<text x="100" y="135" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">3반</text>
+<text x="175" y="135" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">158.8</text>
+<text x="260" y="135" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">2</text>
+<rect x="20" y="144" width="280" height="28" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="45" y="163" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">4</text>
+<text x="100" y="163" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">2반</text>
+<text x="175" y="163" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">165.0</text>
+<text x="260" y="163" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">1</text>
+<rect x="20" y="172" width="280" height="28" fill="#fffaf0" stroke="#7a766d" stroke-width="1" />
+<text x="45" y="191" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">5</text>
+<text x="100" y="191" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">2반</text>
+<text x="175" y="191" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">171.3</text>
+<text x="260" y="191" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#1d1c1a">3</text>
+<line x1="70" y1="32" x2="70" y2="200" stroke="#7a766d" stroke-width="1"/>
+<line x1="130" y1="32" x2="130" y2="200" stroke="#7a766d" stroke-width="1"/>
+<line x1="220" y1="32" x2="220" y2="200" stroke="#7a766d" stroke-width="1"/>
+</svg>

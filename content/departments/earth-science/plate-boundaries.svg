@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 335" width="400" height="335">
+<rect width="400" height="335" fill="#f4efe6"/>
+<rect x="6" y="5" width="388" height="104" rx="6" fill="none" stroke="#7a766d" stroke-width="1"/>
+<text x="14" y="25" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="start" font-weight="bold">(가)</text>
+<rect x="6" y="115" width="388" height="104" rx="6" fill="none" stroke="#7a766d" stroke-width="1"/>
+<text x="14" y="135" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="start" font-weight="bold">(나)</text>
+<rect x="6" y="225" width="388" height="104" rx="6" fill="none" stroke="#7a766d" stroke-width="1"/>
+<text x="14" y="245" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="start" font-weight="bold">(다)</text>
+<polygon points="60,45 180,45 180,77 60,77" fill="#cfd8cf" stroke="#2f5d50" stroke-width="1.5"/>
+<polygon points="220,45 340,45 340,77 220,77" fill="#cfd8cf" stroke="#2f5d50" stroke-width="1.5"/>
+<polygon points="180,45 220,45 220,77 180,77" fill="#e07a3f"/>
+<line x1="165" y1="32" x2="104.0" y2="32.0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="95.0,32.0 104.0,27.5 104.0,36.5" fill="#2f5d50"/>
+<line x1="235" y1="32" x2="296.0" y2="32.0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="305.0,32.0 296.0,36.5 296.0,27.5" fill="#2f5d50"/>
+<text x="200" y="98" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">마그마</text>
+<text x="386" y="103" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">단면</text>
+<polygon points="60,160 190,160 255,207 232,207 175,183 60,183" fill="#b9c8be" stroke="#2f5d50" stroke-width="1.5"/>
+<polygon points="190,153 340,153 340,175 190,175" fill="#cfd8cf" stroke="#2f5d50" stroke-width="1.5"/>
+<line x1="100" y1="142" x2="151.0" y2="142.0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="160.0,142.0 151.0,146.5 151.0,137.5" fill="#2f5d50"/>
+<line x1="320" y1="142" x2="269.0" y2="142.0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="260.0,142.0 269.0,137.5 269.0,146.5" fill="#2f5d50"/>
+<text x="386" y="213" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">단면</text>
+<polygon points="130,250 200,250 200,315 130,315" fill="#cfd8cf" stroke="#2f5d50" stroke-width="1.5"/>
+<polygon points="200,250 270,250 270,315 200,315" fill="#cfd8cf" stroke="#2f5d50" stroke-width="1.5"/>
+<line x1="165" y1="305" x2="165.0" y2="272.0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="165.0,263.0 169.5,272.0 160.5,272.0" fill="#2f5d50"/>
+<line x1="235" y1="263" x2="235.0" y2="296.0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="235.0,305.0 230.5,296.0 239.5,296.0" fill="#2f5d50"/>
+<text x="386" y="323" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">위에서 본 모습</text>
+</svg>

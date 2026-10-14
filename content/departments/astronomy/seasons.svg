@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+<rect width="400" height="240" fill="#f4efe6"/>
+<ellipse cx="200" cy="120" rx="150" ry="70" fill="none" stroke="#7a766d" stroke-width="1.5" stroke-dasharray="5 4"/>
+<circle cx="200" cy="120" r="16" fill="#e07a3f"/>
+<text x="200" y="152" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">태양</text>
+<circle cx="50" cy="120" r="12" fill="#2f5d50"/><line x1="41.2" y1="140.2" x2="58.8" y2="99.8" stroke="#1d1c1a" stroke-width="2"/><circle cx="58.8" cy="99.8" r="3.5" fill="#e07a3f"/><text x="72" y="125" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="start">가</text>
+<circle cx="200" cy="50" r="12" fill="#2f5d50"/><line x1="191.2" y1="70.2" x2="208.8" y2="29.8" stroke="#1d1c1a" stroke-width="2"/><circle cx="208.8" cy="29.8" r="3.5" fill="#e07a3f"/><text x="222" y="55" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="start">나</text>
+<circle cx="350" cy="120" r="12" fill="#2f5d50"/><line x1="341.2" y1="140.2" x2="358.8" y2="99.8" stroke="#1d1c1a" stroke-width="2"/><circle cx="358.8" cy="99.8" r="3.5" fill="#e07a3f"/><text x="372" y="125" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="start">다</text>
+<circle cx="200" cy="190" r="12" fill="#2f5d50"/><line x1="191.2" y1="210.2" x2="208.8" y2="169.8" stroke="#1d1c1a" stroke-width="2"/><circle cx="208.8" cy="169.8" r="3.5" fill="#e07a3f"/><text x="222" y="195" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="start">라</text>
+<circle cx="22" cy="224" r="3.5" fill="#e07a3f"/><text x="32" y="228" font-family="sans-serif" fill="#1d1c1a" font-size="11" text-anchor="start">주황 점: 자전축의 북쪽 끝</text>
+</svg>

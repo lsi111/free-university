@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 262" width="400" height="262">
+<rect width="400" height="262" fill="#f4efe6"/>
+<text x="20" y="20" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="start">태양과 비슷한 별의 일생 (단순화)</text>
+<rect x="20" y="32" width="200" height="30" rx="4" fill="#fffaf0" stroke="#7a766d" stroke-width="1.5"/><text x="120" y="52" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">가스와 먼지 구름</text><text x="232" y="52" font-family="sans-serif" fill="#1d1c1a" font-size="11" text-anchor="start">중력으로 뭉친다</text>
+<line x1="120" y1="62" x2="120" y2="74" stroke="#2f5d50" stroke-width="2"/><polygon points="114,72 126,72 120,78" fill="#2f5d50"/>
+<rect x="20" y="78" width="200" height="30" rx="4" fill="#fffaf0" stroke="#7a766d" stroke-width="1.5"/><text x="120" y="98" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">원시별</text><text x="232" y="98" font-family="sans-serif" fill="#1d1c1a" font-size="11" text-anchor="start">수축하며 뜨거워진다</text>
+<line x1="120" y1="108" x2="120" y2="120" stroke="#2f5d50" stroke-width="2"/><polygon points="114,118 126,118 120,124" fill="#2f5d50"/>
+<rect x="20" y="124" width="200" height="30" rx="4" fill="#e8dcc0" stroke="#7a766d" stroke-width="1.5"/><text x="120" y="144" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">주계열성</text><text x="232" y="144" font-family="sans-serif" fill="#1d1c1a" font-size="11" text-anchor="start">일생의 대부분</text>
+<line x1="120" y1="154" x2="120" y2="166" stroke="#2f5d50" stroke-width="2"/><polygon points="114,164 126,164 120,170" fill="#2f5d50"/>
+<rect x="20" y="170" width="200" height="30" rx="4" fill="#fffaf0" stroke="#7a766d" stroke-width="1.5"/><text x="120" y="190" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">적색거성</text><text x="232" y="190" font-family="sans-serif" fill="#1d1c1a" font-size="11" text-anchor="start">크게 부풀어 오른다</text>
+<line x1="120" y1="200" x2="120" y2="212" stroke="#2f5d50" stroke-width="2"/><polygon points="114,210 126,210 120,216" fill="#2f5d50"/>
+<rect x="20" y="216" width="200" height="30" rx="4" fill="#fffaf0" stroke="#7a766d" stroke-width="1.5"/><text x="120" y="236" font-family="sans-serif" fill="#1d1c1a" font-size="13" text-anchor="middle">백색왜성</text><text x="232" y="236" font-family="sans-serif" fill="#1d1c1a" font-size="11" text-anchor="start">남은 중심핵</text>
+</svg>

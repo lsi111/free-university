@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+<rect width="400" height="200" fill="#f4efe6"/>
+<text x="200" y="22" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1d1c1a">가나라 법원의 3심 구조 (가상)</text>
+<rect x="15" y="55" width="100" height="60" fill="#fffaf0" stroke="#7a766d" stroke-width="2"/>
+<rect x="150" y="55" width="100" height="60" fill="#fffaf0" stroke="#2f5d50" stroke-width="2"/>
+<rect x="285" y="55" width="100" height="60" fill="#fffaf0" stroke="#e07a3f" stroke-width="2"/>
+<g font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1d1c1a">
+<text x="65" y="82">1심 법원</text><text x="200" y="82">2심 법원</text><text x="335" y="82">3심 법원</text>
+</g>
+<g font-family="sans-serif" font-size="11" text-anchor="middle" fill="#1d1c1a">
+<text x="65" y="101">처음 하는 재판</text><text x="200" y="101">다시 하는 재판</text><text x="335" y="101">법 적용 점검</text>
+</g>
+<line x1="117" y1="85" x2="146" y2="85" stroke="#1d1c1a" stroke-width="2"/>
+<polygon points="148,85 140,80 140,90" fill="#1d1c1a"/>
+<line x1="252" y1="85" x2="281" y2="85" stroke="#1d1c1a" stroke-width="2"/>
+<polygon points="283,85 275,80 275,90" fill="#1d1c1a"/>
+<g font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2f5d50">
+<text x="132" y="72">항소</text><text x="267" y="72">상고</text>
+</g>
+<g font-family="sans-serif" font-size="11" text-anchor="middle" fill="#7a766d">
+<text x="200" y="150">판결에 불복하면 한 단계 위 법원에</text>
+<text x="200" y="168">다시 판단해 달라고 요청할 수 있다</text>
+<text x="200" y="186">(항소와 상고를 뭉뚱그려 불복 절차라 한다)</text>
+</g>
+</svg>
