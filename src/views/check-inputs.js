@@ -7,13 +7,25 @@ let uid = 0;
 const nextId = (p) => `${p}-${++uid}`;
 
 const INPUTS = {
-  numeric(check) {
-    const input = h('input', { type: 'text', inputmode: 'decimal', class: 'text-input', autocomplete: 'off', 'aria-label': '답' });
+  numeric(check, { saved, onSubmit }) {
+    const input = h('input', {
+      type: 'text', inputmode: 'decimal', class: 'text-input', autocomplete: 'off', 'aria-label': '답',
+      value: saved?.text || '',
+    });
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') { e.preventDefault(); onSubmit?.(); }
+    });
     return { el: h('div', { class: 'answer-row' }, input), read: () => input.value, focusable: input };
   },
 
-  expression(check) {
-    const input = h('input', { type: 'text', class: 'text-input mono', autocomplete: 'off', spellcheck: 'false', 'aria-label': '식' });
+  expression(check, { saved, onSubmit }) {
+    const input = h('input', {
+      type: 'text', class: 'text-input mono', autocomplete: 'off', spellcheck: 'false', 'aria-label': '식',
+      value: saved?.text || '',
+    });
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') { e.preventDefault(); onSubmit?.(); }
+    });
     const note = h('p', { class: 'input-note' }, '쓸 수 있는 것: + - * / ^ ( ), 2x 같은 곱 생략, sin cos exp ln sqrt, pi');
     return { el: h('div', {}, h('div', { class: 'answer-row' }, input), note), read: () => input.value, focusable: input };
   },
@@ -33,7 +45,8 @@ const INPUTS = {
   },
 
   match(check, { math, seed }) {
-    const rights = seededShuffle(check.pairs.map((p) => p[1]), seed);
+    const uniqueRights = [...new Set(check.pairs.map((p) => p[1]))];
+    const rights = seededShuffle(uniqueRights, seed);
     const selects = check.pairs.map(([left]) => {
       const id = nextId('match');
       const select = h('select', { id, class: 'select' },
@@ -69,10 +82,17 @@ const INPUTS = {
     return { el: list, read: () => [...items], focusable: list };
   },
 
-  keywords(check) {
+  keywords(check, { saved, onDraft }) {
     const ta = h('textarea', { class: 'textarea', rows: '5', 'aria-label': '서술 답안' });
-    const count = h('span', { class: 'input-note' }, '0자');
-    ta.addEventListener('input', () => { count.textContent = `${ta.value.replace(/\s/g, '').length}자 (공백 제외)`; });
+    ta.value = saved?.text || '';
+    const min = check.minLength ?? 30;
+    const count = h('span', { class: 'input-note' });
+    const updateCount = () => { count.textContent = `${ta.value.replace(/\s/g, '').length}자 (공백 제외, 최소 ${min}자)`; };
+    updateCount();
+    ta.addEventListener('input', () => {
+      updateCount();
+      onDraft?.({ text: ta.value });
+    });
     return { el: h('div', {}, ta, count), read: () => ta.value, focusable: ta };
   },
 

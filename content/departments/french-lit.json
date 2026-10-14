@@ -1,768 +1,780 @@
 {
- "trunk": [
-  "fl-01",
-  "fl-02",
-  "fl-03",
-  "fl-04",
-  "fl-05",
-  "fl-06"
- ],
- "branches": [],
- "lessons": [
-  {
-   "id": "fl-01",
-   "title": "프랑스어와 알파벳",
-   "minutes": 24,
-   "requires": [],
-   "features": [],
-   "explain": [
-    "**프랑스어**는 라틴어에서 갈라져 나온 **로망스어**의 하나다. 스페인어, 이탈리아어와 같은 계통이다. 프랑스뿐 아니라 벨기에와 스위스의 일부, 캐나다의 퀘벡, 아프리카의 여러 나라에서도 쓰인다. 이 학과에서는 프랑스어라는 언어와 그 언어로 쓰인 글을 함께 살핀다. 첫 단계로 글자부터 본다.",
-    "프랑스어는 영어와 같은 26자의 로마자를 쓴다. 다만 몇몇 글자 위나 아래에 **악센트 부호**가 붙는다. 부호는 장식이 아니라 철자의 일부여서, 빠뜨리면 틀린 철자가 되고 때로는 다른 낱말이 된다.",
+  "trunk": [
+    "fl-01",
+    "fl-02",
+    "fl-03",
+    "fl-04",
+    "fl-05",
+    "fl-06"
+  ],
+  "branches": [],
+  "lessons": [
     {
-     "figure": "departments/french-lit/accents.svg",
-     "alt": "프랑스어 악센트 부호 표. 다섯 줄이며 각 줄은 기호, 이름, 예, 근사 소리 순이다. é는 accent aigu, 예 café, 카페. è는 accent grave, 예 mère, 메르. ê는 accent circonflexe, 예 être, 에트르. à는 accent grave, 예 là, 라. ç는 cédille, 예 garçon, 가르쏭."
-    },
-    "- **é**(accent aigu): 입을 좁게 하는 '에' 소리다.\n- **è**, **ê**(accent grave, accent circonflexe): 입을 더 벌리는 '에' 소리다.\n- **à**: 소리는 a와 같고, 낱말을 구별하는 구실을 한다.\n- **ç**(cédille): 원래 c는 a, o, u 앞에서 'ㅋ'에 가까운 소리가 나는데, ç는 s처럼 소리 난다.",
-    "한글로는 é와 è를 모두 '에'로 적게 되는데, 실제로는 입의 벌어진 정도가 달라 다른 소리로 들린다. 이 교시의 한글 표기는 모두 **근사**일 뿐이며, 정확한 소리는 한글 글자로 옮길 수 없다. 이제부터 한글 소리 표기는 이런 근사 표기라고 이해하면 된다."
-   ],
-   "examples": [
-    {
-     "title": "부호 하나가 낱말을 가르는 짝",
-     "body": [
-      "*a*는 '가지고 있다'를 뜻하는 동사 avoir의 한 형태이고(*il a*, 그는 가지고 있다), *à*는 '~에, ~에서'를 뜻하는 전치사다(*à Paris*, 파리에서). 소리는 같지만 부호가 있고 없고로 다른 낱말이 된다.",
-      "*la*는 여성 명사 앞에 붙는 관사이고, *là*는 '거기'라는 뜻이다. 이 둘도 소리는 같고 부호로 구별한다."
-     ]
-    },
-    {
-     "title": "c와 ç",
-     "body": [
-      "*café*의 c는 a 앞이어서 'ㅋ' 소리가 나서 '카페'에 가깝다. *garçon*(소년, 가르쏭 근사)의 ç는 a 앞인데도 s 소리가 난다. 같은 자리에서 c와 ç가 다른 소리를 내는 것이다."
-     ]
-    }
-   ],
-   "checks": [
-    {
-     "type": "choice",
-     "prompt": "그림에서 cédille이라는 이름이 붙은 글자는 무엇인가?",
-     "figure": {
-      "figure": "departments/french-lit/accents.svg",
-      "alt": "프랑스어 악센트 부호 표. 다섯 줄이며 각 줄은 기호, 이름, 예, 근사 소리 순이다. é는 accent aigu, 예 café, 카페. è는 accent grave, 예 mère, 메르. ê는 accent circonflexe, 예 être, 에트르. à는 accent grave, 예 là, 라. ç는 cédille, 예 garçon, 가르쏭."
-     },
-     "options": [
-      "é",
-      "à",
-      "ç",
-      "ê"
-     ],
-     "answer": [
-      2
-     ],
-     "hint": "이름 열에서 cédille을 찾고 그 줄의 기호를 보세요.",
-     "explanation": "cédille은 ç이다. c 아래에 작은 꼬리가 붙은 모양이다."
-    },
-    {
-     "type": "match",
-     "prompt": "그림의 이름과 알맞은 예 낱말을 짝지으세요.",
-     "figure": {
-      "figure": "departments/french-lit/accents.svg",
-      "alt": "프랑스어 악센트 부호 표. 다섯 줄이며 각 줄은 기호, 이름, 예, 근사 소리 순이다. é는 accent aigu, 예 café, 카페. è는 accent grave, 예 mère, 메르. ê는 accent circonflexe, 예 être, 에트르. à는 accent grave, 예 là, 라. ç는 cédille, 예 garçon, 가르쏭."
-     },
-     "pairs": [
-      [
-       "accent aigu",
-       "café"
+      "id": "fl-01",
+      "title": "프랑스어와 알파벳",
+      "minutes": 24,
+      "requires": [],
+      "features": [
+        "speech:fr"
       ],
-      [
-       "accent grave",
-       "mère"
+      "explain": [
+        "**프랑스어**는 라틴어에서 갈라져 나온 **로망스어**의 하나다. 스페인어, 이탈리아어와 같은 계통이다. 프랑스뿐 아니라 벨기에와 스위스의 일부, 캐나다의 퀘벡, 아프리카의 여러 나라에서도 쓰인다. 이 학과에서는 프랑스어라는 언어와 그 언어로 쓰인 글을 함께 살핀다. 첫 단계로 글자부터 본다.",
+        "프랑스어는 영어와 같은 26자의 로마자를 쓴다. 다만 몇몇 글자 위나 아래에 **악센트 부호**가 붙는다. 부호는 장식이 아니라 철자의 일부여서, 빠뜨리면 틀린 철자가 되고 때로는 다른 낱말이 된다.",
+        {
+          "figure": "departments/french-lit/accents.svg",
+          "alt": "프랑스어 악센트 부호 표. 다섯 줄이며 각 줄은 기호, 이름, 예, 근사 소리 순이다. é는 accent aigu, 예 café, 카페. è는 accent grave, 예 mère, 메르. ê는 accent circonflexe, 예 être, 에트르. à는 accent grave, 예 là, 라. ç는 cédille, 예 garçon, 가르쏭."
+        },
+        "- **é**(accent aigu): 입을 좁게 하는 '에' 소리다.\n- **è**, **ê**(accent grave, accent circonflexe): 입을 더 벌리는 '에' 소리다.\n- **à**: 소리는 a와 같고, 낱말을 구별하는 구실을 한다.\n- **ç**(cédille): 원래 c는 a, o, u 앞에서 'ㅋ'에 가까운 소리가 나는데, ç는 s처럼 소리 난다.",
+        "한글로는 é와 è를 모두 '에'로 적게 되는데, 실제로는 입의 벌어진 정도가 달라 다른 소리로 들린다. 이 교시의 한글 표기는 모두 **근사**일 뿐이며, 정확한 소리는 한글 글자로 옮길 수 없다. 이제부터 한글 소리 표기는 이런 근사 표기라고 이해하면 된다."
       ],
-      [
-       "accent circonflexe",
-       "être"
+      "examples": [
+        {
+          "title": "부호 하나가 낱말을 가르는 짝",
+          "body": [
+            "*a*는 '가지고 있다'를 뜻하는 동사 avoir의 한 형태이고(*il a*, 그는 가지고 있다), *à*는 '~에, ~에서'를 뜻하는 전치사다(*à Paris*, 파리에서). 소리는 같지만 부호가 있고 없고로 다른 낱말이 된다.",
+            "*la*는 여성 명사 앞에 붙는 관사이고, *là*는 '거기'라는 뜻이다. 이 둘도 소리는 같고 부호로 구별한다."
+          ]
+        },
+        {
+          "title": "c와 ç",
+          "body": [
+            "*café*의 c는 a 앞이어서 'ㅋ' 소리가 나서 '카페'에 가깝다. *garçon*(소년, 가르쏭 근사)의 ç는 a 앞인데도 s 소리가 난다. 같은 자리에서 c와 ç가 다른 소리를 내는 것이다."
+          ]
+        }
       ],
-      [
-       "cédille",
-       "garçon"
+      "checks": [
+        {
+          "type": "choice",
+          "prompt": "그림에서 cédille이라는 이름이 붙은 글자는 무엇인가?",
+          "figure": {
+            "figure": "departments/french-lit/accents.svg",
+            "alt": "프랑스어 악센트 부호 표. 다섯 줄이며 각 줄은 기호, 이름, 예, 근사 소리 순이다. é는 accent aigu, 예 café, 카페. è는 accent grave, 예 mère, 메르. ê는 accent circonflexe, 예 être, 에트르. à는 accent grave, 예 là, 라. ç는 cédille, 예 garçon, 가르쏭."
+          },
+          "options": [
+            "é",
+            "à",
+            "ç",
+            "ê"
+          ],
+          "answer": [
+            2
+          ],
+          "hint": "이름 열에서 cédille을 찾고 그 줄의 기호를 보세요.",
+          "explanation": "cédille은 ç이다. c 아래에 작은 꼬리가 붙은 모양이다."
+        },
+        {
+          "type": "match",
+          "prompt": "그림의 이름과 알맞은 예 낱말을 짝지으세요.",
+          "figure": {
+            "figure": "departments/french-lit/accents.svg",
+            "alt": "프랑스어 악센트 부호 표. 다섯 줄이며 각 줄은 기호, 이름, 예, 근사 소리 순이다. é는 accent aigu, 예 café, 카페. è는 accent grave, 예 mère, 메르. ê는 accent circonflexe, 예 être, 에트르. à는 accent grave, 예 là, 라. ç는 cédille, 예 garçon, 가르쏭."
+          },
+          "pairs": [
+            [
+              "accent aigu",
+              "café"
+            ],
+            [
+              "accent grave",
+              "mère"
+            ],
+            [
+              "accent circonflexe",
+              "être"
+            ],
+            [
+              "cédille",
+              "garçon"
+            ]
+          ],
+          "hint": "각 줄에서 이름과 예를 같이 읽으세요.",
+          "explanation": "accent aigu는 café, accent grave는 mère, accent circonflexe는 être, cédille은 garçon에 쓰였다."
+        },
+        {
+          "type": "choice",
+          "prompt": "garçon의 ç는 어떤 소리에 가까운가?",
+          "options": [
+            "'ㅋ' 소리",
+            "'ㅅ' 계열 s 소리",
+            "소리가 나지 않는다",
+            "'ㅎ' 소리"
+          ],
+          "answer": [
+            1
+          ],
+          "hint": "ç는 c에 꼬리를 붙여 소리를 바꾼 글자입니다.",
+          "explanation": "ç는 a, o, u 앞에서도 s 소리가 나게 한다. 그래서 'ㅅ' 계열 소리로 가르쏭에 가깝다."
+        },
+        {
+          "type": "choice",
+          "prompt": "*la*와 *là*에 대한 설명으로 알맞은 것은?",
+          "options": [
+            "부호가 있든 없든 같은 낱말이다",
+            "부호는 소리만 바꾸고 철자와는 관계없다",
+            "부호가 있고 없고에 따라 다른 낱말이 된다",
+            "là는 틀린 철자이다"
+          ],
+          "answer": [
+            2
+          ],
+          "hint": "소리가 같더라도 철자는 다른 낱말일 수 있습니다.",
+          "explanation": "악센트 부호는 철자의 일부이므로 la와 là는 서로 다른 낱말이다."
+        },
+        {
+          "type": "choice",
+          "prompt": "프랑스어에 대한 설명으로 알맞은 것을 모두 고르세요.",
+          "options": [
+            "라틴어에서 갈라져 나온 언어 가운데 하나다",
+            "프랑스에서만 쓰인다",
+            "로마자를 쓰되 악센트 부호가 붙은 글자가 있다",
+            "한글처럼 자음과 모음을 모아 쓴다"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "hint": "프랑스어는 어떤 문자를 쓰고 어떤 말에서 나왔는지 떠올려 보세요.",
+          "explanation": "프랑스어는 라틴어에서 갈라져 나온 로망스어이고, 영어와 같은 로마자에 악센트 부호가 붙는 글자가 있다. 프랑스에서만 쓰이는 것도 아니고 한글과 같은 방식의 문자도 아니다."
+        }
       ]
-     ],
-     "hint": "각 줄에서 이름과 예를 같이 읽으세요.",
-     "explanation": "accent aigu는 café, accent grave는 mère, accent circonflexe는 être, cédille은 garçon에 쓰였다."
     },
     {
-     "type": "choice",
-     "prompt": "garçon의 ç는 어떤 소리에 가까운가?",
-     "options": [
-      "'ㅋ' 소리",
-      "'ㅅ' 계열 s 소리",
-      "소리가 나지 않는다",
-      "'ㅎ' 소리"
-     ],
-     "answer": [
-      1
-     ],
-     "hint": "ç는 c에 꼬리를 붙여 소리를 바꾼 글자입니다.",
-     "explanation": "ç는 a, o, u 앞에서도 s 소리가 나게 한다. 그래서 'ㅅ' 계열 소리로 가르쏭에 가깝다."
-    },
-    {
-     "type": "choice",
-     "prompt": "*la*와 *là*에 대한 설명으로 알맞은 것은?",
-     "options": [
-      "부호가 있든 없든 같은 낱말이다",
-      "부호는 소리만 바꾸고 철자와는 관계없다",
-      "부호가 있고 없고에 따라 다른 낱말이 된다",
-      "là는 틀린 철자이다"
-     ],
-     "answer": [
-      2
-     ],
-     "hint": "소리가 같더라도 철자는 다른 낱말일 수 있습니다.",
-     "explanation": "악센트 부호는 철자의 일부이므로 la와 là는 서로 다른 낱말이다."
-    },
-    {
-     "type": "choice",
-     "prompt": "프랑스어에 대한 설명으로 알맞은 것을 모두 고르세요.",
-     "options": [
-      "라틴어에서 갈라져 나온 언어 가운데 하나다",
-      "프랑스에서만 쓰인다",
-      "로마자를 쓰되 악센트 부호가 붙은 글자가 있다",
-      "한글처럼 자음과 모음을 모아 쓴다"
-     ],
-     "answer": [
-      0,
-      2
-     ],
-     "hint": "프랑스어는 어떤 문자를 쓰고 어떤 말에서 나왔는지 떠올려 보세요.",
-     "explanation": "프랑스어는 라틴어에서 갈라져 나온 로망스어이고, 영어와 같은 로마자에 악센트 부호가 붙는 글자가 있다. 프랑스에서만 쓰이는 것도 아니고 한글과 같은 방식의 문자도 아니다."
-    }
-   ]
-  },
-  {
-   "id": "fl-02",
-   "title": "발음과 묵음",
-   "minutes": 28,
-   "requires": [
-    "fl-01"
-   ],
-   "features": [],
-   "explain": [
-    "프랑스어는 철자를 보이는 대로 다 읽지 않는다. 쓰여 있어도 소리 나지 않는 글자를 **묵음**이라 한다. 철자와 소리 사이에는 규칙이 있지만, 규칙을 알아야 읽을 수 있다. 이 교시에서는 입문자가 가장 먼저 부딪치는 두 가지, 묵음과 연음을 다룬다. 한글 소리 표기는 이번에도 모두 **근사**다.",
-    "**낱말 끝의 자음은 대체로 소리 나지 않는다.** *petit*(작은, 쁘티)의 마지막 t, *grand*(큰, 그랑)의 d, *vous*(당신, 부)의 s가 그렇다. 낱말 끝의 e도 소리 나지 않는다. 그런데 e가 붙으면 그 앞 자음은 더는 낱말 끝이 아니므로 소리가 난다. *petit*는 쁘티, *petite*는 쁘띠트에 가깝고, *grand*는 그랑, *grande*는 그랑드에 가깝다.",
-    {
-     "figure": "departments/french-lit/silent.svg",
-     "alt": "낱말의 소리 나지 않는 글자를 보이는 그림. 첫 줄은 petit의 다섯 글자 상자이며 마지막 t 상자는 점선 회색에 묵음이라고 적혀 있고 쁘티로 읽는다. 둘째 줄은 petite의 여섯 글자 상자이며 마지막 e 상자가 점선 회색 묵음이고 t는 소리 나며 쁘띠트로 읽는다. 셋째 줄은 vous와 avez 두 낱말이고 vous의 s 상자와 avez의 a 상자가 주황 테두리로 곡선에 이어져 있으며 부 자베로 읽는다."
-    },
-    "이 규칙에는 예외가 많다. 낱말 끝의 c, r, f, l은 소리 나는 경우가 흔하다고 알려져 있다(*sac* 사크, *bonjour* 봉주르, *neuf* 뇌프, *mal* 말). 그래서 낱말을 새로 만나면 소리까지 함께 익히는 편이 좋다. 또 h는 소리 나지 않아서 *hôtel*(호텔)은 모음으로 시작하는 것처럼 오텔에 가깝게 읽는다.",
-    "**연음**은 낱말이 모음으로 시작할 때, 앞 낱말 끝의 소리 나지 않던 자음이 뒤 낱말과 이어져 소리 나는 현상이다. *vous avez*(당신은 가지고 있다)는 부 자베에 가깝고, *les amis*(친구들)는 레 자미에 가깝다. 이때 s는 z에 가까운 소리가 된다. 연음이 일어나는 자리는 문법에 따라 정해져 있어서 모든 경우에 일어나는 것은 아니다. 지금은 개념만 알아 두면 충분하다.",
-    "한글 표기가 근사인 이유도 짚어 두자. 프랑스어의 r 소리, 코로 내는 비음(*bon*, 봉에 가깝다), 입술을 둥글게 하는 모음은 한글 글자에 딱 맞는 짝이 없다. 소리를 정확히 익히려면 반드시 들어 보아야 하고, 이 교실은 소리를 재생하지 않으므로 규칙의 감을 잡는 데 목적이 있다."
-   ],
-   "examples": [
-    {
-     "title": "연음 읽어 보기",
-     "body": [
-      "*nous avons*(우리는 가지고 있다)는 누 자봉에 가깝다. *nous*의 s는 혼자일 때는 소리 나지 않지만, 모음 a 앞에서 이어져 소리 난다.",
-      "*petit ami*(남자 친구나 연인을 가리킬 때 쓰는 표현)는 쁘티 따미에 가깝다. 혼자서는 소리 나지 않던 petit의 t가 뒤 모음과 이어져 소리 난다."
-     ]
-    },
-    {
-     "title": "묵음 구별하기",
-     "body": [
-      "*grand*는 d가 묵음이고 *grande*는 d가 소리 난다. *trois*(셋, 트루아)에서는 s가 묵음이다. *hôtel*에서는 h가 묵음이다."
-     ]
-    }
-   ],
-   "checks": [
-    {
-     "type": "choice",
-     "prompt": "그림에서 *petit*의 마지막 글자 t는 어떻게 읽는가?",
-     "figure": {
-      "figure": "departments/french-lit/silent.svg",
-      "alt": "낱말의 소리 나지 않는 글자를 보이는 그림. 첫 줄은 petit의 다섯 글자 상자이며 마지막 t 상자는 점선 회색에 묵음이라고 적혀 있고 쁘티로 읽는다. 둘째 줄은 petite의 여섯 글자 상자이며 마지막 e 상자가 점선 회색 묵음이고 t는 소리 나며 쁘띠트로 읽는다. 셋째 줄은 vous와 avez 두 낱말이고 vous의 s 상자와 avez의 a 상자가 주황 테두리로 곡선에 이어져 있으며 부 자베로 읽는다."
-     },
-     "options": [
-      "'ㅌ' 소리로 또렷이 읽는다",
-      "읽지 않는다(묵음)",
-      "'ㅅ' 소리로 읽는다",
-      "e 소리로 바꿔 읽는다"
-     ],
-     "answer": [
-      1
-     ],
-     "hint": "점선 회색 상자의 표시를 보세요.",
-     "explanation": "petit의 마지막 t는 묵음이다. 그래서 쁘티에 가깝게 읽는다."
-    },
-    {
-     "type": "choice",
-     "prompt": "*petite*에서는 t가 소리 난다. 가장 알맞은 까닭은?",
-     "figure": {
-      "figure": "departments/french-lit/silent.svg",
-      "alt": "낱말의 소리 나지 않는 글자를 보이는 그림. 첫 줄은 petit의 다섯 글자 상자이며 마지막 t 상자는 점선 회색에 묵음이라고 적혀 있고 쁘티로 읽는다. 둘째 줄은 petite의 여섯 글자 상자이며 마지막 e 상자가 점선 회색 묵음이고 t는 소리 나며 쁘띠트로 읽는다. 셋째 줄은 vous와 avez 두 낱말이고 vous의 s 상자와 avez의 a 상자가 주황 테두리로 곡선에 이어져 있으며 부 자베로 읽는다."
-     },
-     "options": [
-      "프랑스어는 t를 항상 읽기 때문이다",
-      "petite는 영어 낱말이기 때문이다",
-      "뒤에 e가 붙어 t가 낱말 끝의 자음이 아니게 되기 때문이다",
-      "e가 t로 바뀌기 때문이다"
-     ],
-     "answer": [
-      2
-     ],
-     "hint": "petit와 petite는 어떤 글자가 더 있나요?",
-     "explanation": "뒤에 e가 붙어서 t가 더는 낱말 끝이 아니게 되기 때문이다. 이때 e 자체는 소리 나지 않는다."
-    },
-    {
-     "type": "match",
-     "prompt": "낱말과 한글 근사 소리를 짝지으세요.",
-     "pairs": [
-      [
-       "grand",
-       "그랑"
+      "id": "fl-02",
+      "title": "발음과 묵음",
+      "minutes": 28,
+      "requires": [
+        "fl-01"
       ],
-      [
-       "vous",
-       "부"
+      "features": [
+        "speech:fr"
       ],
-      [
-       "hôtel",
-       "오텔"
+      "explain": [
+        "프랑스어는 철자를 보이는 대로 다 읽지 않는다. 쓰여 있어도 소리 나지 않는 글자를 **묵음**이라 한다. 철자와 소리 사이에는 규칙이 있지만, 규칙을 알아야 읽을 수 있다. 이 교시에서는 입문자가 가장 먼저 부딪치는 두 가지, 묵음과 연음을 다룬다. 한글 소리 표기는 이번에도 모두 **근사**다.",
+        "**낱말 끝의 자음은 대체로 소리 나지 않는다.** *petit*(작은, 쁘티)의 마지막 t, *grand*(큰, 그랑)의 d, *vous*(당신, 부)의 s가 그렇다. 낱말 끝의 e도 소리 나지 않는다. 그런데 e가 붙으면 그 앞 자음은 더는 낱말 끝이 아니므로 소리가 난다. *petit*는 쁘티, *petite*는 쁘띠트에 가깝고, *grand*는 그랑, *grande*는 그랑드에 가깝다.",
+        {
+          "figure": "departments/french-lit/silent.svg",
+          "alt": "낱말의 소리 나지 않는 글자를 보이는 그림. 첫 줄은 petit의 다섯 글자 상자이며 마지막 t 상자는 점선 회색에 묵음이라고 적혀 있고 쁘티로 읽는다. 둘째 줄은 petite의 여섯 글자 상자이며 마지막 e 상자가 점선 회색 묵음이고 t는 소리 나며 쁘띠트로 읽는다. 셋째 줄은 vous와 avez 두 낱말이고 vous의 s 상자와 avez의 a 상자가 주황 테두리로 곡선에 이어져 있으며 부 자베로 읽는다."
+        },
+        "이 규칙에는 예외가 많다. 낱말 끝의 c, r, f, l은 소리 나는 경우가 흔하다고 알려져 있다(*sac* 사크, *bonjour* 봉주르, *neuf* 뇌프, *mal* 말). 그래서 낱말을 새로 만나면 소리까지 함께 익히는 편이 좋다. 또 h는 소리 나지 않아서 *hôtel*(호텔)은 모음으로 시작하는 것처럼 오텔에 가깝게 읽는다.",
+        "**연음**은 낱말이 모음으로 시작할 때, 앞 낱말 끝의 소리 나지 않던 자음이 뒤 낱말과 이어져 소리 나는 현상이다. *vous avez*(당신은 가지고 있다)는 부 자베에 가깝고, *les amis*(친구들)는 레 자미에 가깝다. 이때 s는 z에 가까운 소리가 된다. 연음이 일어나는 자리는 문법에 따라 정해져 있어서 모든 경우에 일어나는 것은 아니다. 지금은 개념만 알아 두면 충분하다.",
+        "한글 표기가 근사인 이유도 짚어 두자. 프랑스어의 r 소리, 코로 내는 비음(*bon*, 봉에 가깝다), 입술을 둥글게 하는 모음은 한글 글자에 딱 맞는 짝이 없다. 소리를 정확히 익히려면 반드시 들어 보아야 하고, 이 교실은 소리를 재생하지 않으므로 규칙의 감을 잡는 데 목적이 있다."
       ],
-      [
-       "petite",
-       "쁘띠트"
+      "examples": [
+        {
+          "title": "연음 읽어 보기",
+          "body": [
+            "*nous avons*(우리는 가지고 있다)는 누 자봉에 가깝다. *nous*의 s는 혼자일 때는 소리 나지 않지만, 모음 a 앞에서 이어져 소리 난다.",
+            "*petit ami*(남자 친구나 연인을 가리킬 때 쓰는 표현)는 쁘티 따미에 가깝다. 혼자서는 소리 나지 않던 petit의 t가 뒤 모음과 이어져 소리 난다."
+          ]
+        },
+        {
+          "title": "묵음 구별하기",
+          "body": [
+            "*grand*는 d가 묵음이고 *grande*는 d가 소리 난다. *trois*(셋, 트루아)에서는 s가 묵음이다. *hôtel*에서는 h가 묵음이다."
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "type": "choice",
+          "prompt": "그림에서 *petit*의 마지막 글자 t는 어떻게 읽는가?",
+          "figure": {
+            "figure": "departments/french-lit/silent.svg",
+            "alt": "낱말의 소리 나지 않는 글자를 보이는 그림. 첫 줄은 petit의 다섯 글자 상자이며 마지막 t 상자는 점선 회색에 묵음이라고 적혀 있고 쁘티로 읽는다. 둘째 줄은 petite의 여섯 글자 상자이며 마지막 e 상자가 점선 회색 묵음이고 t는 소리 나며 쁘띠트로 읽는다. 셋째 줄은 vous와 avez 두 낱말이고 vous의 s 상자와 avez의 a 상자가 주황 테두리로 곡선에 이어져 있으며 부 자베로 읽는다."
+          },
+          "options": [
+            "'ㅌ' 소리로 또렷이 읽는다",
+            "읽지 않는다(묵음)",
+            "'ㅅ' 소리로 읽는다",
+            "e 소리로 바꿔 읽는다"
+          ],
+          "answer": [
+            1
+          ],
+          "hint": "점선 회색 상자의 표시를 보세요.",
+          "explanation": "petit의 마지막 t는 묵음이다. 그래서 쁘티에 가깝게 읽는다."
+        },
+        {
+          "type": "choice",
+          "prompt": "*petite*에서는 t가 소리 난다. 가장 알맞은 까닭은?",
+          "figure": {
+            "figure": "departments/french-lit/silent.svg",
+            "alt": "낱말의 소리 나지 않는 글자를 보이는 그림. 첫 줄은 petit의 다섯 글자 상자이며 마지막 t 상자는 점선 회색에 묵음이라고 적혀 있고 쁘티로 읽는다. 둘째 줄은 petite의 여섯 글자 상자이며 마지막 e 상자가 점선 회색 묵음이고 t는 소리 나며 쁘띠트로 읽는다. 셋째 줄은 vous와 avez 두 낱말이고 vous의 s 상자와 avez의 a 상자가 주황 테두리로 곡선에 이어져 있으며 부 자베로 읽는다."
+          },
+          "options": [
+            "프랑스어는 t를 항상 읽기 때문이다",
+            "petite는 영어 낱말이기 때문이다",
+            "뒤에 e가 붙어 t가 낱말 끝의 자음이 아니게 되기 때문이다",
+            "e가 t로 바뀌기 때문이다"
+          ],
+          "answer": [
+            2
+          ],
+          "hint": "petit와 petite는 어떤 글자가 더 있나요?",
+          "explanation": "뒤에 e가 붙어서 t가 더는 낱말 끝이 아니게 되기 때문이다. 이때 e 자체는 소리 나지 않는다."
+        },
+        {
+          "type": "match",
+          "prompt": "낱말과 한글 근사 소리를 짝지으세요.",
+          "pairs": [
+            [
+              "grand",
+              "그랑"
+            ],
+            [
+              "vous",
+              "부"
+            ],
+            [
+              "hôtel",
+              "오텔"
+            ],
+            [
+              "petite",
+              "쁘띠트"
+            ]
+          ],
+          "hint": "낱말 끝의 묵음과 h의 묵음을 떠올려 보세요.",
+          "explanation": "grand는 그랑, vous는 부, hôtel은 오텔, petite는 쁘띠트에 가깝다. 모두 근사 표기이다."
+        },
+        {
+          "type": "choice",
+          "prompt": "그림의 셋째 줄에서 *vous avez*가 부 자베로 읽히는 현상은 무엇이라 하는가?",
+          "figure": {
+            "figure": "departments/french-lit/silent.svg",
+            "alt": "낱말의 소리 나지 않는 글자를 보이는 그림. 첫 줄은 petit의 다섯 글자 상자이며 마지막 t 상자는 점선 회색에 묵음이라고 적혀 있고 쁘티로 읽는다. 둘째 줄은 petite의 여섯 글자 상자이며 마지막 e 상자가 점선 회색 묵음이고 t는 소리 나며 쁘띠트로 읽는다. 셋째 줄은 vous와 avez 두 낱말이고 vous의 s 상자와 avez의 a 상자가 주황 테두리로 곡선에 이어져 있으며 부 자베로 읽는다."
+          },
+          "options": [
+            "묵음",
+            "악센트",
+            "연음",
+            "복수형"
+          ],
+          "answer": [
+            2
+          ],
+          "hint": "앞 낱말의 끝 자음이 뒤 모음에 이어집니다.",
+          "explanation": "앞 낱말 끝의 자음이 뒤 모음 낱말과 이어져 소리 나는 현상을 연음이라 한다."
+        },
+        {
+          "type": "keywords",
+          "prompt": "묵음과 연음이 무엇인지, 낱말 끝의 자음을 중심으로 두세 문장으로 설명하세요.",
+          "groups": [
+            [
+              "묵음",
+              "소리 나지 않",
+              "소리가 나지 않",
+              "읽지 않",
+              "발음하지 않"
+            ],
+            [
+              "끝",
+              "어말",
+              "마지막"
+            ],
+            [
+              "연음",
+              "이어",
+              "연결"
+            ]
+          ],
+          "minLength": 40,
+          "model": "묵음은 쓰여 있어도 소리 나지 않는 글자다. 프랑스어는 낱말 끝의 자음을 대체로 읽지 않는다. 그런데 뒤 낱말이 모음으로 시작하면 끝 자음이 이어져 소리 나는데, 이를 연음이라 한다.",
+          "selfCheck": [
+            "묵음이 쓰여 있어도 소리 나지 않는 글자라고 말했다",
+            "낱말 끝의 자음이 대체로 소리 나지 않는다고 말했다",
+            "뒤에 모음이 오면 이어져 소리 나는 연음을 말했다"
+          ],
+          "hint": "낱말 끝 자음이 평소에 어떻게 되는지, 뒤에 모음이 올 때 어떻게 되는지 쓰세요.",
+          "explanation": "핵심은 낱말 끝 자음은 대체로 소리 나지 않지만, 뒤 낱말이 모음으로 시작하면 이어져 소리 날 수 있다는 점이다."
+        }
       ]
-     ],
-     "hint": "낱말 끝의 묵음과 h의 묵음을 떠올려 보세요.",
-     "explanation": "grand는 그랑, vous는 부, hôtel은 오텔, petite는 쁘띠트에 가깝다. 모두 근사 표기이다."
     },
     {
-     "type": "choice",
-     "prompt": "그림의 셋째 줄에서 *vous avez*가 부 자베로 읽히는 현상은 무엇이라 하는가?",
-     "figure": {
-      "figure": "departments/french-lit/silent.svg",
-      "alt": "낱말의 소리 나지 않는 글자를 보이는 그림. 첫 줄은 petit의 다섯 글자 상자이며 마지막 t 상자는 점선 회색에 묵음이라고 적혀 있고 쁘티로 읽는다. 둘째 줄은 petite의 여섯 글자 상자이며 마지막 e 상자가 점선 회색 묵음이고 t는 소리 나며 쁘띠트로 읽는다. 셋째 줄은 vous와 avez 두 낱말이고 vous의 s 상자와 avez의 a 상자가 주황 테두리로 곡선에 이어져 있으며 부 자베로 읽는다."
-     },
-     "options": [
-      "묵음",
-      "악센트",
-      "연음",
-      "복수형"
-     ],
-     "answer": [
-      2
-     ],
-     "hint": "앞 낱말의 끝 자음이 뒤 모음에 이어집니다.",
-     "explanation": "앞 낱말 끝의 자음이 뒤 모음 낱말과 이어져 소리 나는 현상을 연음이라 한다."
-    },
-    {
-     "type": "keywords",
-     "prompt": "묵음과 연음이 무엇인지, 낱말 끝의 자음을 중심으로 두세 문장으로 설명하세요.",
-     "groups": [
-      [
-       "묵음",
-       "소리 나지 않",
-       "소리가 나지 않",
-       "읽지 않",
-       "발음하지 않"
+      "id": "fl-03",
+      "title": "명사의 성과 관사",
+      "minutes": 26,
+      "requires": [
+        "fl-02"
       ],
-      [
-       "끝",
-       "어말",
-       "마지막"
+      "features": [
+        "speech:fr"
       ],
-      [
-       "연음",
-       "이어",
-       "연결"
+      "explain": [
+        "프랑스어의 명사는 모두 **남성**이나 **여성** 가운데 하나에 속한다. 이것을 **성**(문법적 성)이라 한다. 사람이나 동물은 대체로 실제 성별을 따른다(*le père* 아버지, *la mère* 어머니). 그러나 사물도 성이 있다. *le livre*(책)는 남성이고 *la table*(탁자)은 여성이다. 사물의 성은 뜻에서 알 수 없으니 낱말을 외울 때 관사와 함께 외우는 것이 좋다. 한국어에는 이런 성도 관사도 없어서 처음에는 낯설다.",
+        "**관사**는 명사 앞에 붙는 작은 낱말이다. 정해진 특정한 것을 가리킬 때는 **정관사**(le, la, les), 정해지지 않은 하나나 몇 개를 가리킬 때는 **부정관사**(un, une, des)를 쓴다. 관사는 명사의 성과 수에 맞춰 달라진다.",
+        {
+          "figure": "departments/french-lit/articles.svg",
+          "alt": "프랑스어 관사 표. 열은 남성 단수, 여성 단수, 복수이다. 정관사 줄은 le livre, la table, les livres이고 부정관사 줄은 un livre, une table, des livres이다. 아래에 모음 앞에서는 le, la가 l'로 줄어든다는 설명과 l'école(학교, 여성), l'ami(친구, 남성) 예가 있다."
+        },
+        "한글 근사 소리로 le는 르, la는 라, les는 레, un은 앙(코로 내는 소리), des는 데에 가깝다. 복수는 대체로 명사 끝에 s를 붙이는데, 이 s는 소리 나지 않는다. 그래서 *livre*와 *livres*는 소리가 같고, 말할 때는 le와 les의 차이로 단수와 복수를 구별한다.",
+        "성을 짐작하는 데 쓰이는 경향도 있다. 예를 들어 *-tion*으로 끝나는 명사(*la nation*)는 대체로 여성이고, *-ment*로 끝나는 명사(*le moment*)는 대체로 남성이다. 그러나 이것은 어디까지나 경향이라 예외가 있으니, 외울 때는 관사를 함께 적어 두는 습관이 가장 믿을 만하다."
+      ],
+      "examples": [
+        {
+          "title": "성에 따라 모양이 바뀌는 낱말",
+          "body": [
+            "*un étudiant*은 남학생이고 *une étudiante*는 여학생이다. 여성형은 e가 붙어서 앞 자음이 소리 난다. 앞 교시에서 본 petit과 petite의 관계와 같다.",
+            "*le garçon*(소년)과 *la fille*(소녀)처럼 성별이 다른 사람은 아예 다른 낱말인 경우도 많다."
+          ]
+        },
+        {
+          "title": "모음 앞의 줄임",
+          "body": [
+            "*l'école*(학교)은 여성 명사지만 모음 앞이라 la가 아니라 l'를 쓴다. *l'ami*(남자 친구)는 남성이지만 역시 l'를 쓴다. 이 때문에 l'만 보고는 성을 알 수 없다."
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "type": "choice",
+          "prompt": "그림의 표에서 부정관사의 여성 단수 형태는 무엇인가?",
+          "figure": {
+            "figure": "departments/french-lit/articles.svg",
+            "alt": "프랑스어 관사 표. 열은 남성 단수, 여성 단수, 복수이다. 정관사 줄은 le livre, la table, les livres이고 부정관사 줄은 un livre, une table, des livres이다. 아래에 모음 앞에서는 le, la가 l'로 줄어든다는 설명과 l'école(학교, 여성), l'ami(친구, 남성) 예가 있다."
+          },
+          "options": [
+            "un",
+            "la",
+            "une",
+            "des"
+          ],
+          "answer": [
+            2
+          ],
+          "hint": "부정관사 줄과 여성 단수 열이 만나는 칸입니다.",
+          "explanation": "부정관사 여성 단수는 une이다. 예로 une table이 표에 있다."
+        },
+        {
+          "type": "match",
+          "prompt": "관사와 그 뜻을 짝지으세요.",
+          "figure": {
+            "figure": "departments/french-lit/articles.svg",
+            "alt": "프랑스어 관사 표. 열은 남성 단수, 여성 단수, 복수이다. 정관사 줄은 le livre, la table, les livres이고 부정관사 줄은 un livre, une table, des livres이다. 아래에 모음 앞에서는 le, la가 l'로 줄어든다는 설명과 l'école(학교, 여성), l'ami(친구, 남성) 예가 있다."
+          },
+          "pairs": [
+            [
+              "le",
+              "남성 단수 정관사"
+            ],
+            [
+              "la",
+              "여성 단수 정관사"
+            ],
+            [
+              "les",
+              "복수 정관사"
+            ],
+            [
+              "une",
+              "여성 단수 부정관사"
+            ],
+            [
+              "des",
+              "복수 부정관사"
+            ]
+          ],
+          "hint": "정관사와 부정관사, 성과 수를 나눠 보세요.",
+          "explanation": "le는 남성 단수 정관사, la는 여성 단수 정관사, les는 복수 정관사, une는 여성 단수 부정관사, des는 복수 부정관사이다."
+        },
+        {
+          "type": "choice",
+          "prompt": "여성 명사 *école*(학교) 앞에 정관사를 올바르게 붙인 것은?",
+          "options": [
+            "le école",
+            "la école",
+            "les école",
+            "l'école"
+          ],
+          "answer": [
+            3
+          ],
+          "hint": "모음으로 시작하는 낱말 앞에서는 줄어듭니다.",
+          "explanation": "모음 앞에서는 le, la가 l'로 줄어든다. 그래서 l'école이다."
+        },
+        {
+          "type": "choice",
+          "prompt": "프랑스어 명사의 성에 대한 설명으로 알맞은 것을 모두 고르세요.",
+          "options": [
+            "사물 명사에도 문법적 성이 있다",
+            "성은 항상 뜻으로 알 수 있다",
+            "관사와 함께 외우는 것이 좋다",
+            "복수형의 s는 늘 또렷이 소리 난다"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "hint": "사물의 성을 뜻에서 알 수 있는지 생각해 보세요.",
+          "explanation": "명사는 모두 성이 있고, 사물의 성은 뜻에서 알기 어려워 관사와 함께 외운다. 복수 s는 소리 나지 않는다."
+        },
+        {
+          "type": "choice",
+          "prompt": "올바른 짝은 어느 것인가?",
+          "options": [
+            "une livre, un maison",
+            "un livre, un maison",
+            "une livre, une maison",
+            "un livre, une maison"
+          ],
+          "answer": [
+            3
+          ],
+          "hint": "livre는 남성, maison은 여성입니다.",
+          "explanation": "livre(책)는 남성이므로 un livre, maison(집)은 여성이므로 une maison이다."
+        }
       ]
-     ],
-     "minLength": 40,
-     "model": "묵음은 쓰여 있어도 소리 나지 않는 글자다. 프랑스어는 낱말 끝의 자음을 대체로 읽지 않는다. 그런데 뒤 낱말이 모음으로 시작하면 끝 자음이 이어져 소리 나는데, 이를 연음이라 한다.",
-     "selfCheck": [
-      "묵음이 쓰여 있어도 소리 나지 않는 글자라고 말했다",
-      "낱말 끝의 자음이 대체로 소리 나지 않는다고 말했다",
-      "뒤에 모음이 오면 이어져 소리 나는 연음을 말했다"
-     ],
-     "hint": "낱말 끝 자음이 평소에 어떻게 되는지, 뒤에 모음이 올 때 어떻게 되는지 쓰세요.",
-     "explanation": "핵심은 낱말 끝 자음은 대체로 소리 나지 않지만, 뒤 낱말이 모음으로 시작하면 이어져 소리 날 수 있다는 점이다."
-    }
-   ]
-  },
-  {
-   "id": "fl-03",
-   "title": "명사의 성과 관사",
-   "minutes": 26,
-   "requires": [
-    "fl-02"
-   ],
-   "features": [],
-   "explain": [
-    "프랑스어의 명사는 모두 **남성**이나 **여성** 가운데 하나에 속한다. 이것을 **성**(문법적 성)이라 한다. 사람이나 동물은 대체로 실제 성별을 따른다(*le père* 아버지, *la mère* 어머니). 그러나 사물도 성이 있다. *le livre*(책)는 남성이고 *la table*(탁자)은 여성이다. 사물의 성은 뜻에서 알 수 없으니 낱말을 외울 때 관사와 함께 외우는 것이 좋다. 한국어에는 이런 성도 관사도 없어서 처음에는 낯설다.",
-    "**관사**는 명사 앞에 붙는 작은 낱말이다. 정해진 특정한 것을 가리킬 때는 **정관사**(le, la, les), 정해지지 않은 하나나 몇 개를 가리킬 때는 **부정관사**(un, une, des)를 쓴다. 관사는 명사의 성과 수에 맞춰 달라진다.",
-    {
-     "figure": "departments/french-lit/articles.svg",
-     "alt": "프랑스어 관사 표. 열은 남성 단수, 여성 단수, 복수이다. 정관사 줄은 le livre, la table, les livres이고 부정관사 줄은 un livre, une table, des livres이다. 아래에 모음 앞에서는 le, la가 l'로 줄어든다는 설명과 l'école(학교, 여성), l'ami(친구, 남성) 예가 있다."
-    },
-    "한글 근사 소리로 le는 르, la는 라, les는 레, un은 앙(코로 내는 소리), des는 데에 가깝다. 복수는 대체로 명사 끝에 s를 붙이는데, 이 s는 소리 나지 않는다. 그래서 *livre*와 *livres*는 소리가 같고, 말할 때는 le와 les의 차이로 단수와 복수를 구별한다.",
-    "성을 짐작하는 데 쓰이는 경향도 있다. 예를 들어 *-tion*으로 끝나는 명사(*la nation*)는 대체로 여성이고, *-ment*로 끝나는 명사(*le moment*)는 대체로 남성이다. 그러나 이것은 어디까지나 경향이라 예외가 있으니, 외울 때는 관사를 함께 적어 두는 습관이 가장 믿을 만하다."
-   ],
-   "examples": [
-    {
-     "title": "성에 따라 모양이 바뀌는 낱말",
-     "body": [
-      "*un étudiant*은 남학생이고 *une étudiante*는 여학생이다. 여성형은 e가 붙어서 앞 자음이 소리 난다. 앞 교시에서 본 petit과 petite의 관계와 같다.",
-      "*le garçon*(소년)과 *la fille*(소녀)처럼 성별이 다른 사람은 아예 다른 낱말인 경우도 많다."
-     ]
     },
     {
-     "title": "모음 앞의 줄임",
-     "body": [
-      "*l'école*(학교)은 여성 명사지만 모음 앞이라 la가 아니라 l'를 쓴다. *l'ami*(남자 친구)는 남성이지만 역시 l'를 쓴다. 이 때문에 l'만 보고는 성을 알 수 없다."
-     ]
-    }
-   ],
-   "checks": [
-    {
-     "type": "choice",
-     "prompt": "그림의 표에서 부정관사의 여성 단수 형태는 무엇인가?",
-     "figure": {
-      "figure": "departments/french-lit/articles.svg",
-      "alt": "프랑스어 관사 표. 열은 남성 단수, 여성 단수, 복수이다. 정관사 줄은 le livre, la table, les livres이고 부정관사 줄은 un livre, une table, des livres이다. 아래에 모음 앞에서는 le, la가 l'로 줄어든다는 설명과 l'école(학교, 여성), l'ami(친구, 남성) 예가 있다."
-     },
-     "options": [
-      "un",
-      "la",
-      "une",
-      "des"
-     ],
-     "answer": [
-      2
-     ],
-     "hint": "부정관사 줄과 여성 단수 열이 만나는 칸입니다.",
-     "explanation": "부정관사 여성 단수는 une이다. 예로 une table이 표에 있다."
-    },
-    {
-     "type": "match",
-     "prompt": "관사와 그 뜻을 짝지으세요.",
-     "figure": {
-      "figure": "departments/french-lit/articles.svg",
-      "alt": "프랑스어 관사 표. 열은 남성 단수, 여성 단수, 복수이다. 정관사 줄은 le livre, la table, les livres이고 부정관사 줄은 un livre, une table, des livres이다. 아래에 모음 앞에서는 le, la가 l'로 줄어든다는 설명과 l'école(학교, 여성), l'ami(친구, 남성) 예가 있다."
-     },
-     "pairs": [
-      [
-       "le",
-       "남성 단수 정관사"
+      "id": "fl-04",
+      "title": "être, avoir와 -er 동사",
+      "minutes": 30,
+      "requires": [
+        "fl-03"
       ],
-      [
-       "la",
-       "여성 단수 정관사"
+      "features": [
+        "speech:fr"
       ],
-      [
-       "les",
-       "복수 정관사"
+      "explain": [
+        "프랑스어 동사는 주어에 따라 모양이 바뀐다. 이것을 **활용**이라 한다. 먼저 주어로 쓰는 **인칭대명사**를 익히자: *je*(나), *tu*(너), *il*(그), *elle*(그녀), *nous*(우리), *vous*(너희 또는 당신), *ils*(그들), *elles*(그녀들). *tu*는 친한 사이에, *vous*는 여럿에게 말하거나 정중하게 말할 때 쓴다. *je*는 모음 앞에서 *j'*로 줄어든다.",
+        "가장 중요한 두 동사는 **être**(이다, 있다)와 **avoir**(가지다)다. 불규칙해서 그대로 외워야 한다.",
+        {
+          "figure": "departments/french-lit/verbs.svg",
+          "alt": "동사 활용 표. 열은 être(이다), avoir(가지다), parler(말하다)이고 줄은 나, 너, 그·그녀, 우리, 너희·당신, 그들이다. être는 je suis, tu es, il est, nous sommes, vous êtes, ils sont. avoir는 j'ai, tu as, il a, nous avons, vous avez, ils ont. parler는 je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent. 아래에 elle은 il과, elles는 ils와 같은 형태를 쓴다는 설명이 있다."
+        },
+        "세 번째 열의 **parler**(말하다)는 **-er 동사**의 대표다. 부정형이 -er로 끝나는 동사는 대부분 같은 규칙을 따른다. 어간 *parl-*에 *-e, -es, -e, -ons, -ez, -ent*를 붙인다. *habiter*(살다), *chanter*(노래하다)도 같은 방식이다. 몇몇 예외가 있지만 이 규칙이 가장 흔하다.",
+        "소리 면에서 알아 둘 점이 있다. *je parle*, *tu parles*, *il parle*, *ils parlent*의 끝은 모두 소리 나지 않아서 한글 근사로 '빠를'에 가깝게 같은 소리가 난다. 철자는 달라도 말할 때는 구별되지 않는 것이다. 반면 *nous parlons*(빠를롱 근사)과 *vous parlez*(빠를레 근사)는 소리가 다르다."
       ],
-      [
-       "une",
-       "여성 단수 부정관사"
+      "examples": [
+        {
+          "title": "짧은 문장 만들기",
+          "body": [
+            "*Je suis étudiant.* 나는 (남자) 학생이다. / *Elle est étudiante.* 그녀는 학생이다.",
+            "*Nous avons un chat.* 우리는 고양이가 한 마리 있다. / *Ils parlent français.* 그들은 프랑스어를 말한다.",
+            "문장 속 동사의 모양을 보면 주어가 누구인지 짐작할 수 있다. 그래서 프랑스어에서는 주어를 빼지 않고 늘 적는다."
+          ]
+        }
       ],
-      [
-       "des",
-       "복수 부정관사"
+      "checks": [
+        {
+          "type": "choice",
+          "prompt": "그림에서 avoir의 *nous* 형태는 무엇인가?",
+          "figure": {
+            "figure": "departments/french-lit/verbs.svg",
+            "alt": "동사 활용 표. 열은 être(이다), avoir(가지다), parler(말하다)이고 줄은 나, 너, 그·그녀, 우리, 너희·당신, 그들이다. être는 je suis, tu es, il est, nous sommes, vous êtes, ils sont. avoir는 j'ai, tu as, il a, nous avons, vous avez, ils ont. parler는 je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent. 아래에 elle은 il과, elles는 ils와 같은 형태를 쓴다는 설명이 있다."
+          },
+          "options": [
+            "nous avez",
+            "nous avons",
+            "nous sommes",
+            "nous ont"
+          ],
+          "answer": [
+            1
+          ],
+          "hint": "avoir 열에서 nous 줄을 읽으세요.",
+          "explanation": "avoir의 nous 형태는 nous avons이다."
+        },
+        {
+          "type": "match",
+          "prompt": "주어와 être의 알맞은 형태를 짝지으세요.",
+          "figure": {
+            "figure": "departments/french-lit/verbs.svg",
+            "alt": "동사 활용 표. 열은 être(이다), avoir(가지다), parler(말하다)이고 줄은 나, 너, 그·그녀, 우리, 너희·당신, 그들이다. être는 je suis, tu es, il est, nous sommes, vous êtes, ils sont. avoir는 j'ai, tu as, il a, nous avons, vous avez, ils ont. parler는 je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent. 아래에 elle은 il과, elles는 ils와 같은 형태를 쓴다는 설명이 있다."
+          },
+          "pairs": [
+            [
+              "je",
+              "suis"
+            ],
+            [
+              "tu",
+              "es"
+            ],
+            [
+              "nous",
+              "sommes"
+            ],
+            [
+              "vous",
+              "êtes"
+            ],
+            [
+              "ils",
+              "sont"
+            ]
+          ],
+          "hint": "être 열을 위에서부터 읽어 보세요.",
+          "explanation": "je suis, tu es, nous sommes, vous êtes, ils sont이다."
+        },
+        {
+          "type": "choice",
+          "prompt": "*J'ai un livre.*에서 *je*가 *j'*로 줄어든 까닭은?",
+          "options": [
+            "ai가 모음 a로 시작하기 때문이다",
+            "livre가 남성이기 때문이다",
+            "j'가 복수형이기 때문이다",
+            "tu와 구별하기 위해서이다"
+          ],
+          "answer": [
+            0
+          ],
+          "hint": "ai의 첫 글자를 보세요.",
+          "explanation": "동사 ai가 모음으로 시작하므로 je가 j'로 줄어든다."
+        },
+        {
+          "type": "order",
+          "prompt": "'우리는 프랑스어를 말한다'에 맞게 배열하세요.",
+          "items": [
+            "Nous",
+            "parlons",
+            "français"
+          ],
+          "hint": "주어, 동사, 목적어 순서로 놓아 보세요. 동사는 parler입니다.",
+          "explanation": "Nous parlons français. 주어 nous에 맞춰 동사가 parlons가 된다."
+        },
+        {
+          "type": "choice",
+          "prompt": "*Ils ___ français.* 빈칸에 알맞은 parler의 형태는?",
+          "figure": {
+            "figure": "departments/french-lit/verbs.svg",
+            "alt": "동사 활용 표. 열은 être(이다), avoir(가지다), parler(말하다)이고 줄은 나, 너, 그·그녀, 우리, 너희·당신, 그들이다. être는 je suis, tu es, il est, nous sommes, vous êtes, ils sont. avoir는 j'ai, tu as, il a, nous avons, vous avez, ils ont. parler는 je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent. 아래에 elle은 il과, elles는 ils와 같은 형태를 쓴다는 설명이 있다."
+          },
+          "options": [
+            "parle",
+            "parles",
+            "parlons",
+            "parlent"
+          ],
+          "answer": [
+            3
+          ],
+          "hint": "ils 줄을 그림에서 읽으세요.",
+          "explanation": "ils에는 parlent를 쓴다. 이 -ent는 소리 나지 않는다."
+        }
       ]
-     ],
-     "hint": "정관사와 부정관사, 성과 수를 나눠 보세요.",
-     "explanation": "le는 남성 단수 정관사, la는 여성 단수 정관사, les는 복수 정관사, une는 여성 단수 부정관사, des는 복수 부정관사이다."
     },
     {
-     "type": "choice",
-     "prompt": "여성 명사 *école*(학교) 앞에 정관사를 올바르게 붙인 것은?",
-     "options": [
-      "le école",
-      "la école",
-      "les école",
-      "l'école"
-     ],
-     "answer": [
-      3
-     ],
-     "hint": "모음으로 시작하는 낱말 앞에서는 줄어듭니다.",
-     "explanation": "모음 앞에서는 le, la가 l'로 줄어든다. 그래서 l'école이다."
-    },
-    {
-     "type": "choice",
-     "prompt": "프랑스어 명사의 성에 대한 설명으로 알맞은 것을 모두 고르세요.",
-     "options": [
-      "사물 명사에도 문법적 성이 있다",
-      "성은 항상 뜻으로 알 수 있다",
-      "관사와 함께 외우는 것이 좋다",
-      "복수형의 s는 늘 또렷이 소리 난다"
-     ],
-     "answer": [
-      0,
-      2
-     ],
-     "hint": "사물의 성을 뜻에서 알 수 있는지 생각해 보세요.",
-     "explanation": "명사는 모두 성이 있고, 사물의 성은 뜻에서 알기 어려워 관사와 함께 외운다. 복수 s는 소리 나지 않는다."
-    },
-    {
-     "type": "choice",
-     "prompt": "올바른 짝은 어느 것인가?",
-     "options": [
-      "une livre, un maison",
-      "un livre, un maison",
-      "une livre, une maison",
-      "un livre, une maison"
-     ],
-     "answer": [
-      3
-     ],
-     "hint": "livre는 남성, maison은 여성입니다.",
-     "explanation": "livre(책)는 남성이므로 un livre, maison(집)은 여성이므로 une maison이다."
-    }
-   ]
-  },
-  {
-   "id": "fl-04",
-   "title": "être, avoir와 -er 동사",
-   "minutes": 30,
-   "requires": [
-    "fl-03"
-   ],
-   "features": [],
-   "explain": [
-    "프랑스어 동사는 주어에 따라 모양이 바뀐다. 이것을 **활용**이라 한다. 먼저 주어로 쓰는 **인칭대명사**를 익히자: *je*(나), *tu*(너), *il*(그), *elle*(그녀), *nous*(우리), *vous*(너희 또는 당신), *ils*(그들), *elles*(그녀들). *tu*는 친한 사이에, *vous*는 여럿에게 말하거나 정중하게 말할 때 쓴다. *je*는 모음 앞에서 *j'*로 줄어든다.",
-    "가장 중요한 두 동사는 **être**(이다, 있다)와 **avoir**(가지다)다. 불규칙해서 그대로 외워야 한다.",
-    {
-     "figure": "departments/french-lit/verbs.svg",
-     "alt": "동사 활용 표. 열은 être(이다), avoir(가지다), parler(말하다)이고 줄은 나, 너, 그·그녀, 우리, 너희·당신, 그들이다. être는 je suis, tu es, il est, nous sommes, vous êtes, ils sont. avoir는 j'ai, tu as, il a, nous avons, vous avez, ils ont. parler는 je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent. 아래에 elle은 il과, elles는 ils와 같은 형태를 쓴다는 설명이 있다."
-    },
-    "세 번째 열의 **parler**(말하다)는 **-er 동사**의 대표다. 부정형이 -er로 끝나는 동사는 대부분 같은 규칙을 따른다. 어간 *parl-*에 *-e, -es, -e, -ons, -ez, -ent*를 붙인다. *habiter*(살다), *chanter*(노래하다)도 같은 방식이다. 몇몇 예외가 있지만 이 규칙이 가장 흔하다.",
-    "소리 면에서 알아 둘 점이 있다. *je parle*, *tu parles*, *il parle*, *ils parlent*의 끝은 모두 소리 나지 않아서 한글 근사로 '빠를'에 가깝게 같은 소리가 난다. 철자는 달라도 말할 때는 구별되지 않는 것이다. 반면 *nous parlons*(빠를롱 근사)과 *vous parlez*(빠를레 근사)는 소리가 다르다."
-   ],
-   "examples": [
-    {
-     "title": "짧은 문장 만들기",
-     "body": [
-      "*Je suis étudiant.* 나는 (남자) 학생이다. / *Elle est étudiante.* 그녀는 학생이다.",
-      "*Nous avons un chat.* 우리는 고양이가 한 마리 있다. / *Ils parlent français.* 그들은 프랑스어를 말한다.",
-      "문장 속 동사의 모양을 보면 주어가 누구인지 짐작할 수 있다. 그래서 프랑스어에서는 주어를 빼지 않고 늘 적는다."
-     ]
-    }
-   ],
-   "checks": [
-    {
-     "type": "choice",
-     "prompt": "그림에서 avoir의 *nous* 형태는 무엇인가?",
-     "figure": {
-      "figure": "departments/french-lit/verbs.svg",
-      "alt": "동사 활용 표. 열은 être(이다), avoir(가지다), parler(말하다)이고 줄은 나, 너, 그·그녀, 우리, 너희·당신, 그들이다. être는 je suis, tu es, il est, nous sommes, vous êtes, ils sont. avoir는 j'ai, tu as, il a, nous avons, vous avez, ils ont. parler는 je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent. 아래에 elle은 il과, elles는 ils와 같은 형태를 쓴다는 설명이 있다."
-     },
-     "options": [
-      "nous avez",
-      "nous avons",
-      "nous sommes",
-      "nous ont"
-     ],
-     "answer": [
-      1
-     ],
-     "hint": "avoir 열에서 nous 줄을 읽으세요.",
-     "explanation": "avoir의 nous 형태는 nous avons이다."
-    },
-    {
-     "type": "match",
-     "prompt": "주어와 être의 알맞은 형태를 짝지으세요.",
-     "figure": {
-      "figure": "departments/french-lit/verbs.svg",
-      "alt": "동사 활용 표. 열은 être(이다), avoir(가지다), parler(말하다)이고 줄은 나, 너, 그·그녀, 우리, 너희·당신, 그들이다. être는 je suis, tu es, il est, nous sommes, vous êtes, ils sont. avoir는 j'ai, tu as, il a, nous avons, vous avez, ils ont. parler는 je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent. 아래에 elle은 il과, elles는 ils와 같은 형태를 쓴다는 설명이 있다."
-     },
-     "pairs": [
-      [
-       "je",
-       "suis"
+      "id": "fl-05",
+      "title": "기초 표현: 인사와 숫자 0~10",
+      "minutes": 28,
+      "requires": [
+        "fl-04"
       ],
-      [
-       "tu",
-       "es"
+      "features": [
+        "speech:fr"
       ],
-      [
-       "nous",
-       "sommes"
+      "explain": [
+        "이번 교시에는 사람을 만나서 바로 쓰는 표현을 익힌다. 한글 소리는 모두 **근사**임을 기억하자.\n- *Bonjour.* 안녕하세요. (봉주르 근사) 낮에 만나는 인사다.\n- *Bonsoir.* 저녁 인사다. (봉수아르 근사)\n- *Salut.* 친한 사이에서 쓰는 가벼운 인사다. 만날 때도 헤어질 때도 쓴다. (살뤼 근사)\n- *Au revoir.* 안녕히 가세요. (오 흐부아르 근사)\n- *Merci.* 고맙습니다. (메르씨 근사)\n- *S'il vous plaît.* 부탁합니다. (씰 부 쁠레 근사)\n- *Oui. / Non.* 네. / 아니요.\n- *Excusez-moi.* 실례합니다.",
+        "안부를 묻는 표현에는 격식 차이가 있다. *Comment allez-vous ?*는 정중하게 어떻게 지내는지 묻는 말이고, *Ça va ?*는 '잘 지내?'에 가까운 가벼운 말이다. 대답은 *Ça va bien, merci.*(잘 지냅니다, 고맙습니다) 정도로 한다. 이름은 *Je m'appelle Marc.*(내 이름은 마르크다)처럼 말하고, 정중하게 이름을 물을 때는 *Comment vous appelez-vous ?*라고 한다.",
+        {
+          "figure": "departments/french-lit/numbers.svg",
+          "alt": "프랑스어 숫자 0부터 10까지의 카드. 0 zéro 제로, 1 un 앙, 2 deux 되, 3 trois 트루아, 4 quatre 까트르, 5 cinq 쌩크, 6 six 씨스, 7 sept 쎄트, 8 huit 위트, 9 neuf 뇌프, 10 dix 디스. 마지막 칸에 한글 표기는 근사라는 안내가 있다."
+        },
+        "숫자 0부터 10까지는 한 번에 익히면 쓸모가 많다. 특히 *six*, *huit*, *dix*처럼 낱말 끝 자음이 소리 나는 것과 *trois*처럼 s가 소리 나지 않는 것이 섞여 있다는 점을 앞 교시의 묵음 규칙과 연결해 보자."
       ],
-      [
-       "vous",
-       "êtes"
+      "examples": [
+        {
+          "title": "처음 만나는 짧은 대화",
+          "body": [
+            "- *Bonjour ! Je m'appelle Marc. Et vous ?* 안녕하세요! 내 이름은 마르크입니다. 당신은요?\n- *Je m'appelle Léa. Enchantée.* 내 이름은 레아입니다. 만나서 반갑습니다.",
+            "*Enchanté*는 남자가, *Enchantée*는 여자가 쓴다. 앞에서 본 성에 따라 e가 붙는 것과 같은 원리다. *Et*는 '그리고'라는 뜻이고 '에'에 가깝게 읽는다."
+          ]
+        }
       ],
-      [
-       "ils",
-       "sont"
+      "checks": [
+        {
+          "type": "numeric",
+          "prompt": "그림을 보고 *cinq*와 *quatre*가 나타내는 수의 합을 쓰세요.",
+          "figure": {
+            "figure": "departments/french-lit/numbers.svg",
+            "alt": "프랑스어 숫자 0부터 10까지의 카드. 0 zéro 제로, 1 un 앙, 2 deux 되, 3 trois 트루아, 4 quatre 까트르, 5 cinq 쌩크, 6 six 씨스, 7 sept 쎄트, 8 huit 위트, 9 neuf 뇌프, 10 dix 디스. 마지막 칸에 한글 표기는 근사라는 안내가 있다."
+          },
+          "answer": 9,
+          "hint": "카드에서 두 낱말을 찾아 숫자를 읽고 더하세요.",
+          "explanation": "cinq는 5, quatre는 4이므로 합은 9이다."
+        },
+        {
+          "type": "match",
+          "prompt": "프랑스어 숫자와 아라비아 숫자를 짝지으세요.",
+          "figure": {
+            "figure": "departments/french-lit/numbers.svg",
+            "alt": "프랑스어 숫자 0부터 10까지의 카드. 0 zéro 제로, 1 un 앙, 2 deux 되, 3 trois 트루아, 4 quatre 까트르, 5 cinq 쌩크, 6 six 씨스, 7 sept 쎄트, 8 huit 위트, 9 neuf 뇌프, 10 dix 디스. 마지막 칸에 한글 표기는 근사라는 안내가 있다."
+          },
+          "pairs": [
+            [
+              "trois",
+              "3"
+            ],
+            [
+              "huit",
+              "8"
+            ],
+            [
+              "dix",
+              "10"
+            ],
+            [
+              "six",
+              "6"
+            ]
+          ],
+          "hint": "카드의 큰 숫자와 프랑스어 낱말을 대조하세요.",
+          "explanation": "trois는 3, huit는 8, dix는 10, six는 6이다."
+        },
+        {
+          "type": "match",
+          "prompt": "표현과 뜻을 짝지으세요.",
+          "pairs": [
+            [
+              "Bonjour",
+              "낮에 하는 인사"
+            ],
+            [
+              "Merci",
+              "고맙다는 말"
+            ],
+            [
+              "Au revoir",
+              "작별 인사"
+            ],
+            [
+              "S'il vous plaît",
+              "부탁할 때 쓰는 말"
+            ]
+          ],
+          "hint": "인사말의 뜻을 떠올려 보세요.",
+          "explanation": "Bonjour는 낮 인사, Merci는 고맙다는 말, Au revoir는 작별 인사, S'il vous plaît는 부탁할 때 쓰는 말이다."
+        },
+        {
+          "type": "choice",
+          "prompt": "친한 친구에게 가볍게 안부를 물을 때 가장 알맞은 표현은?",
+          "options": [
+            "Au revoir.",
+            "Excusez-moi.",
+            "Comment vous appelez-vous ?",
+            "Ça va ?"
+          ],
+          "answer": [
+            3
+          ],
+          "hint": "Comment allez-vous는 정중한 말입니다.",
+          "explanation": "Ça va ?는 '잘 지내?'에 가까운 가벼운 표현이다. Comment allez-vous ?는 더 정중하다."
+        }
       ]
-     ],
-     "hint": "être 열을 위에서부터 읽어 보세요.",
-     "explanation": "je suis, tu es, nous sommes, vous êtes, ils sont이다."
     },
     {
-     "type": "choice",
-     "prompt": "*J'ai un livre.*에서 *je*가 *j'*로 줄어든 까닭은?",
-     "options": [
-      "ai가 모음 a로 시작하기 때문이다",
-      "livre가 남성이기 때문이다",
-      "j'가 복수형이기 때문이다",
-      "tu와 구별하기 위해서이다"
-     ],
-     "answer": [
-      0
-     ],
-     "hint": "ai의 첫 글자를 보세요.",
-     "explanation": "동사 ai가 모음으로 시작하므로 je가 j'로 줄어든다."
-    },
-    {
-     "type": "order",
-     "prompt": "'우리는 프랑스어를 말한다'에 맞게 배열하세요.",
-     "items": [
-      "Nous",
-      "parlons",
-      "français"
-     ],
-     "hint": "주어, 동사, 목적어 순서로 놓아 보세요. 동사는 parler입니다.",
-     "explanation": "Nous parlons français. 주어 nous에 맞춰 동사가 parlons가 된다."
-    },
-    {
-     "type": "choice",
-     "prompt": "*Ils ___ français.* 빈칸에 알맞은 parler의 형태는?",
-     "figure": {
-      "figure": "departments/french-lit/verbs.svg",
-      "alt": "동사 활용 표. 열은 être(이다), avoir(가지다), parler(말하다)이고 줄은 나, 너, 그·그녀, 우리, 너희·당신, 그들이다. être는 je suis, tu es, il est, nous sommes, vous êtes, ils sont. avoir는 j'ai, tu as, il a, nous avons, vous avez, ils ont. parler는 je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent. 아래에 elle은 il과, elles는 ils와 같은 형태를 쓴다는 설명이 있다."
-     },
-     "options": [
-      "parle",
-      "parles",
-      "parlons",
-      "parlent"
-     ],
-     "answer": [
-      3
-     ],
-     "hint": "ils 줄을 그림에서 읽으세요.",
-     "explanation": "ils에는 parlent를 쓴다. 이 -ent는 소리 나지 않는다."
-    }
-   ]
-  },
-  {
-   "id": "fl-05",
-   "title": "기초 표현: 인사와 숫자 0~10",
-   "minutes": 28,
-   "requires": [
-    "fl-04"
-   ],
-   "features": [],
-   "explain": [
-    "이번 교시에는 사람을 만나서 바로 쓰는 표현을 익힌다. 한글 소리는 모두 **근사**임을 기억하자.\n- *Bonjour.* 안녕하세요. (봉주르 근사) 낮에 만나는 인사다.\n- *Bonsoir.* 저녁 인사다. (봉수아르 근사)\n- *Salut.* 친한 사이에서 쓰는 가벼운 인사다. 만날 때도 헤어질 때도 쓴다. (살뤼 근사)\n- *Au revoir.* 안녕히 가세요. (오 흐부아르 근사)\n- *Merci.* 고맙습니다. (메르씨 근사)\n- *S'il vous plaît.* 부탁합니다. (씰 부 쁠레 근사)\n- *Oui. / Non.* 네. / 아니요.\n- *Excusez-moi.* 실례합니다.",
-    "안부를 묻는 표현에는 격식 차이가 있다. *Comment allez-vous ?*는 정중하게 어떻게 지내는지 묻는 말이고, *Ça va ?*는 '잘 지내?'에 가까운 가벼운 말이다. 대답은 *Ça va bien, merci.*(잘 지냅니다, 고맙습니다) 정도로 한다. 이름은 *Je m'appelle Marc.*(내 이름은 마르크다)처럼 말하고, 정중하게 이름을 물을 때는 *Comment vous appelez-vous ?*라고 한다.",
-    {
-     "figure": "departments/french-lit/numbers.svg",
-     "alt": "프랑스어 숫자 0부터 10까지의 카드. 0 zéro 제로, 1 un 앙, 2 deux 되, 3 trois 트루아, 4 quatre 까트르, 5 cinq 쌩크, 6 six 씨스, 7 sept 쎄트, 8 huit 위트, 9 neuf 뇌프, 10 dix 디스. 마지막 칸에 한글 표기는 근사라는 안내가 있다."
-    },
-    "숫자 0부터 10까지는 한 번에 익히면 쓸모가 많다. 특히 *six*, *huit*, *dix*처럼 낱말 끝 자음이 소리 나는 것과 *trois*처럼 s가 소리 나지 않는 것이 섞여 있다는 점을 앞 교시의 묵음 규칙과 연결해 보자."
-   ],
-   "examples": [
-    {
-     "title": "처음 만나는 짧은 대화",
-     "body": [
-      "- *Bonjour ! Je m'appelle Marc. Et vous ?* 안녕하세요! 내 이름은 마르크입니다. 당신은요?\n- *Je m'appelle Léa. Enchantée.* 내 이름은 레아입니다. 만나서 반갑습니다.",
-      "*Enchanté*는 남자가, *Enchantée*는 여자가 쓴다. 앞에서 본 성에 따라 e가 붙는 것과 같은 원리다. *Et*는 '그리고'라는 뜻이고 '에'에 가깝게 읽는다."
-     ]
-    }
-   ],
-   "checks": [
-    {
-     "type": "numeric",
-     "prompt": "그림을 보고 *cinq*와 *quatre*가 나타내는 수의 합을 쓰세요.",
-     "figure": {
-      "figure": "departments/french-lit/numbers.svg",
-      "alt": "프랑스어 숫자 0부터 10까지의 카드. 0 zéro 제로, 1 un 앙, 2 deux 되, 3 trois 트루아, 4 quatre 까트르, 5 cinq 쌩크, 6 six 씨스, 7 sept 쎄트, 8 huit 위트, 9 neuf 뇌프, 10 dix 디스. 마지막 칸에 한글 표기는 근사라는 안내가 있다."
-     },
-     "answer": 9,
-     "hint": "카드에서 두 낱말을 찾아 숫자를 읽고 더하세요.",
-     "explanation": "cinq는 5, quatre는 4이므로 합은 9이다."
-    },
-    {
-     "type": "match",
-     "prompt": "프랑스어 숫자와 아라비아 숫자를 짝지으세요.",
-     "figure": {
-      "figure": "departments/french-lit/numbers.svg",
-      "alt": "프랑스어 숫자 0부터 10까지의 카드. 0 zéro 제로, 1 un 앙, 2 deux 되, 3 trois 트루아, 4 quatre 까트르, 5 cinq 쌩크, 6 six 씨스, 7 sept 쎄트, 8 huit 위트, 9 neuf 뇌프, 10 dix 디스. 마지막 칸에 한글 표기는 근사라는 안내가 있다."
-     },
-     "pairs": [
-      [
-       "trois",
-       "3"
+      "id": "fl-06",
+      "title": "짧은 글 읽기와 자기소개 쓰기",
+      "minutes": 30,
+      "requires": [
+        "fl-05"
       ],
-      [
-       "huit",
-       "8"
+      "features": [
+        "speech:fr"
       ],
-      [
-       "dix",
-       "10"
+      "explain": [
+        "지금까지 배운 것을 모아 짧은 글을 읽어 보자. 아래 글은 이 교실에서 만든 가상의 글이다. 읽을 때는 모르는 낱말에 멈추지 말고, 먼저 아는 틀을 찾는 것이 좋다. *Je suis*, *J'ai*, *je parle*처럼 앞에서 익힌 동사가 보이면 문장의 뼈대가 잡힌다.",
+        {
+          "figure": "departments/french-lit/reading.svg",
+          "alt": "번호가 붙은 여덟 문장의 짧은 글. 각 문장 아래에 한국어 뜻이 있다. 1 Bonjour! 안녕하세요. 2 Je m'appelle Léa. 내 이름은 레아다. 3 Je suis étudiante. 나는 학생(여성)이다. 4 J'habite à Lyon. 나는 리옹에 산다. 5 J'ai un chat. 나는 고양이 한 마리가 있다. 6 Le chat est petit. 그 고양이는 작다. 7 Je parle français et coréen. 나는 프랑스어와 한국어를 말한다. 8 Au revoir! 안녕히 가세요."
+        },
+        "새로 나온 낱말을 정리하자. *habiter*는 '살다'라는 뜻의 -er 동사여서 *j'habite*(나는 산다)가 된다. h는 소리 나지 않으므로 je가 j'로 줄어든다. *à*는 '~에, ~에서'라는 뜻으로 *à Lyon*은 '리옹에서'이다. *et*는 '그리고', *petit*은 '작은'이다. *étudiante*는 여학생이며, 남학생이면 *étudiant*이다.",
+        "문장의 흐름을 정리하면 인사, 이름, 신분, 사는 곳, 가진 것, 쓰는 언어, 작별 인사 순이다. 이 틀이 곧 가장 간단한 **자기소개**의 짜임이다. 마지막 문항에서는 이 틀을 빌려 나의 자기소개를 직접 써 본다. 모르는 낱말은 이 교시에서 나온 것으로 충분하고, 더 필요하면 한국어 뜻만 곁들여 적어도 좋다."
       ],
-      [
-       "six",
-       "6"
+      "examples": [
+        {
+          "title": "자기소개 틀 바꿔 쓰기",
+          "body": [
+            "*Bonjour ! Je m'appelle Hugo. Je suis étudiant. J'habite à Paris. Je parle français.*",
+            "안녕하세요! 내 이름은 위고입니다. 나는 학생입니다. 나는 파리에 삽니다. 나는 프랑스어를 말합니다.",
+            "이름, 사는 곳, 말하는 언어만 바꾸면 새 소개가 된다. 여성이면 *étudiante*로 e를 붙인다."
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "type": "choice",
+          "prompt": "그림의 글에서 레아는 어디에 사는가?",
+          "figure": {
+            "figure": "departments/french-lit/reading.svg",
+            "alt": "번호가 붙은 여덟 문장의 짧은 글. 각 문장 아래에 한국어 뜻이 있다. 1 Bonjour! 안녕하세요. 2 Je m'appelle Léa. 내 이름은 레아다. 3 Je suis étudiante. 나는 학생(여성)이다. 4 J'habite à Lyon. 나는 리옹에 산다. 5 J'ai un chat. 나는 고양이 한 마리가 있다. 6 Le chat est petit. 그 고양이는 작다. 7 Je parle français et coréen. 나는 프랑스어와 한국어를 말한다. 8 Au revoir! 안녕히 가세요."
+          },
+          "options": [
+            "파리",
+            "마르세유",
+            "리옹",
+            "니스"
+          ],
+          "answer": [
+            2
+          ],
+          "hint": "4번 문장의 마지막 낱말을 보세요.",
+          "explanation": "J'habite à Lyon은 '나는 리옹에 산다'이다."
+        },
+        {
+          "type": "choice",
+          "prompt": "그림의 5번 문장 *J'ai un chat.*의 뜻은?",
+          "figure": {
+            "figure": "departments/french-lit/reading.svg",
+            "alt": "번호가 붙은 여덟 문장의 짧은 글. 각 문장 아래에 한국어 뜻이 있다. 1 Bonjour! 안녕하세요. 2 Je m'appelle Léa. 내 이름은 레아다. 3 Je suis étudiante. 나는 학생(여성)이다. 4 J'habite à Lyon. 나는 리옹에 산다. 5 J'ai un chat. 나는 고양이 한 마리가 있다. 6 Le chat est petit. 그 고양이는 작다. 7 Je parle français et coréen. 나는 프랑스어와 한국어를 말한다. 8 Au revoir! 안녕히 가세요."
+          },
+          "options": [
+            "나는 고양이를 좋아한다",
+            "나는 고양이다",
+            "나는 고양이 한 마리가 있다",
+            "그 고양이는 작다"
+          ],
+          "answer": [
+            2
+          ],
+          "hint": "avoir의 j'ai와 부정관사 un을 떠올리세요.",
+          "explanation": "J'ai는 '나는 가지고 있다', un chat은 '고양이 한 마리'이다."
+        },
+        {
+          "type": "choice",
+          "prompt": "*Le chat est petit.*에서 *est*는 어떤 동사의 어떤 형태인가?",
+          "figure": {
+            "figure": "departments/french-lit/reading.svg",
+            "alt": "번호가 붙은 여덟 문장의 짧은 글. 각 문장 아래에 한국어 뜻이 있다. 1 Bonjour! 안녕하세요. 2 Je m'appelle Léa. 내 이름은 레아다. 3 Je suis étudiante. 나는 학생(여성)이다. 4 J'habite à Lyon. 나는 리옹에 산다. 5 J'ai un chat. 나는 고양이 한 마리가 있다. 6 Le chat est petit. 그 고양이는 작다. 7 Je parle français et coréen. 나는 프랑스어와 한국어를 말한다. 8 Au revoir! 안녕히 가세요."
+          },
+          "options": [
+            "avoir의 je 형태",
+            "être의 il 형태에 해당하는 형태",
+            "parler의 il 형태",
+            "habiter의 nous 형태"
+          ],
+          "answer": [
+            1
+          ],
+          "hint": "il est과 같은 형태입니다.",
+          "explanation": "est는 être의 il, elle, 그리고 명사 주어에 쓰는 형태이다. 뜻은 '~이다'이다."
+        },
+        {
+          "type": "order",
+          "prompt": "'나는 리옹에 산다'에 맞게 배열하세요.",
+          "items": [
+            "J'habite",
+            "à",
+            "Lyon"
+          ],
+          "hint": "동사 habiter는 모음 앞이라 j'로 줄어든 형태를 씁니다.",
+          "explanation": "J'habite à Lyon. 주어와 동사 다음에 장소가 온다."
+        },
+        {
+          "type": "submit",
+          "prompt": "이 줄기에서 배운 것으로 프랑스어 자기소개를 써 보세요. 인사, 이름(Je m'appelle …), 사는 곳(J'habite à …), 쓰는 언어(Je parle …) 가운데 네 문장 이상을 쓰고, 각 문장 뒤에 한국어 뜻을 달아 보세요. 소리는 한글 근사로 한 문장만 적어 보아도 좋다.",
+          "minLength": 60,
+          "checklist": [
+            "프랑스어 문장을 네 개 이상 썼다",
+            "각 문장 뒤에 한국어 뜻을 달았다",
+            "Je m'appelle …, J'habite à … 같은 틀을 썼다",
+            "je가 모음 앞에서 j'로 줄어드는지 확인했다"
+          ],
+          "hint": "이 문항은 점수를 매기지 않습니다. 남긴 글은 이 기기에만 저장됩니다.",
+          "explanation": "정답이 있는 문제가 아닙니다. 배운 틀을 내 말로 바꿔 써 보는 것이 목적입니다."
+        }
       ]
-     ],
-     "hint": "카드의 큰 숫자와 프랑스어 낱말을 대조하세요.",
-     "explanation": "trois는 3, huit는 8, dix는 10, six는 6이다."
-    },
-    {
-     "type": "match",
-     "prompt": "표현과 뜻을 짝지으세요.",
-     "pairs": [
-      [
-       "Bonjour",
-       "낮에 하는 인사"
-      ],
-      [
-       "Merci",
-       "고맙다는 말"
-      ],
-      [
-       "Au revoir",
-       "작별 인사"
-      ],
-      [
-       "S'il vous plaît",
-       "부탁할 때 쓰는 말"
-      ]
-     ],
-     "hint": "인사말의 뜻을 떠올려 보세요.",
-     "explanation": "Bonjour는 낮 인사, Merci는 고맙다는 말, Au revoir는 작별 인사, S'il vous plaît는 부탁할 때 쓰는 말이다."
-    },
-    {
-     "type": "choice",
-     "prompt": "친한 친구에게 가볍게 안부를 물을 때 가장 알맞은 표현은?",
-     "options": [
-      "Au revoir.",
-      "Excusez-moi.",
-      "Comment vous appelez-vous ?",
-      "Ça va ?"
-     ],
-     "answer": [
-      3
-     ],
-     "hint": "Comment allez-vous는 정중한 말입니다.",
-     "explanation": "Ça va ?는 '잘 지내?'에 가까운 가벼운 표현이다. Comment allez-vous ?는 더 정중하다."
     }
-   ]
-  },
-  {
-   "id": "fl-06",
-   "title": "짧은 글 읽기와 자기소개 쓰기",
-   "minutes": 30,
-   "requires": [
-    "fl-05"
-   ],
-   "features": [],
-   "explain": [
-    "지금까지 배운 것을 모아 짧은 글을 읽어 보자. 아래 글은 이 교실에서 만든 가상의 글이다. 읽을 때는 모르는 낱말에 멈추지 말고, 먼저 아는 틀을 찾는 것이 좋다. *Je suis*, *J'ai*, *je parle*처럼 앞에서 익힌 동사가 보이면 문장의 뼈대가 잡힌다.",
-    {
-     "figure": "departments/french-lit/reading.svg",
-     "alt": "번호가 붙은 여덟 문장의 짧은 글. 각 문장 아래에 한국어 뜻이 있다. 1 Bonjour! 안녕하세요. 2 Je m'appelle Léa. 내 이름은 레아다. 3 Je suis étudiante. 나는 학생(여성)이다. 4 J'habite à Lyon. 나는 리옹에 산다. 5 J'ai un chat. 나는 고양이 한 마리가 있다. 6 Le chat est petit. 그 고양이는 작다. 7 Je parle français et coréen. 나는 프랑스어와 한국어를 말한다. 8 Au revoir! 안녕히 가세요."
-    },
-    "새로 나온 낱말을 정리하자. *habiter*는 '살다'라는 뜻의 -er 동사여서 *j'habite*(나는 산다)가 된다. h는 소리 나지 않으므로 je가 j'로 줄어든다. *à*는 '~에, ~에서'라는 뜻으로 *à Lyon*은 '리옹에서'이다. *et*는 '그리고', *petit*은 '작은'이다. *étudiante*는 여학생이며, 남학생이면 *étudiant*이다.",
-    "문장의 흐름을 정리하면 인사, 이름, 신분, 사는 곳, 가진 것, 쓰는 언어, 작별 인사 순이다. 이 틀이 곧 가장 간단한 **자기소개**의 짜임이다. 마지막 문항에서는 이 틀을 빌려 나의 자기소개를 직접 써 본다. 모르는 낱말은 이 교시에서 나온 것으로 충분하고, 더 필요하면 한국어 뜻만 곁들여 적어도 좋다."
-   ],
-   "examples": [
-    {
-     "title": "자기소개 틀 바꿔 쓰기",
-     "body": [
-      "*Bonjour ! Je m'appelle Hugo. Je suis étudiant. J'habite à Paris. Je parle français.*",
-      "안녕하세요! 내 이름은 위고입니다. 나는 학생입니다. 나는 파리에 삽니다. 나는 프랑스어를 말합니다.",
-      "이름, 사는 곳, 말하는 언어만 바꾸면 새 소개가 된다. 여성이면 *étudiante*로 e를 붙인다."
-     ]
-    }
-   ],
-   "checks": [
-    {
-     "type": "choice",
-     "prompt": "그림의 글에서 레아는 어디에 사는가?",
-     "figure": {
-      "figure": "departments/french-lit/reading.svg",
-      "alt": "번호가 붙은 여덟 문장의 짧은 글. 각 문장 아래에 한국어 뜻이 있다. 1 Bonjour! 안녕하세요. 2 Je m'appelle Léa. 내 이름은 레아다. 3 Je suis étudiante. 나는 학생(여성)이다. 4 J'habite à Lyon. 나는 리옹에 산다. 5 J'ai un chat. 나는 고양이 한 마리가 있다. 6 Le chat est petit. 그 고양이는 작다. 7 Je parle français et coréen. 나는 프랑스어와 한국어를 말한다. 8 Au revoir! 안녕히 가세요."
-     },
-     "options": [
-      "파리",
-      "마르세유",
-      "리옹",
-      "니스"
-     ],
-     "answer": [
-      2
-     ],
-     "hint": "4번 문장의 마지막 낱말을 보세요.",
-     "explanation": "J'habite à Lyon은 '나는 리옹에 산다'이다."
-    },
-    {
-     "type": "choice",
-     "prompt": "그림의 5번 문장 *J'ai un chat.*의 뜻은?",
-     "figure": {
-      "figure": "departments/french-lit/reading.svg",
-      "alt": "번호가 붙은 여덟 문장의 짧은 글. 각 문장 아래에 한국어 뜻이 있다. 1 Bonjour! 안녕하세요. 2 Je m'appelle Léa. 내 이름은 레아다. 3 Je suis étudiante. 나는 학생(여성)이다. 4 J'habite à Lyon. 나는 리옹에 산다. 5 J'ai un chat. 나는 고양이 한 마리가 있다. 6 Le chat est petit. 그 고양이는 작다. 7 Je parle français et coréen. 나는 프랑스어와 한국어를 말한다. 8 Au revoir! 안녕히 가세요."
-     },
-     "options": [
-      "나는 고양이를 좋아한다",
-      "나는 고양이다",
-      "나는 고양이 한 마리가 있다",
-      "그 고양이는 작다"
-     ],
-     "answer": [
-      2
-     ],
-     "hint": "avoir의 j'ai와 부정관사 un을 떠올리세요.",
-     "explanation": "J'ai는 '나는 가지고 있다', un chat은 '고양이 한 마리'이다."
-    },
-    {
-     "type": "choice",
-     "prompt": "*Le chat est petit.*에서 *est*는 어떤 동사의 어떤 형태인가?",
-     "figure": {
-      "figure": "departments/french-lit/reading.svg",
-      "alt": "번호가 붙은 여덟 문장의 짧은 글. 각 문장 아래에 한국어 뜻이 있다. 1 Bonjour! 안녕하세요. 2 Je m'appelle Léa. 내 이름은 레아다. 3 Je suis étudiante. 나는 학생(여성)이다. 4 J'habite à Lyon. 나는 리옹에 산다. 5 J'ai un chat. 나는 고양이 한 마리가 있다. 6 Le chat est petit. 그 고양이는 작다. 7 Je parle français et coréen. 나는 프랑스어와 한국어를 말한다. 8 Au revoir! 안녕히 가세요."
-     },
-     "options": [
-      "avoir의 je 형태",
-      "être의 il 형태에 해당하는 형태",
-      "parler의 il 형태",
-      "habiter의 nous 형태"
-     ],
-     "answer": [
-      1
-     ],
-     "hint": "il est과 같은 형태입니다.",
-     "explanation": "est는 être의 il, elle, 그리고 명사 주어에 쓰는 형태이다. 뜻은 '~이다'이다."
-    },
-    {
-     "type": "order",
-     "prompt": "'나는 리옹에 산다'에 맞게 배열하세요.",
-     "items": [
-      "J'habite",
-      "à",
-      "Lyon"
-     ],
-     "hint": "동사 habiter는 모음 앞이라 j'로 줄어든 형태를 씁니다.",
-     "explanation": "J'habite à Lyon. 주어와 동사 다음에 장소가 온다."
-    },
-    {
-     "type": "submit",
-     "prompt": "이 줄기에서 배운 것으로 프랑스어 자기소개를 써 보세요. 인사, 이름(Je m'appelle …), 사는 곳(J'habite à …), 쓰는 언어(Je parle …) 가운데 네 문장 이상을 쓰고, 각 문장 뒤에 한국어 뜻을 달아 보세요. 소리는 한글 근사로 한 문장만 적어 보아도 좋다.",
-     "minLength": 60,
-     "checklist": [
-      "프랑스어 문장을 네 개 이상 썼다",
-      "각 문장 뒤에 한국어 뜻을 달았다",
-      "Je m'appelle …, J'habite à … 같은 틀을 썼다",
-      "je가 모음 앞에서 j'로 줄어드는지 확인했다"
-     ],
-     "hint": "이 문항은 점수를 매기지 않습니다. 남긴 글은 이 기기에만 저장됩니다.",
-     "explanation": "정답이 있는 문제가 아닙니다. 배운 틀을 내 말로 바꿔 써 보는 것이 목적입니다."
-    }
-   ]
-  }
- ]
+  ]
 }

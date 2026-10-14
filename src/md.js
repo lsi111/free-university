@@ -9,6 +9,13 @@ export function escapeHtml(s) {
     .replace(/"/g, '&quot;');
 }
 
+function protectCode(src, slots) {
+  return src.replace(/`([^`\n]+)`/g, (_, code) => {
+    slots.push(`<code>${escapeHtml(code)}</code>`);
+    return `\u0000${slots.length - 1}\u0000`;
+  });
+}
+
 function protectMath(src, slots) {
   return src
     .replace(/\$\$([\s\S]+?)\$\$/g, (_, tex) => {
@@ -27,7 +34,6 @@ function restore(html, slots) {
 
 function inlineFormat(escaped) {
   return escaped
-    .replace(/`([^`]+)`/g, '<code>$1</code>')
     .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
     .replace(/(^|[^*])\*([^*\s][^*]*)\*/g, '$1<em>$2</em>');
 }
@@ -35,14 +41,16 @@ function inlineFormat(escaped) {
 /** 한 줄짜리 문장(선택지, 문항 지문 등) */
 export function inline(src, { math = false } = {}) {
   const slots = [];
-  const text = math ? protectMath(String(src), slots) : String(src);
+  const withCode = protectCode(String(src), slots);
+  const text = math ? protectMath(withCode, slots) : withCode;
   return restore(inlineFormat(escapeHtml(text)), slots);
 }
 
 /** 블록 하나. 블록 안에서 문단 줄과 목록 줄이 섞여도 된다. */
 export function block(src, { math = false } = {}) {
   const slots = [];
-  const text = math ? protectMath(String(src), slots) : String(src);
+  const withCode = protectCode(String(src), slots);
+  const text = math ? protectMath(withCode, slots) : withCode;
   const lines = text.split('\n');
   const out = [];
   let para = [];

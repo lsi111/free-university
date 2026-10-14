@@ -2,8 +2,9 @@ import { h, fill } from '../dom.js';
 import { fieldName } from '../data.js';
 import { deptReviewSummary } from '../engine/review.js';
 import { deptProgress, isDone, isUnlocked, isBranchOpen, isStale, summary } from '../engine/progress.js';
+import { findRelatedDepartments } from '../engine/connections.js';
 
-export function renderDepartment(root, { meta, dept, errors, fields, progress, reviews = {} }) {
+export function renderDepartment(root, { meta, dept, errors, fields, catalog = [], progress, reviews = {} }) {
   const crumbs = h('nav', { class: 'crumbs', 'aria-label': '위치' }, h('a', { href: '#/' }, '학과 선택'), ' › ', meta.name);
   const tags = (meta.tags || []).map((t) => fieldName(fields, t));
   const head = h('header', { class: 'dept-head' },
@@ -50,6 +51,15 @@ export function renderDepartment(root, { meta, dept, errors, fields, progress, r
       h('ol', { class: 'lesson-list', role: 'list' }, b.lessons.map((id, i) => opened ? lessonItem(id, `${i + 1}`) : h('li', { class: 'lesson-item locked' }, byId.get(id).title))));
   });
 
+  const relatedDepts = findRelatedDepartments(meta, catalog);
+  const relatedPanel = relatedDepts.length
+    ? h('section', { class: 'panel' },
+        h('h2', {}, '함께 걸친 계열의 학과'),
+        h('p', { class: 'input-note' }, '이 학과와 주제가 맞닿아 있는 다른 계열의 학과들입니다.'),
+        h('ul', { class: 'tag-links', role: 'list' },
+          relatedDepts.map((d) => h('li', {}, h('a', { class: 'chip-link', href: `#/d/${d.id}` }, d.name)))))
+    : null;
+
   fill(root,
     head,
     errors?.length ? errorPanel(errors) : null,
@@ -65,6 +75,7 @@ export function renderDepartment(root, { meta, dept, errors, fields, progress, r
       h('p', { class: 'input-note' }, '선행이 없는 교시는 바로 열립니다. 순서는 선행 관계로만 정해집니다.'),
       h('ol', { class: 'lesson-list', role: 'list' }, dept.trunk.map((id) => lessonItem(id, number.get(id))))),
     ...branches,
+    relatedPanel,
   );
 }
 

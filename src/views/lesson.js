@@ -5,11 +5,12 @@ import { blocks, inline, figure } from '../md.js';
 import { applyFeatures } from '../features.js';
 import { grade, CHECK_TYPES } from '../engine/checks.js';
 import { deptProgress, isDone, isUnlocked, markDone, saveSubmission } from '../engine/progress.js';
+import { findLessonConnections } from '../engine/connections.js';
 import { renderInput } from './check-inputs.js';
 import { errorPanel } from './department.js';
 import { reviewBadge, reportPanel } from './report.js';
 
-export function renderLesson(root, { meta, dept, errors, lessonId, getProgress, setProgress, reviews = {}, site = {} }) {
+export function renderLesson(root, { meta, dept, catalog = [], errors, lessonId, getProgress, setProgress, loadAllDepartments, reviews = {}, site = {} }) {
   const lesson = dept.lessons.find((l) => l.id === lessonId);
   const trunkIndex = dept.trunk.indexOf(lessonId);
   const branch = (dept.branches || []).find((b) => b.lessons.includes(lessonId));
@@ -40,8 +41,15 @@ export function renderLesson(root, { meta, dept, errors, lessonId, getProgress, 
   const alreadyDone = isDone(dp0, lesson.id);
   const results = lesson.checks.map(() => null); // 'auto' | 'self'
   const completion = h('div', { 'aria-live': 'polite' });
+  const checkHeading = h('h2', {}, `확인 (0/${lesson.checks.length} 통과)`);
+
+  const updateCheckHeading = () => {
+    const passedCount = results.filter((r) => r != null).length;
+    checkHeading.textContent = `확인 (${passedCount}/${lesson.checks.length} 통과)`;
+  };
 
   const finishIfAll = () => {
+    updateCheckHeading();
     if (results.some((r) => r == null)) return;
     if (!alreadyDone) setProgress(markDone(getProgress(), meta.id, lesson, results));
     const dp = deptProgress(getProgress(), meta.id);
@@ -63,6 +71,50 @@ export function renderLesson(root, { meta, dept, errors, lessonId, getProgress, 
     onPass(kind) { results[i] = kind; finishIfAll(); },
   }));
 
+  let reviewRevealed = false;
+  const reviewToggleBtn = alreadyDone
+    ? h('button', {
+        type: 'button',
+        class: 'btn',
+        onclick: () => {
+          reviewRevealed = !reviewRevealed;
+          cards.forEach((c) => c.revealReview(reviewRevealed));
+          reviewToggleBtn.textContent = reviewRevealed ? '복습 해설 숨기기' : '복습용 해설 모두 보기';
+        },
+      }, '복습용 해설 모두 보기')
+    : null;
+
+  const connectionsWrap = h('div');
+  if (loadAllDepartments && catalog.length) {
+    loadAllDepartments().then((allDepts) => {
+      const links = findLessonConnections({ deptId: meta.id, lesson, catalog, depts: allDepts, limit: 6 });
+      if (!links.length) return;
+      connectionsWrap.replaceChildren(
+        h('section', { class: 'panel connections-panel' },
+          h('h2', {}, '다른 학과와의 연결'),
+          h('p', { class: 'input-note' }, '이 교시에서 다룬 핵심 개념이 다른 학과의 교시에서는 어떻게 쓰이는지 함께 살펴볼 수 있습니다.'),
+          h('ul', { class: 'lesson-list', role: 'list' },
+            links.map((item) => h('li', { class: 'lesson-item open' },
+              h('a', { href: `#/d/${item.deptId}/l/${item.lessonId}` },
+                h('span', { class: 'lesson-no' }, item.deptName),
+                h('span', { class: 'lesson-title' }, item.lessonTitle)),
+              h('span', { class: 'lesson-state' }, `공통 개념: ${item.concepts.join(', ')}`))))),
+      );
+    }).catch(() => {});
+  }
+
+  const byId = new Map(dept.lessons.map((l) => [l.id, l]));
+  const prevId = trunkIndex > 0 ? dept.trunk[trunkIndex - 1] : null;
+  const nextId = trunkIndex >= 0 && trunkIndex < dept.trunk.length - 1 ? dept.trunk[trunkIndex + 1] : null;
+  const prevLesson = prevId ? byId.get(prevId) : null;
+  const nextLesson = nextId && isUnlocked(byId.get(nextId), dp0) ? byId.get(nextId) : null;
+
+  const bottomNav = h('nav', { class: 'lesson-nav', 'aria-label': '교시 이동' },
+    prevLesson ? h('a', { class: 'btn', href: `#/d/${meta.id}/l/${prevLesson.id}` }, `← 이전: ${prevLesson.title}`) : null,
+    h('a', { class: 'btn', href: `#/d/${meta.id}` }, `${meta.name} 목록`),
+    nextLesson ? h('a', { class: 'btn', href: `#/d/${meta.id}/l/${nextLesson.id}` }, `다음: ${nextLesson.title} →`) : null,
+  );
+
   fill(root,
     crumbs,
     errors?.length ? errorPanel(errors) : null,
@@ -70,7 +122,11 @@ export function renderLesson(root, { meta, dept, errors, lessonId, getProgress, 
       h('p', { class: 'eyebrow' }, `${meta.name} · ${label}${lesson.minutes ? ` · 약 ${lesson.minutes}분` : ''}`),
       h('h1', { tabindex: '-1' }, lesson.title),
       reviewBadge(lesson, reviews[meta.id]?.[lesson.id]),
-      alreadyDone ? h('p', { class: 'meta-line' }, '이미 마친 교시입니다. 다시 풀어도 진도는 바뀌지 않습니다.') : null),
+      alreadyDone
+        ? h('div', { class: 'done-banner' },
+            h('span', { class: 'meta-line' }, '이미 마친 교시입니다. 다시 풀어도 진도는 바뀌지 않습니다.'),
+            reviewToggleBtn)
+        : null),
     h('section', { class: 'lesson-part' },
       h('h2', {}, '설명'),
       h('div', { class: 'prose', html: blocks(lesson.explain, { math }) })),
@@ -80,10 +136,12 @@ export function renderLesson(root, { meta, dept, errors, lessonId, getProgress, 
         ex.title ? h('h3', {}, ex.title) : null,
         h('div', { class: 'prose', html: blocks(ex.body, { math }) })))),
     h('section', { class: 'lesson-part' },
-      h('h2', {}, '확인'),
+      checkHeading,
       h('p', { class: 'input-note' }, '모든 문항을 통과하면 이 교시를 마칩니다. 재시도에는 제한이 없습니다.'),
-      cards),
+      cards.map((c) => c.el)),
     completion,
+    connectionsWrap,
+    bottomNav,
     report.el,
   );
 
@@ -94,17 +152,18 @@ function checkCard({ check, index, math, meta, lesson, getProgress, setProgress,
   const type = CHECK_TYPES[check.type];
   const subKey = `${lesson.id}:${index}`;
   const saved = deptProgress(getProgress(), meta.id).submissions[subKey];
+  const button = h('button', { type: 'button', class: 'btn primary' }, check.type === 'submit' ? '제출하기' : '확인');
   const input = renderInput(check, {
     math,
     seed: `${lesson.id}:${index}`,
     saved,
     onDraft: (draft) => setProgress(saveSubmission(getProgress(), meta.id, subKey, { ...draft, at: new Date().toISOString() })),
+    onSubmit: () => { if (!button.disabled && !button.hidden && button.isConnected) button.click(); },
   });
 
   const fieldset = h('fieldset', { class: 'plain' }, input.el);
   const feedback = h('p', { class: 'feedback', role: 'status' });
   const extra = h('div', { class: 'extra' });
-  const button = h('button', { type: 'button', class: 'btn primary' }, check.type === 'submit' ? '제출하기' : '확인');
   let fails = 0;
 
   const render = (node) => { extra.append(node); applyFeatures(lesson.features, node); };
@@ -161,6 +220,8 @@ function checkCard({ check, index, math, meta, lesson, getProgress, setProgress,
     const result = grade(check, resp);
     if (check.type === 'submit') {
       setProgress(saveSubmission(getProgress(), meta.id, subKey, { ...resp, at: new Date().toISOString() }));
+    } else if (check.type === 'keywords' && typeof resp === 'string' && resp.trim()) {
+      setProgress(saveSubmission(getProgress(), meta.id, subKey, { text: resp, at: new Date().toISOString() }));
     }
     if (result.status === 'pass') return pass(result.kind);
     if (result.status === 'self-check') return selfCheckFlow();
@@ -180,5 +241,17 @@ function checkCard({ check, index, math, meta, lesson, getProgress, setProgress,
     h('div', { class: 'btn-row' }, button),
     feedback,
     extra);
-  return card;
+
+  return {
+    el: card,
+    revealReview(show) {
+      if (show) {
+        showHint();
+        showExplanation(true);
+      } else if (!card.classList.contains('passed')) {
+        extra.querySelector('.hint')?.remove();
+        extra.querySelector('.explanation')?.remove();
+      }
+    },
+  };
 }

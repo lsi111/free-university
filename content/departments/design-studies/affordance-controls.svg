@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" width="360" height="220" font-family="sans-serif">
+  <rect width="360" height="220" fill="#f4efe6"/>
+  <text x="30" y="34" font-size="13" font-weight="700" fill="#7a766d">가 · 일반 글자처럼 보이는 요소</text>
+  <text x="30" y="64" font-size="16" fill="#1d1c1a">예약 신청하기</text>
+  <text x="30" y="112" font-size="13" font-weight="700" fill="#2f5d50">나 · 누를 수 있음을 보여 주는 단추</text>
+  <rect x="30" y="122" width="140" height="40" rx="8" fill="#2f5d50"/>
+  <text x="100" y="147" text-anchor="middle" font-size="15" font-weight="700" fill="#f4efe6">예약 신청하기</text>
+  <text x="195" y="112" font-size="13" font-weight="700" fill="#e07a3f">다 · 누른 뒤의 상태 피드백</text>
+  <rect x="195" y="122" width="140" height="40" rx="8" fill="#dedad0" stroke="#7a766d" stroke-width="1"/>
+  <text x="265" y="147" text-anchor="middle" font-size="15" font-weight="700" fill="#1d1c1a">✓ 신청 완료됨</text>
+  <text x="30" y="194" font-size="12" fill="#7a766d">행동 유도(나) → 행동 → 피드백(다)</text>
+</svg>

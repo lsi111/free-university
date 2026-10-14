@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 250" width="360" height="250" font-family="sans-serif">
+  <rect width="360" height="250" fill="#f4efe6"/>
+  <rect x="20" y="18" width="320" height="64" rx="6" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+  <text x="30" y="38" font-size="12" font-weight="700" fill="#e07a3f">가 · 줄 간격이 너무 좁고 한 줄이 너무 김</text>
+  <rect x="30" y="46" width="300" height="6" fill="#1d1c1a"/>
+  <rect x="30" y="54" width="300" height="6" fill="#1d1c1a"/>
+  <rect x="30" y="62" width="280" height="6" fill="#1d1c1a"/>
+  <rect x="20" y="96" width="220" height="82" rx="6" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+  <text x="30" y="116" font-size="12" font-weight="700" fill="#2f5d50">나 · 적당한 줄 길이와 넉넉한 줄 간격</text>
+  <rect x="30" y="126" width="180" height="6" fill="#1d1c1a"/>
+  <rect x="30" y="142" width="180" height="6" fill="#1d1c1a"/>
+  <rect x="30" y="158" width="130" height="6" fill="#1d1c1a"/>
+  <rect x="20" y="190" width="95" height="46" rx="6" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+  <text x="30" y="208" font-size="11" font-weight="700" fill="#7a766d">다 · 너무 짧음</text>
+  <rect x="30" y="216" width="42" height="5" fill="#1d1c1a"/>
+  <rect x="30" y="225" width="38" height="5" fill="#1d1c1a"/>
+</svg>

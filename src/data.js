@@ -2,7 +2,7 @@
 
 import { validateCatalog, validateDepartment } from './engine/schema.js';
 
-const cache = { fields: null, catalog: null, depts: new Map() };
+const cache = { fields: null, catalog: null, depts: new Map(), allLoaded: false };
 
 async function getJson(path) {
   const res = await fetch(path, { cache: 'no-cache' });
@@ -54,6 +54,21 @@ export async function loadDepartment(id) {
     cache.depts.set(id, { dept, errors: validateDepartment(meta, dept) });
   }
   return { meta, ...cache.depts.get(id) };
+}
+
+/** 본문 검색이나 학과 간 연결을 위해 열린 모든 학과 데이터를 불러와 Map<id, dept>로 돌려준다. */
+export async function loadAllDepartments() {
+  const { catalog } = await loadCatalog();
+  if (!cache.allLoaded) {
+    const openDepts = catalog.filter((d) => d.status === 'open');
+    await Promise.all(openDepts.map((d) => loadDepartment(d.id)));
+    cache.allLoaded = true;
+  }
+  const map = new Map();
+  for (const [id, entry] of cache.depts.entries()) {
+    if (entry?.dept) map.set(id, entry.dept);
+  }
+  return map;
 }
 
 export function fieldName(fields, id) {

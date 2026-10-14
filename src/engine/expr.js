@@ -10,6 +10,7 @@ const CONSTS = { pi: Math.PI, e: Math.E };
 
 function normalize(src) {
   return String(src)
+    .replace(/(\d),(?=\d{3}(\D|$))/g, '$1')
     .replace(/[×·]/g, '*')
     .replace(/÷/g, '/')
     .replace(/[−–]/g, '-')
@@ -138,9 +139,10 @@ function evaluate(node, env) {
   }
 }
 
-/** 문자열 식을 (env) => number 함수로 바꾼다. 적분 상수 "+ C"는 떼어 낸다. */
+/** 문자열 식을 (env) => number 함수로 바꾼다. 적분 상수 "+ C"나 "+ c"는 떼어 낸다. */
 export function compile(src, vars = []) {
-  const cleaned = String(src).replace(/\+\s*C\s*$/, '');
+  const stripConst = !vars.includes('C') && !vars.includes('c');
+  const cleaned = stripConst ? String(src).replace(/[+-]\s*[cC]\s*$/, '') : String(src);
   const tree = parse(tokenize(cleaned, vars));
   return (env = {}) => evaluate(tree, env);
 }
