@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 230" width="380" height="230">
+<rect width="380" height="230" fill="#f4efe6"/>
+<line x1="100.0" y1="20.0" x2="100.0" y2="190.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="150.0" y1="20.0" x2="150.0" y2="190.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="200.0" y1="20.0" x2="200.0" y2="190.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="250.0" y1="20.0" x2="250.0" y2="190.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="300.0" y1="20.0" x2="300.0" y2="190.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="350.0" y1="20.0" x2="350.0" y2="190.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="50.0" y1="133.3" x2="350.0" y2="133.3" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="50.0" y1="76.7" x2="350.0" y2="76.7" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="50.0" y1="20.0" x2="350.0" y2="20.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="50.0" y1="190.0" x2="350.0" y2="190.0" stroke="#7a766d" stroke-width="1.5"/>
+<line x1="50.0" y1="20.0" x2="50.0" y2="190.0" stroke="#7a766d" stroke-width="1.5"/>
+<text x="100.0" y="205.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">2</text>
+<text x="150.0" y="205.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">4</text>
+<text x="200.0" y="205.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">6</text>
+<text x="250.0" y="205.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">8</text>
+<text x="300.0" y="205.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">10</text>
+<text x="350.0" y="205.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">12</text>
+<text x="44.0" y="137.3" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">1</text>
+<text x="44.0" y="80.7" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">2</text>
+<text x="44.0" y="24.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">3</text>
+<text x="350.0" y="220.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">빛의 진동수 (10¹⁴ Hz)</text>
+<text x="54.0" y="14.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">최대 운동에너지 (eV)</text>
+<polyline points="175.0,190.0 176.5,188.6 177.9,187.3 179.4,185.9 180.8,184.5 182.3,183.2 183.8,181.8 185.2,180.4 186.7,179.1 188.1,177.7 189.6,176.3 191.0,175.0 192.5,173.6 194.0,172.2 195.4,170.9 196.9,169.5 198.3,168.1 199.8,166.8 201.2,165.4 202.7,164.0 204.2,162.7 205.6,161.3 207.1,159.9 208.5,158.6 210.0,157.2 211.5,155.8 212.9,154.5 214.4,153.1 215.8,151.7 217.3,150.4 218.8,149.0 220.2,147.6 221.7,146.3 223.1,144.9 224.6,143.5 226.0,142.1 227.5,140.8 229.0,139.4 230.4,138.0 231.9,136.7 233.3,135.3 234.8,133.9 236.2,132.6 237.7,131.2 239.2,129.8 240.6,128.5 242.1,127.1 243.5,125.7 245.0,124.4 246.5,123.0 247.9,121.6 249.4,120.3 250.8,118.9 252.3,117.5 253.8,116.2 255.2,114.8 256.7,113.4 258.1,112.1 259.6,110.7 261.0,109.3 262.5,108.0 264.0,106.6 265.4,105.2 266.9,103.9 268.3,102.5 269.8,101.1 271.2,99.8 272.7,98.4 274.2,97.0 275.6,95.7 277.1,94.3 278.5,92.9 280.0,91.6 281.5,90.2 282.9,88.8 284.4,87.5 285.8,86.1 287.3,84.7 288.8,83.4 290.2,82.0 291.7,80.6 293.1,79.3 294.6,77.9 296.0,76.5 297.5,75.2 299.0,73.8 300.4,72.4 301.9,71.1 303.3,69.7 304.8,68.3 306.2,67.0 307.7,65.6 309.2,64.2 310.6,62.9 312.1,61.5 313.5,60.1 315.0,58.8 316.5,57.4 317.9,56.0 319.4,54.6 320.8,53.3 322.3,51.9 323.8,50.5 325.2,49.2 326.7,47.8 328.1,46.4 329.6,45.1 331.0,43.7 332.5,42.3 334.0,41.0 335.4,39.6 336.9,38.2 338.3,36.9 339.8,35.5 341.2,34.1 342.7,32.8 344.2,31.4 345.6,30.0 347.1,28.7 348.5,27.3 350.0,25.9" fill="none" stroke="#2f5d50" stroke-width="3"/>
+<polyline points="50.0,190.0 175.0,190.0" fill="none" stroke="#7a766d" stroke-width="3" stroke-dasharray="2 3"/>
+<circle cx="175.0" cy="190.0" r="4" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<text x="175.0" y="180.0" font-family="sans-serif" font-size="11" fill="#e07a3f" text-anchor="middle" font-weight="bold">5</text>
+<circle cx="300.0" cy="72.8" r="4" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<text x="294.0" y="64.8" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="end">(10, 2.07)</text>
+<text x="62.0" y="40.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">금속 표면에 빛을 비출 때</text>
+</svg>

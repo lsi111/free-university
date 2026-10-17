@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 230" width="380" height="230">
+<rect width="380" height="230" fill="#f4efe6"/>
+<rect x="120.0" y="14.0" width="80.0" height="34.0" rx="3" fill="#2f5d50" fill-opacity="0.12" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="160.0" y="29.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">레지스터</text>
+<text x="160.0" y="43.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">&lt; 1 ns</text>
+<rect x="95.0" y="54.0" width="130.0" height="34.0" rx="3" fill="#2f5d50" fill-opacity="0.24" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="160.0" y="69.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">캐시</text>
+<text x="160.0" y="83.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">약 1~10 ns</text>
+<rect x="70.0" y="94.0" width="180.0" height="34.0" rx="3" fill="#2f5d50" fill-opacity="0.36" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="160.0" y="109.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">주기억장치(RAM)</text>
+<text x="160.0" y="123.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">약 100 ns</text>
+<rect x="45.0" y="134.0" width="230.0" height="34.0" rx="3" fill="#2f5d50" fill-opacity="0.48" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="160.0" y="149.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">SSD</text>
+<text x="160.0" y="163.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">약 0.1 ms</text>
+<rect x="20.0" y="174.0" width="280.0" height="34.0" rx="3" fill="#2f5d50" fill-opacity="0.6" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="160.0" y="189.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">하드디스크</text>
+<text x="160.0" y="203.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">약 10 ms</text>
+<line x1="330.0" y1="30.0" x2="330.0" y2="200.0" stroke="#7a766d" stroke-width="2"/>
+<polygon points="330.0,200.0 326.9,192.6 333.1,192.6" fill="#7a766d"/>
+<text x="340.0" y="40.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">빠름</text>
+<text x="340.0" y="200.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">느림</text>
+<text x="160.0" y="226.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">아래로 갈수록 용량은 크고 단위 용량당 가격은 싸다</text>
+</svg>

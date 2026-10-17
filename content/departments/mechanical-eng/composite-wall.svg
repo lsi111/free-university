@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 200" width="380" height="200">
+<rect width="380" height="200" fill="#f4efe6"/>
+<rect x="80.0" y="30.0" width="120.0" height="130.0" rx="0" fill="#e9c9b0" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="140.0" y="90.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">벽돌</text>
+<text x="140.0" y="108.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">두께 0.2 m</text>
+<text x="140.0" y="124.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">k = 0.8 W/(m·K)</text>
+<rect x="200.0" y="30.0" width="60.0" height="130.0" rx="0" fill="#f5f0c8" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="230.0" y="90.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">단열재</text>
+<text x="230.0" y="108.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">0.05 m</text>
+<text x="230.0" y="124.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">k = 0.04</text>
+<text x="40.0" y="96.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">실내</text>
+<text x="40.0" y="114.0" font-family="sans-serif" font-size="12" fill="#e07a3f" text-anchor="middle" font-weight="bold">20°C</text>
+<text x="320.0" y="96.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">실외</text>
+<text x="320.0" y="114.0" font-family="sans-serif" font-size="12" fill="#2f5d50" text-anchor="middle" font-weight="bold">−10°C</text>
+<text x="190.0" y="186.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">벽면 1 m²를 지나는 열 흐름 (표면 대류 저항은 무시)</text>
+</svg>

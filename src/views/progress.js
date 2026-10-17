@@ -15,6 +15,8 @@ export async function renderProgress(root, { catalog, progress, rerender }) {
   let totalSelf = 0;
   let trunkCompletedDepts = 0;
   let fullCompletedDepts = 0;
+  let majorCompletedDepts = 0;
+  let bachelorCompletedDepts = 0;
   const writtenItems = [];
 
   const rows = await Promise.all(started.map(async (meta) => {
@@ -27,6 +29,8 @@ export async function renderProgress(root, { catalog, progress, rerender }) {
     totalSelf += s.self;
     if (s.trunkDone) trunkCompletedDepts += 1;
     if (s.allDone) fullCompletedDepts += 1;
+    if (s.majorDone) majorCompletedDepts += 1;
+    if (s.bachelorDone) bachelorCompletedDepts += 1;
 
     const lessonMap = new Map(dept.lessons.map((l) => [l.id, l]));
     for (const [subKey, val] of Object.entries(dp.submissions || {})) {
@@ -53,8 +57,9 @@ export async function renderProgress(root, { catalog, progress, rerender }) {
         h('span', { style: `width:${pct}%` })),
       h('span', { class: 'meta-line' },
         `${s.done}/${s.total}`,
+        s.stagesTotal > 2 ? ` · ${s.stagesDoneCount}/${s.stagesTotal}단계` : '',
         s.self ? ` · 자기 확인 ${s.self}` : '',
-        s.allDone ? ' · 전공 심화 완주' : s.trunkDone ? ' · 공통 줄기 끝' : ''));
+        s.bachelorDone ? ' · 6단계 학사 과정 완주' : s.allDone ? ' · 전공 심화 완주' : s.majorDone ? ' · 2~5단계 전공심화 이수' : s.trunkDone ? ' · 1단계 기초 이수' : ''));
   }));
 
   const activeRows = rows.filter(Boolean);
@@ -71,9 +76,17 @@ export async function renderProgress(root, { catalog, progress, rerender }) {
   });
 
   const statsPanel = activeRows.length
-    ? h('p', { class: 'review-summary' },
-        h('strong', {}, '요약 '),
-        `시작한 학과 ${activeRows.length}개 · 마친 교시 ${totalDone}개${totalSelf ? ` (자기 확인 포함 ${totalSelf}개)` : ''} · 공통 줄기 완주 ${trunkCompletedDepts}개 · 전공 심화 완주 ${fullCompletedDepts}개`)
+    ? h('section', { class: 'panel' },
+        h('div', { class: 'panel-head' },
+          h('h2', {}, '학사 과정 성취'),
+          h('span', { class: 'meta-line' }, `시작한 학과 ${activeRows.length}개 · 마친 교시 ${totalDone}개${totalSelf ? ` (자기 확인 포함 ${totalSelf}개)` : ''}`)),
+        h('ul', { class: 'tier-list', role: 'list' },
+          h('li', {}, h('span', {}, '1단계 기초 이수'), h('strong', {}, `${trunkCompletedDepts}개 학과`), h('span', {}, '공통 줄기(전공기초)를 모두 마친 학과')),
+          h('li', {}, h('span', {}, '2~5단계 전공심화 이수'), h('strong', {}, `${majorCompletedDepts}개 학과`), h('span', {}, '전공필수 I~III과 전공심화 IV를 모두 마친 학과')),
+          h('li', {}, h('span', {}, '6단계 학사 과정 완주'), h('strong', {}, `${bachelorCompletedDepts}개 학과`), h('span', {}, '학사 캡스톤까지 모든 교시를 마친 학과'))),
+        fullCompletedDepts > bachelorCompletedDepts
+          ? h('p', { class: 'input-note' }, `6단계가 아직 없는 학과 중 모든 교시를 마친 학과: ${fullCompletedDepts - bachelorCompletedDepts}개`)
+          : null)
     : null;
 
   const writtenPanel = writtenItems.length

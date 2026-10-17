@@ -1,5 +1,7 @@
 // 학과 및 교시 본문 통합 검색 엔진. 순수 함수로만 구성되어 Node에서도 실행된다.
 
+import { lessonOrder, lessonStage } from './progress.js';
+
 const byName = (a, b) => a.name.localeCompare(b.name, 'ko');
 
 /** 마크다운·수식 기호를 걷어내고 검색·미리보기용 평문으로 바꾼다. */
@@ -53,10 +55,14 @@ export function searchLessons(catalog, depts, query, { limit = 30 } = {}) {
   for (const meta of sortedCatalog) {
     const dept = depts instanceof Map ? depts.get(meta.id) : depts?.[meta.id];
     if (!dept?.lessons) continue;
-    const trunkIndex = new Map((dept.trunk || []).map((id, i) => [id, `${i + 1}교시`]));
+    const staged = (dept.branches || []).some((b) => b.stage != null);
+    const orderIndex = new Map(lessonOrder(dept).map((id, i) => [id, i + 1]));
 
     for (const lesson of dept.lessons) {
-      const stepLabel = trunkIndex.get(lesson.id) || '갈래';
+      const stage = lessonStage(dept, lesson.id);
+      const stepLabel = stage === 1 || staged
+        ? `${stage}단계 · ${orderIndex.get(lesson.id)}교시`
+        : '갈래';
       const titleClean = stripMarkup(lesson.title);
       if (titleClean.toLowerCase().includes(qLower)) {
         const firstExplain = (lesson.explain || []).find((b) => typeof b === 'string') || lesson.title;

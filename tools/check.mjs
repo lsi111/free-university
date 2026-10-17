@@ -159,6 +159,34 @@ for (const { label, list } of variants) {
 }
 console.log(`  ${variants.length}가지 구성 검사`);
 
+// 4b
+section('6단계 학사 과정 구성');
+{
+  // stage를 선언한 학과는 docs/BACHELOR_6STAGE_PLAN.md의 틀을 따라야 한다: 줄기 6 + 3·3·3·3·2교시, 교시당 문항 4~5개.
+  const EXPECT = { 2: 3, 3: 3, 4: 3, 5: 3, 6: 2 };
+  let staged = 0;
+  let pending = 0;
+  for (const [id, dept] of depts) {
+    const branches = dept.branches || [];
+    if (!branches.some((b) => b.stage != null)) { pending++; continue; }
+    staged++;
+    if ((dept.trunk || []).length !== 6) fail(`${id}: 6단계 학과의 1단계 줄기는 6교시여야 합니다`);
+    for (const [stage, n] of Object.entries(EXPECT)) {
+      const bs = branches.filter((b) => b.stage === Number(stage));
+      if (bs.length !== 1) { fail(`${id}: ${stage}단계 갈래가 ${bs.length}개 (1개여야 함)`); continue; }
+      if (bs[0].lessons.length !== n) fail(`${id}: ${stage}단계는 ${n}교시여야 합니다 (지금 ${bs[0].lessons.length})`);
+    }
+    if (branches.some((b) => b.stage == null)) fail(`${id}: stage가 없는 갈래가 섞여 있습니다`);
+    const branchLessons = new Set(branches.flatMap((b) => b.lessons));
+    for (const l of dept.lessons) {
+      if (!branchLessons.has(l.id)) continue;
+      if (l.checks.length < 4 || l.checks.length > 5) fail(`${id}/${l.id}: 2~6단계 교시는 문항 4~5개 (지금 ${l.checks.length})`);
+      if ((l.examples || []).length < 2) fail(`${id}/${l.id}: 2~6단계 교시는 예제 2개 이상`);
+    }
+  }
+  console.log(`  6단계 학과 ${staged}개 · 아직 이전 구성 ${pending}개`);
+}
+
 // 5
 section('입구에서 끝까지 풀기');
 for (const [id, dept] of depts) {

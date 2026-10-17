@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 200" width="380" height="200">
+<rect width="380" height="200" fill="#f4efe6"/>
+<text x="16.0" y="24.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start" font-weight="bold">충돌 전</text>
+<line x1="16.0" y1="86.0" x2="364.0" y2="86.0" stroke="#7a766d" stroke-width="1.5"/>
+<rect x="40.0" y="50.0" width="70.0" height="36.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="75.0" y="72.2" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">A 2 kg</text>
+<line x1="112.0" y1="68.0" x2="170.0" y2="68.0" stroke="#e07a3f" stroke-width="2"/>
+<polygon points="170.0,68.0 162.6,71.1 162.6,64.9" fill="#e07a3f"/>
+<text x="141.0" y="60.0" font-family="sans-serif" font-size="11" fill="#e07a3f" text-anchor="middle">3 m/s</text>
+<rect x="220.0" y="50.0" width="70.0" height="36.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="255.0" y="72.2" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">B 1 kg</text>
+<text x="255.0" y="104.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">정지</text>
+<text x="16.0" y="128.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start" font-weight="bold">충돌 후 (한 덩어리로 붙어 움직임)</text>
+<line x1="16.0" y1="186.0" x2="364.0" y2="186.0" stroke="#7a766d" stroke-width="1.5"/>
+<rect x="120.0" y="150.0" width="140.0" height="36.0" rx="4" fill="#ffffff" stroke="#e07a3f" stroke-width="2"/>
+<text x="190.0" y="172.2" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">A + B  3 kg</text>
+<line x1="262.0" y1="168.0" x2="320.0" y2="168.0" stroke="#e07a3f" stroke-width="2"/>
+<polygon points="320.0,168.0 312.6,171.1 312.6,164.9" fill="#e07a3f"/>
+<text x="291.0" y="160.0" font-family="sans-serif" font-size="11" fill="#e07a3f" text-anchor="middle">v = ?</text>
+</svg>

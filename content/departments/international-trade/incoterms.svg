@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 210" width="380" height="210">
+<rect width="380" height="210" fill="#f4efe6"/>
+<line x1="60.0" y1="70.0" x2="350.0" y2="70.0" stroke="#7a766d" stroke-width="2"/>
+<circle cx="80.0" cy="70.0" r="6" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<text x="80.0" y="52.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">판매자 공장</text>
+<circle cx="165.0" cy="70.0" r="6" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<text x="165.0" y="40.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">수출항 선적</text>
+<circle cx="250.0" cy="70.0" r="6" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<text x="250.0" y="52.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">수입항 도착</text>
+<circle cx="330.0" cy="70.0" r="6" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<text x="330.0" y="40.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">구매자 지정지</text>
+<text x="18.0" y="104.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start" font-weight="bold">EXW</text>
+<line x1="62.0" y1="100.0" x2="80.0" y2="100.0" stroke="#e07a3f" stroke-width="4"/>
+<circle cx="80.0" cy="100.0" r="5" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<text x="18.0" y="124.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start" font-weight="bold">FOB</text>
+<line x1="62.0" y1="120.0" x2="165.0" y2="120.0" stroke="#e07a3f" stroke-width="4"/>
+<circle cx="165.0" cy="120.0" r="5" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<text x="18.0" y="144.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start" font-weight="bold">CIF</text>
+<line x1="62.0" y1="140.0" x2="165.0" y2="140.0" stroke="#e07a3f" stroke-width="4"/>
+<circle cx="165.0" cy="140.0" r="5" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<text x="18.0" y="164.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start" font-weight="bold">DAP</text>
+<line x1="62.0" y1="160.0" x2="330.0" y2="160.0" stroke="#e07a3f" stroke-width="4"/>
+<circle cx="330.0" cy="160.0" r="5" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<text x="18.0" y="184.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start" font-weight="bold">DDP</text>
+<line x1="62.0" y1="180.0" x2="330.0" y2="180.0" stroke="#e07a3f" stroke-width="4"/>
+<circle cx="330.0" cy="180.0" r="5" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<text x="190.0" y="206.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">주황 선: 위험이 판매자에게 있는 구간 (끝점에서 구매자에게 이전)</text>
+</svg>

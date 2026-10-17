@@ -65,10 +65,22 @@ export function validateDepartment(meta, dept) {
     if (!byId.has(id)) errors.push(at(`줄기의 ${id}가 lessons에 없습니다`));
     placed.add(id);
   }
-  for (const b of dept.branches || []) {
+  const branches = dept.branches || [];
+  const branchOfLesson = new Map();
+  for (const b of branches) for (const id of b.lessons || []) branchOfLesson.set(id, b);
+  for (const b of branches) {
     if (!isStr(b.id) || !isStr(b.name)) errors.push(at('갈래에 id/name이 없습니다'));
+    if (b.stage != null && !(Number.isInteger(b.stage) && b.stage >= 2 && b.stage <= 6)) {
+      errors.push(at(`갈래 ${b.id}의 stage는 2~6 사이의 정수여야 합니다`));
+    }
     for (const id of b.opensAfter || []) {
-      if (!trunk.includes(id)) errors.push(at(`갈래 ${b.id}의 opensAfter ${id}는 같은 학과 줄기의 교시여야 합니다`));
+      if (trunk.includes(id)) continue;
+      const src = branchOfLesson.get(id);
+      if (!src) { errors.push(at(`갈래 ${b.id}의 opensAfter ${id}는 같은 학과 줄기나 앞선 단계 갈래의 교시여야 합니다`)); continue; }
+      if (src === b) { errors.push(at(`갈래 ${b.id}의 opensAfter ${id}가 자기 갈래의 교시입니다`)); continue; }
+      if (b.stage == null || src.stage == null || src.stage >= b.stage) {
+        errors.push(at(`갈래 ${b.id}의 opensAfter ${id}는 더 앞선 단계(stage) 갈래의 교시여야 합니다`));
+      }
     }
     if (!(b.lessons || []).length) errors.push(at(`갈래 ${b.id}에 교시가 없습니다`));
     for (const id of b.lessons || []) {
@@ -112,16 +124,27 @@ export function validateDepartment(meta, dept) {
     if (state.get(id) === 'done') return;
     if (state.get(id) === 'visiting') { errors.push(at(`선행 순환: ${[...path, id].join(' → ')}`)); return; }
     state.set(id, 'visiting');
-    for (const r of byId.get(id)?.requires || []) if (byId.has(r)) visit(r, [...path, id]);
+    // 갈래 교시는 갈래가 열리는 조건도 선행으로 본다.
+    const reqs = [...(byId.get(id)?.requires || []), ...(branchOfLesson.get(id)?.opensAfter || [])];
+    for (const r of reqs) if (byId.has(r)) visit(r, [...path, id]);
     state.set(id, 'done');
   };
   for (const id of byId.keys()) visit(id, []);
 
   // 갈래 교시는 갈래가 열린 뒤에만 의미가 있다. 줄기 교시가 갈래 교시를 선행으로 요구하면 안 된다.
-  const branchIds = new Set((dept.branches || []).flatMap((b) => b.lessons || []));
   for (const id of trunk) {
     for (const r of byId.get(id)?.requires || []) {
-      if (branchIds.has(r)) errors.push(at(`줄기 교시 ${id}가 갈래 교시 ${r}를 선행으로 요구합니다`));
+      if (branchOfLesson.has(r)) errors.push(at(`줄기 교시 ${id}가 갈래 교시 ${r}를 선행으로 요구합니다`));
+    }
+  }
+  // 갈래 교시가 다른 갈래 교시를 선행으로 요구하려면 그 갈래가 더 앞선 단계여야 한다.
+  for (const [id, b] of branchOfLesson) {
+    for (const r of byId.get(id)?.requires || []) {
+      const src = branchOfLesson.get(r);
+      if (!src || src === b) continue;
+      if (b.stage == null || src.stage == null || src.stage >= b.stage) {
+        errors.push(at(`갈래 교시 ${id}가 같은 단계이거나 뒤 단계인 갈래 교시 ${r}를 선행으로 요구합니다`));
+      }
     }
   }
   return errors;

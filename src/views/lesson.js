@@ -4,7 +4,7 @@ import { h, fill } from '../dom.js';
 import { blocks, inline, figure } from '../md.js';
 import { applyFeatures } from '../features.js';
 import { grade, CHECK_TYPES } from '../engine/checks.js';
-import { deptProgress, isDone, isUnlocked, markDone, saveSubmission } from '../engine/progress.js';
+import { deptProgress, isDone, isUnlocked, isAvailable, markDone, saveSubmission, lessonOrder, STAGE_NAMES } from '../engine/progress.js';
 import { findLessonConnections } from '../engine/connections.js';
 import { renderInput } from './check-inputs.js';
 import { errorPanel } from './department.js';
@@ -15,10 +15,14 @@ export function renderLesson(root, { meta, dept, catalog = [], errors, lessonId,
   const trunkIndex = dept.trunk.indexOf(lessonId);
   const branch = (dept.branches || []).find((b) => b.lessons.includes(lessonId));
   const branchIndex = branch ? branch.lessons.indexOf(lessonId) : -1;
+  const order = lessonOrder(dept);
+  const orderIdx = order.indexOf(lessonId);
   const label = trunkIndex >= 0
-    ? `공통 ${trunkIndex + 1}교시`
+    ? `1단계 · 공통 ${trunkIndex + 1}교시`
     : branch
-      ? `갈래 · ${branch.name} · 심화 ${branchIndex + 1}교시`
+      ? branch.stage != null
+        ? `${branch.stage}단계 · ${STAGE_NAMES[branch.stage]} · ${orderIdx + 1}교시`
+        : `갈래 · ${branch.name} · 심화 ${branchIndex + 1}교시`
       : '';
   const crumbs = h('nav', { class: 'crumbs', 'aria-label': '위치' },
     h('a', { href: '#/' }, '학과 선택'), ' › ', h('a', { href: `#/d/${meta.id}` }, meta.name), ' › ', label);
@@ -58,14 +62,17 @@ export function renderLesson(root, { meta, dept, catalog = [], errors, lessonId,
     if (results.some((r) => r == null)) return;
     if (!alreadyDone) setProgress(markDone(getProgress(), meta.id, lesson, results));
     const dp = deptProgress(getProgress(), meta.id);
-    const next = dept.lessons.filter((l) => !isDone(dp, l.id) && isUnlocked(l, dp)
-      && (dept.trunk.includes(l.id) || (dept.branches || []).some((b) => b.lessons.includes(l.id) && (b.opensAfter || []).every((r) => isDone(dp, r)))));
+    const next = dept.lessons.filter((l) => !isDone(dp, l.id) && isAvailable(dept, l, dp));
     completion.replaceChildren(h('section', { class: 'panel done-panel' },
       h('h2', {}, alreadyDone ? '다시 풀어 보았습니다' : '이 교시를 마쳤습니다'),
       results.includes('self') ? h('p', {}, '자기 확인으로 통과한 문항이 있어 진도에 "자기 확인 포함"으로 표시됩니다.') : null,
       next.length
         ? h('p', {}, '이제 열린 교시: ', ...next.flatMap((l, i) => [i ? ', ' : '', h('a', { href: `#/d/${meta.id}/l/${l.id}` }, l.title)]))
-        : h('p', {}, '이 학과의 공통 줄기와 전공 심화 갈래를 모두 마쳤습니다.'),
+        : h('p', {}, dept.lessons.every((l) => isDone(dp, l.id))
+          ? ((dept.branches || []).some((b) => b.stage === 6)
+            ? '이 학과의 1단계부터 6단계 학사 캡스톤까지 모든 교시를 마쳤습니다.'
+            : '이 학과의 공통 줄기와 전공 심화 갈래를 모두 마쳤습니다.')
+          : '지금 새로 열린 교시는 없습니다. 학과 목록에서 남은 교시의 열리는 조건을 확인하세요.'),
       h('p', {}, h('a', { href: `#/d/${meta.id}` }, `${meta.name} 교육과정으로 돌아가기`))));
   };
 
@@ -109,12 +116,10 @@ export function renderLesson(root, { meta, dept, catalog = [], errors, lessonId,
   }
 
   const byId = new Map(dept.lessons.map((l) => [l.id, l]));
-  const seqList = trunkIndex >= 0 ? dept.trunk : (branch?.lessons || []);
-  const seqIdx = trunkIndex >= 0 ? trunkIndex : branchIndex;
-  const prevId = seqIdx > 0 ? seqList[seqIdx - 1] : null;
-  const nextId = seqIdx >= 0 && seqIdx < seqList.length - 1 ? seqList[seqIdx + 1] : null;
+  const prevId = orderIdx > 0 ? order[orderIdx - 1] : null;
+  const nextId = orderIdx >= 0 && orderIdx < order.length - 1 ? order[orderIdx + 1] : null;
   const prevLesson = prevId ? byId.get(prevId) : null;
-  const nextLesson = nextId && isUnlocked(byId.get(nextId), dp0) ? byId.get(nextId) : null;
+  const nextLesson = nextId && isAvailable(dept, byId.get(nextId), dp0) ? byId.get(nextId) : null;
 
   const bottomNav = h('nav', { class: 'lesson-nav', 'aria-label': '교시 이동' },
     prevLesson ? h('a', { class: 'btn', href: `#/d/${meta.id}/l/${prevLesson.id}` }, `← 이전: ${prevLesson.title}`) : null,

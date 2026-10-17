@@ -1,6 +1,6 @@
 // 학과 데이터를 입구에서 끝까지 풀어 보는 시뮬레이션. 정답은 통과하고 오답은 통과하지 않는지도 본다.
 import { grade } from '../src/engine/checks.js';
-import { emptyProgress, deptProgress, isDone, isUnlocked, isBranchOpen, markDone } from '../src/engine/progress.js';
+import { emptyProgress, deptProgress, isDone, isAvailable, markDone } from '../src/engine/progress.js';
 
 function correctResponse(c) {
   switch (c.type) {
@@ -30,12 +30,11 @@ function wrongResponse(c) {
 export function solveDepartment(id, dept) {
   const errors = [];
   let progress = emptyProgress();
-  const branchOf = (lid) => (dept.branches || []).find((b) => b.lessons.includes(lid));
   let guard = 0;
   for (;;) {
     const dp = deptProgress(progress, id);
-    const next = dept.lessons.find((l) => !isDone(dp, l.id) && isUnlocked(l, dp) && (!branchOf(l.id) || isBranchOpen(branchOf(l.id), dp)));
-    if (!next || guard++ > 500) break;
+    const next = dept.lessons.find((l) => !isDone(dp, l.id) && isAvailable(dept, l, dp));
+    if (!next || guard++ > 2000) break;
     const kinds = [];
     next.checks.forEach((c, i) => {
       const r = grade(c, correctResponse(c));

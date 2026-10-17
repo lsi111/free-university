@@ -8,6 +8,7 @@ import { buildReport, mailtoUrl, validateSite, reportTargets } from '../src/engi
 import { inline, block } from '../src/md.js';
 import { stripMarkup, filterDepartments, searchLessons } from '../src/engine/search.js';
 import { extractConcepts, findLessonConnections, findRelatedDepartments } from '../src/engine/connections.js';
+import { deptProgress, markDone, isAvailable, stageSummary, summary, lessonOrder, lessonStage } from '../src/engine/progress.js';
 
 test('수식 값 및 천 단위 쉼표 지원', () => {
   assert.equal(value('1/2'), 0.5);
@@ -168,4 +169,64 @@ test('학과 간 연결: 공유 핵심 개념어 및 보조 계열 학과 탐색
   const rel = findRelatedDepartments(catalog[0], catalog);
   assert.equal(rel.length, 1);
   assert.equal(rel[0].id, 'b');
+});
+
+// 6단계 학사 과정: 줄기 a1·a2 → 2단계(b) → 3단계(c, b 첫 교시 뒤) → 6단계(z, b·c 끝난 뒤)
+const SL = (id, requires = []) => ({ id, title: id, requires, explain: ['a'], examples: [{ body: ['b'] }], checks: [{ type: 'choice', prompt: 'p', options: ['a', 'b'], answer: [1] }] });
+const staged = () => ({
+  trunk: ['a1', 'a2'],
+  branches: [
+    { id: 'z', name: 'Z', stage: 6, opensAfter: ['b2', 'c1'], lessons: ['z1'] },
+    { id: 'b', name: 'B', stage: 2, opensAfter: ['a1'], lessons: ['b1', 'b2'] },
+    { id: 'c', name: 'C', stage: 3, opensAfter: ['b1'], lessons: ['c1'] },
+  ],
+  lessons: [SL('a1'), SL('a2', ['a1']), SL('b1', ['a1']), SL('b2', ['b1']), SL('c1'), SL('z1')],
+});
+
+test('스키마: 단계 갈래는 앞선 단계 갈래 교시로 열릴 수 있다', () => {
+  assert.deepEqual(validateDepartment({ id: 't' }, staged()), []);
+});
+
+test('스키마: 같은·뒤 단계 갈래로 열리거나 stage 범위를 벗어나면 잡는다', () => {
+  const d = staged();
+  d.branches[2].opensAfter = ['z1'];
+  assert.ok(validateDepartment({ id: 't' }, d).some((e) => e.includes('앞선 단계')));
+  const e = staged();
+  e.branches[1].stage = 7;
+  assert.ok(validateDepartment({ id: 't' }, e).some((x) => x.includes('2~6')));
+  const f = staged();
+  f.branches[1].opensAfter = ['b2'];
+  assert.ok(validateDepartment({ id: 't' }, f).some((x) => x.includes('자기 갈래')));
+  const g = staged();
+  g.lessons.find((l) => l.id === 'b2').requires = ['c1'];
+  assert.ok(validateDepartment({ id: 't' }, g).some((x) => x.includes('뒤 단계') || x.includes('순환')));
+});
+
+test('진도: 단계별 해금과 학사 완주 판정', () => {
+  const d = staged();
+  assert.deepEqual(lessonOrder(d), ['a1', 'a2', 'b1', 'b2', 'c1', 'z1']);
+  assert.equal(lessonStage(d, 'c1'), 3);
+  assert.equal(lessonStage(d, 'a2'), 1);
+  let p = {};
+  const done = (id) => { p = markDone(p, 't', d.lessons.find((l) => l.id === id), ['auto']); };
+  const avail = (id) => isAvailable(d, d.lessons.find((l) => l.id === id), deptProgress(p, 't'));
+  assert.equal(avail('b1'), false);
+  done('a1');
+  assert.equal(avail('b1'), true);
+  assert.equal(avail('c1'), false);
+  done('b1');
+  assert.equal(avail('c1'), true);
+  assert.equal(avail('z1'), false);
+  let st = stageSummary(d, deptProgress(p, 't'));
+  assert.deepEqual(st.map((x) => x.stage), [1, 2, 3, 6]);
+  assert.deepEqual(st.map((x) => x.open), [true, true, true, false]);
+  ['a2', 'b2', 'c1'].forEach(done);
+  assert.equal(avail('z1'), true);
+  let s = summary(d, deptProgress(p, 't'));
+  assert.equal(s.majorDone, true);
+  assert.equal(s.bachelorDone, false);
+  done('z1');
+  s = summary(d, deptProgress(p, 't'));
+  assert.equal(s.bachelorDone, true);
+  assert.equal(s.stagesDoneCount, 4);
 });

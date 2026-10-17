@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 220" width="380" height="220">
+<rect width="380" height="220" fill="#f4efe6"/>
+<rect x="20.0" y="30.0" width="110.0" height="40.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="75.0" y="54.2" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">C(s) + O₂(g)</text>
+<rect x="250.0" y="30.0" width="110.0" height="40.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="305.0" y="54.2" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">CO₂(g)</text>
+<rect x="135.0" y="150.0" width="110.0" height="40.0" rx="4" fill="#ffffff" stroke="#e07a3f" stroke-width="2"/>
+<text x="190.0" y="174.2" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">CO(g) + ½O₂(g)</text>
+<line x1="132.0" y1="50.0" x2="246.0" y2="50.0" stroke="#2f5d50" stroke-width="2.5"/>
+<polygon points="246.0,50.0 238.6,53.1 238.6,46.9" fill="#2f5d50"/>
+<text x="190.0" y="40.0" font-family="sans-serif" font-size="12" fill="#2f5d50" text-anchor="middle" font-weight="bold">ΔH = −393.5 kJ</text>
+<line x1="80.0" y1="72.0" x2="140.0" y2="148.0" stroke="#e07a3f" stroke-width="2.5"/>
+<polygon points="140.0,148.0 133.0,144.1 137.9,140.3" fill="#e07a3f"/>
+<text x="70.0" y="118.0" font-family="sans-serif" font-size="12" fill="#e07a3f" text-anchor="middle" font-weight="bold">ΔH₁ = ?</text>
+<line x1="242.0" y1="148.0" x2="300.0" y2="72.0" stroke="#e07a3f" stroke-width="2.5"/>
+<polygon points="300.0,72.0 298.0,79.7 293.1,76.0" fill="#e07a3f"/>
+<text x="318.0" y="118.0" font-family="sans-serif" font-size="12" fill="#e07a3f" text-anchor="middle" font-weight="bold">ΔH₂ = −283.0 kJ</text>
+<text x="190.0" y="212.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">두 경로 모두 같은 처음 상태와 나중 상태를 잇는다</text>
+</svg>

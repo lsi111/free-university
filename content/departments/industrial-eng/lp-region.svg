@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 260" width="380" height="260">
+<rect width="380" height="260" fill="#f4efe6"/>
+<line x1="90.0" y1="20.0" x2="90.0" y2="230.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="130.0" y1="20.0" x2="130.0" y2="230.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="170.0" y1="20.0" x2="170.0" y2="230.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="210.0" y1="20.0" x2="210.0" y2="230.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="250.0" y1="20.0" x2="250.0" y2="230.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="290.0" y1="20.0" x2="290.0" y2="230.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="330.0" y1="20.0" x2="330.0" y2="230.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="50.0" y1="188.0" x2="330.0" y2="188.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="50.0" y1="146.0" x2="330.0" y2="146.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="50.0" y1="104.0" x2="330.0" y2="104.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="50.0" y1="62.0" x2="330.0" y2="62.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="50.0" y1="20.0" x2="330.0" y2="20.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="50.0" y1="230.0" x2="330.0" y2="230.0" stroke="#7a766d" stroke-width="1.5"/>
+<line x1="50.0" y1="20.0" x2="50.0" y2="230.0" stroke="#7a766d" stroke-width="1.5"/>
+<text x="90.0" y="245.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">1</text>
+<text x="130.0" y="245.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">2</text>
+<text x="170.0" y="245.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">3</text>
+<text x="210.0" y="245.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">4</text>
+<text x="250.0" y="245.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">5</text>
+<text x="290.0" y="245.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">6</text>
+<text x="330.0" y="245.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">7</text>
+<text x="44.0" y="192.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">2</text>
+<text x="44.0" y="150.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">4</text>
+<text x="44.0" y="108.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">6</text>
+<text x="44.0" y="66.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">8</text>
+<text x="44.0" y="24.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">10</text>
+<text x="330.0" y="260.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">x (제품 A, 단위)</text>
+<text x="54.0" y="14.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">y (제품 B, 단위)</text>
+<polygon points="50.0,230.0 210.0,230.0 210.0,167.0 130.0,104.0 50.0,104.0" fill="#2f5d50" fill-opacity="0.15" stroke="#2f5d50" stroke-width="2"/>
+<polyline points="210.0,230.0 210.0,20.0" fill="none" stroke="#7a766d" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="214.0" y="28.4" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">x ≤ 4</text>
+<polyline points="50.0,104.0 330.0,104.0" fill="none" stroke="#7a766d" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="298.0" y="99.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">y ≤ 6</text>
+<polyline points="50.0,41.0 290.0,230.0" fill="none" stroke="#7a766d" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="262.0" y="196.4" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">3x + 2y ≤ 18</text>
+<circle cx="50.0" cy="230.0" r="4.5" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<text x="58.0" y="246.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="start" font-weight="bold">O(0, 0)</text>
+<circle cx="210.0" cy="230.0" r="4.5" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<text x="218.0" y="246.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="start" font-weight="bold">P(4, 0)</text>
+<circle cx="210.0" cy="167.0" r="4.5" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<text x="218.0" y="159.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="start" font-weight="bold">Q(4, 3)</text>
+<circle cx="130.0" cy="104.0" r="4.5" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<text x="138.0" y="96.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="start" font-weight="bold">R(2, 6)</text>
+<circle cx="50.0" cy="104.0" r="4.5" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<text x="58.0" y="96.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="start" font-weight="bold">S(0, 6)</text>
+</svg>

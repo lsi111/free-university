@@ -1,7 +1,7 @@
 import { h, fill } from '../dom.js';
 import { fieldName } from '../data.js';
 import { deptReviewSummary } from '../engine/review.js';
-import { deptProgress, isDone, isUnlocked, isBranchOpen, isStale, summary } from '../engine/progress.js';
+import { deptProgress, isDone, isUnlocked, isBranchOpen, isStale, summary, lessonOrder, branchStage, STAGE_NAMES } from '../engine/progress.js';
 import { findRelatedDepartments } from '../engine/connections.js';
 
 export function renderDepartment(root, { meta, dept, errors, fields, catalog = [], progress, reviews = {} }) {
@@ -24,10 +24,12 @@ export function renderDepartment(root, { meta, dept, errors, fields, catalog = [
   const dp = deptProgress(progress, meta.id);
   const s = summary(dept, dp);
   const byId = new Map(dept.lessons.map((l) => [l.id, l]));
-  const number = new Map(dept.trunk.map((id, i) => [id, `${i + 1}교시`]));
-  for (const b of dept.branches || []) {
-    (b.lessons || []).forEach((id, i) => number.set(id, `${b.name} ${i + 1}교시`));
-  }
+  // 교시 번호는 학과 전체에서 이어진다(1단계 1교시 … 6단계 마지막 교시).
+  const number = new Map(lessonOrder(dept).map((id, i) => [id, `${i + 1}교시`]));
+  const staged = (dept.branches || []).some((b) => b.stage != null);
+  const branchTitle = (b, idx) => (b.stage != null
+    ? `${b.stage}단계 · ${STAGE_NAMES[b.stage]} · ${b.name}`
+    : `전공 심화 갈래 ${idx + 1} · ${b.name}`);
 
   const lessonItem = (id, n) => {
     const l = byId.get(id);
@@ -46,21 +48,23 @@ export function renderDepartment(root, { meta, dept, errors, fields, catalog = [
       !open ? h('span', { class: 'lesson-needs' }, `먼저: ${needs.join(', ')}`) : null);
   };
 
-  const branches = (dept.branches || []).map((b, idx) => {
+  const orderedBranches = (dept.branches || []).map((b, idx) => ({ b, idx }))
+    .sort((x, y) => branchStage(x.b) - branchStage(y.b) || x.idx - y.idx);
+  const branches = orderedBranches.map(({ b, idx }) => {
     const opened = isBranchOpen(b, dp);
     const bDone = (b.lessons || []).filter((id) => isDone(dp, id)).length;
-    const openReqs = (b.opensAfter || []).map((id) => `${dept.trunk.indexOf(id) + 1}교시(${byId.get(id)?.title || id})`).join(', ');
-    return h('section', { class: 'panel branch-panel' },
+    const openReqs = (b.opensAfter || []).map((id) => `${number.get(id) || id}(${byId.get(id)?.title || id})`).join(', ');
+    return h('section', { class: `panel branch-panel${b.stage != null ? ` stage-${b.stage}` : ''}`, id: b.stage != null ? `stage-${b.stage}` : null },
       h('div', { class: 'panel-head' },
-        h('h2', {}, `전공 심화 갈래 ${idx + 1} · ${b.name}`),
+        h('h2', {}, branchTitle(b, idx)),
         h('span', { class: 'meta-line' }, `${bDone}/${b.lessons.length} 마침`)),
       b.summary ? h('p', { class: 'input-note' }, b.summary) : null,
-      opened ? null : h('p', { class: 'input-note' }, `열리는 조건: 공통 줄기 ${openReqs} 마치기`),
+      opened ? null : h('p', { class: 'input-note' }, `열리는 조건: ${openReqs} 마치기`),
       h('ol', { class: 'lesson-list', role: 'list' },
-        b.lessons.map((id, i) => opened
-          ? lessonItem(id, `심화 ${i + 1}교시`)
+        b.lessons.map((id) => opened
+          ? lessonItem(id, number.get(id))
           : h('li', { class: 'lesson-item locked' },
-              h('span', { class: 'lesson-title' }, h('span', { class: 'lesson-no' }, `심화 ${i + 1}교시`), byId.get(id).title),
+              h('span', { class: 'lesson-title' }, h('span', { class: 'lesson-no' }, number.get(id)), byId.get(id).title),
               h('span', { class: 'lesson-state' }, '잠김')))));
   });
 
@@ -77,21 +81,46 @@ export function renderDepartment(root, { meta, dept, errors, fields, catalog = [
     head,
     errors?.length ? errorPanel(errors) : null,
     reviewSummary(deptReviewSummary(dept, reviews[meta.id])),
+    staged ? stageRoadmap(s) : null,
     h('section', { class: 'panel' },
       h('h2', {}, '누구에게 맞는가 · 교육과정 구성'),
       h('p', {}, meta.audience),
-      h('p', { class: 'input-note' },
-        `이 학과는 1단계 공통 줄기(${s.trunkTotal}교시, 전공기초)와 2단계 전공 심화 갈래(${s.branchesTotal}개 갈래, 학사 핵심 이론·모형)를 합쳐 총 ${s.total}교시로 구성되어 있습니다. 현재 전체 ${s.done}/${s.total}교시를 마쳤습니다.`),
+      h('p', { class: 'input-note' }, staged
+        ? `이 학과는 1단계 전공기초(${s.trunkTotal}교시)부터 ${s.stagesTotal}단계${s.stages.some((x) => x.stage === 6) ? ' 학사 캡스톤' : ''}까지 총 ${s.total}교시로 구성되어 있습니다. 현재 전체 ${s.done}/${s.total}교시를 마쳤습니다.`
+        : `이 학과는 1단계 공통 줄기(${s.trunkTotal}교시, 전공기초)와 2단계 전공 심화 갈래(${s.branchesTotal}개 갈래, 학사 핵심 이론·모형)를 합쳐 총 ${s.total}교시로 구성되어 있습니다. 현재 전체 ${s.done}/${s.total}교시를 마쳤습니다.`),
       meta.limits ? h('p', { class: 'limits' }, `범위 밖: ${meta.limits}`) : null),
     h('section', { class: 'panel' },
       h('div', { class: 'panel-head' },
-        h('h2', {}, '1단계 · 공통 줄기 (전공기초)'),
+        h('h2', { id: 'stage-1' }, '1단계 · 전공기초 · 공통 줄기'),
         h('span', { class: 'meta-line' }, `${s.trunkDoneCount}/${s.trunkTotal} 마침`)),
-      h('p', { class: 'input-note' }, '선행이 없는 첫 교시는 바로 열립니다. 주요 줄기 교시를 마치면 아래의 전공 심화 갈래들이 차례로 열립니다.'),
-      h('ol', { class: 'lesson-list', role: 'list' }, dept.trunk.map((id, i) => lessonItem(id, `${i + 1}교시`)))),
+      h('p', { class: 'input-note' }, staged
+        ? '선행이 없는 첫 교시는 바로 열립니다. 줄기 교시를 마치면 2단계부터 차례로 열리고, 앞 단계를 마치면 다음 단계가 열립니다.'
+        : '선행이 없는 첫 교시는 바로 열립니다. 주요 줄기 교시를 마치면 아래의 전공 심화 갈래들이 차례로 열립니다.'),
+      h('ol', { class: 'lesson-list', role: 'list' }, dept.trunk.map((id) => lessonItem(id, number.get(id))))),
     ...branches,
     relatedPanel,
   );
+}
+
+/** 1단계~6단계 학사 이수 로드맵 */
+function stageRoadmap(s) {
+  return h('nav', { class: 'panel stage-roadmap', 'aria-label': '학사 이수 로드맵' },
+    h('div', { class: 'panel-head' },
+      h('h2', {}, '학사 이수 로드맵'),
+      h('span', { class: 'meta-line' }, `${s.stagesDoneCount}/${s.stagesTotal}단계 마침`)),
+    h('ol', { class: 'stage-steps', role: 'list' },
+      s.stages.map((st) => {
+        const state = st.complete ? 'done' : st.open ? 'open' : 'locked';
+        const label = st.complete ? '마침' : st.open ? '열림' : '잠김';
+        const pct = st.total ? Math.round((st.done / st.total) * 100) : 0;
+        return h('li', { class: `stage-step ${state}` },
+          h('a', { href: `#stage-${st.stage}`, onclick: (e) => { e.preventDefault(); document.getElementById(`stage-${st.stage}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' }); } },
+            h('span', { class: 'stage-no' }, `${st.stage}단계`),
+            h('span', { class: 'stage-name' }, st.name),
+            h('span', { class: 'bar', role: 'progressbar', 'aria-valuemin': '0', 'aria-valuemax': String(st.total), 'aria-valuenow': String(st.done), 'aria-label': `${st.stage}단계 진도` },
+              h('span', { style: `width:${pct}%` })),
+            h('span', { class: 'stage-state' }, `${st.done}/${st.total} · ${label}`)));
+      })));
 }
 
 export function errorPanel(errors) {

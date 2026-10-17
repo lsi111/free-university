@@ -256,3 +256,22 @@ fieldset.plain[disabled] { opacity: 0.75; }
 .report summary { cursor: pointer; font-weight: 700; }
 .report-grid { display: grid; grid-template-columns: auto 1fr; gap: 8px 12px; align-items: center; margin: 10px 0; }
 .report-label { display: block; margin: 8px 0 4px; }
+
+/* 학사 이수 로드맵 (1~6단계) */
+.stage-steps { list-style: none; padding: 0; margin: 10px 0 0; display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; }
+@media (max-width: 860px) { .stage-steps { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 480px) { .stage-steps { grid-template-columns: repeat(2, 1fr); } }
+.stage-step a { display: grid; gap: 4px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; text-decoration: none; color: var(--text); height: 100%; box-sizing: border-box; }
+.stage-step a:hover { border-color: var(--accent); }
+.stage-step.locked a { background: var(--surface-2); color: var(--muted); }
+.stage-step.done a { border-color: var(--ok); }
+.stage-no { font-size: 0.8rem; font-weight: 700; color: var(--muted); }
+.stage-name { font-weight: 700; }
+.stage-state { font-size: 0.8rem; color: var(--muted); }
+.stage-step.done .stage-state { color: var(--ok); }
+.stage-step .bar { height: 6px; }
+.stage-badge { display: inline-block; padding: 1px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-size: 0.8rem; font-weight: 700; margin-right: 6px; }
+.tier-list { list-style: none; padding: 0; margin: 8px 0 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 8px; }
+.tier-list li { padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; display: grid; gap: 2px; }
+.tier-list strong { font-size: 1.4rem; }
+.tier-list span { color: var(--muted); font-size: 0.85rem; }

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 230" width="380" height="230">
+<rect width="380" height="230" fill="#f4efe6"/>
+<rect x="130.0" y="10.0" width="120.0" height="40.0" rx="4" fill="#ffffff" stroke="#1d1c1a" stroke-width="2"/>
+<text x="190.0" y="34.2" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">설득 메시지</text>
+<rect x="130.0" y="70.0" width="120.0" height="40.0" rx="4" fill="#ffffff" stroke="#e07a3f" stroke-width="2"/>
+<text x="190.0" y="88.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">동기와 능력이</text>
+<text x="190.0" y="102.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">충분한가?</text>
+<line x1="190.0" y1="50.0" x2="190.0" y2="68.0" stroke="#1d1c1a" stroke-width="2"/>
+<polygon points="190.0,68.0 187.3,61.6 192.7,61.6" fill="#1d1c1a"/>
+<rect x="10.0" y="140.0" width="150.0" height="50.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="85.0" y="163.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">중심 경로</text>
+<text x="85.0" y="177.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">논거의 질을 따져 봄</text>
+<rect x="220.0" y="140.0" width="150.0" height="50.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="295.0" y="163.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">주변 경로</text>
+<text x="295.0" y="177.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">모델·음악 등 단서</text>
+<line x1="150.0" y1="100.0" x2="90.0" y2="138.0" stroke="#1d1c1a" stroke-width="2"/>
+<polygon points="90.0,138.0 94.0,132.2 96.9,136.9" fill="#1d1c1a"/>
+<text x="108.0" y="118.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">예</text>
+<line x1="230.0" y1="100.0" x2="290.0" y2="138.0" stroke="#1d1c1a" stroke-width="2"/>
+<polygon points="290.0,138.0 283.1,136.9 286.0,132.2" fill="#1d1c1a"/>
+<text x="272.0" y="118.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">아니오</text>
+<text x="85.0" y="210.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">오래가는 태도 변화</text>
+<text x="295.0" y="210.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">일시적 태도 변화</text>
+</svg>

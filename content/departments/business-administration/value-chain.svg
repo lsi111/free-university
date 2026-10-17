@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 230" width="380" height="230">
+<rect width="380" height="230" fill="#f4efe6"/>
+<rect x="20.0" y="16.0" width="270.0" height="24.0" rx="2" fill="#fff" stroke="#7a766d" stroke-width="1.2"/>
+<text x="155.0" y="32.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">기업 하부구조</text>
+<rect x="20.0" y="44.0" width="270.0" height="24.0" rx="2" fill="#fff" stroke="#7a766d" stroke-width="1.2"/>
+<text x="155.0" y="60.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">인적자원 관리</text>
+<rect x="20.0" y="72.0" width="270.0" height="24.0" rx="2" fill="#fff" stroke="#7a766d" stroke-width="1.2"/>
+<text x="155.0" y="88.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">기술 개발</text>
+<rect x="20.0" y="100.0" width="270.0" height="24.0" rx="2" fill="#fff" stroke="#7a766d" stroke-width="1.2"/>
+<text x="155.0" y="116.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">조달</text>
+<text x="300.0" y="74.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start" font-weight="bold">지원 활동</text>
+<rect x="20.0" y="136.0" width="50.0" height="64.0" rx="2" fill="#fff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="45.0" y="157.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">내부</text>
+<text x="45.0" y="171.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle"> 물류</text>
+<rect x="74.0" y="136.0" width="50.0" height="64.0" rx="2" fill="#fff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="99.0" y="164.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">운영</text>
+<rect x="128.0" y="136.0" width="50.0" height="64.0" rx="2" fill="#fff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="153.0" y="157.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">외부</text>
+<text x="153.0" y="171.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle"> 물류</text>
+<rect x="182.0" y="136.0" width="50.0" height="64.0" rx="2" fill="#fff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="207.0" y="157.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">마케팅</text>
+<text x="207.0" y="171.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">판매</text>
+<rect x="236.0" y="136.0" width="50.0" height="64.0" rx="2" fill="#fff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="261.0" y="164.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">서비스</text>
+<text x="155.0" y="218.0" font-family="sans-serif" font-size="11" fill="#2f5d50" text-anchor="middle" font-weight="bold">본원적 활동</text>
+<polygon points="296.0,136.0 350.0,168.0 296.0,200.0" fill="#fbe3d4" stroke="#e07a3f" stroke-width="2"/>
+<text x="318.0" y="172.0" font-family="sans-serif" font-size="11" fill="#e07a3f" text-anchor="middle" font-weight="bold">이윤</text>
+</svg>
