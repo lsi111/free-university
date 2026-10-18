@@ -1,8 +1,9 @@
 // 학과 및 교시 본문 통합 검색 엔진. 순수 함수로만 구성되어 Node에서도 실행된다.
 
 import { lessonOrder, lessonStage } from './progress.js';
+import { locale } from '../i18n.js';
 
-const byName = (a, b) => a.name.localeCompare(b.name, 'ko');
+const byName = (a, b) => a.name.localeCompare(b.name, locale());
 
 /** 마크다운·수식 기호를 걷어내고 검색·미리보기용 평문으로 바꾼다. */
 export function stripMarkup(s) {
@@ -131,6 +132,6 @@ export function searchLessons(catalog, depts, query, { limit = 30 } = {}) {
     }
   }
 
-  matches.sort((a, b) => b.score - a.score || a.deptName.localeCompare(b.deptName, 'ko'));
+  matches.sort((a, b) => b.score - a.score || a.deptName.localeCompare(b.deptName, locale()));
   return matches.slice(0, limit);
 }

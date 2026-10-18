@@ -275,3 +275,5 @@ fieldset.plain[disabled] { opacity: 0.75; }
 .tier-list li { padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; display: grid; gap: 2px; }
 .tier-list strong { font-size: 1.4rem; }
 .tier-list span { color: var(--muted); font-size: 0.85rem; }
+
+.lang-select { font: inherit; color: inherit; background: transparent; border: 1px solid var(--line); border-radius: 6px; padding: 4px 6px; }

@@ -12,7 +12,8 @@ const isStr = (v) => typeof v === 'string' && v.trim().length > 0;
 const isNonEmptyArray = (v) => Array.isArray(v) && v.length > 0;
 
 function normText(s) {
-  return String(s || '').replace(/\s+/g, '').toLowerCase();
+  // 악센트는 무시한다(스페인어 입력에서 á와 a를 같게 본다). 한글은 NFD→NFC로 그대로 돌아온다.
+  return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').normalize('NFC').replace(/\s+/g, '').toLowerCase();
 }
 
 export const CHECK_TYPES = {

@@ -1,4 +1,5 @@
 // 학과 간 개념 연결 엔진. 화면 코드에 특정 학과 이름을 넣지 않고 데이터에서 자동으로 찾는다.
+import { locale } from '../i18n.js';
 
 const STOP_TERMS = new Set([
   '첫째', '둘째', '셋째', '넷째', '다섯째', '핵심', '정의', '차이', '이유', '결과', '원인',
@@ -55,7 +56,7 @@ export function findLessonConnections({ deptId, lesson, catalog, depts, limit = 
     }
   }
 
-  results.sort((a, b) => b.concepts.length - a.concepts.length || a.deptName.localeCompare(b.deptName, 'ko'));
+  results.sort((a, b) => b.concepts.length - a.concepts.length || a.deptName.localeCompare(b.deptName, locale()));
   return results.slice(0, limit);
 }
 
@@ -73,5 +74,5 @@ export function findRelatedDepartments(meta, catalog) {
         || dTags.includes(meta.field)
         || dTags.some((t) => myFields.has(t));
     })
-    .sort((a, b) => a.name.localeCompare(b.name, 'ko'));
+    .sort((a, b) => a.name.localeCompare(b.name, locale()));
 }

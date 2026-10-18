@@ -1,6 +1,8 @@
 // 콘텐츠 불러오기. 어떤 학과가 있는지는 content/ 아래 데이터만 안다.
 
 import { validateCatalog, validateDepartment } from './engine/schema.js';
+import { applyDeptOverlay, applyCatalogOverlay } from './engine/i18n.js';
+import { getLang, locale } from './i18n.js';
 
 const cache = { fields: null, catalog: null, depts: new Map(), allLoaded: false };
 
@@ -23,14 +25,16 @@ async function getOptionalJson(path, fallback) {
 export const loadReviews = () => getOptionalJson('content/reviews.json', {});
 export const loadSite = () => getOptionalJson('content/site.json', {});
 
-export const byName = (a, b) => a.name.localeCompare(b.name, 'ko');
+export const byName = (a, b) => a.name.localeCompare(b.name, locale());
 
 export async function loadCatalog() {
   if (!cache.catalog) {
     const [fields, catalog] = await Promise.all([getJson('content/fields.json'), getJson('content/catalog.json')]);
     const errors = validateCatalog(fields, catalog);
-    cache.fields = fields;
-    cache.catalog = catalog;
+    // 번역은 표시용 문구만 바꾼다. 검증은 원본으로 한다.
+    const tr = getLang() === 'ko' ? { fields, catalog } : applyCatalogOverlay(fields, catalog, await getOptionalJson(`content/i18n/${getLang()}/catalog.json`, null));
+    cache.fields = tr.fields;
+    cache.catalog = tr.catalog;
     cache.catalogErrors = errors;
   }
   return { fields: cache.fields, catalog: cache.catalog, errors: cache.catalogErrors };
@@ -50,8 +54,10 @@ export async function loadDepartment(id) {
   if (!meta) return null;
   if (meta.status !== 'open') return { meta, dept: null, errors: [] };
   if (!cache.depts.has(id)) {
-    const dept = await getJson(`content/${meta.file}`);
-    cache.depts.set(id, { dept, errors: validateDepartment(meta, dept) });
+    const source = await getJson(`content/${meta.file}`);
+    const overlay = getLang() === 'ko' ? null : await getOptionalJson(`content/i18n/${getLang()}/${id}.json`, null);
+    const dept = applyDeptOverlay(source, overlay);
+    cache.depts.set(id, { dept, errors: validateDepartment(meta, source) });
   }
   return { meta, ...cache.depts.get(id) };
 }
