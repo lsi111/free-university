@@ -11,20 +11,19 @@
 - numeric tolerance는 반드시 1 미만(오답 = 정답+1이 통과하면 안 됨).
 - heredoc 파이썬에 '·' 등 특수문자 쓰면 깨짐 → Edit 도구 사용.
 
-## 완료 학과 (30/51)
+## 완료 학과 (51/51)
 - 자연 (7): mathematics, physics, chemistry, statistics, life-science, earth-science, astronomy
 - 경영 (5): business-administration, finance, accounting, international-trade, marketing
 - 공학 (9): computer-science, electrical-eng, mechanical-eng, industrial-eng, materials-eng, architecture, civil-eng, chemical-eng, environmental-eng
 - 교육 (4): education-studies, subject-education, early-childhood-ed, special-education
 - 예술·체육 (5): design-studies, fine-arts, theater-film, music-studies, sport-science
-
-## 남은 학과 (21/51)
 - 인문 (9): korean-lit, german-lit, history-studies, linguistics, english-lit, japanese-lit, chinese-lit, philosophy, french-lit
 - 사회 (12): economics, library-science, media-communication, law-studies, health-administration, social-welfare, sociology, psychology, anthropology, political-science, geography, public-administration
 
-## 마무리 할 일
-- catalog.json limits: accounting(감사·세무 개념 포함으로 문구 조정), marketing(통계 분석→A/B·CLV 단순 계산 포함) 등 확인. audience/summary에 '12교시' 등 옛 표현 있는지 grep.
-- README.md 현재 상태 문단(1,020교시, 6단계) 갱신, 구조 설명의 progress.js 설명 갱신.
-- docs/BACHELOR_6STAGE_PLAN.md 그대로 커밋 대상.
-- _gallery.html 삭제, npm test / npm run check 최종 통과.
-- 커밋은 사용자 확인 후.
+## 남은 학과
+- 없음. 51개 학과 모두 학과당 20교시(1단계 줄기 6 + 2~6단계 14), 총 1,020교시.
+
+## 마무리 상태
+- catalog.json의 limits·summary·audience를 확장된 범위에 맞춰 조정함(accounting, marketing, statistics, linguistics, life-science, astronomy, computer-science, finance). 옛 교시 수 표현 없음.
+- README.md 현재 상태와 구조 설명 갱신 완료.
+- npm test / npm run check 통과 후 커밋.
