@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+<rect width="400" height="400" fill="#f4efe6"/>
+<rect x="8.0" y="8.0" width="384.0" height="88.0" rx="6" fill="none" stroke="#7a766d" stroke-width="1"/>
+<text x="18.0" y="28.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="start" font-weight="bold">(가)</text>
+<rect x="20.0" y="45.0" width="70.0" height="34.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="55.0" y="66.2" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">유권자</text>
+<rect x="160.0" y="45.0" width="70.0" height="34.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="195.0" y="66.2" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">의회</text>
+<rect x="310.0" y="45.0" width="75.0" height="34.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="347.5" y="66.2" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">내각</text>
+<line x1="90.0" y1="62.0" x2="160.0" y2="62.0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="160.0,62.0 152.6,65.1 152.6,58.9" fill="#2f5d50"/>
+<text x="125.0" y="56.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">선출</text>
+<line x1="230.0" y1="62.0" x2="310.0" y2="62.0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="310.0,62.0 302.6,65.1 302.6,58.9" fill="#2f5d50"/>
+<text x="270.0" y="56.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">구성·불신임</text>
+<rect x="8.0" y="104.0" width="384.0" height="112.0" rx="6" fill="none" stroke="#7a766d" stroke-width="1"/>
+<text x="18.0" y="124.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="start" font-weight="bold">(나)</text>
+<rect x="20.0" y="150.0" width="70.0" height="34.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="55.0" y="171.2" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">유권자</text>
+<rect x="160.0" y="130.0" width="70.0" height="30.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="195.0" y="149.2" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">의회</text>
+<rect x="160.0" y="176.0" width="70.0" height="30.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="195.0" y="195.2" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">대통령</text>
+<line x1="90.0" y1="160.0" x2="160.0" y2="146.0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="160.0,146.0 153.4,150.5 152.2,144.4" fill="#2f5d50"/>
+<text x="115.0" y="142.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">선출</text>
+<line x1="90.0" y1="174.0" x2="160.0" y2="190.0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="160.0,190.0 152.1,191.4 153.5,185.3" fill="#2f5d50"/>
+<text x="115.0" y="196.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">선출</text>
+<rect x="8.0" y="224.0" width="384.0" height="168.0" rx="6" fill="none" stroke="#7a766d" stroke-width="1"/>
+<text x="18.0" y="244.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="start" font-weight="bold">(다)</text>
+<rect x="20.0" y="298.0" width="70.0" height="34.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="55.0" y="319.2" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">유권자</text>
+<rect x="150.0" y="256.0" width="90.0" height="30.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="195.0" y="275.2" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">의회</text>
+<rect x="150.0" y="336.0" width="90.0" height="30.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="195.0" y="355.2" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">대통령</text>
+<rect x="300.0" y="292.0" width="88.0" height="30.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="344.0" y="311.2" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">총리·내각</text>
+<line x1="90.0" y1="308.0" x2="150.0" y2="276.0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="150.0,276.0 145.0,282.2 142.0,276.7" fill="#2f5d50"/>
+<text x="112.0" y="288.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">선출</text>
+<line x1="90.0" y1="324.0" x2="150.0" y2="348.0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="150.0,348.0 142.0,348.2 144.3,342.4" fill="#2f5d50"/>
+<text x="112.0" y="352.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">선출</text>
+<line x1="240.0" y1="352.0" x2="300.0" y2="316.0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="300.0,316.0 295.3,322.5 292.1,317.1" fill="#2f5d50"/>
+<text x="282.0" y="354.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">임명</text>
+<line x1="240.0" y1="272.0" x2="300.0" y2="298.0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="300.0,298.0 292.0,297.9 294.5,292.2" fill="#2f5d50"/>
+<text x="282.0" y="260.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">불신임 가능</text>
+</svg>

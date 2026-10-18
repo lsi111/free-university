@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" width="420" height="300">
+<rect width="420" height="300" fill="#f4efe6"/>
+<text x="210.0" y="22.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">래스터 토지피복 (셀 한 변 500 m)</text>
+<rect x="30.0" y="44.0" width="36.0" height="36.0" rx="0" fill="#a9c6e0" stroke="#7a766d" stroke-width="1"/>
+<text x="48.0" y="67.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">3</text>
+<rect x="66.0" y="44.0" width="36.0" height="36.0" rx="0" fill="#a9c6e0" stroke="#7a766d" stroke-width="1"/>
+<text x="84.0" y="67.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">3</text>
+<rect x="102.0" y="44.0" width="36.0" height="36.0" rx="0" fill="#b7d3bf" stroke="#7a766d" stroke-width="1"/>
+<text x="120.0" y="67.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">1</text>
+<rect x="138.0" y="44.0" width="36.0" height="36.0" rx="0" fill="#b7d3bf" stroke="#7a766d" stroke-width="1"/>
+<text x="156.0" y="67.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">1</text>
+<rect x="174.0" y="44.0" width="36.0" height="36.0" rx="0" fill="#e9dca8" stroke="#7a766d" stroke-width="1"/>
+<text x="192.0" y="67.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">2</text>
+<rect x="210.0" y="44.0" width="36.0" height="36.0" rx="0" fill="#e9dca8" stroke="#7a766d" stroke-width="1"/>
+<text x="228.0" y="67.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">2</text>
+<rect x="30.0" y="80.0" width="36.0" height="36.0" rx="0" fill="#a9c6e0" stroke="#7a766d" stroke-width="1"/>
+<text x="48.0" y="103.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">3</text>
+<rect x="66.0" y="80.0" width="36.0" height="36.0" rx="0" fill="#a9c6e0" stroke="#7a766d" stroke-width="1"/>
+<text x="84.0" y="103.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">3</text>
+<rect x="102.0" y="80.0" width="36.0" height="36.0" rx="0" fill="#b7d3bf" stroke="#7a766d" stroke-width="1"/>
+<text x="120.0" y="103.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">1</text>
+<rect x="138.0" y="80.0" width="36.0" height="36.0" rx="0" fill="#e9dca8" stroke="#7a766d" stroke-width="1"/>
+<text x="156.0" y="103.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">2</text>
+<rect x="174.0" y="80.0" width="36.0" height="36.0" rx="0" fill="#e9dca8" stroke="#7a766d" stroke-width="1"/>
+<text x="192.0" y="103.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">2</text>
+<rect x="210.0" y="80.0" width="36.0" height="36.0" rx="0" fill="#e9dca8" stroke="#7a766d" stroke-width="1"/>
+<text x="228.0" y="103.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">2</text>
+<rect x="30.0" y="116.0" width="36.0" height="36.0" rx="0" fill="#a9c6e0" stroke="#7a766d" stroke-width="1"/>
+<text x="48.0" y="139.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">3</text>
+<rect x="66.0" y="116.0" width="36.0" height="36.0" rx="0" fill="#b7d3bf" stroke="#7a766d" stroke-width="1"/>
+<text x="84.0" y="139.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">1</text>
+<rect x="102.0" y="116.0" width="36.0" height="36.0" rx="0" fill="#b7d3bf" stroke="#7a766d" stroke-width="1"/>
+<text x="120.0" y="139.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">1</text>
+<rect x="138.0" y="116.0" width="36.0" height="36.0" rx="0" fill="#e9dca8" stroke="#7a766d" stroke-width="1"/>
+<text x="156.0" y="139.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">2</text>
+<rect x="174.0" y="116.0" width="36.0" height="36.0" rx="0" fill="#d9a68a" stroke="#7a766d" stroke-width="1"/>
+<text x="192.0" y="139.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">4</text>
+<rect x="210.0" y="116.0" width="36.0" height="36.0" rx="0" fill="#d9a68a" stroke="#7a766d" stroke-width="1"/>
+<text x="228.0" y="139.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">4</text>
+<rect x="30.0" y="152.0" width="36.0" height="36.0" rx="0" fill="#b7d3bf" stroke="#7a766d" stroke-width="1"/>
+<text x="48.0" y="175.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">1</text>
+<rect x="66.0" y="152.0" width="36.0" height="36.0" rx="0" fill="#b7d3bf" stroke="#7a766d" stroke-width="1"/>
+<text x="84.0" y="175.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">1</text>
+<rect x="102.0" y="152.0" width="36.0" height="36.0" rx="0" fill="#e9dca8" stroke="#7a766d" stroke-width="1"/>
+<text x="120.0" y="175.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">2</text>
+<rect x="138.0" y="152.0" width="36.0" height="36.0" rx="0" fill="#e9dca8" stroke="#7a766d" stroke-width="1"/>
+<text x="156.0" y="175.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">2</text>
+<rect x="174.0" y="152.0" width="36.0" height="36.0" rx="0" fill="#d9a68a" stroke="#7a766d" stroke-width="1"/>
+<text x="192.0" y="175.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">4</text>
+<rect x="210.0" y="152.0" width="36.0" height="36.0" rx="0" fill="#d9a68a" stroke="#7a766d" stroke-width="1"/>
+<text x="228.0" y="175.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">4</text>
+<rect x="30.0" y="188.0" width="36.0" height="36.0" rx="0" fill="#b7d3bf" stroke="#7a766d" stroke-width="1"/>
+<text x="48.0" y="211.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">1</text>
+<rect x="66.0" y="188.0" width="36.0" height="36.0" rx="0" fill="#e9dca8" stroke="#7a766d" stroke-width="1"/>
+<text x="84.0" y="211.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">2</text>
+<rect x="102.0" y="188.0" width="36.0" height="36.0" rx="0" fill="#e9dca8" stroke="#7a766d" stroke-width="1"/>
+<text x="120.0" y="211.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">2</text>
+<rect x="138.0" y="188.0" width="36.0" height="36.0" rx="0" fill="#d9a68a" stroke="#7a766d" stroke-width="1"/>
+<text x="156.0" y="211.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">4</text>
+<rect x="174.0" y="188.0" width="36.0" height="36.0" rx="0" fill="#d9a68a" stroke="#7a766d" stroke-width="1"/>
+<text x="192.0" y="211.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">4</text>
+<rect x="210.0" y="188.0" width="36.0" height="36.0" rx="0" fill="#e9dca8" stroke="#7a766d" stroke-width="1"/>
+<text x="228.0" y="211.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">2</text>
+<rect x="30.0" y="224.0" width="36.0" height="36.0" rx="0" fill="#b7d3bf" stroke="#7a766d" stroke-width="1"/>
+<text x="48.0" y="247.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">1</text>
+<rect x="66.0" y="224.0" width="36.0" height="36.0" rx="0" fill="#e9dca8" stroke="#7a766d" stroke-width="1"/>
+<text x="84.0" y="247.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">2</text>
+<rect x="102.0" y="224.0" width="36.0" height="36.0" rx="0" fill="#e9dca8" stroke="#7a766d" stroke-width="1"/>
+<text x="120.0" y="247.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">2</text>
+<rect x="138.0" y="224.0" width="36.0" height="36.0" rx="0" fill="#e9dca8" stroke="#7a766d" stroke-width="1"/>
+<text x="156.0" y="247.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">2</text>
+<rect x="174.0" y="224.0" width="36.0" height="36.0" rx="0" fill="#e9dca8" stroke="#7a766d" stroke-width="1"/>
+<text x="192.0" y="247.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">2</text>
+<rect x="210.0" y="224.0" width="36.0" height="36.0" rx="0" fill="#e9dca8" stroke="#7a766d" stroke-width="1"/>
+<text x="228.0" y="247.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">2</text>
+<text x="138.0" y="280.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">행 1~6는 위에서 아래, 열 1~6은 왼쪽에서 오른쪽</text>
+<rect x="270.0" y="70.0" width="24.0" height="24.0" rx="0" fill="#b7d3bf" stroke="#7a766d" stroke-width="1"/>
+<text x="302.0" y="87.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="start">1 = 숲</text>
+<rect x="270.0" y="104.0" width="24.0" height="24.0" rx="0" fill="#e9dca8" stroke="#7a766d" stroke-width="1"/>
+<text x="302.0" y="121.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="start">2 = 농경지</text>
+<rect x="270.0" y="138.0" width="24.0" height="24.0" rx="0" fill="#a9c6e0" stroke="#7a766d" stroke-width="1"/>
+<text x="302.0" y="155.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="start">3 = 물</text>
+<rect x="270.0" y="172.0" width="24.0" height="24.0" rx="0" fill="#d9a68a" stroke="#7a766d" stroke-width="1"/>
+<text x="302.0" y="189.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="start">4 = 시가지</text>
+<text x="270.0" y="230.0" font-family="sans-serif" font-size="12" fill="#7a766d" text-anchor="start">좌표 표기: (행, 열)</text>
+</svg>

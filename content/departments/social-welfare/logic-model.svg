@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" width="400" height="340">
+<rect width="400" height="340" fill="#f4efe6"/>
+<text x="200.0" y="22.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">별내시 이웃돌봄 프로그램 논리모형 (가상)</text>
+<rect x="14.0" y="36.0" width="84.0" height="46.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="56.0" y="64.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">투입</text>
+<rect x="108.0" y="36.0" width="278.0" height="46.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="120.0" y="55.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">직원 3명, 예산 6,000만원,</text>
+<text x="120.0" y="72.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">자원봉사자 20명</text>
+<line x1="247.0" y1="82.0" x2="247.0" y2="96.0" stroke="#7a766d" stroke-width="2"/>
+<polygon points="247.0,96.0 244.3,89.6 249.7,89.6" fill="#7a766d"/>
+<rect x="14.0" y="96.0" width="84.0" height="46.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="56.0" y="124.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">활동</text>
+<rect x="108.0" y="96.0" width="278.0" height="46.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="120.0" y="115.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">주 2회 안부 방문, 식사 배달,</text>
+<text x="120.0" y="132.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">월 1회 이웃 모임</text>
+<line x1="247.0" y1="142.0" x2="247.0" y2="156.0" stroke="#7a766d" stroke-width="2"/>
+<polygon points="247.0,156.0 244.3,149.6 249.7,149.6" fill="#7a766d"/>
+<rect x="14.0" y="156.0" width="84.0" height="46.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="56.0" y="184.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">산출</text>
+<rect x="108.0" y="156.0" width="278.0" height="46.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="120.0" y="175.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">방문 1,200회, 식사 2,400끼,</text>
+<text x="120.0" y="192.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">참여 어르신 50명</text>
+<line x1="247.0" y1="202.0" x2="247.0" y2="216.0" stroke="#7a766d" stroke-width="2"/>
+<polygon points="247.0,216.0 244.3,209.6 249.7,209.6" fill="#7a766d"/>
+<rect x="14.0" y="216.0" width="84.0" height="46.0" rx="4" fill="#ffffff" stroke="#e07a3f" stroke-width="2"/>
+<text x="56.0" y="244.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">단기 성과</text>
+<rect x="108.0" y="216.0" width="278.0" height="46.0" rx="4" fill="#ffffff" stroke="#e07a3f" stroke-width="2"/>
+<text x="120.0" y="235.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">어르신의 고립감 점수가 낮아짐,</text>
+<text x="120.0" y="252.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">이웃 모임 참여가 늘어남</text>
+<line x1="247.0" y1="262.0" x2="247.0" y2="276.0" stroke="#7a766d" stroke-width="2"/>
+<polygon points="247.0,276.0 244.3,269.6 249.7,269.6" fill="#7a766d"/>
+<rect x="14.0" y="276.0" width="84.0" height="46.0" rx="4" fill="#ffffff" stroke="#e07a3f" stroke-width="2"/>
+<text x="56.0" y="304.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">장기 성과</text>
+<rect x="108.0" y="276.0" width="278.0" height="46.0" rx="4" fill="#ffffff" stroke="#e07a3f" stroke-width="2"/>
+<text x="120.0" y="295.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">살던 지역에서</text>
+<text x="120.0" y="312.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">안정적으로 생활함</text>
+</svg>

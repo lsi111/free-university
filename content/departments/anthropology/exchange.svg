@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 236" width="400" height="236">
+<rect width="400" height="236" fill="#f4efe6"/>
+<text x="100.0" y="24.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">체계 가</text>
+<text x="300.0" y="24.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">체계 나</text>
+<line x1="200.0" y1="36.0" x2="200.0" y2="190.0" stroke="#ddd5c6" stroke-width="1.5" stroke-dasharray="4 4"/>
+<circle cx="50.0" cy="115.0" r="26" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="50.0" y="120.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">갑</text>
+<circle cx="150.0" cy="115.0" r="26" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="150.0" y="120.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">을</text>
+<line x1="78.0" y1="102.0" x2="122.0" y2="102.0" stroke="#e07a3f" stroke-width="2"/>
+<polygon points="122.0,102.0 114.6,105.1 114.6,98.9" fill="#e07a3f"/>
+<line x1="122.0" y1="130.0" x2="78.0" y2="130.0" stroke="#e07a3f" stroke-width="2"/>
+<polygon points="78.0,130.0 85.4,126.9 85.4,133.1" fill="#e07a3f"/>
+<circle cx="290.0" cy="72.0" r="26" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="290.0" y="77.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">병</text>
+<circle cx="350.0" cy="160.0" r="26" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="350.0" y="165.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">정</text>
+<circle cx="230.0" cy="160.0" r="26" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="230.0" y="165.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">무</text>
+<line x1="305.0" y1="95.0" x2="335.0" y2="136.0" stroke="#e07a3f" stroke-width="2"/>
+<polygon points="335.0,136.0 328.1,131.9 333.2,128.2" fill="#e07a3f"/>
+<line x1="322.0" y1="160.0" x2="258.0" y2="160.0" stroke="#e07a3f" stroke-width="2"/>
+<polygon points="258.0,160.0 265.4,156.9 265.4,163.1" fill="#e07a3f"/>
+<line x1="245.0" y1="137.0" x2="275.0" y2="96.0" stroke="#e07a3f" stroke-width="2"/>
+<polygon points="275.0,96.0 273.2,103.8 268.1,100.1" fill="#e07a3f"/>
+<text x="200.0" y="206.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">화살표는 구성원이 혼인해서 가는 집단의 방향</text>
+<text x="100.0" y="226.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">두 집단이 서로 맞바꾼다</text>
+<text x="300.0" y="226.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">세 집단이 고리를 이룬다</text>
+</svg>

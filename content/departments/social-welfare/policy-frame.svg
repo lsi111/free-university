@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 292" width="400" height="292">
+<rect width="400" height="292" fill="#f4efe6"/>
+<text x="200.0" y="22.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">별내시 방과후 급식 지원 (가상 사례)</text>
+<rect x="14.0" y="36.0" width="112.0" height="52.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="70.0" y="58.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">할당</text>
+<text x="70.0" y="76.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">누구에게?</text>
+<line x1="126.0" y1="62.0" x2="142.0" y2="62.0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="142.0,62.0 135.6,64.7 135.6,59.3" fill="#2f5d50"/>
+<rect x="142.0" y="36.0" width="244.0" height="52.0" rx="4" fill="#ffffff" stroke="#e07a3f" stroke-width="2"/>
+<text x="154.0" y="58.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">초등학생 중 가구소득이</text>
+<text x="154.0" y="76.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">기준 이하인 아동 (자산조사)</text>
+<rect x="14.0" y="98.0" width="112.0" height="52.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="70.0" y="120.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">급여</text>
+<text x="70.0" y="138.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">무엇을?</text>
+<line x1="126.0" y1="124.0" x2="142.0" y2="124.0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="142.0,124.0 135.6,126.7 135.6,121.3" fill="#2f5d50"/>
+<rect x="142.0" y="98.0" width="244.0" height="52.0" rx="4" fill="#ffffff" stroke="#e07a3f" stroke-width="2"/>
+<text x="154.0" y="120.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">점심 식사 (현물)</text>
+<text x="154.0" y="138.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">현금은 지급하지 않음</text>
+<rect x="14.0" y="160.0" width="112.0" height="52.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="70.0" y="182.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">전달</text>
+<text x="70.0" y="200.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">어떻게 전하나?</text>
+<line x1="126.0" y1="186.0" x2="142.0" y2="186.0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="142.0,186.0 135.6,188.7 135.6,183.3" fill="#2f5d50"/>
+<rect x="142.0" y="160.0" width="244.0" height="52.0" rx="4" fill="#ffffff" stroke="#e07a3f" stroke-width="2"/>
+<text x="154.0" y="182.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">시가 민간 급식업체에 위탁,</text>
+<text x="154.0" y="200.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">학교 급식실에서 제공</text>
+<rect x="14.0" y="222.0" width="112.0" height="52.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="70.0" y="244.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">재정</text>
+<text x="70.0" y="262.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">돈은 어디서?</text>
+<line x1="126.0" y1="248.0" x2="142.0" y2="248.0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="142.0,248.0 135.6,250.7 135.6,245.3" fill="#2f5d50"/>
+<rect x="142.0" y="222.0" width="244.0" height="52.0" rx="4" fill="#ffffff" stroke="#e07a3f" stroke-width="2"/>
+<text x="154.0" y="244.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">시 예산 70%</text>
+<text x="154.0" y="262.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">국고 30%</text>
+</svg>

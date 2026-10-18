@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 290" width="380" height="290">
+<rect width="380" height="290" fill="#f4efe6"/>
+<text x="190.0" y="22.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">지방정부 일반회계 세입 구성 (가상, 억 원)</text>
+<rect x="88.0" y="40.0" width="12.0" height="12.0" rx="1" fill="#2f5d50" stroke="#2f5d50" stroke-width="1"/>
+<text x="105.0" y="51.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="start">자체수입</text>
+<rect x="185.0" y="40.0" width="12.0" height="12.0" rx="1" fill="#e07a3f" stroke="#e07a3f" stroke-width="1"/>
+<text x="202.0" y="51.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="start">이전재원(교부세·보조금)</text>
+<text x="8.0" y="95.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start" font-weight="bold">달빛시</text>
+<text x="8.0" y="112.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">합계 2,000</text>
+<rect x="80.0" y="80.0" width="174.0" height="36.0" rx="1" fill="#2f5d50" stroke="#2f5d50" stroke-width="1"/>
+<text x="167.0" y="103.0" font-family="sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1,200</text>
+<rect x="254.0" y="80.0" width="116.0" height="36.0" rx="1" fill="#e07a3f" stroke="#e07a3f" stroke-width="1"/>
+<text x="312.0" y="103.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle" font-weight="bold">800</text>
+<text x="8.0" y="155.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start" font-weight="bold">한들시</text>
+<text x="8.0" y="172.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">합계 1,500</text>
+<rect x="80.0" y="140.0" width="65.2" height="36.0" rx="1" fill="#2f5d50" stroke="#2f5d50" stroke-width="1"/>
+<text x="112.6" y="163.0" font-family="sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">450</text>
+<rect x="145.2" y="140.0" width="152.2" height="36.0" rx="1" fill="#e07a3f" stroke="#e07a3f" stroke-width="1"/>
+<text x="221.4" y="163.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle" font-weight="bold">1,050</text>
+<text x="8.0" y="215.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start" font-weight="bold">바다군</text>
+<text x="8.0" y="232.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">합계 800</text>
+<rect x="80.0" y="200.0" width="29.0" height="36.0" rx="1" fill="#2f5d50" stroke="#2f5d50" stroke-width="1"/>
+<text x="94.5" y="223.0" font-family="sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">200</text>
+<rect x="109.0" y="200.0" width="87.0" height="36.0" rx="1" fill="#e07a3f" stroke="#e07a3f" stroke-width="1"/>
+<text x="152.5" y="223.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle" font-weight="bold">600</text>
+</svg>

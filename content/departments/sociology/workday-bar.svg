@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 175" width="400" height="175">
+<rect width="400" height="175" fill="#f4efe6"/>
+<text x="200.0" y="24.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">하루 노동일 8시간 (가상)</text>
+<rect x="30.0" y="50.0" width="127.5" height="50.0" rx="0" fill="#2f5d50" fill-opacity="0.35" stroke="#1d1c1a" stroke-width="1.5"/>
+<rect x="157.5" y="50.0" width="212.5" height="50.0" rx="0" fill="#e07a3f" fill-opacity="0.45" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="93.8" y="80.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">필요노동</text>
+<text x="263.8" y="80.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">잉여노동</text>
+<line x1="30.0" y1="100.0" x2="30.0" y2="108.0" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="30.0" y="124.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">0</text>
+<line x1="72.5" y1="100.0" x2="72.5" y2="108.0" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="72.5" y="124.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">1</text>
+<line x1="115.0" y1="100.0" x2="115.0" y2="108.0" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="115.0" y="124.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">2</text>
+<line x1="157.5" y1="100.0" x2="157.5" y2="108.0" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="157.5" y="124.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">3</text>
+<line x1="200.0" y1="100.0" x2="200.0" y2="108.0" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="200.0" y="124.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">4</text>
+<line x1="242.5" y1="100.0" x2="242.5" y2="108.0" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="242.5" y="124.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">5</text>
+<line x1="285.0" y1="100.0" x2="285.0" y2="108.0" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="285.0" y="124.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">6</text>
+<line x1="327.5" y1="100.0" x2="327.5" y2="108.0" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="327.5" y="124.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">7</text>
+<line x1="370.0" y1="100.0" x2="370.0" y2="108.0" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="370.0" y="124.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">8</text>
+<text x="200.0" y="150.0" font-family="sans-serif" font-size="12" fill="#7a766d" text-anchor="middle">노동 시작 후 경과 시간(시간)</text>
+</svg>

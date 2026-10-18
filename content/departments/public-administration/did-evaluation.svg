@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 300" width="380" height="300">
+<rect width="380" height="300" fill="#f4efe6"/>
+<text x="190.0" y="22.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">도시별 재활용률 변화 (가상, %)</text>
+<line x1="70.0" y1="240.0" x2="270.0" y2="240.0" stroke="#7a766d" stroke-width="1.5"/>
+<line x1="70.0" y1="50.0" x2="70.0" y2="240.0" stroke="#7a766d" stroke-width="1.5"/>
+<line x1="70.0" y1="240.0" x2="270.0" y2="240.0" stroke="#ddd5c6" stroke-width="1"/>
+<text x="62.0" y="244.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">20</text>
+<line x1="70.0" y1="192.5" x2="270.0" y2="192.5" stroke="#ddd5c6" stroke-width="1"/>
+<text x="62.0" y="196.5" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">30</text>
+<line x1="70.0" y1="145.0" x2="270.0" y2="145.0" stroke="#ddd5c6" stroke-width="1"/>
+<text x="62.0" y="149.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">40</text>
+<line x1="70.0" y1="97.5" x2="270.0" y2="97.5" stroke="#ddd5c6" stroke-width="1"/>
+<text x="62.0" y="101.5" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">50</text>
+<line x1="70.0" y1="50.0" x2="270.0" y2="50.0" stroke="#ddd5c6" stroke-width="1"/>
+<text x="62.0" y="54.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">60</text>
+<text x="70.0" y="258.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">사업 전</text>
+<text x="270.0" y="258.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">사업 후</text>
+<line x1="70.0" y1="192.5" x2="270.0" y2="145.0" stroke="#7a766d" stroke-width="1.5" stroke-dasharray="6 4"/>
+<polyline points="70.0,202.0 270.0,154.5" fill="none" stroke="#2f5d50" stroke-width="3"/>
+<polyline points="70.0,192.5 270.0,97.5" fill="none" stroke="#e07a3f" stroke-width="3"/>
+<circle cx="70.0" cy="202.0" r="5" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<circle cx="270.0" cy="154.5" r="5" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<circle cx="70.0" cy="192.5" r="5" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<circle cx="270.0" cy="97.5" r="5" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<text x="278.0" y="101.5" font-family="sans-serif" font-size="12" fill="#e07a3f" text-anchor="start" font-weight="bold">나루시 50</text>
+<text x="278.0" y="158.5" font-family="sans-serif" font-size="12" fill="#2f5d50" text-anchor="start" font-weight="bold">해든시 38</text>
+<text x="278.0" y="127.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">점선: 평행 추세</text>
+<text x="80.0" y="218.0" font-family="sans-serif" font-size="11" fill="#e07a3f" text-anchor="start">주황: 나루시(시행) 30 → 50</text>
+<text x="80.0" y="233.0" font-family="sans-serif" font-size="11" fill="#2f5d50" text-anchor="start">초록: 해든시(비교) 28 → 38</text>
+</svg>

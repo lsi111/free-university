@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+<rect width="400" height="250" fill="#f4efe6"/>
+<rect x="100.0" y="20.0" width="200.0" height="52.0" rx="4" fill="#e4ede9" stroke="#2f5d50" stroke-width="2"/>
+<text x="200.0" y="44.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">구조</text>
+<text x="200.0" y="60.0" font-family="sans-serif" font-size="13" fill="#7a766d" text-anchor="middle">규칙과 자원</text>
+<rect x="100.0" y="178.0" width="200.0" height="52.0" rx="4" fill="#fbe6d6" stroke="#e07a3f" stroke-width="2"/>
+<text x="200.0" y="202.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">행위</text>
+<text x="200.0" y="218.0" font-family="sans-serif" font-size="13" fill="#7a766d" text-anchor="middle">행위자의 일상적 실천</text>
+<line x1="160.0" y1="74.0" x2="160.0" y2="176.0" stroke="#2f5d50" stroke-width="2.5"/>
+<polygon points="160.0,176.0 156.9,168.6 163.1,168.6" fill="#2f5d50"/>
+<text x="150.0" y="118.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="end">제약하고</text>
+<text x="150.0" y="134.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="end">가능하게 함</text>
+<line x1="240.0" y1="176.0" x2="240.0" y2="74.0" stroke="#e07a3f" stroke-width="2.5"/>
+<polygon points="240.0,74.0 243.1,81.4 236.9,81.4" fill="#e07a3f"/>
+<text x="250.0" y="118.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">반복하며</text>
+<text x="250.0" y="134.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">재생산하거나 바꿈</text>
+</svg>

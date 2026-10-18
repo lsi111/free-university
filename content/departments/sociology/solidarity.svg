@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 215" width="400" height="215">
+<rect width="400" height="215" fill="#f4efe6"/>
+<rect x="8.0" y="8.0" width="187.0" height="199.0" rx="4" fill="#ffffff" stroke="#7a766d" stroke-width="1.2"/>
+<rect x="205.0" y="8.0" width="187.0" height="199.0" rx="4" fill="#ffffff" stroke="#7a766d" stroke-width="1.2"/>
+<text x="101.0" y="30.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">마을 가</text>
+<text x="298.0" y="30.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">마을 나</text>
+<circle cx="51.0" cy="80.0" r="20" fill="#e4ede9" stroke="#2f5d50" stroke-width="2"/>
+<text x="51.0" y="84.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">농부</text>
+<circle cx="101.0" cy="80.0" r="20" fill="#e4ede9" stroke="#2f5d50" stroke-width="2"/>
+<text x="101.0" y="84.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">농부</text>
+<circle cx="151.0" cy="80.0" r="20" fill="#e4ede9" stroke="#2f5d50" stroke-width="2"/>
+<text x="151.0" y="84.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">농부</text>
+<circle cx="51.0" cy="150.0" r="20" fill="#e4ede9" stroke="#2f5d50" stroke-width="2"/>
+<text x="51.0" y="154.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">농부</text>
+<circle cx="101.0" cy="150.0" r="20" fill="#e4ede9" stroke="#2f5d50" stroke-width="2"/>
+<text x="101.0" y="154.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">농부</text>
+<circle cx="151.0" cy="150.0" r="20" fill="#e4ede9" stroke="#2f5d50" stroke-width="2"/>
+<text x="151.0" y="154.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">농부</text>
+<line x1="248.0" y1="80.0" x2="298.0" y2="80.0" stroke="#e07a3f" stroke-width="1.8"/>
+<line x1="298.0" y1="80.0" x2="348.0" y2="80.0" stroke="#e07a3f" stroke-width="1.8"/>
+<line x1="248.0" y1="150.0" x2="298.0" y2="150.0" stroke="#e07a3f" stroke-width="1.8"/>
+<line x1="298.0" y1="150.0" x2="348.0" y2="150.0" stroke="#e07a3f" stroke-width="1.8"/>
+<line x1="248.0" y1="80.0" x2="248.0" y2="150.0" stroke="#e07a3f" stroke-width="1.8"/>
+<line x1="298.0" y1="80.0" x2="298.0" y2="150.0" stroke="#e07a3f" stroke-width="1.8"/>
+<line x1="348.0" y1="80.0" x2="348.0" y2="150.0" stroke="#e07a3f" stroke-width="1.8"/>
+<line x1="248.0" y1="80.0" x2="298.0" y2="150.0" stroke="#e07a3f" stroke-width="1.8"/>
+<line x1="348.0" y1="80.0" x2="298.0" y2="150.0" stroke="#e07a3f" stroke-width="1.8"/>
+<circle cx="248.0" cy="80.0" r="20" fill="#fbe6d6" stroke="#e07a3f" stroke-width="2"/>
+<text x="248.0" y="84.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">농부</text>
+<circle cx="298.0" cy="80.0" r="20" fill="#fbe6d6" stroke="#e07a3f" stroke-width="2"/>
+<text x="298.0" y="84.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">제빵</text>
+<circle cx="348.0" cy="80.0" r="20" fill="#fbe6d6" stroke="#e07a3f" stroke-width="2"/>
+<text x="348.0" y="84.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">의사</text>
+<circle cx="248.0" cy="150.0" r="20" fill="#fbe6d6" stroke="#e07a3f" stroke-width="2"/>
+<text x="248.0" y="154.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">대장</text>
+<circle cx="298.0" cy="150.0" r="20" fill="#fbe6d6" stroke="#e07a3f" stroke-width="2"/>
+<text x="298.0" y="154.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">교사</text>
+<circle cx="348.0" cy="150.0" r="20" fill="#fbe6d6" stroke="#e07a3f" stroke-width="2"/>
+<text x="348.0" y="154.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">상인</text>
+</svg>

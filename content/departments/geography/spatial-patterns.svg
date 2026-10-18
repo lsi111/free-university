@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 220" width="450" height="220">
+<rect width="450" height="220" fill="#f4efe6"/>
+<text x="225.0" y="22.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">세 가지 공간 분포 (검은 칸 = 1)</text>
+<text x="82.0" y="46.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">패턴 가</text>
+<rect x="22.0" y="56.0" width="30.0" height="30.0" rx="0" fill="#2f5d50" stroke="#7a766d" stroke-width="1"/>
+<rect x="52.0" y="56.0" width="30.0" height="30.0" rx="0" fill="#2f5d50" stroke="#7a766d" stroke-width="1"/>
+<rect x="82.0" y="56.0" width="30.0" height="30.0" rx="0" fill="#2f5d50" stroke="#7a766d" stroke-width="1"/>
+<rect x="112.0" y="56.0" width="30.0" height="30.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<rect x="22.0" y="86.0" width="30.0" height="30.0" rx="0" fill="#2f5d50" stroke="#7a766d" stroke-width="1"/>
+<rect x="52.0" y="86.0" width="30.0" height="30.0" rx="0" fill="#2f5d50" stroke="#7a766d" stroke-width="1"/>
+<rect x="82.0" y="86.0" width="30.0" height="30.0" rx="0" fill="#2f5d50" stroke="#7a766d" stroke-width="1"/>
+<rect x="112.0" y="86.0" width="30.0" height="30.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<rect x="22.0" y="116.0" width="30.0" height="30.0" rx="0" fill="#2f5d50" stroke="#7a766d" stroke-width="1"/>
+<rect x="52.0" y="116.0" width="30.0" height="30.0" rx="0" fill="#2f5d50" stroke="#7a766d" stroke-width="1"/>
+<rect x="82.0" y="116.0" width="30.0" height="30.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<rect x="112.0" y="116.0" width="30.0" height="30.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<rect x="22.0" y="146.0" width="30.0" height="30.0" rx="0" fill="#2f5d50" stroke="#7a766d" stroke-width="1"/>
+<rect x="52.0" y="146.0" width="30.0" height="30.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<rect x="82.0" y="146.0" width="30.0" height="30.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<rect x="112.0" y="146.0" width="30.0" height="30.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="230.0" y="46.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">패턴 나</text>
+<rect x="170.0" y="56.0" width="30.0" height="30.0" rx="0" fill="#2f5d50" stroke="#7a766d" stroke-width="1"/>
+<rect x="200.0" y="56.0" width="30.0" height="30.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<rect x="230.0" y="56.0" width="30.0" height="30.0" rx="0" fill="#2f5d50" stroke="#7a766d" stroke-width="1"/>
+<rect x="260.0" y="56.0" width="30.0" height="30.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<rect x="170.0" y="86.0" width="30.0" height="30.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<rect x="200.0" y="86.0" width="30.0" height="30.0" rx="0" fill="#2f5d50" stroke="#7a766d" stroke-width="1"/>
+<rect x="230.0" y="86.0" width="30.0" height="30.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<rect x="260.0" y="86.0" width="30.0" height="30.0" rx="0" fill="#2f5d50" stroke="#7a766d" stroke-width="1"/>
+<rect x="170.0" y="116.0" width="30.0" height="30.0" rx="0" fill="#2f5d50" stroke="#7a766d" stroke-width="1"/>
+<rect x="200.0" y="116.0" width="30.0" height="30.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<rect x="230.0" y="116.0" width="30.0" height="30.0" rx="0" fill="#2f5d50" stroke="#7a766d" stroke-width="1"/>
+<rect x="260.0" y="116.0" width="30.0" height="30.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<rect x="170.0" y="146.0" width="30.0" height="30.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<rect x="200.0" y="146.0" width="30.0" height="30.0" rx="0" fill="#2f5d50" stroke="#7a766d" stroke-width="1"/>
+<rect x="230.0" y="146.0" width="30.0" height="30.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<rect x="260.0" y="146.0" width="30.0" height="30.0" rx="0" fill="#2f5d50" stroke="#7a766d" stroke-width="1"/>
+<text x="378.0" y="46.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">패턴 다</text>
+<rect x="318.0" y="56.0" width="30.0" height="30.0" rx="0" fill="#2f5d50" stroke="#7a766d" stroke-width="1"/>
+<rect x="348.0" y="56.0" width="30.0" height="30.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<rect x="378.0" y="56.0" width="30.0" height="30.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<rect x="408.0" y="56.0" width="30.0" height="30.0" rx="0" fill="#2f5d50" stroke="#7a766d" stroke-width="1"/>
+<rect x="318.0" y="86.0" width="30.0" height="30.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<rect x="348.0" y="86.0" width="30.0" height="30.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<rect x="378.0" y="86.0" width="30.0" height="30.0" rx="0" fill="#2f5d50" stroke="#7a766d" stroke-width="1"/>
+<rect x="408.0" y="86.0" width="30.0" height="30.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<rect x="318.0" y="116.0" width="30.0" height="30.0" rx="0" fill="#2f5d50" stroke="#7a766d" stroke-width="1"/>
+<rect x="348.0" y="116.0" width="30.0" height="30.0" rx="0" fill="#2f5d50" stroke="#7a766d" stroke-width="1"/>
+<rect x="378.0" y="116.0" width="30.0" height="30.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<rect x="408.0" y="116.0" width="30.0" height="30.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<rect x="318.0" y="146.0" width="30.0" height="30.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<rect x="348.0" y="146.0" width="30.0" height="30.0" rx="0" fill="#2f5d50" stroke="#7a766d" stroke-width="1"/>
+<rect x="378.0" y="146.0" width="30.0" height="30.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<rect x="408.0" y="146.0" width="30.0" height="30.0" rx="0" fill="#2f5d50" stroke="#7a766d" stroke-width="1"/>
+<text x="225.0" y="205.0" font-family="sans-serif" font-size="12" fill="#7a766d" text-anchor="middle">이웃은 상하좌우로 붙은 칸(대각선은 이웃 아님)</text>
+</svg>

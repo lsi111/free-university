@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 262" width="400" height="262">
+<rect width="400" height="262" fill="#f4efe6"/>
+<text x="70.0" y="22.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">1 분리</text>
+<text x="200.0" y="22.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">2 전이</text>
+<text x="330.0" y="22.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">3 통합</text>
+<rect x="15.0" y="40.0" width="110.0" height="30.0" rx="3" fill="#ffffff" stroke="#7a766d" stroke-width="1.5"/>
+<text x="24.0" y="60.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">원로</text>
+<rect x="15.0" y="74.0" width="110.0" height="30.0" rx="3" fill="#ffffff" stroke="#7a766d" stroke-width="1.5"/>
+<text x="24.0" y="94.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">어른</text>
+<rect x="15.0" y="108.0" width="110.0" height="30.0" rx="3" fill="#ffffff" stroke="#7a766d" stroke-width="1.5"/>
+<text x="24.0" y="128.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">청년</text>
+<rect x="15.0" y="142.0" width="110.0" height="30.0" rx="3" fill="#ffffff" stroke="#7a766d" stroke-width="1.5"/>
+<text x="24.0" y="162.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">아이</text>
+<rect x="145.0" y="40.0" width="110.0" height="30.0" rx="3" fill="none" stroke="#ddd5c6" stroke-width="1.5"/>
+<text x="154.0" y="60.0" font-family="sans-serif" font-size="12" fill="#7a766d" text-anchor="start">원로</text>
+<rect x="145.0" y="74.0" width="110.0" height="30.0" rx="3" fill="none" stroke="#ddd5c6" stroke-width="1.5"/>
+<text x="154.0" y="94.0" font-family="sans-serif" font-size="12" fill="#7a766d" text-anchor="start">어른</text>
+<rect x="145.0" y="108.0" width="110.0" height="30.0" rx="3" fill="none" stroke="#ddd5c6" stroke-width="1.5"/>
+<text x="154.0" y="128.0" font-family="sans-serif" font-size="12" fill="#7a766d" text-anchor="start">청년</text>
+<rect x="145.0" y="142.0" width="110.0" height="30.0" rx="3" fill="none" stroke="#ddd5c6" stroke-width="1.5"/>
+<text x="154.0" y="162.0" font-family="sans-serif" font-size="12" fill="#7a766d" text-anchor="start">아이</text>
+<rect x="275.0" y="40.0" width="110.0" height="30.0" rx="3" fill="#ffffff" stroke="#7a766d" stroke-width="1.5"/>
+<text x="284.0" y="60.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">원로</text>
+<rect x="275.0" y="74.0" width="110.0" height="30.0" rx="3" fill="#ffffff" stroke="#7a766d" stroke-width="1.5"/>
+<text x="284.0" y="94.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">어른</text>
+<rect x="275.0" y="108.0" width="110.0" height="30.0" rx="3" fill="#ffffff" stroke="#7a766d" stroke-width="1.5"/>
+<text x="284.0" y="128.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">청년</text>
+<rect x="275.0" y="142.0" width="110.0" height="30.0" rx="3" fill="#ffffff" stroke="#7a766d" stroke-width="1.5"/>
+<text x="284.0" y="162.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">아이</text>
+<circle cx="65.0" cy="157.0" r="6" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<circle cx="325.0" cy="123.0" r="6" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<circle cx="85.0" cy="157.0" r="6" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<circle cx="345.0" cy="123.0" r="6" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<circle cx="105.0" cy="157.0" r="6" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<circle cx="365.0" cy="123.0" r="6" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<rect x="145.0" y="76.0" width="110.0" height="62.0" rx="6" fill="#ffffff" stroke="#e07a3f" stroke-width="2"/>
+<text x="200.0" y="96.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">같은 처지</text>
+<circle cx="195.0" cy="120.0" r="6" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<circle cx="215.0" cy="120.0" r="6" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<circle cx="235.0" cy="120.0" r="6" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<text x="70.0" y="200.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">일상의 위계 사다리</text>
+<text x="200.0" y="200.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">사다리 밖의 경계 상태</text>
+<text x="330.0" y="200.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">다시 사다리로</text>
+<circle cx="20.0" cy="240.0" r="6" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<text x="32.0" y="244.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="start">주황 원은 의례를 받는 신참자 셋</text>
+</svg>

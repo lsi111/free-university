@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 290" width="400" height="290">
+<rect width="400" height="290" fill="#f4efe6"/>
+<text x="200.0" y="22.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">베버의 입지 삼각형 (가상 지역)</text>
+<polygon points="70.0,240.0 220.0,240.0 70.0,40.0" fill="#2f5d50" fill-opacity="0.06" stroke="#7a766d" stroke-width="2"/>
+<line x1="70.0" y1="240.0" x2="220.0" y2="240.0" stroke="#1d1c1a" stroke-width="2"/>
+<line x1="70.0" y1="240.0" x2="70.0" y2="40.0" stroke="#1d1c1a" stroke-width="2"/>
+<line x1="220.0" y1="240.0" x2="70.0" y2="40.0" stroke="#1d1c1a" stroke-width="2"/>
+<text x="145.0" y="232.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">60 km</text>
+<text x="28.0" y="150.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">80 km</text>
+<text x="190.0" y="128.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">100 km</text>
+<circle cx="70.0" cy="240.0" r="8" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<circle cx="220.0" cy="240.0" r="8" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<circle cx="70.0" cy="40.0" r="8" fill="#7a766d" stroke="none" stroke-width="1.5"/>
+<text x="70.0" y="262.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">시장 M</text>
+<text x="70.0" y="278.0" font-family="sans-serif" font-size="12" fill="#2f5d50" text-anchor="middle">제품 1t</text>
+<text x="210.0" y="212.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="end" font-weight="bold">원료 R1</text>
+<text x="210.0" y="228.0" font-family="sans-serif" font-size="12" fill="#e07a3f" text-anchor="end">투입 2t</text>
+<text x="84.0" y="44.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="start" font-weight="bold">원료 R2</text>
+<text x="84.0" y="60.0" font-family="sans-serif" font-size="12" fill="#7a766d" text-anchor="start">투입 1t</text>
+<text x="390.0" y="276.0" font-family="sans-serif" font-size="12" fill="#7a766d" text-anchor="end">수송비: 1t, 1km당 1만 원</text>
+</svg>

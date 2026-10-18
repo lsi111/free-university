@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 282" width="400" height="282">
+<rect width="400" height="282" fill="#f4efe6"/>
+<text x="200.0" y="20.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">인류학 이론의 흐름(대략의 시기)</text>
+<line x1="20.0" y1="36.0" x2="20.0" y2="262.0" stroke="#7a766d" stroke-width="2"/>
+<polygon points="20.0,262.0 16.9,254.6 23.1,254.6" fill="#7a766d"/>
+<text x="20.0" y="276.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">시간</text>
+<rect x="34.0" y="34.0" width="356.0" height="40.0" rx="4" fill="#ffffff" stroke="#7a766d" stroke-width="2"/>
+<text x="44.0" y="58.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">19세기 후반</text>
+<text x="140.0" y="51.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="start" font-weight="bold">진화론</text>
+<text x="140.0" y="67.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="start">모든 사회를 하나의 사다리에 줄 세움</text>
+<rect x="34.0" y="80.0" width="356.0" height="40.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="44.0" y="104.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">20세기 초~전반</text>
+<text x="140.0" y="97.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="start" font-weight="bold">보아스: 역사특수주의</text>
+<text x="140.0" y="113.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="start">문화마다 고유한 역사를 강조</text>
+<rect x="34.0" y="126.0" width="356.0" height="40.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="44.0" y="150.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">1920년대경</text>
+<text x="140.0" y="143.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="start" font-weight="bold">말리노프스키: 기능주의</text>
+<text x="140.0" y="159.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="start">관습의 쓰임에 주목</text>
+<rect x="34.0" y="172.0" width="356.0" height="40.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="44.0" y="196.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">20세기 중반</text>
+<text x="140.0" y="189.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="start" font-weight="bold">레비스트로스: 구조주의</text>
+<text x="140.0" y="205.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="start">겉 밑의 대립 구조를 찾음</text>
+<rect x="34.0" y="218.0" width="356.0" height="40.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="44.0" y="242.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">1970년대</text>
+<text x="140.0" y="235.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="start" font-weight="bold">기어츠: 해석인류학</text>
+<text x="140.0" y="251.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="start">행동의 의미를 두껍게 기술</text>
+</svg>

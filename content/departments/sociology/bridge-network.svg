@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 235" width="400" height="235">
+<rect width="400" height="235" fill="#f4efe6"/>
+<line x1="50.0" y1="60.0" x2="50.0" y2="160.0" stroke="#7a766d" stroke-width="1.8"/>
+<line x1="50.0" y1="60.0" x2="120.0" y2="60.0" stroke="#7a766d" stroke-width="1.8"/>
+<line x1="50.0" y1="60.0" x2="120.0" y2="160.0" stroke="#7a766d" stroke-width="1.8"/>
+<line x1="50.0" y1="160.0" x2="120.0" y2="60.0" stroke="#7a766d" stroke-width="1.8"/>
+<line x1="50.0" y1="160.0" x2="120.0" y2="160.0" stroke="#7a766d" stroke-width="1.8"/>
+<line x1="120.0" y1="60.0" x2="120.0" y2="160.0" stroke="#7a766d" stroke-width="1.8"/>
+<line x1="280.0" y1="160.0" x2="350.0" y2="160.0" stroke="#7a766d" stroke-width="1.8"/>
+<line x1="280.0" y1="160.0" x2="280.0" y2="60.0" stroke="#7a766d" stroke-width="1.8"/>
+<line x1="280.0" y1="160.0" x2="350.0" y2="60.0" stroke="#7a766d" stroke-width="1.8"/>
+<line x1="350.0" y1="160.0" x2="280.0" y2="60.0" stroke="#7a766d" stroke-width="1.8"/>
+<line x1="350.0" y1="160.0" x2="350.0" y2="60.0" stroke="#7a766d" stroke-width="1.8"/>
+<line x1="280.0" y1="60.0" x2="350.0" y2="60.0" stroke="#7a766d" stroke-width="1.8"/>
+<line x1="120.0" y1="160.0" x2="280.0" y2="160.0" stroke="#e07a3f" stroke-width="3.5"/>
+<circle cx="50.0" cy="60.0" r="15" fill="#ffffff" stroke="#2f5d50" stroke-width="2.2"/>
+<text x="50.0" y="65.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">A</text>
+<circle cx="50.0" cy="160.0" r="15" fill="#ffffff" stroke="#2f5d50" stroke-width="2.2"/>
+<text x="50.0" y="165.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">B</text>
+<circle cx="120.0" cy="60.0" r="15" fill="#ffffff" stroke="#2f5d50" stroke-width="2.2"/>
+<text x="120.0" y="65.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">C</text>
+<circle cx="120.0" cy="160.0" r="15" fill="#ffffff" stroke="#2f5d50" stroke-width="2.2"/>
+<text x="120.0" y="165.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">D</text>
+<circle cx="280.0" cy="160.0" r="15" fill="#ffffff" stroke="#2f5d50" stroke-width="2.2"/>
+<text x="280.0" y="165.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">E</text>
+<circle cx="350.0" cy="160.0" r="15" fill="#ffffff" stroke="#2f5d50" stroke-width="2.2"/>
+<text x="350.0" y="165.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">F</text>
+<circle cx="280.0" cy="60.0" r="15" fill="#ffffff" stroke="#2f5d50" stroke-width="2.2"/>
+<text x="280.0" y="65.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">G</text>
+<circle cx="350.0" cy="60.0" r="15" fill="#ffffff" stroke="#2f5d50" stroke-width="2.2"/>
+<text x="350.0" y="65.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">H</text>
+<text x="85.0" y="205.0" font-family="sans-serif" font-size="12" fill="#7a766d" text-anchor="middle">집단 1</text>
+<text x="315.0" y="205.0" font-family="sans-serif" font-size="12" fill="#7a766d" text-anchor="middle">집단 2</text>
+</svg>

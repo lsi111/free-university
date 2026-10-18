@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 292" width="400" height="292">
+<rect width="400" height="292" fill="#f4efe6"/>
+<text x="20.0" y="20.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="start" font-weight="bold">발굴 구덩이 단면(가상)</text>
+<rect x="20.0" y="34.0" width="320.0" height="60.0" rx="0" fill="#e9dfc8" stroke="#7a766d" stroke-width="1.5"/>
+<text x="28.0" y="50.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start" font-weight="bold">층 1</text>
+<rect x="20.0" y="94.0" width="320.0" height="60.0" rx="0" fill="#dccdac" stroke="#7a766d" stroke-width="1.5"/>
+<text x="28.0" y="110.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start" font-weight="bold">층 2</text>
+<rect x="20.0" y="154.0" width="320.0" height="60.0" rx="0" fill="#cdbb94" stroke="#7a766d" stroke-width="1.5"/>
+<text x="28.0" y="170.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start" font-weight="bold">층 3</text>
+<rect x="20.0" y="214.0" width="320.0" height="20.0" rx="0" fill="#bdb7aa" stroke="#7a766d" stroke-width="1.5"/>
+<text x="28.0" y="229.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="start">기반암</text>
+<rect x="262.0" y="34.0" width="76.0" height="170.0" rx="0" fill="#f4efe6" fill-opacity="0.85" stroke="#e07a3f" stroke-width="2"/>
+<rect x="262" y="34" width="76" height="170" rx="0" fill="none" stroke="#e07a3f" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="300.0" y="52.0" font-family="sans-serif" font-size="11" fill="#e07a3f" text-anchor="middle" font-weight="bold">구덩이</text>
+<circle cx="90.0" cy="70.0" r="5" fill="#1d1c1a" stroke="none" stroke-width="1.5"/>
+<text x="102.0" y="74.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="start">시료 가: 50% 남음</text>
+<circle cx="90.0" cy="130.0" r="5" fill="#1d1c1a" stroke="none" stroke-width="1.5"/>
+<text x="102.0" y="134.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="start">시료 나: 25% 남음</text>
+<circle cx="90.0" cy="190.0" r="5" fill="#1d1c1a" stroke="none" stroke-width="1.5"/>
+<text x="102.0" y="194.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="start">시료 다: 12.5% 남음</text>
+<circle cx="300.0" cy="166.0" r="5" fill="#1d1c1a" stroke="none" stroke-width="1.5"/>
+<text x="300.0" y="183.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">시료 라</text>
+<text x="300.0" y="198.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">50% 남음</text>
+<text x="348.0" y="64.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">위</text>
+<text x="348.0" y="184.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">아래</text>
+<text x="20.0" y="256.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">남음: 살아 있을 때의 탄소-14를 100%로 본 값</text>
+<text x="20.0" y="274.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">점선 사각형은 나중에 판 구덩이를 메운 흙</text>
+</svg>
