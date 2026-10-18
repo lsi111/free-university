@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="15" text-anchor="middle" font-weight="bold">배양이론(주류화·공명)과 침묵의 나선 메커니즘</text>
+    <rect x="25" y="48" width="235" height="240" rx="4" fill="#ffffff" stroke="#2f5d50"/>
+    <text x="142" y="70" font-size="13" text-anchor="middle" font-weight="bold">거브너의 배양이론</text>
+    <text x="142" y="92" font-size="11" text-anchor="middle">장기 중점 시청 → 비열한 세계 증후군</text>
+    <rect x="40" y="110" width="205" height="72" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="142" y="130" font-size="12" text-anchor="middle" font-weight="bold">주류화 (Mainstreaming)</text>
+    <text x="142" y="148" font-size="10" text-anchor="middle">경시청 시 큰 집단 간 인식 차이가</text>
+    <text x="142" y="164" font-size="10" text-anchor="middle">중점 시청 시 TV 세계관으로 수렴</text>
+    <rect x="40" y="195" width="205" height="72" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="142" y="215" font-size="12" text-anchor="middle" font-weight="bold">공명 (Resonance)</text>
+    <text x="142" y="233" font-size="10" text-anchor="middle">TV 재현 폭력과 실제 거주지 위험이</text>
+    <text x="142" y="249" font-size="10" text-anchor="middle">겹칠 때 배양 효과가 두 배로 증폭</text>
+    <rect x="280" y="48" width="235" height="240" rx="4" fill="#ffffff" stroke="#e07a3f"/>
+    <text x="397" y="70" font-size="13" text-anchor="middle" font-weight="bold">노엘레-노이만의 침묵의 나선</text>
+    <rect x="295" y="92" width="205" height="28" rx="4" fill="#f4e9d6" stroke="#7a766d"/>
+    <text x="397" y="110" font-size="11" text-anchor="middle">1. 사회적 고립에 대한 두려움</text>
+    <rect x="295" y="128" width="205" height="28" rx="4" fill="#f4e9d6" stroke="#7a766d"/>
+    <text x="397" y="146" font-size="11" text-anchor="middle">2. 준통계적 감각으로 여론 기후 탐색</text>
+    <rect x="295" y="164" width="205" height="28" rx="4" fill="#f4e9d6" stroke="#7a766d"/>
+    <text x="397" y="182" font-size="11" text-anchor="middle">3. 우세 의견 지각 → 공개 표명 증가</text>
+    <rect x="295" y="200" width="205" height="28" rx="4" fill="#f4e9d6" stroke="#7a766d"/>
+    <text x="397" y="218" font-size="11" text-anchor="middle">4. 열세 의견 지각 → 침묵 선택</text>
+    <rect x="295" y="236" width="205" height="28" rx="4" fill="#fbe6e1" stroke="#7a766d"/>
+    <text x="397" y="254" font-size="11" text-anchor="middle" font-weight="bold">5. 나선형 침묵으로 소수 의견 소멸</text>
+  </g>
+</svg>

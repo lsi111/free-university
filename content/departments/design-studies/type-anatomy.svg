@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 200" width="380" height="200">
+<rect width="380" height="200" fill="#f4efe6"/>
+<line x1="30.0" y1="40.0" x2="232.0" y2="40.0" stroke="#7a766d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="240.0" y="44.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">어센더 선</text>
+<line x1="30.0" y1="85.0" x2="232.0" y2="85.0" stroke="#7a766d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="240.0" y="89.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">엑스하이트 선</text>
+<line x1="30.0" y1="140.0" x2="232.0" y2="140.0" stroke="#e07a3f" stroke-width="1.2"/>
+<text x="240.0" y="144.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">기준선</text>
+<line x1="30.0" y1="175.0" x2="232.0" y2="175.0" stroke="#7a766d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="240.0" y="179.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">디센더 선</text>
+<line x1="60.0" y1="40.0" x2="60.0" y2="140.0" stroke="#1d1c1a" stroke-width="8"/>
+<path d="M60,108 Q60,85 82,85 Q102,85 102,108 L102,140" fill="none" stroke="#1d1c1a" stroke-width="8"/>
+<line x1="122.0" y1="85.0" x2="162.0" y2="140.0" stroke="#1d1c1a" stroke-width="8"/>
+<line x1="162.0" y1="85.0" x2="122.0" y2="140.0" stroke="#1d1c1a" stroke-width="8"/>
+<line x1="185.0" y1="85.0" x2="185.0" y2="175.0" stroke="#1d1c1a" stroke-width="8"/>
+<ellipse cx="205" cy="112.5" rx="18" ry="26" fill="none" stroke="#1d1c1a" stroke-width="8"/>
+<text x="81.0" y="194.0" font-family="sans-serif" font-size="12" fill="#7a766d" text-anchor="middle">h</text>
+<text x="142.0" y="194.0" font-family="sans-serif" font-size="12" fill="#7a766d" text-anchor="middle">x</text>
+<text x="200.0" y="194.0" font-family="sans-serif" font-size="12" fill="#7a766d" text-anchor="middle">p</text>
+</svg>

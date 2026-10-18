@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="15" text-anchor="middle" font-weight="bold">당대 근체시 8구 율시(律诗)의 4련 구조와 격률</text>
+    <rect x="20" y="45" width="330" height="30" rx="4" fill="#d9d2c2" stroke="#7a766d"/>
+    <text x="55" y="65" font-size="11" text-anchor="middle" font-weight="bold">연(联)</text>
+    <text x="135" y="65" font-size="11" text-anchor="middle" font-weight="bold">구 번호</text>
+    <text x="225" y="65" font-size="11" text-anchor="middle" font-weight="bold">대구(对偶) 의무</text>
+    <text x="310" y="65" font-size="11" text-anchor="middle" font-weight="bold">압운(押韵)</text>
+    <rect x="20" y="75" width="330" height="42" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="55" y="101" font-size="12" text-anchor="middle" font-weight="bold">수련 (首联)</text>
+    <text x="135" y="101" font-size="11" text-anchor="middle">제1구 · 제2구</text>
+    <text x="225" y="101" font-size="11" text-anchor="middle">대구 자유</text>
+    <text x="310" y="101" font-size="10" text-anchor="middle">2구 끝 압운 (1구 선택)</text>
+    <rect x="20" y="117" width="330" height="42" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="55" y="143" font-size="12" text-anchor="middle" font-weight="bold">함련 (颔联)</text>
+    <text x="135" y="143" font-size="11" text-anchor="middle">제3구 · 제4구</text>
+    <text x="225" y="143" font-size="11" text-anchor="middle" font-weight="bold" fill="#2f5d50">반드시 대구 (필수)</text>
+    <text x="310" y="143" font-size="10" text-anchor="middle">4구 끝 압운 (짝수구)</text>
+    <rect x="20" y="159" width="330" height="42" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="55" y="185" font-size="12" text-anchor="middle" font-weight="bold">경련 (颈联)</text>
+    <text x="135" y="185" font-size="11" text-anchor="middle">제5구 · 제6구</text>
+    <text x="225" y="185" font-size="11" text-anchor="middle" font-weight="bold" fill="#2f5d50">반드시 대구 (필수)</text>
+    <text x="310" y="185" font-size="10" text-anchor="middle">6구 끝 압운 (짝수구)</text>
+    <rect x="20" y="201" width="330" height="42" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="55" y="227" font-size="12" text-anchor="middle" font-weight="bold">미련 (尾联)</text>
+    <text x="135" y="227" font-size="11" text-anchor="middle">제7구 · 제8구</text>
+    <text x="225" y="227" font-size="11" text-anchor="middle">대구 자유</text>
+    <text x="310" y="227" font-size="10" text-anchor="middle">8구 끝 압운 (짝수구)</text>
+    <rect x="365" y="45" width="155" height="198" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="442" y="68" font-size="12" text-anchor="middle" font-weight="bold">근체시 핵심 수치</text>
+    <text x="442" y="90" font-size="10" text-anchor="middle">5언 절구: 4구 × 5자 = 20자</text>
+    <text x="442" y="106" font-size="10" text-anchor="middle">7언 절구: 4구 × 7자 = 28자</text>
+    <text x="442" y="122" font-size="10" text-anchor="middle">5언 율시: 8구 × 5자 = 40자</text>
+    <text x="442" y="138" font-size="10" text-anchor="middle">7언 율시: 8구 × 7자 = 56자</text>
+    <text x="442" y="154" font-size="10" text-anchor="middle">----------------</text>
+    <text x="442" y="170" font-size="10" text-anchor="middle">평성(平): 중고음 평성</text>
+    <text x="442" y="186" font-size="10" text-anchor="middle">측성(仄): 상·거·입성</text>
+    <text x="442" y="202" font-size="10" text-anchor="middle">기본 원칙: 일련 내 평측 대립,</text>
+    <text x="442" y="218" font-size="10" text-anchor="middle">인접 연 간 평측 점(粘)</text>
+    <text x="270" y="272" font-size="12" text-anchor="middle" font-weight="bold">기승전결(절구 4구) vs. 수련·함련·경련·미련(율시 8구, 총 4련)</text>
+    <text x="270" y="294" font-size="11" text-anchor="middle">압운은 원칙적으로 평성 운(平水韵)을 쓰며 짝수 구(2·4·6·8구) 끝에 일운도저로 압운함</text>
+  </g>
+</svg>

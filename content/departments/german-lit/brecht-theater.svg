@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="14" text-anchor="middle" font-weight="bold">전통 극연극(Dramatisches Theater)과 브레히트 서사극(Episches Theater)</text>
+    <rect x="20" y="48" width="235" height="30" rx="4" fill="#d9d2c2" stroke="#7a766d"/>
+    <text x="137" y="68" font-size="12" text-anchor="middle" font-weight="bold">전통 극연극 (아리스토텔레스)</text>
+    <rect x="285" y="48" width="235" height="30" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="402" y="68" font-size="12" text-anchor="middle" font-weight="bold">브레히트 서사극 (V-Effekt)</text>
+    <rect x="20" y="84" width="235" height="30" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="137" y="104" font-size="11" text-anchor="middle">무대가 사건을 현재화함</text>
+    <rect x="285" y="84" width="235" height="30" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="402" y="104" font-size="11" text-anchor="middle" font-weight="bold">무대가 사건을 서술·보고함</text>
+    <rect x="20" y="118" width="235" height="30" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="137" y="138" font-size="11" text-anchor="middle">관객을 사건 속으로 몰입시킴</text>
+    <rect x="285" y="118" width="235" height="30" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="402" y="138" font-size="11" text-anchor="middle" font-weight="bold">관객을 비판적 관찰자로 세움</text>
+    <rect x="20" y="152" width="235" height="30" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="137" y="172" font-size="11" text-anchor="middle">감정이입(Einfühlung)과 카타르시스</text>
+    <rect x="285" y="152" width="235" height="30" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="402" y="172" font-size="11" text-anchor="middle" font-weight="bold">낯설게 하기(Verfremdung)와 인식</text>
+    <rect x="20" y="186" width="235" height="30" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="137" y="206" font-size="11" text-anchor="middle">인간은 고정된 본성을 지님</text>
+    <rect x="285" y="186" width="235" height="30" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="402" y="206" font-size="11" text-anchor="middle" font-weight="bold">인간은 변혁 가능한 사회적 존재</text>
+    <rect x="20" y="220" width="235" height="30" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="137" y="240" font-size="11" text-anchor="middle">긴장감이 결말(파국)에 집중됨</text>
+    <rect x="285" y="220" width="235" height="30" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="402" y="240" font-size="11" text-anchor="middle" font-weight="bold">긴장감이 진행 과정 자체에 놓임</text>
+    <rect x="20" y="260" width="500" height="44" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="270" y="279" font-size="11" text-anchor="middle" font-weight="bold">낯설게 하기 기법(V-Effekt): 해설자 등장 · 노래(Song) 삽입 · 자막 플래카드 · 조명 노출</text>
+    <text x="270" y="296" font-size="11" text-anchor="middle">목적: 관객이 당연하게 여긴 사회 질서를 낯설게 보고 변혁 가능성을 깨닫게 함</text>
+  </g>
+</svg>

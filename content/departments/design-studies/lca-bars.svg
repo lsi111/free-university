@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" width="360" height="220">
+<rect width="360" height="220" fill="#f4efe6"/>
+<text x="180.0" y="20.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">가상의 전기 주전자 한 대의 수명주기 배출량</text>
+<text x="82.0" y="53.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="end">원료 채취</text>
+<rect x="90.0" y="40.0" width="72.0" height="18.0" rx="0" fill="#2f5d50" stroke="none" stroke-width="0"/>
+<text x="168.0" y="53.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">4</text>
+<text x="82.0" y="83.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="end">제조</text>
+<rect x="90.0" y="70.0" width="36.0" height="18.0" rx="0" fill="#2f5d50" stroke="none" stroke-width="0"/>
+<text x="132.0" y="83.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">2</text>
+<text x="82.0" y="113.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="end">운송</text>
+<rect x="90.0" y="100.0" width="18.0" height="18.0" rx="0" fill="#2f5d50" stroke="none" stroke-width="0"/>
+<text x="114.0" y="113.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">1</text>
+<text x="82.0" y="143.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="end">사용</text>
+<rect x="90.0" y="130.0" width="216.0" height="18.0" rx="0" fill="#e07a3f" stroke="none" stroke-width="0"/>
+<text x="312.0" y="143.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">12</text>
+<text x="82.0" y="173.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="end">폐기</text>
+<rect x="90.0" y="160.0" width="18.0" height="18.0" rx="0" fill="#2f5d50" stroke="none" stroke-width="0"/>
+<text x="114.0" y="173.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">1</text>
+<line x1="90.0" y1="36.0" x2="90.0" y2="190.0" stroke="#7a766d" stroke-width="1.5"/>
+<text x="90.0" y="208.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">단위: kg CO2e (가상 값)</text>
+</svg>

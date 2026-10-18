@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+<rect width="400" height="240" fill="#f4efe6"/>
+<text x="200.0" y="22.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">기본음 C2(65.4 Hz) 기준 자연배음열(Harmonic Series) 1~8배음</text>
+<line x1="30.0" y1="70.0" x2="370.0" y2="70.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="30.0" y1="85.0" x2="370.0" y2="85.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="30.0" y1="100.0" x2="370.0" y2="100.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="30.0" y1="115.0" x2="370.0" y2="115.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="30.0" y1="130.0" x2="370.0" y2="130.0" stroke="#ddd5c6" stroke-width="1"/>
+<circle cx="50.0" cy="140.0" r="7" fill="#2f5d50" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="50.0" y="128.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle" font-weight="bold">C2</text>
+<text x="50.0" y="155.0" font-family="sans-serif" font-size="10" fill="#2f5d50" text-anchor="middle" font-weight="bold">1배음</text>
+<text x="50.0" y="170.0" font-family="sans-serif" font-size="9" fill="#7a766d" text-anchor="middle">65 Hz</text>
+<text x="50.0" y="185.0" font-family="sans-serif" font-size="9" fill="#1d1c1a" text-anchor="middle">기본음</text>
+<circle cx="90.0" cy="125.0" r="7" fill="#2f5d50" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="90.0" y="113.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle" font-weight="bold">C3</text>
+<text x="90.0" y="155.0" font-family="sans-serif" font-size="10" fill="#2f5d50" text-anchor="middle" font-weight="bold">2배음</text>
+<text x="90.0" y="170.0" font-family="sans-serif" font-size="9" fill="#7a766d" text-anchor="middle">131 Hz</text>
+<text x="90.0" y="185.0" font-family="sans-serif" font-size="9" fill="#1d1c1a" text-anchor="middle">완전8도</text>
+<circle cx="135.0" cy="110.0" r="7" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="135.0" y="98.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle" font-weight="bold">G3</text>
+<text x="135.0" y="155.0" font-family="sans-serif" font-size="10" fill="#e07a3f" text-anchor="middle" font-weight="bold">3배음</text>
+<text x="135.0" y="170.0" font-family="sans-serif" font-size="9" fill="#7a766d" text-anchor="middle">196 Hz</text>
+<text x="135.0" y="185.0" font-family="sans-serif" font-size="9" fill="#1d1c1a" text-anchor="middle">완전5도</text>
+<circle cx="180.0" cy="100.0" r="7" fill="#2f5d50" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="180.0" y="88.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle" font-weight="bold">C4</text>
+<text x="180.0" y="155.0" font-family="sans-serif" font-size="10" fill="#2f5d50" text-anchor="middle" font-weight="bold">4배음</text>
+<text x="180.0" y="170.0" font-family="sans-serif" font-size="9" fill="#7a766d" text-anchor="middle">262 Hz</text>
+<text x="180.0" y="185.0" font-family="sans-serif" font-size="9" fill="#1d1c1a" text-anchor="middle">완전4도</text>
+<circle cx="225.0" cy="88.0" r="7" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="225.0" y="76.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle" font-weight="bold">E4</text>
+<text x="225.0" y="155.0" font-family="sans-serif" font-size="10" fill="#e07a3f" text-anchor="middle" font-weight="bold">5배음</text>
+<text x="225.0" y="170.0" font-family="sans-serif" font-size="9" fill="#7a766d" text-anchor="middle">330 Hz</text>
+<text x="225.0" y="185.0" font-family="sans-serif" font-size="9" fill="#1d1c1a" text-anchor="middle">장3도</text>
+<circle cx="270.0" cy="78.0" r="7" fill="#e07a3f" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="270.0" y="66.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle" font-weight="bold">G4</text>
+<text x="270.0" y="155.0" font-family="sans-serif" font-size="10" fill="#e07a3f" text-anchor="middle" font-weight="bold">6배음</text>
+<text x="270.0" y="170.0" font-family="sans-serif" font-size="9" fill="#7a766d" text-anchor="middle">392 Hz</text>
+<text x="270.0" y="185.0" font-family="sans-serif" font-size="9" fill="#1d1c1a" text-anchor="middle">단3도</text>
+<circle cx="315.0" cy="68.0" r="7" fill="#7a766d" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="315.0" y="56.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle" font-weight="bold">Bb4</text>
+<text x="315.0" y="155.0" font-family="sans-serif" font-size="10" fill="#7a766d" text-anchor="middle" font-weight="bold">7배음</text>
+<text x="315.0" y="170.0" font-family="sans-serif" font-size="9" fill="#7a766d" text-anchor="middle">466 Hz</text>
+<text x="315.0" y="185.0" font-family="sans-serif" font-size="9" fill="#1d1c1a" text-anchor="middle">단7도*</text>
+<circle cx="355.0" cy="58.0" r="7" fill="#2f5d50" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="355.0" y="46.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle" font-weight="bold">C5</text>
+<text x="355.0" y="155.0" font-family="sans-serif" font-size="10" fill="#2f5d50" text-anchor="middle" font-weight="bold">8배음</text>
+<text x="355.0" y="170.0" font-family="sans-serif" font-size="9" fill="#7a766d" text-anchor="middle">523 Hz</text>
+<text x="355.0" y="185.0" font-family="sans-serif" font-size="9" fill="#1d1c1a" text-anchor="middle">완전8도</text>
+<text x="200.0" y="215.0" font-family="sans-serif" font-size="10" fill="#7a766d" text-anchor="middle">진동수 비 n = 1, 2, 3, 4, 5, 6... 정수배로 형성되며 장3화음(C-E-G)의 자연적 기초가 됨</text>
+<text x="200.0" y="230.0" font-family="sans-serif" font-size="9" fill="#7a766d" text-anchor="middle">* 7배음은 평균율 Bb보다 약 31센트 낮음</text>
+</svg>

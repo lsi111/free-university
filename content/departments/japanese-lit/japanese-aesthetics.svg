@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="15" text-anchor="middle" font-weight="bold">일본 고전·근세 문학의 시대별 양식과 핵심 미학 이념</text>
+    <rect x="20" y="48" width="116" height="132" rx="4" fill="#e9e1cf" stroke="#7a766d"/>
+    <text x="78" y="70" font-size="12" text-anchor="middle" font-weight="bold">나라(상대) 시대</text>
+    <text x="78" y="92" font-size="10" text-anchor="middle">《만엽집》(4,500여 수)</text>
+    <text x="78" y="109" font-size="10" text-anchor="middle">만엽가나 표기</text>
+    <text x="78" y="126" font-size="10" text-anchor="middle">장가·단가(5·7·5·7·7)</text>
+    <text x="78" y="143" font-size="10" text-anchor="middle">미학: 마코토(まこと)</text>
+    <text x="78" y="160" font-size="10" text-anchor="middle">마스라오부리(웅건함)</text>
+    <rect x="148" y="48" width="116" height="132" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="206" y="70" font-size="12" text-anchor="middle" font-weight="bold">헤이안(중고) 시대</text>
+    <text x="206" y="92" font-size="10" text-anchor="middle">《고금와카집》(칙찬)</text>
+    <text x="206" y="109" font-size="10" text-anchor="middle">《겐지 이야기》(54첩)</text>
+    <text x="206" y="126" font-size="10" text-anchor="middle">《마쿠라노소시》(수필)</text>
+    <text x="206" y="143" font-size="10" text-anchor="middle">미학: 모노노아와레</text>
+    <text x="206" y="160" font-size="10" text-anchor="middle">오카시(지적 유머·멋)</text>
+    <rect x="276" y="48" width="116" height="132" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="334" y="70" font-size="12" text-anchor="middle" font-weight="bold">가마쿠라·무로마치</text>
+    <text x="334" y="92" font-size="10" text-anchor="middle">군기물 《헤이케 이야기》</text>
+    <text x="334" y="109" font-size="10" text-anchor="middle">은자수필 《호조키》</text>
+    <text x="334" y="126" font-size="10" text-anchor="middle">제아미의 가면극 노(能)</text>
+    <text x="334" y="143" font-size="10" text-anchor="middle">미학: 무상관(無常観)</text>
+    <text x="334" y="160" font-size="10" text-anchor="middle">유겐(幽玄: 그윽한 여운)</text>
+    <rect x="404" y="48" width="116" height="132" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="462" y="70" font-size="12" text-anchor="middle" font-weight="bold">에도(근세) 시대</text>
+    <text x="462" y="92" font-size="10" text-anchor="middle">조닌(상공업자) 문학</text>
+    <text x="462" y="109" font-size="10" text-anchor="middle">사이카쿠 우키요조시</text>
+    <text x="462" y="126" font-size="10" text-anchor="middle">바쇼 하이쿠(5·7·5)</text>
+    <text x="462" y="143" font-size="10" text-anchor="middle">지카마쓰 인형극 조루리</text>
+    <text x="462" y="160" font-size="10" text-anchor="middle">미학: 사비(寂)·이키(粋)</text>
+    <path d="M136 114 L148 114 M264 114 L276 114 M392 114 L404 114" stroke="#7a766d" stroke-width="2" fill="none"/>
+    <rect x="20" y="195" width="500" height="105" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="270" y="217" font-size="12" text-anchor="middle" font-weight="bold">일본 전통 정형시의 음수율(모라 수) 구조 비교</text>
+    <text x="270" y="240" font-size="12" text-anchor="middle" font-weight="bold" fill="#2f5d50">단가(短歌·와카):  5 · 7 · 5 (상구 17모라) + 7 · 7 (하구 14모라) = 총 31모라</text>
+    <text x="270" y="263" font-size="11" text-anchor="middle">렌가(連歌)·하이카이: 상구(5·7·5 발구 発句)와 하구(7·7 부구)를 여러 사람이 교대로 연쇄 창작</text>
+    <text x="270" y="285" font-size="12" text-anchor="middle" font-weight="bold" fill="#e07a3f">하이쿠(俳句): 발구가 독립한 5 · 7 · 5 = 총 17모라 단시 (계절어 季語 1개 + 절단어 切れ字 필수)</text>
+  </g>
+</svg>

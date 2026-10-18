@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="15" text-anchor="middle" font-weight="bold">처치문(把자문)과 피동문(被자문)의 어순·제약 구조</text>
+    <rect x="20" y="45" width="500" height="46" rx="4" fill="#e9e1cf" stroke="#7a766d"/>
+    <text x="270" y="65" font-size="12" text-anchor="middle" font-weight="bold">기본 SVO:  他(행위주) + 喝了(동사+了) + 那杯茶(한정 목적어)</text>
+    <text x="270" y="83" font-size="11" text-anchor="middle">목적어를 동사 앞으로 끌어내어 처치(把)하거나 피동주(被)로 주제화함</text>
+    <rect x="20" y="105" width="500" height="85" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="35" y="127" font-size="12" text-anchor="start" font-weight="bold" fill="#2f5d50">처치문 (把자문): 행위주가 대상을 처치하여 상태를 바꿈</text>
+    <text x="35" y="150" font-size="12" text-anchor="start" font-weight="bold">[주어(행위주)] + [부정/조동사] + 把 + [목적어(정지)] + [동사 + 보어/了]</text>
+    <text x="35" y="173" font-size="11" text-anchor="start">예: 他 没 把 那杯茶 喝完。 (부정사 没·不는 반드시 把 앞에 위치, 단독 동사 불가)</text>
+    <rect x="20" y="205" width="500" height="95" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="35" y="227" font-size="12" text-anchor="start" font-weight="bold" fill="#e07a3f">피동문 (被자문): 피동주가 동작의 영향을 입음</text>
+    <text x="35" y="250" font-size="12" text-anchor="start" font-weight="bold">[피동주(대상)] + [부정/조동사] + 被 + [(행위주)] + [동사 + 보어/了]</text>
+    <text x="35" y="273" font-size="11" text-anchor="start">예: 那杯茶 没 被 (他) 喝完。 (행위주는 생략 가능, 동사 뒤 기타 성분 필수)</text>
+    <text x="35" y="291" font-size="11" text-anchor="start">주의: 구어에서는 被 대신 叫(jiào)·让(ràng)을 쓰나 이 경우 행위주 생략 불가</text>
+  </g>
+</svg>

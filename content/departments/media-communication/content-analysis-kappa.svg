@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="15" text-anchor="middle" font-weight="bold">양적 내용분석: 2인 코더 교차표와 코헨의 카파(κ)</text>
+    <rect x="25" y="52" width="275" height="32" rx="4" fill="#d9d2c2" stroke="#7a766d"/>
+    <text x="60" y="73" font-size="11" text-anchor="middle" font-weight="bold">구분</text>
+    <text x="128" y="73" font-size="11" text-anchor="middle" font-weight="bold">코더B: 긍정</text>
+    <text x="196" y="73" font-size="11" text-anchor="middle" font-weight="bold">코더B: 부정</text>
+    <text x="264" y="73" font-size="11" text-anchor="middle" font-weight="bold">합계</text>
+    <rect x="25" y="84" width="275" height="38" rx="4" fill="#e3efe9" stroke="#7a766d"/>
+    <text x="60" y="108" font-size="12" text-anchor="middle" font-weight="bold">코더A: 긍정</text>
+    <text x="128" y="108" font-size="12" text-anchor="middle">40</text>
+    <text x="196" y="108" font-size="12" text-anchor="middle">10</text>
+    <text x="264" y="108" font-size="12" text-anchor="middle">50</text>
+    <rect x="25" y="122" width="275" height="38" rx="4" fill="#e3efe9" stroke="#7a766d"/>
+    <text x="60" y="146" font-size="12" text-anchor="middle" font-weight="bold">코더A: 부정</text>
+    <text x="128" y="146" font-size="12" text-anchor="middle">10</text>
+    <text x="196" y="146" font-size="12" text-anchor="middle">40</text>
+    <text x="264" y="146" font-size="12" text-anchor="middle">50</text>
+    <rect x="25" y="160" width="275" height="38" rx="4" fill="#f4e9d6" stroke="#7a766d"/>
+    <text x="60" y="184" font-size="12" text-anchor="middle" font-weight="bold">합계</text>
+    <text x="128" y="184" font-size="12" text-anchor="middle" font-weight="bold">50</text>
+    <text x="196" y="184" font-size="12" text-anchor="middle" font-weight="bold">50</text>
+    <text x="264" y="184" font-size="12" text-anchor="middle" font-weight="bold">100</text>
+    <rect x="320" y="52" width="195" height="165" rx="4" fill="#ffffff" stroke="#2f5d50"/>
+    <text x="417" y="76" font-size="12" text-anchor="middle" font-weight="bold">코헨의 카파(κ) 산출 단계</text>
+    <text x="417" y="102" font-size="11" text-anchor="middle">1. 관찰 일치율 Po = (40+40)/100 = 0.80</text>
+    <text x="417" y="126" font-size="11" text-anchor="middle">2. 우연 일치율 Pe = 0.5×0.5 + 0.5×0.5</text>
+    <text x="417" y="146" font-size="11" text-anchor="middle">   Pe = 0.25 + 0.25 = 0.50</text>
+    <text x="417" y="172" font-size="11" text-anchor="middle" font-weight="bold" fill="#2f5d50">3. κ = (Po - Pe) / (1 - Pe)</text>
+    <text x="417" y="196" font-size="11" text-anchor="middle" font-weight="bold" fill="#e07a3f">   κ = (0.80 - 0.50) / 0.50 = 0.60</text>
+    <text x="270" y="248" font-size="11" text-anchor="middle">단순 일치율(Po = 0.80)은 우연에 의한 일치(Pe = 0.50)를 빼지 않아 과대평가된다.</text>
+    <text x="270" y="270" font-size="11" text-anchor="middle" font-weight="bold">코헨의 카파(κ)는 우연 일치를 제거한 순수 일치 비율이다.</text>
+  </g>
+</svg>

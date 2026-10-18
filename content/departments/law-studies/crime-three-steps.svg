@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="15" text-anchor="middle" font-weight="bold">형법상 범죄성립 3단계 체계와 조각사유</text>
+    <rect x="30" y="46" width="310" height="62" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="44" y="66" font-size="12" text-anchor="start" font-weight="bold">제1단계: 구성요건해당성</text>
+    <text x="44" y="84" font-size="11" text-anchor="start">주체 · 객체 · 행위 · 결과 · 인과관계</text>
+    <text x="44" y="100" font-size="10" text-anchor="start" fill="#7a766d">주관적 구성요건: 고의 또는 과실</text>
+    <path d="M340 77 L368 77" stroke="#b3261e" stroke-width="2"/>
+    <rect x="368" y="60" width="142" height="34" rx="4" fill="#fbe6e1" stroke="#b3261e"/>
+    <text x="439" y="81" font-size="10" text-anchor="middle" font-weight="bold" fill="#b3261e">부정 시 → 구성요건 불해당(무죄)</text>
+    <path d="M185 108 L185 120" stroke="#2f5d50" stroke-width="2"/>
+    <rect x="30" y="120" width="310" height="62" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="44" y="140" font-size="12" text-anchor="start" font-weight="bold">제2단계: 위법성</text>
+    <text x="44" y="158" font-size="11" text-anchor="start">법질서 전체의 관점에서 반사회적·위법한가</text>
+    <text x="44" y="174" font-size="10" text-anchor="start" fill="#7a766d">조각사유: 정당방위·긴급피난·자구행위·승낙·정당행위</text>
+    <path d="M340 151 L368 151" stroke="#b3261e" stroke-width="2"/>
+    <rect x="368" y="134" width="142" height="34" rx="4" fill="#fbe6e1" stroke="#b3261e"/>
+    <text x="439" y="155" font-size="10" text-anchor="middle" font-weight="bold" fill="#b3261e">조각 시 → 위법성 조각(무죄)</text>
+    <path d="M185 182 L185 194" stroke="#2f5d50" stroke-width="2"/>
+    <rect x="30" y="194" width="310" height="62" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="44" y="214" font-size="12" text-anchor="start" font-weight="bold">제3단계: 책임</text>
+    <text x="44" y="232" font-size="11" text-anchor="start">행위자에게 비난가능성(기대가능성)이 있는가</text>
+    <text x="44" y="248" font-size="10" text-anchor="start" fill="#7a766d">조각사유: 형사미성년자(14세 미만)·심신상실·강요된 행위</text>
+    <path d="M340 225 L368 225" stroke="#b3261e" stroke-width="2"/>
+    <rect x="368" y="208" width="142" height="34" rx="4" fill="#fbe6e1" stroke="#b3261e"/>
+    <text x="439" y="229" font-size="10" text-anchor="middle" font-weight="bold" fill="#b3261e">조각 시 → 책임 조각(무죄)</text>
+    <rect x="30" y="268" width="480" height="36" rx="4" fill="#d9d2c2" stroke="#2f5d50"/>
+    <text x="270" y="290" font-size="11" text-anchor="middle" font-weight="bold">3단계를 순차적으로 모두 통과해야 비로소 범죄 성립 (유죄) — 앞 단계가 부정되면 뒷단계 심사 불요</text>
+  </g>
+</svg>

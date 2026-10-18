@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+<rect width="400" height="250" fill="#f4efe6"/>
+<text x="200.0" y="22.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">에르빈 파노프스키의 도상해석학 3단계</text>
+<rect x="30.0" y="48.0" width="340.0" height="48.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="45.0" y="66.0" font-family="sans-serif" font-size="12" fill="#2f5d50" text-anchor="start" font-weight="bold">1단계: 전도상학적 기술</text>
+<text x="45.0" y="84.0" font-family="sans-serif" font-size="10" fill="#1d1c1a" text-anchor="start">내용: 자연적 주제 (형태·선·색채)  |  필요 지식: 일상적 실제 경험 (누구나 식별 가능)</text>
+<line x1="200.0" y1="96.0" x2="200.0" y2="110.0" stroke="#7a766d" stroke-width="1.5"/>
+<polygon points="200.0,110.0 196.9,102.6 203.1,102.6" fill="#7a766d"/>
+<rect x="30.0" y="110.0" width="340.0" height="48.0" rx="4" fill="#ffffff" stroke="#e07a3f" stroke-width="2"/>
+<text x="45.0" y="128.0" font-family="sans-serif" font-size="12" fill="#e07a3f" text-anchor="start" font-weight="bold">2단계: 도상학적 분석</text>
+<text x="45.0" y="146.0" font-family="sans-serif" font-size="10" fill="#1d1c1a" text-anchor="start">내용: 관습적 주제 (신화·성경·알레고리)  |  필요 지식: 문헌 지식과 문화적 약속의 이해</text>
+<line x1="200.0" y1="158.0" x2="200.0" y2="172.0" stroke="#7a766d" stroke-width="1.5"/>
+<polygon points="200.0,172.0 196.9,164.6 203.1,164.6" fill="#7a766d"/>
+<rect x="30.0" y="172.0" width="340.0" height="48.0" rx="4" fill="#ffffff" stroke="#805ad5" stroke-width="2"/>
+<text x="45.0" y="190.0" font-family="sans-serif" font-size="12" fill="#805ad5" text-anchor="start" font-weight="bold">3단계: 도상해석학적 해석</text>
+<text x="45.0" y="208.0" font-family="sans-serif" font-size="10" fill="#1d1c1a" text-anchor="start">내용: 내재적 의미 (시대정신·세계관)  |  필요 지식: 역사적 통찰과 사상·문화 심층 해석</text>
+<text x="200.0" y="240.0" font-family="sans-serif" font-size="10" fill="#7a766d" text-anchor="middle">작품의 겉모습(형태)에서 시대의 내재적 세계관으로 심화</text>
+</svg>

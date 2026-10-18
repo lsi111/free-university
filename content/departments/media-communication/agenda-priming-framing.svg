@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="15" text-anchor="middle" font-weight="bold">인지적 미디어 효과: 의제설정 · 점화 · 프레이밍</text>
+    <rect x="25" y="48" width="150" height="74" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="100" y="70" font-size="13" text-anchor="middle" font-weight="bold">1차 의제설정</text>
+    <text x="100" y="90" font-size="11" text-anchor="middle">대상 현저성 전이</text>
+    <text x="100" y="108" font-size="11" text-anchor="middle" fill="#2f5d50">(무엇을 생각할까)</text>
+    <rect x="195" y="48" width="150" height="74" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="270" y="70" font-size="13" text-anchor="middle" font-weight="bold">점화효과 (Priming)</text>
+    <text x="270" y="90" font-size="11" text-anchor="middle">기억 속 기준 활성화</text>
+    <text x="270" y="108" font-size="11" text-anchor="middle" fill="#e07a3f">(어떤 잣대로 평가할까)</text>
+    <rect x="365" y="48" width="150" height="74" rx="4" fill="#e9e1cf" stroke="#7a766d"/>
+    <text x="440" y="70" font-size="13" text-anchor="middle" font-weight="bold">프레이밍 (Framing)</text>
+    <text x="440" y="90" font-size="11" text-anchor="middle">해석 틀 · 귀인 규정</text>
+    <text x="440" y="108" font-size="11" text-anchor="middle">(어떻게 해석할까)</text>
+    <path d="M175 85 L195 85 M345 85 L365 85" stroke="#7a766d" stroke-width="2" fill="none"/>
+    <rect x="25" y="145" width="235" height="145" rx="4" fill="#ffffff" stroke="#2f5d50"/>
+    <text x="142" y="168" font-size="13" text-anchor="middle" font-weight="bold">일화적 프레임 (Episodic)</text>
+    <text x="142" y="192" font-size="11" text-anchor="middle">개별 사건 · 특정 인물 사연 중심</text>
+    <text x="142" y="214" font-size="11" text-anchor="middle" font-weight="bold" fill="#b3261e">→ 원인과 책임을 개인에게 귀인</text>
+    <text x="142" y="236" font-size="11" text-anchor="middle">예: 실직자 김 씨의 구직 실패기</text>
+    <text x="142" y="258" font-size="11" text-anchor="middle" fill="#7a766d">제도 개혁 지지 낮음</text>
+    <rect x="280" y="145" width="235" height="145" rx="4" fill="#ffffff" stroke="#e07a3f"/>
+    <text x="397" y="168" font-size="13" text-anchor="middle" font-weight="bold">주제적 프레임 (Thematic)</text>
+    <text x="397" y="192" font-size="11" text-anchor="middle">통계 추이 · 사회 구조적 맥락 중심</text>
+    <text x="397" y="214" font-size="11" text-anchor="middle" font-weight="bold" fill="#2f5d50">→ 원인과 책임을 사회·제도에 귀인</text>
+    <text x="397" y="236" font-size="11" text-anchor="middle">예: 산업 구조조정과 실업률 통계</text>
+    <text x="397" y="258" font-size="11" text-anchor="middle" fill="#7a766d">공공 정책 개입 지지 높음</text>
+  </g>
+</svg>

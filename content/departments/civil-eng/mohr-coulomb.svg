@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 270" width="360" height="270">
+<rect width="360" height="270" fill="#f4efe6"/>
+<line x1="60.0" y1="40.0" x2="60.0" y2="220.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="127.5" y1="40.0" x2="127.5" y2="220.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="195.0" y1="40.0" x2="195.0" y2="220.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="262.5" y1="40.0" x2="262.5" y2="220.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="330.0" y1="40.0" x2="330.0" y2="220.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="60.0" y1="220.0" x2="330.0" y2="220.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="60.0" y1="168.6" x2="330.0" y2="168.6" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="60.0" y1="117.1" x2="330.0" y2="117.1" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="60.0" y1="65.7" x2="330.0" y2="65.7" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="60.0" y1="220.0" x2="330.0" y2="220.0" stroke="#7a766d" stroke-width="1.5"/>
+<line x1="60.0" y1="40.0" x2="60.0" y2="220.0" stroke="#7a766d" stroke-width="1.5"/>
+<text x="60.0" y="235.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">0</text>
+<text x="127.5" y="235.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">50</text>
+<text x="195.0" y="235.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">100</text>
+<text x="262.5" y="235.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">150</text>
+<text x="330.0" y="235.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">200</text>
+<text x="54.0" y="224.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">0</text>
+<text x="54.0" y="172.6" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">40</text>
+<text x="54.0" y="121.1" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">80</text>
+<text x="54.0" y="69.7" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">120</text>
+<text x="330.0" y="250.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">유효수직응력 σ' (kPa)</text>
+<text x="64.0" y="34.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">전단응력 τ (kPa)</text>
+<polyline points="60.0,194.3 62.2,193.0 64.5,191.8 66.8,190.6 69.0,189.3 71.2,188.1 73.5,186.9 75.8,185.6 78.0,184.4 80.2,183.2 82.5,181.9 84.8,180.7 87.0,179.4 89.2,178.2 91.5,177.0 93.8,175.7 96.0,174.5 98.2,173.3 100.5,172.0 102.8,170.8 105.0,169.5 107.2,168.3 109.5,167.1 111.8,165.8 114.0,164.6 116.2,163.4 118.5,162.1 120.8,160.9 123.0,159.6 125.2,158.4 127.5,157.2 129.8,155.9 132.0,154.7 134.2,153.5 136.5,152.2 138.8,151.0 141.0,149.7 143.2,148.5 145.5,147.3 147.8,146.0 150.0,144.8 152.2,143.6 154.5,142.3 156.8,141.1 159.0,139.8 161.2,138.6 163.5,137.4 165.8,136.1 168.0,134.9 170.2,133.7 172.5,132.4 174.8,131.2 177.0,130.0 179.2,128.7 181.5,127.5 183.8,126.2 186.0,125.0 188.2,123.8 190.5,122.5 192.8,121.3 195.0,120.1 197.2,118.8 199.5,117.6 201.8,116.3 204.0,115.1 206.2,113.9 208.5,112.6 210.8,111.4 213.0,110.2 215.2,108.9 217.5,107.7 219.8,106.4 222.0,105.2 224.3,104.0 226.5,102.7 228.8,101.5 231.0,100.3 233.2,99.0 235.5,97.8 237.8,96.5 240.0,95.3 242.2,94.1 244.5,92.8 246.8,91.6 249.0,90.4 251.2,89.1 253.5,87.9 255.8,86.7 258.0,85.4 260.2,84.2 262.5,82.9 264.8,81.7 267.0,80.5 269.2,79.2 271.5,78.0 273.8,76.8 276.0,75.5 278.2,74.3 280.5,73.0 282.8,71.8 285.0,70.6 287.2,69.3 289.5,68.1 291.8,66.9 294.0,65.6 296.2,64.4 298.5,63.1 300.8,61.9 303.0,60.7 305.2,59.4 307.5,58.2 309.8,57.0 312.0,55.7 314.2,54.5 316.5,53.2 318.8,52.0 321.0,50.8 323.2,49.5 325.5,48.3 327.8,47.1 330.0,45.8" fill="none" stroke="#2f5d50" stroke-width="2.5"/>
+<circle cx="60.0" cy="194.3" r="4" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<text x="68.0" y="210.3" font-family="sans-serif" font-size="12" fill="#e07a3f" text-anchor="start" font-weight="bold">c' = 20 kPa</text>
+<text x="216.0" y="93.2" font-family="sans-serif" font-size="12" fill="#2f5d50" text-anchor="end" font-weight="bold">파괴포락선 (φ' = 30°)</text>
+<text x="200.0" y="258.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">선 위쪽: 파괴 / 아래쪽: 안정</text>
+</svg>

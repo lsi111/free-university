@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="15" text-anchor="middle" font-weight="bold">기본권 제한의 한계: 과잉금지원칙 4단계 심사</text>
+    <rect x="30" y="44" width="340" height="44" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="44" y="62" font-size="12" text-anchor="start" font-weight="bold">1단계: 목적의 정당성</text>
+    <text x="44" y="79" font-size="11" text-anchor="start">입법 목적이 국가안전보장·질서유지·공공복리에 부합하는가?</text>
+    <path d="M370 66 L405 66" stroke="#b3261e" stroke-width="2"/>
+    <rect x="405" y="51" width="105" height="30" rx="4" fill="#fbe6e1" stroke="#b3261e"/>
+    <text x="457" y="70" font-size="11" text-anchor="middle" font-weight="bold" fill="#b3261e">탈락 시 위헌</text>
+    <path d="M200 88 L200 98" stroke="#2f5d50" stroke-width="2"/>
+    <rect x="30" y="98" width="340" height="44" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="44" y="116" font-size="12" text-anchor="start" font-weight="bold">2단계: 수단의 적합성</text>
+    <text x="44" y="133" font-size="11" text-anchor="start">선택한 수단이 입법 목적 달성에 기여(적합)하는가?</text>
+    <path d="M370 120 L405 120" stroke="#b3261e" stroke-width="2"/>
+    <rect x="405" y="105" width="105" height="30" rx="4" fill="#fbe6e1" stroke="#b3261e"/>
+    <text x="457" y="124" font-size="11" text-anchor="middle" font-weight="bold" fill="#b3261e">탈락 시 위헌</text>
+    <path d="M200 142 L200 152" stroke="#2f5d50" stroke-width="2"/>
+    <rect x="30" y="152" width="340" height="44" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="44" y="170" font-size="12" text-anchor="start" font-weight="bold">3단계: 침해의 최소성</text>
+    <text x="44" y="187" font-size="11" text-anchor="start">같은 목적을 달성하면서 덜 침해하는 대안은 없는가?</text>
+    <path d="M370 174 L405 174" stroke="#b3261e" stroke-width="2"/>
+    <rect x="405" y="159" width="105" height="30" rx="4" fill="#fbe6e1" stroke="#b3261e"/>
+    <text x="457" y="178" font-size="11" text-anchor="middle" font-weight="bold" fill="#b3261e">탈락 시 위헌</text>
+    <path d="M200 196 L200 206" stroke="#2f5d50" stroke-width="2"/>
+    <rect x="30" y="206" width="340" height="44" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="44" y="224" font-size="12" text-anchor="start" font-weight="bold">4단계: 법익의 균형성</text>
+    <text x="44" y="241" font-size="11" text-anchor="start">달성하려는 공익이 침해되는 사익보다 크거나 같은가?</text>
+    <path d="M370 228 L405 228" stroke="#b3261e" stroke-width="2"/>
+    <rect x="405" y="213" width="105" height="30" rx="4" fill="#fbe6e1" stroke="#b3261e"/>
+    <text x="457" y="232" font-size="11" text-anchor="middle" font-weight="bold" fill="#b3261e">탈락 시 위헌</text>
+    <rect x="30" y="265" width="480" height="38" rx="4" fill="#d9d2c2" stroke="#7a766d"/>
+    <text x="270" y="282" font-size="11" text-anchor="middle" font-weight="bold">4단계를 모두 통과해야 합헌 (본질적 내용 침해 절대 금지 · 재판관 9인 중 6인 이상 찬성 시 위헌 결정)</text>
+    <text x="270" y="297" font-size="11" text-anchor="middle">하나라도 충족하지 못하면 과잉금지원칙 위반으로 위헌</text>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 230" width="380" height="230">
+<rect width="380" height="230" fill="#f4efe6"/>
+<line x1="30.0" y1="80.0" x2="30.0" y2="170.0" stroke="#1d1c1a" stroke-width="4"/>
+<line x1="114.0" y1="80.0" x2="114.0" y2="170.0" stroke="#1d1c1a" stroke-width="4"/>
+<line x1="26.0" y1="80.0" x2="118.0" y2="80.0" stroke="#1d1c1a" stroke-width="5"/>
+<polyline points="30.0,94.0 30.0,80.0 44.0,80.0" fill="none" stroke="#2f5d50" stroke-width="6"/>
+<polyline points="100.0,80.0 114.0,80.0 114.0,94.0" fill="none" stroke="#2f5d50" stroke-width="6"/>
+<line x1="18.0" y1="170.0" x2="126.0" y2="170.0" stroke="#7a766d" stroke-width="2"/>
+<line x1="20.0" y1="170.0" x2="14.0" y2="177.0" stroke="#7a766d" stroke-width="1"/>
+<line x1="46.0" y1="170.0" x2="40.0" y2="177.0" stroke="#7a766d" stroke-width="1"/>
+<line x1="72.0" y1="170.0" x2="66.0" y2="177.0" stroke="#7a766d" stroke-width="1"/>
+<line x1="98.0" y1="170.0" x2="92.0" y2="177.0" stroke="#7a766d" stroke-width="1"/>
+<line x1="124.0" y1="170.0" x2="118.0" y2="177.0" stroke="#7a766d" stroke-width="1"/>
+<line x1="8.0" y1="64.0" x2="40.0" y2="64.0" stroke="#e07a3f" stroke-width="2.5"/>
+<polygon points="40.0,64.0 32.6,67.1 32.6,60.9" fill="#e07a3f"/>
+<text x="8.0" y="56.0" font-family="sans-serif" font-size="11" fill="#e07a3f" text-anchor="start">수평력</text>
+<text x="72.0" y="200.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">가: 기둥-보 강접합</text>
+<line x1="148.0" y1="80.0" x2="148.0" y2="170.0" stroke="#1d1c1a" stroke-width="4"/>
+<line x1="232.0" y1="80.0" x2="232.0" y2="170.0" stroke="#1d1c1a" stroke-width="4"/>
+<line x1="144.0" y1="80.0" x2="236.0" y2="80.0" stroke="#1d1c1a" stroke-width="5"/>
+<line x1="148.0" y1="80.0" x2="232.0" y2="170.0" stroke="#2f5d50" stroke-width="2.5"/>
+<line x1="232.0" y1="80.0" x2="148.0" y2="170.0" stroke="#2f5d50" stroke-width="2.5"/>
+<line x1="136.0" y1="170.0" x2="244.0" y2="170.0" stroke="#7a766d" stroke-width="2"/>
+<line x1="138.0" y1="170.0" x2="132.0" y2="177.0" stroke="#7a766d" stroke-width="1"/>
+<line x1="164.0" y1="170.0" x2="158.0" y2="177.0" stroke="#7a766d" stroke-width="1"/>
+<line x1="190.0" y1="170.0" x2="184.0" y2="177.0" stroke="#7a766d" stroke-width="1"/>
+<line x1="216.0" y1="170.0" x2="210.0" y2="177.0" stroke="#7a766d" stroke-width="1"/>
+<line x1="242.0" y1="170.0" x2="236.0" y2="177.0" stroke="#7a766d" stroke-width="1"/>
+<line x1="126.0" y1="64.0" x2="158.0" y2="64.0" stroke="#e07a3f" stroke-width="2.5"/>
+<polygon points="158.0,64.0 150.6,67.1 150.6,60.9" fill="#e07a3f"/>
+<text x="126.0" y="56.0" font-family="sans-serif" font-size="11" fill="#e07a3f" text-anchor="start">수평력</text>
+<text x="190.0" y="200.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">나: 가새(대각 부재)</text>
+<rect x="266.0" y="80.0" width="84.0" height="90.0" rx="0" fill="#cfc9bd" stroke="#1d1c1a" stroke-width="2"/>
+<line x1="266.0" y1="80.0" x2="266.0" y2="170.0" stroke="#1d1c1a" stroke-width="4"/>
+<line x1="350.0" y1="80.0" x2="350.0" y2="170.0" stroke="#1d1c1a" stroke-width="4"/>
+<line x1="262.0" y1="80.0" x2="354.0" y2="80.0" stroke="#1d1c1a" stroke-width="5"/>
+<line x1="254.0" y1="170.0" x2="362.0" y2="170.0" stroke="#7a766d" stroke-width="2"/>
+<line x1="256.0" y1="170.0" x2="250.0" y2="177.0" stroke="#7a766d" stroke-width="1"/>
+<line x1="282.0" y1="170.0" x2="276.0" y2="177.0" stroke="#7a766d" stroke-width="1"/>
+<line x1="308.0" y1="170.0" x2="302.0" y2="177.0" stroke="#7a766d" stroke-width="1"/>
+<line x1="334.0" y1="170.0" x2="328.0" y2="177.0" stroke="#7a766d" stroke-width="1"/>
+<line x1="360.0" y1="170.0" x2="354.0" y2="177.0" stroke="#7a766d" stroke-width="1"/>
+<line x1="244.0" y1="64.0" x2="276.0" y2="64.0" stroke="#e07a3f" stroke-width="2.5"/>
+<polygon points="276.0,64.0 268.6,67.1 268.6,60.9" fill="#e07a3f"/>
+<text x="244.0" y="56.0" font-family="sans-serif" font-size="11" fill="#e07a3f" text-anchor="start">수평력</text>
+<text x="308.0" y="200.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">다: 전단벽</text>
+<text x="190.0" y="30.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">1층짜리 뼈대 세 가지 (같은 수평력이 왼쪽에서 작용)</text>
+</svg>

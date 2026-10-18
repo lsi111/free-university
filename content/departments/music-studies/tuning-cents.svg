@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+<rect width="400" height="240" fill="#f4efe6"/>
+<text x="200.0" y="22.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">조율 체계 비교: 순정률(Just) 대 12평균율(Equal Temperament)</text>
+<text x="40.0" y="42.0" font-family="sans-serif" font-size="10" fill="#7a766d" text-anchor="start" font-weight="bold">음정</text>
+<text x="120.0" y="42.0" font-family="sans-serif" font-size="10" fill="#2f5d50" text-anchor="start" font-weight="bold">순정률 (배음 정수비)</text>
+<text x="230.0" y="42.0" font-family="sans-serif" font-size="10" fill="#e07a3f" text-anchor="start" font-weight="bold">12평균율 (2^(n/12))</text>
+<text x="340.0" y="42.0" font-family="sans-serif" font-size="10" fill="#7a766d" text-anchor="start" font-weight="bold">오차 (센트)</text>
+<line x1="30.0" y1="46.0" x2="370.0" y2="46.0" stroke="#1d1c1a" stroke-width="1"/>
+<text x="40.0" y="62.0" font-family="sans-serif" font-size="10" fill="#1d1c1a" text-anchor="start" font-weight="bold">단2도</text>
+<text x="120.0" y="62.0" font-family="sans-serif" font-size="10" fill="#2f5d50" text-anchor="start">16/15 (112 센트)</text>
+<text x="230.0" y="62.0" font-family="sans-serif" font-size="10" fill="#e07a3f" text-anchor="start">100 센트</text>
+<text x="340.0" y="62.0" font-family="sans-serif" font-size="9" fill="#7a766d" text-anchor="start">+12</text>
+<line x1="30.0" y1="68.0" x2="370.0" y2="68.0" stroke="#ddd5c6" stroke-width="0.8"/>
+<text x="40.0" y="97.0" font-family="sans-serif" font-size="10" fill="#1d1c1a" text-anchor="start" font-weight="bold">장3도</text>
+<text x="120.0" y="97.0" font-family="sans-serif" font-size="10" fill="#2f5d50" text-anchor="start">5/4 (386 센트)</text>
+<text x="230.0" y="97.0" font-family="sans-serif" font-size="10" fill="#e07a3f" text-anchor="start">400 센트</text>
+<text x="340.0" y="97.0" font-family="sans-serif" font-size="9" fill="#7a766d" text-anchor="start">-14 (평균율이 날카로움)</text>
+<line x1="30.0" y1="103.0" x2="370.0" y2="103.0" stroke="#ddd5c6" stroke-width="0.8"/>
+<text x="40.0" y="132.0" font-family="sans-serif" font-size="10" fill="#1d1c1a" text-anchor="start" font-weight="bold">완전4도</text>
+<text x="120.0" y="132.0" font-family="sans-serif" font-size="10" fill="#2f5d50" text-anchor="start">4/3 (498 센트)</text>
+<text x="230.0" y="132.0" font-family="sans-serif" font-size="10" fill="#e07a3f" text-anchor="start">500 센트</text>
+<text x="340.0" y="132.0" font-family="sans-serif" font-size="9" fill="#7a766d" text-anchor="start">-2</text>
+<line x1="30.0" y1="138.0" x2="370.0" y2="138.0" stroke="#ddd5c6" stroke-width="0.8"/>
+<text x="40.0" y="167.0" font-family="sans-serif" font-size="10" fill="#1d1c1a" text-anchor="start" font-weight="bold">완전5도</text>
+<text x="120.0" y="167.0" font-family="sans-serif" font-size="10" fill="#2f5d50" text-anchor="start">3/2 (702 센트)</text>
+<text x="230.0" y="167.0" font-family="sans-serif" font-size="10" fill="#e07a3f" text-anchor="start">700 센트</text>
+<text x="340.0" y="167.0" font-family="sans-serif" font-size="9" fill="#7a766d" text-anchor="start">+2 (평균율이 2센트 좁음)</text>
+<line x1="30.0" y1="173.0" x2="370.0" y2="173.0" stroke="#ddd5c6" stroke-width="0.8"/>
+<text x="40.0" y="202.0" font-family="sans-serif" font-size="10" fill="#1d1c1a" text-anchor="start" font-weight="bold">장6도</text>
+<text x="120.0" y="202.0" font-family="sans-serif" font-size="10" fill="#2f5d50" text-anchor="start">5/3 (884 센트)</text>
+<text x="230.0" y="202.0" font-family="sans-serif" font-size="10" fill="#e07a3f" text-anchor="start">900 센트</text>
+<text x="340.0" y="202.0" font-family="sans-serif" font-size="9" fill="#7a766d" text-anchor="start">-16</text>
+<line x1="30.0" y1="208.0" x2="370.0" y2="208.0" stroke="#ddd5c6" stroke-width="0.8"/>
+<rect x="30.0" y="202.0" width="340.0" height="32.0" rx="2" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="200.0" y="215.0" font-family="sans-serif" font-size="9" fill="#1d1c1a" text-anchor="middle">피타고라스 콤마: 완전5도 12번(3/2)^12 ≠ 옥타브 7번(2)^7 (약 23.46 센트 차이)</text>
+<text x="200.0" y="227.0" font-family="sans-serif" font-size="9" fill="#e07a3f" text-anchor="middle" font-weight="bold">12평균율은 이 23.5센트를 12개 반음에 2센트씩 골고루 나누어 자유로운 전조를 가능케 함</text>
+</svg>

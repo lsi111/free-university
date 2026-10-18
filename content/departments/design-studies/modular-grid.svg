@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 300" width="380" height="300">
+<rect width="380" height="300" fill="#f4efe6"/>
+<text x="190.0" y="20.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">페이지 폭 300 · 높이 210</text>
+<rect x="40.0" y="30.0" width="300.0" height="210.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1.5"/>
+<rect x="60.0" y="50.0" width="80.0" height="50.0" rx="0" fill="#ddd5c6" stroke="none" stroke-width="0"/>
+<rect x="60.0" y="110.0" width="80.0" height="50.0" rx="0" fill="#ddd5c6" stroke="none" stroke-width="0"/>
+<rect x="60.0" y="170.0" width="80.0" height="50.0" rx="0" fill="#ddd5c6" stroke="none" stroke-width="0"/>
+<rect x="150.0" y="50.0" width="80.0" height="50.0" rx="0" fill="#ddd5c6" stroke="none" stroke-width="0"/>
+<rect x="150.0" y="110.0" width="80.0" height="50.0" rx="0" fill="#ddd5c6" stroke="none" stroke-width="0"/>
+<rect x="150.0" y="170.0" width="80.0" height="50.0" rx="0" fill="#ddd5c6" stroke="none" stroke-width="0"/>
+<rect x="240.0" y="50.0" width="80.0" height="50.0" rx="0" fill="#ddd5c6" stroke="none" stroke-width="0"/>
+<rect x="240.0" y="110.0" width="80.0" height="50.0" rx="0" fill="#ddd5c6" stroke="none" stroke-width="0"/>
+<rect x="240.0" y="170.0" width="80.0" height="50.0" rx="0" fill="#ddd5c6" stroke="none" stroke-width="0"/>
+<rect x="60.0" y="50.0" width="170.0" height="50.0" rx="0" fill="#e07a3f" fill-opacity="0.85" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="145.0" y="80.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">A</text>
+<text x="190.0" y="262.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">사방 여백 20 · 거터 10</text>
+<text x="190.0" y="282.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">단 3개 · 줄 3개 (모듈 9칸)</text>
+</svg>

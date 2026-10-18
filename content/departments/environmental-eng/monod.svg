@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260">
+<rect width="400" height="260" fill="#f4efe6"/>
+<text x="16.0" y="22.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="start" font-weight="bold">모노드 식: 기질 농도와 비성장속도</text>
+<line x1="50.0" y1="40.0" x2="50.0" y2="210.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="105.0" y1="40.0" x2="105.0" y2="210.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="160.0" y1="40.0" x2="160.0" y2="210.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="215.0" y1="40.0" x2="215.0" y2="210.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="270.0" y1="40.0" x2="270.0" y2="210.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="325.0" y1="40.0" x2="325.0" y2="210.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="380.0" y1="40.0" x2="380.0" y2="210.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="50.0" y1="210.0" x2="380.0" y2="210.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="50.0" y1="176.0" x2="380.0" y2="176.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="50.0" y1="142.0" x2="380.0" y2="142.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="50.0" y1="108.0" x2="380.0" y2="108.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="50.0" y1="74.0" x2="380.0" y2="74.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="50.0" y1="40.0" x2="380.0" y2="40.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="50.0" y1="210.0" x2="380.0" y2="210.0" stroke="#7a766d" stroke-width="1.5"/>
+<line x1="50.0" y1="40.0" x2="50.0" y2="210.0" stroke="#7a766d" stroke-width="1.5"/>
+<text x="50.0" y="225.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">0</text>
+<text x="105.0" y="225.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">50</text>
+<text x="160.0" y="225.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">100</text>
+<text x="215.0" y="225.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">150</text>
+<text x="270.0" y="225.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">200</text>
+<text x="325.0" y="225.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">250</text>
+<text x="380.0" y="225.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">300</text>
+<text x="44.0" y="214.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">0</text>
+<text x="44.0" y="180.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">1</text>
+<text x="44.0" y="146.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">2</text>
+<text x="44.0" y="112.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">3</text>
+<text x="44.0" y="78.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">4</text>
+<text x="44.0" y="44.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">5</text>
+<text x="380.0" y="240.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">기질 농도 S (mg/L)</text>
+<text x="54.0" y="34.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">μ (1/일)</text>
+<polyline points="50.0,210.0 52.8,203.5 55.5,197.6 58.2,192.3 61.0,187.3 63.8,182.8 66.5,178.6 69.2,174.7 72.0,171.1 74.8,167.8 77.5,164.7 80.2,161.7 83.0,159.0 85.8,156.4 88.5,154.0 91.2,151.7 94.0,149.6 96.8,147.5 99.5,145.6 102.2,143.7 105.0,142.0 107.8,140.3 110.5,138.8 113.2,137.3 116.0,135.8 118.8,134.4 121.5,133.1 124.2,131.9 127.0,130.7 129.8,129.5 132.5,128.4 135.2,127.3 138.0,126.3 140.8,125.3 143.5,124.4 146.2,123.5 149.0,122.6 151.8,121.7 154.5,120.9 157.2,120.1 160.0,119.3 162.8,118.6 165.5,117.9 168.2,117.2 171.0,116.5 173.8,115.8 176.5,115.2 179.2,114.6 182.0,114.0 184.8,113.4 187.5,112.9 190.2,112.3 193.0,111.8 195.8,111.3 198.5,110.8 201.2,110.3 204.0,109.8 206.8,109.3 209.5,108.9 212.2,108.4 215.0,108.0 217.8,107.6 220.5,107.2 223.2,106.8 226.0,106.4 228.8,106.0 231.5,105.6 234.2,105.3 237.0,104.9 239.7,104.6 242.5,104.2 245.2,103.9 248.0,103.6 250.7,103.2 253.5,102.9 256.2,102.6 259.0,102.3 261.8,102.0 264.5,101.8 267.2,101.5 270.0,101.2 272.8,100.9 275.5,100.7 278.2,100.4 281.0,100.2 283.8,99.9 286.5,99.7 289.2,99.4 292.0,99.2 294.8,99.0 297.5,98.7 300.2,98.5 303.0,98.3 305.8,98.1 308.5,97.9 311.2,97.7 314.0,97.4 316.8,97.2 319.5,97.1 322.2,96.9 325.0,96.7 327.8,96.5 330.5,96.3 333.2,96.1 336.0,95.9 338.8,95.8 341.5,95.6 344.2,95.4 347.0,95.2 349.8,95.1 352.5,94.9 355.2,94.8 358.0,94.6 360.8,94.5 363.5,94.3 366.2,94.1 369.0,94.0 371.8,93.9 374.5,93.7 377.2,93.6 380.0,93.4" fill="none" stroke="#2f5d50" stroke-width="2.5"/>
+<line x1="50.0" y1="74.0" x2="380.0" y2="74.0" stroke="#e07a3f" stroke-width="1.5" stroke-dasharray="6,4"/>
+<text x="380.0" y="68.0" font-family="sans-serif" font-size="11" fill="#e07a3f" text-anchor="end">μmax = 4 /일</text>
+<line x1="50.0" y1="142.0" x2="105.0" y2="142.0" stroke="#7a766d" stroke-width="1.5" stroke-dasharray="3,3"/>
+<line x1="105.0" y1="142.0" x2="105.0" y2="210.0" stroke="#7a766d" stroke-width="1.5" stroke-dasharray="3,3"/>
+<circle cx="105.0" cy="142.0" r="4" fill="#e07a3f" stroke="none" stroke-width="1.5"/>
+<text x="113.0" y="158.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="start">μmax/2 인 점</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 240" width="390" height="240">
+<rect width="390" height="240" fill="#f4efe6"/>
+<text x="195.0" y="22.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">탐구 수준별로 교사가 미리 주는 것</text>
+<rect x="130.0" y="36.0" width="80.0" height="30.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="170.0" y="56.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">탐구 질문</text>
+<rect x="210.0" y="36.0" width="80.0" height="30.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="250.0" y="56.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">방법</text>
+<rect x="290.0" y="36.0" width="80.0" height="30.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="330.0" y="56.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">결론</text>
+<rect x="20.0" y="66.0" width="110.0" height="36.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="28.0" y="88.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">확인형 탐구</text>
+<rect x="130.0" y="66.0" width="80.0" height="36.0" rx="0" fill="#dbe7e1" stroke="#1d1c1a" stroke-width="1"/>
+<text x="170.0" y="88.0" font-family="sans-serif" font-size="12" fill="#2f5d50" text-anchor="middle">교사 제공</text>
+<rect x="210.0" y="66.0" width="80.0" height="36.0" rx="0" fill="#dbe7e1" stroke="#1d1c1a" stroke-width="1"/>
+<text x="250.0" y="88.0" font-family="sans-serif" font-size="12" fill="#2f5d50" text-anchor="middle">교사 제공</text>
+<rect x="290.0" y="66.0" width="80.0" height="36.0" rx="0" fill="#dbe7e1" stroke="#1d1c1a" stroke-width="1"/>
+<text x="330.0" y="88.0" font-family="sans-serif" font-size="12" fill="#2f5d50" text-anchor="middle">교사 제공</text>
+<rect x="20.0" y="102.0" width="110.0" height="36.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="28.0" y="124.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">구조화된 탐구</text>
+<rect x="130.0" y="102.0" width="80.0" height="36.0" rx="0" fill="#dbe7e1" stroke="#1d1c1a" stroke-width="1"/>
+<text x="170.0" y="124.0" font-family="sans-serif" font-size="12" fill="#2f5d50" text-anchor="middle">교사 제공</text>
+<rect x="210.0" y="102.0" width="80.0" height="36.0" rx="0" fill="#dbe7e1" stroke="#1d1c1a" stroke-width="1"/>
+<text x="250.0" y="124.0" font-family="sans-serif" font-size="12" fill="#2f5d50" text-anchor="middle">교사 제공</text>
+<rect x="290.0" y="102.0" width="80.0" height="36.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="330.0" y="124.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">학생</text>
+<rect x="20.0" y="138.0" width="110.0" height="36.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="28.0" y="160.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">안내된 탐구</text>
+<rect x="130.0" y="138.0" width="80.0" height="36.0" rx="0" fill="#dbe7e1" stroke="#1d1c1a" stroke-width="1"/>
+<text x="170.0" y="160.0" font-family="sans-serif" font-size="12" fill="#2f5d50" text-anchor="middle">교사 제공</text>
+<rect x="210.0" y="138.0" width="80.0" height="36.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="250.0" y="160.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">학생</text>
+<rect x="290.0" y="138.0" width="80.0" height="36.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="330.0" y="160.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">학생</text>
+<rect x="20.0" y="174.0" width="110.0" height="36.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="28.0" y="196.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">개방형 탐구</text>
+<rect x="130.0" y="174.0" width="80.0" height="36.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="170.0" y="196.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">학생</text>
+<rect x="210.0" y="174.0" width="80.0" height="36.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="250.0" y="196.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">학생</text>
+<rect x="290.0" y="174.0" width="80.0" height="36.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="330.0" y="196.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">학생</text>
+<text x="195.0" y="230.0" font-family="sans-serif" font-size="12" fill="#7a766d" text-anchor="middle">칸 안 글자: 그 요소를 누가 마련하는가</text>
+</svg>

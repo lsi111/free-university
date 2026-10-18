@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="14" text-anchor="middle" font-weight="bold">2×2 실험 요인설계: 치료법(A) × 불안수준(B)의 상호작용 효과</text>
+    <line x1="65" y1="50" x2="65" y2="250" stroke="#1d1c1a" stroke-width="2"/>
+    <line x1="65" y1="250" x2="300" y2="250" stroke="#1d1c1a" stroke-width="2"/>
+    <text x="40" y="60" font-size="11" text-anchor="middle" font-weight="bold">호전점수</text>
+    <text x="115" y="270" font-size="11" text-anchor="middle" font-weight="bold">경증 불안 (B1)</text>
+    <text x="245" y="270" font-size="11" text-anchor="middle" font-weight="bold">중증 불안 (B2)</text>
+    <line x1="60" y1="210" x2="65" y2="210" stroke="#1d1c1a"/>
+    <text x="55" y="214" font-size="10" text-anchor="end">20</text>
+    <line x1="60" y1="170" x2="65" y2="170" stroke="#1d1c1a"/>
+    <text x="55" y="174" font-size="10" text-anchor="end">40</text>
+    <line x1="60" y1="130" x2="65" y2="130" stroke="#1d1c1a"/>
+    <text x="55" y="134" font-size="10" text-anchor="end">60</text>
+    <line x1="60" y1="90" x2="65" y2="90" stroke="#1d1c1a"/>
+    <text x="55" y="94" font-size="10" text-anchor="end">80</text>
+    <line x1="115" y1="130" x2="245" y2="90" stroke="#2f5d50" stroke-width="2.6"/>
+    <circle cx="115" cy="130" r="5" fill="#2f5d50"/>
+    <circle cx="245" cy="90" r="5" fill="#2f5d50"/>
+    <text x="115" y="118" font-size="11" text-anchor="middle" font-weight="bold" fill="#2f5d50">60</text>
+    <text x="245" y="78" font-size="11" text-anchor="middle" font-weight="bold" fill="#2f5d50">80 (CBT)</text>
+    <line x1="115" y1="130" x2="245" y2="210" stroke="#e07a3f" stroke-width="2.6" stroke-dasharray="6,4"/>
+    <circle cx="245" cy="210" r="5" fill="#e07a3f"/>
+    <text x="245" y="228" font-size="11" text-anchor="middle" font-weight="bold" fill="#e07a3f">20 (이완훈련)</text>
+    <rect x="320" y="55" width="200" height="195" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="420" y="77" font-size="12" text-anchor="middle" font-weight="bold">셀 평균과 주효과·상호작용</text>
+    <text x="332" y="102" font-size="10" text-anchor="start">• 경증(B1): CBT 60, 이완 60 (평균 60)</text>
+    <text x="332" y="120" font-size="10" text-anchor="start">• 중증(B2): CBT 80, 이완 20 (평균 50)</text>
+    <text x="332" y="144" font-size="10" text-anchor="start" font-weight="bold" fill="#2f5d50">• CBT(A1) 전체 평균: (60+80)/2 = 70</text>
+    <text x="332" y="162" font-size="10" text-anchor="start" font-weight="bold" fill="#e07a3f">• 이완(A2) 전체 평균: (60+20)/2 = 40</text>
+    <text x="332" y="184" font-size="11" text-anchor="start" font-weight="bold">→ 치료법 주효과: 70 - 40 = +30</text>
+    <text x="332" y="204" font-size="11" text-anchor="start" font-weight="bold">→ 불안수준 주효과: 60 - 50 = +10</text>
+    <text x="332" y="228" font-size="11" text-anchor="start" font-weight="bold" fill="#b3261e">→ 상호작용: 선이 평행하지 않음!</text>
+    <text x="332" y="243" font-size="10" text-anchor="start" fill="#b3261e">   (중증에서만 치료법 차이 +60 발생)</text>
+    <text x="270" y="304" font-size="11" text-anchor="middle" font-weight="bold">두 직선의 기울기가 다르면(비평행) 한 독립변수의 효과가 다른 독립변수 수준에 따라 달라지는 상호작용이 존재한다</text>
+  </g>
+</svg>

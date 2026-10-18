@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260">
+<rect width="400" height="260" fill="#f4efe6"/>
+<text x="200.0" y="22.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">하인리히 뵐플린의 양식사 5대 개념쌍</text>
+<text x="120.0" y="44.0" font-family="sans-serif" font-size="12" fill="#2f5d50" text-anchor="middle" font-weight="bold">르네상스 고전 양식</text>
+<text x="280.0" y="44.0" font-family="sans-serif" font-size="12" fill="#e07a3f" text-anchor="middle" font-weight="bold">바로크 동적 양식</text>
+<line x1="200.0" y1="48.0" x2="200.0" y2="235.0" stroke="#7a766d" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="30.0" y="65.0" width="140.0" height="26.0" rx="3" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="100.0" y="82.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">선적인 것 (Linear)</text>
+<rect x="230.0" y="65.0" width="140.0" height="26.0" rx="3" fill="#ffffff" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="300.0" y="82.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">회화적인 것 (Painterly)</text>
+<text x="200.0" y="82.0" font-family="sans-serif" font-size="10" fill="#7a766d" text-anchor="middle">vs</text>
+<rect x="30.0" y="99.0" width="140.0" height="26.0" rx="3" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="100.0" y="116.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">평면성 (Plane)</text>
+<rect x="230.0" y="99.0" width="140.0" height="26.0" rx="3" fill="#ffffff" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="300.0" y="116.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">깊이감 (Recession)</text>
+<text x="200.0" y="116.0" font-family="sans-serif" font-size="10" fill="#7a766d" text-anchor="middle">vs</text>
+<rect x="30.0" y="133.0" width="140.0" height="26.0" rx="3" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="100.0" y="150.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">폐쇄된 형식 (Closed)</text>
+<rect x="230.0" y="133.0" width="140.0" height="26.0" rx="3" fill="#ffffff" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="300.0" y="150.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">개방된 형식 (Open)</text>
+<text x="200.0" y="150.0" font-family="sans-serif" font-size="10" fill="#7a766d" text-anchor="middle">vs</text>
+<rect x="30.0" y="167.0" width="140.0" height="26.0" rx="3" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="100.0" y="184.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">다원적 통일 (Multiplicity)</text>
+<rect x="230.0" y="167.0" width="140.0" height="26.0" rx="3" fill="#ffffff" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="300.0" y="184.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">단일적 통일 (Unity)</text>
+<text x="200.0" y="184.0" font-family="sans-serif" font-size="10" fill="#7a766d" text-anchor="middle">vs</text>
+<rect x="30.0" y="201.0" width="140.0" height="26.0" rx="3" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="100.0" y="218.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">절대적 명료성 (Clarity)</text>
+<rect x="230.0" y="201.0" width="140.0" height="26.0" rx="3" fill="#ffffff" stroke="#e07a3f" stroke-width="1.5"/>
+<text x="300.0" y="218.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">상대적 명료성 (Relative)</text>
+<text x="200.0" y="218.0" font-family="sans-serif" font-size="10" fill="#7a766d" text-anchor="middle">vs</text>
+<text x="200.0" y="248.0" font-family="sans-serif" font-size="10" fill="#7a766d" text-anchor="middle">조형의 시각적 양식 변천을 대립쌍으로 범주화한 형식주의 분석틀</text>
+</svg>

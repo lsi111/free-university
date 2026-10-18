@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+<rect width="400" height="250" fill="#f4efe6"/>
+<text x="200.0" y="22.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">고전 연속편집의 180도 가상선 법칙(Axis of Action)</text>
+<circle cx="130.0" cy="90.0" r="18" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="130.0" y="94.0" font-family="sans-serif" font-size="10" fill="#2f5d50" text-anchor="middle" font-weight="bold">인물 A</text>
+<circle cx="270.0" cy="90.0" r="18" fill="#ffffff" stroke="#e07a3f" stroke-width="2"/>
+<text x="270.0" y="94.0" font-family="sans-serif" font-size="10" fill="#e07a3f" text-anchor="middle" font-weight="bold">인물 B</text>
+<line x1="40.0" y1="90.0" x2="360.0" y2="90.0" stroke="#1d1c1a" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="365.0" y="94.0" font-family="sans-serif" font-size="10" fill="#1d1c1a" text-anchor="end" font-weight="bold">180도 가상선 (행동선)</text>
+<line x1="148.0" y1="90.0" x2="252.0" y2="90.0" stroke="#1d1c1a" stroke-width="1.5"/>
+<polyline points="70.0,90.0 90.0,150.0 150.0,185.0 200.0,190.0 250.0,185.0 310.0,150.0 330.0,90.0" fill="none" stroke="#2f5d50" stroke-width="1.5" stroke-dasharray="3 3"/>
+<text x="200.0" y="175.0" font-family="sans-serif" font-size="10" fill="#2f5d50" text-anchor="middle">촬영 허용 구역 (180도 안쪽)</text>
+<rect x="70.0" y="150.0" width="50.0" height="25.0" rx="3" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="95.0" y="166.0" font-family="sans-serif" font-size="9" fill="#2f5d50" text-anchor="middle" font-weight="bold">카메라 1</text>
+<line x1="95.0" y1="150.0" x2="255.0" y2="100.0" stroke="#2f5d50" stroke-width="1.5"/>
+<polygon points="255.0,100.0 248.9,105.2 247.0,99.2" fill="#2f5d50"/>
+<rect x="280.0" y="150.0" width="50.0" height="25.0" rx="3" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="305.0" y="166.0" font-family="sans-serif" font-size="9" fill="#2f5d50" text-anchor="middle" font-weight="bold">카메라 2</text>
+<line x1="305.0" y1="150.0" x2="145.0" y2="100.0" stroke="#2f5d50" stroke-width="1.5"/>
+<polygon points="145.0,100.0 153.0,99.2 151.1,105.2" fill="#2f5d50"/>
+<rect x="175.0" y="35.0" width="50.0" height="25.0" rx="3" fill="#ffffff" stroke="#e53e3e" stroke-width="2"/>
+<text x="200.0" y="51.0" font-family="sans-serif" font-size="9" fill="#e53e3e" text-anchor="middle" font-weight="bold">카메라 X</text>
+<text x="200.0" y="75.0" font-family="sans-serif" font-size="9" fill="#e53e3e" text-anchor="middle">선 넘어감 (위반! 시선 역전)</text>
+<line x1="200.0" y1="60.0" x2="200.0" y2="85.0" stroke="#e53e3e" stroke-width="1.5"/>
+<polygon points="200.0,85.0 196.9,77.6 203.1,77.6" fill="#e53e3e"/>
+<text x="200.0" y="240.0" font-family="sans-serif" font-size="10" fill="#7a766d" text-anchor="middle">가상선을 넘어가면 두 인물의 좌우 시선 방향이 충돌하여 공간 혼란 발생</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="14" text-anchor="middle" font-weight="bold">이중차분법(DID): 평행추세 가정과 순수 정책효과 식별</text>
+    <line x1="70" y1="45" x2="70" y2="255" stroke="#1d1c1a" stroke-width="2"/>
+    <line x1="70" y1="255" x2="330" y2="255" stroke="#1d1c1a" stroke-width="2"/>
+    <text x="45" y="55" font-size="11" text-anchor="middle" font-weight="bold">고용지수</text>
+    <text x="115" y="275" font-size="11" text-anchor="middle" font-weight="bold">정책 전 (t=0)</text>
+    <text x="275" y="275" font-size="11" text-anchor="middle" font-weight="bold">정책 후 (t=1)</text>
+    <line x1="115" y1="215" x2="275" y2="175" stroke="#7a766d" stroke-width="2.2"/>
+    <circle cx="115" cy="215" r="4.5" fill="#7a766d"/>
+    <circle cx="275" cy="175" r="4.5" fill="#7a766d"/>
+    <text x="103" y="219" font-size="11" text-anchor="end" font-weight="bold" fill="#7a766d">40</text>
+    <text x="285" y="179" font-size="11" text-anchor="start" font-weight="bold" fill="#7a766d">48 (비교집단)</text>
+    <line x1="115" y1="165" x2="275" y2="125" stroke="#e07a3f" stroke-width="2" stroke-dasharray="5,4"/>
+    <circle cx="275" cy="125" r="4" fill="#e07a3f"/>
+    <text x="285" y="129" font-size="11" text-anchor="start" font-weight="bold" fill="#e07a3f">58 (반사실 추세)</text>
+    <line x1="115" y1="165" x2="275" y2="90" stroke="#2f5d50" stroke-width="2.5"/>
+    <circle cx="115" cy="165" r="4.5" fill="#2f5d50"/>
+    <circle cx="275" cy="90" r="4.5" fill="#2f5d50"/>
+    <text x="103" y="169" font-size="11" text-anchor="end" font-weight="bold" fill="#2f5d50">50</text>
+    <text x="285" y="94" font-size="11" text-anchor="start" font-weight="bold" fill="#2f5d50">65 (처치집단)</text>
+    <line x1="260" y1="90" x2="260" y2="125" stroke="#b3261e" stroke-width="2.5"/>
+    <text x="252" y="112" font-size="11" text-anchor="end" font-weight="bold" fill="#b3261e">DID = +7</text>
+    <rect x="365" y="50" width="155" height="195" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="442" y="72" font-size="12" text-anchor="middle" font-weight="bold">이중차분 계산표</text>
+    <text x="375" y="98" font-size="11" text-anchor="start" font-weight="bold" fill="#2f5d50">• 처치집단 변화:</text>
+    <text x="375" y="116" font-size="11" text-anchor="start" fill="#2f5d50">  65 - 50 = +15</text>
+    <text x="375" y="142" font-size="11" text-anchor="start" font-weight="bold" fill="#7a766d">• 비교집단 변화:</text>
+    <text x="375" y="160" font-size="11" text-anchor="start" fill="#7a766d">  48 - 40 = +8</text>
+    <text x="375" y="188" font-size="11" text-anchor="start" font-weight="bold" fill="#b3261e">• 순수 정책효과(DID):</text>
+    <text x="375" y="208" font-size="12" text-anchor="start" font-weight="bold" fill="#b3261e">  (+15) - (+8) = +7</text>
+    <text x="375" y="232" font-size="10" text-anchor="start">  (= 실제 65 - 반사실 58)</text>
+    <text x="270" y="304" font-size="11" text-anchor="middle" font-weight="bold">처치집단 전후 변화(+15)에서 비교집단 공통 추세(+8)를 빼면 순수 인과효과(+7)가 식별된다</text>
+  </g>
+</svg>

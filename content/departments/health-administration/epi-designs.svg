@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="15" text-anchor="middle" font-weight="bold">역학 2×2 분할표와 연구 설계의 추적 방향</text>
+    <rect x="25" y="48" width="250" height="32" rx="4" fill="#d9d2c2" stroke="#7a766d"/>
+    <text x="65" y="69" font-size="12" text-anchor="middle" font-weight="bold">구분</text>
+    <text x="150" y="69" font-size="12" text-anchor="middle" font-weight="bold">질병 있음(+)</text>
+    <text x="235" y="69" font-size="12" text-anchor="middle" font-weight="bold">질병 없음(-)</text>
+    <rect x="25" y="80" width="250" height="38" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="65" y="104" font-size="12" text-anchor="middle" font-weight="bold">노출군(+)</text>
+    <text x="150" y="104" font-size="12" text-anchor="middle">a = 40</text>
+    <text x="235" y="104" font-size="12" text-anchor="middle">b = 160</text>
+    <rect x="25" y="118" width="250" height="38" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="65" y="142" font-size="12" text-anchor="middle" font-weight="bold">비노출군(-)</text>
+    <text x="150" y="142" font-size="12" text-anchor="middle">c = 20</text>
+    <text x="235" y="142" font-size="12" text-anchor="middle">d = 380</text>
+    <rect x="25" y="168" width="250" height="58" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="37" y="190" font-size="11" text-anchor="start" font-weight="bold">코호트 상대위험도 RR = [a/(a+b)] / [c/(c+d)]</text>
+    <text x="37" y="212" font-size="11" text-anchor="start" font-weight="bold">환자-대조군 오즈비 OR = (a × d) / (b × c)</text>
+    <rect x="295" y="48" width="220" height="82" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="405" y="70" font-size="13" text-anchor="middle" font-weight="bold">코호트 연구 (전향적 추적)</text>
+    <text x="405" y="92" font-size="11" text-anchor="middle">현재: 노출 여부 확인 → 미래: 질병 발생</text>
+    <text x="405" y="112" font-size="11" text-anchor="middle">발생률과 상대위험도(RR) 직접 산출</text>
+    <rect x="295" y="144" width="220" height="82" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="405" y="166" font-size="13" text-anchor="middle" font-weight="bold">환자-대조군 연구 (후향적 조사)</text>
+    <text x="405" y="188" font-size="11" text-anchor="middle">현재: 환자·대조군 선정 → 과거: 노출력</text>
+    <text x="405" y="208" font-size="11" text-anchor="middle">희귀 질환에 유리, 오즈비(OR)로 추정</text>
+    <text x="270" y="260" font-size="11" text-anchor="middle" font-weight="bold">표 예시 계산: 노출군 위험 40/200 = 0.20, 비노출군 위험 20/400 = 0.05 → RR = 4.0</text>
+    <text x="270" y="282" font-size="11" text-anchor="middle">오즈비 OR = (40 × 380) / (160 × 20) = 15200 / 3200 = 4.75</text>
+    <text x="270" y="302" font-size="11" text-anchor="middle" fill="#2f5d50">질병이 매우 희귀할 때(a≪b, c≪d) 오즈비(OR)는 상대위험도(RR)에 근사한다</text>
+  </g>
+</svg>

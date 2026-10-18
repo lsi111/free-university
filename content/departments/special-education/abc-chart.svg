@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+<rect width="400" height="300" fill="#f4efe6"/>
+<text x="200.0" y="22.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">ABC 관찰 기록 (가상의 학생 도윤, 5일간)</text>
+<rect x="10.0" y="36.0" width="26.0" height="34.0" rx="0" fill="#2f5d50" stroke="#1d1c1a" stroke-width="1"/>
+<text x="23.0" y="58.0" font-family="sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">번호</text>
+<rect x="36.0" y="36.0" width="132.0" height="34.0" rx="0" fill="#2f5d50" stroke="#1d1c1a" stroke-width="1"/>
+<text x="102.0" y="58.0" font-family="sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">A 선행사건</text>
+<rect x="168.0" y="36.0" width="76.0" height="34.0" rx="0" fill="#2f5d50" stroke="#1d1c1a" stroke-width="1"/>
+<text x="206.0" y="58.0" font-family="sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">B 행동</text>
+<rect x="244.0" y="36.0" width="146.0" height="34.0" rx="0" fill="#2f5d50" stroke="#1d1c1a" stroke-width="1"/>
+<text x="317.0" y="58.0" font-family="sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">C 후속결과</text>
+<rect x="10.0" y="70.0" width="26.0" height="34.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="23.0" y="92.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">1</text>
+<rect x="36.0" y="70.0" width="132.0" height="34.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="102.0" y="92.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">받아쓰기 시작</text>
+<rect x="168.0" y="70.0" width="76.0" height="34.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="206.0" y="92.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">책상 두드림</text>
+<rect x="244.0" y="70.0" width="146.0" height="34.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="317.0" y="92.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">활동 중단, 복도 쉼</text>
+<rect x="10.0" y="104.0" width="26.0" height="34.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="23.0" y="126.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">2</text>
+<rect x="36.0" y="104.0" width="132.0" height="34.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="102.0" y="126.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">수학 문제지 배부</text>
+<rect x="168.0" y="104.0" width="76.0" height="34.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="206.0" y="126.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">책상 두드림</text>
+<rect x="244.0" y="104.0" width="146.0" height="34.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="317.0" y="126.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">문제지를 치워 줌</text>
+<rect x="10.0" y="138.0" width="26.0" height="34.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="23.0" y="160.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">3</text>
+<rect x="36.0" y="138.0" width="132.0" height="34.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="102.0" y="160.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">교사가 다른 모둠 지도</text>
+<rect x="168.0" y="138.0" width="76.0" height="34.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="206.0" y="160.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">책상 두드림</text>
+<rect x="244.0" y="138.0" width="146.0" height="34.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="317.0" y="160.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">교사가 와서 말 검</text>
+<rect x="10.0" y="172.0" width="26.0" height="34.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="23.0" y="194.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">4</text>
+<rect x="36.0" y="172.0" width="132.0" height="34.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="102.0" y="194.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">쓰기 과제 제시</text>
+<rect x="168.0" y="172.0" width="76.0" height="34.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="206.0" y="194.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">책상 두드림</text>
+<rect x="244.0" y="172.0" width="146.0" height="34.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="317.0" y="194.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">과제를 미룸</text>
+<rect x="10.0" y="206.0" width="26.0" height="34.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="23.0" y="228.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">5</text>
+<rect x="36.0" y="206.0" width="132.0" height="34.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="102.0" y="228.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">읽기 차례가 옴</text>
+<rect x="168.0" y="206.0" width="76.0" height="34.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="206.0" y="228.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">책상 두드림</text>
+<rect x="244.0" y="206.0" width="146.0" height="34.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="317.0" y="228.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">친구가 대신 읽음</text>
+<rect x="10.0" y="240.0" width="26.0" height="34.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="23.0" y="262.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">6</text>
+<rect x="36.0" y="240.0" width="132.0" height="34.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="102.0" y="262.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">혼자 앉아 기다림</text>
+<rect x="168.0" y="240.0" width="76.0" height="34.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="206.0" y="262.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">책상 두드림</text>
+<rect x="244.0" y="240.0" width="146.0" height="34.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="317.0" y="262.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">교사가 다가옴</text>
+</svg>

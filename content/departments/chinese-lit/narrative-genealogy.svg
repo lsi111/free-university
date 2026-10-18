@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="15" text-anchor="middle" font-weight="bold">중국 고전 산문·희곡·장회소설과 근대 백화문학 계보</text>
+    <rect x="20" y="50" width="115" height="110" rx="4" fill="#e9e1cf" stroke="#7a766d"/>
+    <text x="77" y="72" font-size="12" text-anchor="middle" font-weight="bold">당송 고문운동</text>
+    <text x="77" y="92" font-size="10" text-anchor="middle">변려문(4·6구) 비판</text>
+    <text x="77" y="107" font-size="10" text-anchor="middle">문어재도 (文以载道)</text>
+    <text x="77" y="122" font-size="10" text-anchor="middle">당송팔대가:</text>
+    <text x="77" y="137" font-size="10" text-anchor="middle">한유·유종원(당)</text>
+    <text x="77" y="152" font-size="10" text-anchor="middle">구양수·소식 등(송)</text>
+    <rect x="148" y="50" width="115" height="110" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="205" y="72" font-size="12" text-anchor="middle" font-weight="bold">원대 잡극(원곡)</text>
+    <text x="205" y="92" font-size="10" text-anchor="middle">4절(折) + 1설(楔子)</text>
+    <text x="205" y="107" font-size="10" text-anchor="middle">창·빈백·과범 결합</text>
+    <text x="205" y="122" font-size="10" text-anchor="middle">1극 1주창 원칙:</text>
+    <text x="205" y="137" font-size="10" text-anchor="middle">정말(남) 또는 정단(여)</text>
+    <text x="205" y="152" font-size="10" text-anchor="middle">관한경 《두아원》</text>
+    <rect x="276" y="50" width="115" height="110" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="333" y="72" font-size="12" text-anchor="middle" font-weight="bold">명청 장회소설</text>
+    <text x="333" y="92" font-size="10" text-anchor="middle">송원 화본에서 발전</text>
+    <text x="333" y="107" font-size="10" text-anchor="middle">4대기서: 삼국·수호</text>
+    <text x="333" y="122" font-size="10" text-anchor="middle">서유기·금병매</text>
+    <text x="333" y="137" font-size="10" text-anchor="middle">청대 《홍루몽》:</text>
+    <text x="333" y="152" font-size="10" text-anchor="middle">전80회 조설근 집필</text>
+    <rect x="404" y="50" width="116" height="110" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="462" y="72" font-size="12" text-anchor="middle" font-weight="bold">5·4와 현대문학</text>
+    <text x="462" y="92" font-size="10" text-anchor="middle">1917 문학혁명(백화)</text>
+    <text x="462" y="107" font-size="10" text-anchor="middle">1918 루쉰 《광인일기》</text>
+    <text x="462" y="122" font-size="10" text-anchor="middle">《아Q정전》 정신승리법</text>
+    <text x="462" y="137" font-size="10" text-anchor="middle">1930년대 모순·바진</text>
+    <text x="462" y="152" font-size="10" text-anchor="middle">문혁 후 상흔·심근·선봉</text>
+    <path d="M135 105 L148 105 M263 105 L276 105 M391 105 L404 105" stroke="#7a766d" stroke-width="2" fill="none"/>
+    <rect x="20" y="180" width="500" height="120" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="270" y="202" font-size="13" text-anchor="middle" font-weight="bold">매체·언어·계층의 역사적 전환 핵심 비교</text>
+    <text x="65" y="228" font-size="11" text-anchor="middle" font-weight="bold" fill="#2f5d50">문체 언어</text>
+    <text x="195" y="228" font-size="10" text-anchor="middle">당송 고문: 선진·양한 규범 문언(文言)</text>
+    <text x="345" y="228" font-size="10" text-anchor="middle">원곡·장회소설: 근세 백화(白话) 성장</text>
+    <text x="465" y="228" font-size="10" text-anchor="middle">5·4 이후: 현대 구어 백화문 전면화</text>
+    <text x="65" y="252" font-size="11" text-anchor="middle" font-weight="bold" fill="#2f5d50">향유 계층</text>
+    <text x="195" y="252" font-size="10" text-anchor="middle">사대부·문인 관료 계층</text>
+    <text x="345" y="252" font-size="10" text-anchor="middle">도시 상공업자·시민 계층 확대</text>
+    <text x="465" y="252" font-size="10" text-anchor="middle">근대 대중 독자·지식인 시민 사회</text>
+    <text x="65" y="276" font-size="11" text-anchor="middle" font-weight="bold" fill="#2f5d50">《홍루몽》 구성</text>
+    <text x="195" y="276" font-size="10" text-anchor="middle">총 120회 완결 (조설근 80회 + 고악 40회)</text>
+    <text x="345" y="276" font-size="10" text-anchor="middle">금릉십이차(12명 여성) 비극 서사</text>
+    <text x="465" y="276" font-size="10" text-anchor="middle">가(假: 贾)와 진(真: 甄)의 이중 구조</text>
+  </g>
+</svg>

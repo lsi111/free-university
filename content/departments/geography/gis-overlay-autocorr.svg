@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="25" font-size="15" text-anchor="middle" font-weight="bold">GIS 격자 중첩(AND 연산)과 공간적 자기상관(Moran's I)</text>
+    <text x="145" y="50" font-size="12" text-anchor="middle" font-weight="bold">래스터 적지 중첩: 조건 A (도로 인접) ∧ 조건 B (완경사)</text>
+    <text x="55" y="72" font-size="11" text-anchor="middle" font-weight="bold">레이어 A</text>
+    <rect x="25" y="80" width="30" height="30" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="40" y="100" font-size="12" text-anchor="middle" font-weight="bold">1</text>
+    <rect x="55" y="80" width="30" height="30" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="70" y="100" font-size="12" text-anchor="middle" font-weight="bold">1</text>
+    <rect x="25" y="110" width="30" height="30" rx="4" fill="#ffffff" stroke="#2f5d50"/>
+    <text x="40" y="130" font-size="12" text-anchor="middle" font-weight="bold">0</text>
+    <rect x="55" y="110" width="30" height="30" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="70" y="130" font-size="12" text-anchor="middle" font-weight="bold">1</text>
+    <text x="98" y="115" font-size="16" text-anchor="middle" font-weight="bold">×</text>
+    <text x="140" y="72" font-size="11" text-anchor="middle" font-weight="bold">레이어 B</text>
+    <rect x="110" y="80" width="30" height="30" rx="4" fill="#ffffff" stroke="#2f5d50"/>
+    <text x="125" y="100" font-size="12" text-anchor="middle" font-weight="bold">0</text>
+    <rect x="140" y="80" width="30" height="30" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="155" y="100" font-size="12" text-anchor="middle" font-weight="bold">1</text>
+    <rect x="110" y="110" width="30" height="30" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="125" y="130" font-size="12" text-anchor="middle" font-weight="bold">1</text>
+    <rect x="140" y="110" width="30" height="30" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="155" y="130" font-size="12" text-anchor="middle" font-weight="bold">1</text>
+    <text x="185" y="115" font-size="16" text-anchor="middle" font-weight="bold">=</text>
+    <text x="230" y="72" font-size="11" text-anchor="middle" font-weight="bold" fill="#e07a3f">적지 (A∧B)</text>
+    <rect x="200" y="80" width="30" height="30" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="215" y="100" font-size="12" text-anchor="middle" font-weight="bold" fill="#1d1c1a">0</text>
+    <rect x="230" y="80" width="30" height="30" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="245" y="100" font-size="12" text-anchor="middle" font-weight="bold" fill="#e07a3f">1</text>
+    <rect x="200" y="110" width="30" height="30" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="215" y="130" font-size="12" text-anchor="middle" font-weight="bold" fill="#1d1c1a">0</text>
+    <rect x="230" y="110" width="30" height="30" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="245" y="130" font-size="12" text-anchor="middle" font-weight="bold" fill="#e07a3f">1</text>
+    <text x="145" y="160" font-size="11" text-anchor="middle" font-weight="bold">오른쪽 열 2개 셀만(우상·우하) 최종 적지(1)로 선정됨</text>
+    <rect x="290" y="45" width="230" height="120" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="405" y="66" font-size="12" text-anchor="middle" font-weight="bold">공간 데이터 두 모형</text>
+    <text x="302" y="88" font-size="11" text-anchor="start">• 벡터(Vector): 점·선·면 좌표와</text>
+    <text x="312" y="105" font-size="11" text-anchor="start">위상(인접·연결) → 필지·도로망</text>
+    <text x="302" y="128" font-size="11" text-anchor="start">• 래스터(Raster): 정사각형 격자 셀</text>
+    <text x="312" y="145" font-size="11" text-anchor="start">행렬값 → 고도(DEM)·위성영상</text>
+    <rect x="20" y="182" width="155" height="118" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="97" y="203" font-size="12" text-anchor="middle" font-weight="bold" fill="#2f5d50">(가) 양(+)의 자기상관</text>
+    <text x="97" y="222" font-size="11" text-anchor="middle" font-weight="bold">Moran's I > 0 (군집)</text>
+    <text x="97" y="244" font-size="10" text-anchor="middle">비슷한 값(고-고, 저-저)이</text>
+    <text x="97" y="260" font-size="10" text-anchor="middle">인접 지역끼리 뭉쳐 분포</text>
+    <text x="97" y="282" font-size="10" text-anchor="middle" font-weight="bold">예: 도심 지가·감염병 핫스팟</text>
+    <rect x="192" y="182" width="155" height="118" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="270" y="203" font-size="12" text-anchor="middle" font-weight="bold">(나) 공간적 무작위</text>
+    <text x="270" y="222" font-size="11" text-anchor="middle" font-weight="bold">Moran's I ≈ 0 (독립)</text>
+    <text x="270" y="244" font-size="10" text-anchor="middle">인접성과 속성값 사이에</text>
+    <text x="270" y="260" font-size="10" text-anchor="middle">아무런 공간 규칙이 없음</text>
+    <text x="270" y="282" font-size="10" text-anchor="middle">예: 완전 무작위 추첨 배치</text>
+    <rect x="365" y="182" width="155" height="118" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="442" y="203" font-size="12" text-anchor="middle" font-weight="bold" fill="#e07a3f">(다) 음(-)의 자기상관</text>
+    <text x="442" y="222" font-size="11" text-anchor="middle" font-weight="bold">Moran's I < 0 (분산)</text>
+    <text x="442" y="244" font-size="10" text-anchor="middle">인접한 칸마다 큰 값과 작은 값이</text>
+    <text x="442" y="260" font-size="10" text-anchor="middle">체스판처럼 교대로 배치됨</text>
+    <text x="442" y="282" font-size="10" text-anchor="middle" font-weight="bold">예: 경쟁 상점의 균등 분산</text>
+  </g>
+</svg>

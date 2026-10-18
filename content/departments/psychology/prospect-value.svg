@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="15" text-anchor="middle" font-weight="bold">전망이론(Prospect Theory)의 비대칭 가치함수</text>
+    <line x1="40" y1="155" x2="340" y2="155" stroke="#1d1c1a" stroke-width="2"/>
+    <line x1="190" y1="45" x2="190" y2="285" stroke="#1d1c1a" stroke-width="2"/>
+    <text x="335" y="145" font-size="11" text-anchor="end" font-weight="bold" fill="#2f5d50">이득 (+x)</text>
+    <text x="45" y="172" font-size="11" text-anchor="start" font-weight="bold" fill="#b3261e">손실 (-x)</text>
+    <text x="198" y="56" font-size="11" text-anchor="start" font-weight="bold">가치 v(x)</text>
+    <text x="202" y="170" font-size="11" text-anchor="start" font-weight="bold">준거점(0)</text>
+    <path d="M 190 155 Q 235 102 330 88" stroke="#2f5d50" stroke-width="2.8" fill="none"/>
+    <path d="M 190 155 Q 145 250 65 280" stroke="#b3261e" stroke-width="2.8" fill="none"/>
+    <line x1="270" y1="155" x2="270" y2="105" stroke="#2f5d50" stroke-dasharray="3,3"/>
+    <line x1="190" y1="105" x2="270" y2="105" stroke="#2f5d50" stroke-dasharray="3,3"/>
+    <circle cx="270" cy="105" r="4.5" fill="#2f5d50"/>
+    <text x="270" y="172" font-size="11" text-anchor="middle" font-weight="bold" fill="#2f5d50">+100만</text>
+    <text x="182" y="109" font-size="11" text-anchor="end" font-weight="bold" fill="#2f5d50">+40</text>
+    <line x1="110" y1="155" x2="110" y2="255" stroke="#b3261e" stroke-dasharray="3,3"/>
+    <line x1="110" y1="255" x2="190" y2="255" stroke="#b3261e" stroke-dasharray="3,3"/>
+    <circle cx="110" cy="255" r="4.5" fill="#b3261e"/>
+    <text x="110" y="145" font-size="11" text-anchor="middle" font-weight="bold" fill="#b3261e">-100만</text>
+    <text x="200" y="259" font-size="11" text-anchor="start" font-weight="bold" fill="#b3261e">-90 (손실회피 λ=2.25)</text>
+    <rect x="355" y="52" width="165" height="225" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="437" y="74" font-size="12" text-anchor="middle" font-weight="bold">가치함수의 3대 성질</text>
+    <text x="365" y="98" font-size="11" text-anchor="start" font-weight="bold">1. 준거점 의존성</text>
+    <text x="365" y="115" font-size="10" text-anchor="start">   절대 부가 아닌 기준점 대비</text>
+    <text x="365" y="130" font-size="10" text-anchor="start">   이득·손실 변화량으로 평가</text>
+    <text x="365" y="154" font-size="11" text-anchor="start" font-weight="bold">2. 민감도 체감성</text>
+    <text x="365" y="171" font-size="10" text-anchor="start" fill="#2f5d50">   이득은 오목(위험회피),</text>
+    <text x="365" y="186" font-size="10" text-anchor="start" fill="#b3261e">   손실은 볼록(위험추구)</text>
+    <text x="365" y="210" font-size="11" text-anchor="start" font-weight="bold" fill="#b3261e">3. 손실회피 (Loss Aversion)</text>
+    <text x="365" y="227" font-size="10" text-anchor="start" font-weight="bold" fill="#b3261e">   |+40| < |-90| (λ = 2.25배)</text>
+    <text x="365" y="244" font-size="10" text-anchor="start">   같은 금액의 손실 고통이</text>
+    <text x="365" y="259" font-size="10" text-anchor="start">   이득 기쁨보다 2배 이상 큼</text>
+    <text x="270" y="306" font-size="11" text-anchor="middle" font-weight="bold">동일한 100만 원이라도 이득(+40)보다 손실(-90)의 심리적 충격이 2.25배 크다</text>
+  </g>
+</svg>

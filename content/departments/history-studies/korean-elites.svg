@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="15" text-anchor="middle" font-weight="bold">전근대 한국 지배층과 관직·토지 제도의 변천</text>
+    <rect x="25" y="42" width="490" height="28" rx="4" fill="#d9d2c2" stroke="#7a766d"/>
+    <text x="75" y="61" font-size="11" text-anchor="middle" font-weight="bold">시대/구분</text>
+    <text x="195" y="61" font-size="11" text-anchor="middle" font-weight="bold">핵심 지배층</text>
+    <text x="330" y="61" font-size="11" text-anchor="middle" font-weight="bold">주요 관직 선발</text>
+    <text x="455" y="61" font-size="11" text-anchor="middle" font-weight="bold">토지 수조권 제도</text>
+    <rect x="25" y="70" width="490" height="42" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="75" y="96" font-size="11" text-anchor="middle" font-weight="bold">신라 (중·하대)</text>
+    <text x="195" y="96" font-size="11" text-anchor="middle">진골 귀족 · 6두품</text>
+    <text x="330" y="96" font-size="11" text-anchor="middle">골품제 (혈통 제한)</text>
+    <text x="455" y="96" font-size="11" text-anchor="middle">녹읍 · 관료전</text>
+    <rect x="25" y="112" width="490" height="42" rx="4" fill="#e3efe9" stroke="#7a766d"/>
+    <text x="75" y="138" font-size="11" text-anchor="middle" font-weight="bold">고려 전기</text>
+    <text x="195" y="138" font-size="11" text-anchor="middle">문벌귀족</text>
+    <text x="330" y="138" font-size="11" text-anchor="middle">과거제 + 음서(5품 이상)</text>
+    <text x="455" y="138" font-size="11" text-anchor="middle">전시과 (18과: 전지·시지)</text>
+    <rect x="25" y="154" width="490" height="42" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="75" y="180" font-size="11" text-anchor="middle" font-weight="bold">고려 후기</text>
+    <text x="195" y="180" font-size="11" text-anchor="middle">권문세족 → 신진사대부</text>
+    <text x="330" y="180" font-size="11" text-anchor="middle">음서 남발 vs. 성균관 과거</text>
+    <text x="455" y="180" font-size="11" text-anchor="middle">대농장 확대 → 과전법(1391)</text>
+    <rect x="25" y="196" width="490" height="42" rx="4" fill="#e3efe9" stroke="#7a766d"/>
+    <text x="75" y="222" font-size="11" text-anchor="middle" font-weight="bold">조선 전·중기</text>
+    <text x="195" y="222" font-size="11" text-anchor="middle">양반 사대부 (훈구·사림)</text>
+    <text x="330" y="222" font-size="11" text-anchor="middle">문과·무과·잡과 (음서 축소)</text>
+    <text x="455" y="222" font-size="11" text-anchor="middle">과전법 → 직전법(현직만)</text>
+    <rect x="25" y="250" width="490" height="52" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="270" y="270" font-size="11" text-anchor="middle" font-weight="bold">핵심 흐름: 혈통 중심(골품·음서)에서 시험·능력 중심(과거)으로 이동,</text>
+    <text x="270" y="290" font-size="11" text-anchor="middle">토지 제도는 세습적 수조권에서 현직 관료 수조권, 나아가 관수관급·지주전호제로 전환</text>
+  </g>
+</svg>

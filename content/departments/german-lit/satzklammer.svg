@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="15" text-anchor="middle" font-weight="bold">독일어 위상장 모델과 문장틀 (Satzklammer)</text>
+    <rect x="20" y="45" width="95" height="32" rx="4" fill="#e9e1cf" stroke="#7a766d"/>
+    <text x="67" y="66" font-size="11" text-anchor="middle" font-weight="bold">전역 (Vorfeld)</text>
+    <rect x="120" y="45" width="85" height="32" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="162" y="66" font-size="11" text-anchor="middle" font-weight="bold">좌측틀 (LK)</text>
+    <rect x="210" y="45" width="145" height="32" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="282" y="66" font-size="11" text-anchor="middle" font-weight="bold">중역 (Mittelfeld)</text>
+    <rect x="360" y="45" width="85" height="32" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="402" y="66" font-size="11" text-anchor="middle" font-weight="bold">우측틀 (RK)</text>
+    <rect x="450" y="45" width="70" height="32" rx="4" fill="#e9e1cf" stroke="#7a766d"/>
+    <text x="485" y="66" font-size="11" text-anchor="middle" font-weight="bold">후역 (Nachfeld)</text>
+    <rect x="20" y="85" width="95" height="44" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="67" y="111" font-size="11" text-anchor="middle">Heute</text>
+    <rect x="120" y="85" width="85" height="44" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="162" y="111" font-size="11" text-anchor="middle" font-weight="bold">hat</text>
+    <rect x="210" y="85" width="145" height="44" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="282" y="111" font-size="11" text-anchor="middle">sie im Café ein Buch</text>
+    <rect x="360" y="85" width="85" height="44" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="402" y="111" font-size="11" text-anchor="middle" font-weight="bold">gelesen</text>
+    <rect x="450" y="85" width="70" height="44" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="485" y="111" font-size="11" text-anchor="middle">—</text>
+    <text x="25" y="82" font-size="10" text-anchor="start" font-weight="bold" fill="#2f5d50">주문장(V2)</text>
+    <rect x="20" y="137" width="95" height="44" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="67" y="163" font-size="11" text-anchor="middle">Der Zug</text>
+    <rect x="120" y="137" width="85" height="44" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="162" y="163" font-size="11" text-anchor="middle" font-weight="bold">fährt</text>
+    <rect x="210" y="137" width="145" height="44" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="282" y="163" font-size="11" text-anchor="middle">um acht Uhr pünktlich</text>
+    <rect x="360" y="137" width="85" height="44" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="402" y="163" font-size="11" text-anchor="middle" font-weight="bold">ab</text>
+    <rect x="450" y="137" width="70" height="44" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="485" y="163" font-size="11" text-anchor="middle">—</text>
+    <text x="25" y="134" font-size="10" text-anchor="start" font-weight="bold" fill="#2f5d50">분리동사(V2)</text>
+    <rect x="20" y="189" width="95" height="44" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="67" y="215" font-size="11" text-anchor="middle">—</text>
+    <rect x="120" y="189" width="85" height="44" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="162" y="215" font-size="11" text-anchor="middle" font-weight="bold">weil</text>
+    <rect x="210" y="189" width="145" height="44" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="282" y="215" font-size="11" text-anchor="middle">sie im Café ein Buch</text>
+    <rect x="360" y="189" width="85" height="44" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="402" y="215" font-size="11" text-anchor="middle" font-weight="bold">gelesen hat</text>
+    <rect x="450" y="189" width="70" height="44" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="485" y="215" font-size="11" text-anchor="middle">—</text>
+    <text x="25" y="186" font-size="10" text-anchor="start" font-weight="bold" fill="#2f5d50">종속절(VL)</text>
+    <rect x="20" y="248" width="500" height="56" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="270" y="268" font-size="11" text-anchor="middle" font-weight="bold">좌측틀(LK: 정동사 또는 종속접속사)과 우측틀(RK: 과거분사·원형·분리전철·정동사)이</text>
+    <text x="270" y="288" font-size="11" text-anchor="middle">중역(Mittelfeld)의 주·목적어·부사어를 양쪽에서 감싸는 구조를 문장틀이라 한다.</text>
+  </g>
+</svg>

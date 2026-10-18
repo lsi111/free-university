@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="15" text-anchor="middle" font-weight="bold">아날학파 브로델의 시간 3층위와 근현대 사학사 흐름</text>
+    <rect x="20" y="48" width="250" height="62" rx="4" fill="#fbe6e1" stroke="#b3261e"/>
+    <text x="145" y="68" font-size="12" text-anchor="middle" font-weight="bold">1층: 사건사 (단기 시간 · 개인)</text>
+    <text x="145" y="88" font-size="10" text-anchor="middle">전투·조약·왕위 교체 (전통 랑케 사학의 초점)</text>
+    <rect x="20" y="118" width="250" height="66" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="145" y="138" font-size="12" text-anchor="middle" font-weight="bold">2층: 국면사 (중기 시간 · 사회경제)</text>
+    <text x="145" y="158" font-size="10" text-anchor="middle">물가 파동·인구 주기·임금 추세 (10~50년 단위)</text>
+    <rect x="20" y="192" width="250" height="74" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="145" y="214" font-size="12" text-anchor="middle" font-weight="bold">3층: 장기지속 (구조 · 지리·생태·심성)</text>
+    <text x="145" y="234" font-size="10" text-anchor="middle">지중해의 기후·항로·농경 구조 (수백 년 단위)</text>
+    <text x="145" y="252" font-size="10" text-anchor="middle" font-weight="bold" fill="#2f5d50">→ 사건의 가능 범위를 규정하는 심층 토대</text>
+    <rect x="285" y="48" width="235" height="218" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="402" y="70" font-size="12" text-anchor="middle" font-weight="bold">사학사의 중심축 이동</text>
+    <text x="295" y="92" font-size="11" text-anchor="start" font-weight="bold" fill="#1d1c1a">• 19세기 랑케 실증사학</text>
+    <text x="303" y="108" font-size="9.5" text-anchor="start">국가·외교 문서 비판, '그것이 본래 어떠했는가'</text>
+    <text x="295" y="134" font-size="11" text-anchor="start" font-weight="bold" fill="#1d1c1a">• 20세기 중반 아날·마르크스</text>
+    <text x="303" y="150" font-size="9.5" text-anchor="start">전체사·사회경제 구조·계급투쟁과 수량사</text>
+    <text x="295" y="176" font-size="11" text-anchor="start" font-weight="bold" fill="#2f5d50">• 1970년대 이후 미시사·신문화사</text>
+    <text x="303" y="192" font-size="9.5" text-anchor="start">축척 축소(예외적 정상), 상징·담화·아래로부터의 역사</text>
+    <text x="295" y="218" font-size="11" text-anchor="start" font-weight="bold" fill="#1d1c1a">• 21세기 초국적·지구사</text>
+    <text x="303" y="234" font-size="9.5" text-anchor="start">일국사 너머의 교류망·이주·생태·비교사</text>
+    <text x="270" y="295" font-size="11" text-anchor="middle" font-weight="bold">거시 구조(숲)와 미시 행위자(나무)를 교차할 때 입체적 역사 서술이 완성된다</text>
+  </g>
+</svg>

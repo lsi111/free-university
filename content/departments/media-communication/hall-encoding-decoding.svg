@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="15" text-anchor="middle" font-weight="bold">스튜어트 홀의 기호화(Encoding) · 해독(Decoding) 모형</text>
+    <rect x="25" y="95" width="130" height="90" rx="4" fill="#e9e1cf" stroke="#7a766d"/>
+    <text x="90" y="122" font-size="13" text-anchor="middle" font-weight="bold">미디어 생산자</text>
+    <text x="90" y="142" font-size="11" text-anchor="middle">기호화 (Encoding)</text>
+    <text x="90" y="162" font-size="11" text-anchor="middle" fill="#2f5d50">선호된 의미 내장</text>
+    <rect x="185" y="105" width="110" height="70" rx="4" fill="#ffffff" stroke="#1d1c1a"/>
+    <text x="240" y="135" font-size="13" text-anchor="middle" font-weight="bold">미디어 텍스트</text>
+    <text x="240" y="155" font-size="11" text-anchor="middle">(다의적 기호)</text>
+    <rect x="330" y="48" width="185" height="65" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="422" y="70" font-size="12" text-anchor="middle" font-weight="bold">1. 지배적-헤게모니적 해독</text>
+    <text x="422" y="90" font-size="11" text-anchor="middle">선호된 의미를 그대로 수용</text>
+    <rect x="330" y="125" width="185" height="65" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="422" y="147" font-size="12" text-anchor="middle" font-weight="bold">2. 협상적 해독</text>
+    <text x="422" y="167" font-size="11" text-anchor="middle">총론 수용 · 자신의 조건에서 예외</text>
+    <rect x="330" y="202" width="185" height="65" rx="4" fill="#fbe6e1" stroke="#b3261e"/>
+    <text x="422" y="224" font-size="12" text-anchor="middle" font-weight="bold">3. 대항적(저항적) 해독</text>
+    <text x="422" y="244" font-size="11" text-anchor="middle">지배 코드 거부 · 대안 틀로 재해석</text>
+    <path d="M155 140 L185 140 M295 140 L330 80 M295 140 L330 157 M295 140 L330 234" stroke="#7a766d" stroke-width="2" fill="none"/>
+    <text x="270" y="294" font-size="11" text-anchor="middle" font-weight="bold">수용자는 수동적 소비자가 아니라 사회적 위치에 따라 의미를 재구성하는 능동적 해독자다</text>
+  </g>
+</svg>

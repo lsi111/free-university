@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+<rect width="400" height="240" fill="#f4efe6"/>
+<text x="200.0" y="22.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">구형 입체의 명암(Value) 구조 5단계</text>
+<line x1="40.0" y1="180.0" x2="360.0" y2="180.0" stroke="#7a766d" stroke-width="1.5"/>
+<polygon points="180.0,185.0 250.0,175.0 340.0,185.0 320.0,205.0 230.0,210.0 170.0,195.0" fill="#7a766d" fill-opacity="0.4" stroke="#7a766d" stroke-width="1"/>
+<circle cx="160.0" cy="120.0" r="60" fill="#e8e2d5" stroke="#1d1c1a" stroke-width="2"/>
+<polygon points="160.0,60.0 190.0,80.0 205.0,120.0 195.0,160.0 160.0,180.0 180.0,160.0 190.0,120.0 175.0,80.0" fill="#7a766d" fill-opacity="0.6" stroke="none" stroke-width="2.5"/>
+<circle cx="130.0" cy="95.0" r="12" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+<circle cx="130.0" cy="95.0" r="4" fill="#ffffff" stroke="#e07a3f" stroke-width="1.5"/>
+<line x1="70.0" y1="65.0" x2="125.0" y2="90.0" stroke="#e07a3f" stroke-width="1.5"/>
+<polygon points="125.0,90.0 117.0,89.8 119.6,84.1" fill="#e07a3f"/>
+<text x="65.0" y="62.0" font-family="sans-serif" font-size="11" fill="#e07a3f" text-anchor="end" font-weight="bold">1 하이라이트 (최고 명도)</text>
+<line x1="60.0" y1="115.0" x2="115.0" y2="125.0" stroke="#1d1c1a" stroke-width="1.5"/>
+<polygon points="115.0,125.0 107.2,126.7 108.3,120.6" fill="#1d1c1a"/>
+<text x="55.0" y="118.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="end">2 하프톤 (중간 명도)</text>
+<line x1="260.0" y1="95.0" x2="195.0" y2="115.0" stroke="#1d1c1a" stroke-width="1.5"/>
+<polygon points="195.0,115.0 201.1,109.9 203.0,115.8" fill="#1d1c1a"/>
+<text x="265.0" y="95.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="start" font-weight="bold">3 코어 섀도우 (명암 경계 능선)</text>
+<line x1="260.0" y1="145.0" x2="210.0" y2="150.0" stroke="#2f5d50" stroke-width="1.5"/>
+<polygon points="210.0,150.0 217.0,146.2 217.6,152.4" fill="#2f5d50"/>
+<text x="265.0" y="145.0" font-family="sans-serif" font-size="11" fill="#2f5d50" text-anchor="start" font-weight="bold">4 반사광 (바닥 반사로 밝아짐)</text>
+<line x1="260.0" y1="195.0" x2="240.0" y2="190.0" stroke="#7a766d" stroke-width="1.5"/>
+<polygon points="240.0,190.0 247.9,188.8 246.4,194.8" fill="#7a766d"/>
+<text x="265.0" y="198.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">5 그림자 (물체가 빛을 가린 영역)</text>
+</svg>

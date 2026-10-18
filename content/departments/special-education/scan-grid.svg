@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 270" width="400" height="270">
+<rect width="400" height="270" fill="#f4efe6"/>
+<text x="200.0" y="22.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">4행 4열 그림 의사소통판 (가상)</text>
+<text x="100.0" y="44.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">1열</text>
+<text x="180.0" y="44.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">2열</text>
+<text x="260.0" y="44.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">3열</text>
+<text x="340.0" y="44.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">4열</text>
+<text x="50.0" y="77.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">1행</text>
+<rect x="60.0" y="52.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="100.0" y="77.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">물</text>
+<rect x="140.0" y="52.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="180.0" y="77.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">밥</text>
+<rect x="220.0" y="52.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="260.0" y="77.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">화장실</text>
+<rect x="300.0" y="52.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="340.0" y="77.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">쉬기</text>
+<text x="50.0" y="117.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">2행</text>
+<rect x="60.0" y="92.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="100.0" y="117.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">놀이</text>
+<rect x="140.0" y="92.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="180.0" y="117.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">음악</text>
+<rect x="220.0" y="92.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="260.0" y="117.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">책</text>
+<rect x="300.0" y="92.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="340.0" y="117.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">밖</text>
+<text x="50.0" y="157.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">3행</text>
+<rect x="60.0" y="132.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="100.0" y="157.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">더</text>
+<rect x="140.0" y="132.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="180.0" y="157.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">그만</text>
+<rect x="220.0" y="132.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="260.0" y="157.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">도와줘요</text>
+<rect x="300.0" y="132.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="340.0" y="157.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">아파요</text>
+<text x="50.0" y="197.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">4행</text>
+<rect x="60.0" y="172.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="100.0" y="197.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">네</text>
+<rect x="140.0" y="172.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="180.0" y="197.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">아니요</text>
+<rect x="220.0" y="172.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="260.0" y="197.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">좋아요</text>
+<rect x="300.0" y="172.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="340.0" y="197.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">싫어요</text>
+<text x="200.0" y="232.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">칸 하나를 밝히는 데 1단계가 걸린다.</text>
+<text x="200.0" y="252.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">순차 스캐닝: 1행 1열부터 한 칸씩 / 행-열 스캐닝: 행 먼저, 그다음 칸</text>
+</svg>

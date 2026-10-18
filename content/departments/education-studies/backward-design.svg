@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 250" width="380" height="250">
+<rect width="380" height="250" fill="#f4efe6"/>
+<text x="190.0" y="24.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">백워드 설계의 세 단계</text>
+<rect x="20.0" y="40.0" width="240.0" height="50.0" rx="4" fill="#2f5d50" stroke="#2f5d50" stroke-width="2"/>
+<text x="32.0" y="61.0" font-family="sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">1단계</text>
+<text x="90.0" y="61.0" font-family="sans-serif" font-size="12" fill="#ffffff" text-anchor="start" font-weight="bold">바라는 결과 확인</text>
+<text x="90.0" y="80.0" font-family="sans-serif" font-size="11" fill="#ffffff" text-anchor="start">영속적 이해, 본질적 질문</text>
+<line x1="140.0" y1="91.0" x2="140.0" y2="104.0" stroke="#1d1c1a" stroke-width="2"/>
+<polygon points="140.0,104.0 137.7,98.5 142.3,98.5" fill="#1d1c1a"/>
+<rect x="20.0" y="106.0" width="240.0" height="50.0" rx="4" fill="#e07a3f" stroke="#2f5d50" stroke-width="2"/>
+<text x="32.0" y="127.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start" font-weight="bold">2단계</text>
+<text x="90.0" y="127.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start" font-weight="bold">수용 가능한 증거 결정</text>
+<text x="90.0" y="146.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="start">수행과제, 루브릭, 기타 증거</text>
+<line x1="140.0" y1="157.0" x2="140.0" y2="170.0" stroke="#1d1c1a" stroke-width="2"/>
+<polygon points="140.0,170.0 137.7,164.5 142.3,164.5" fill="#1d1c1a"/>
+<rect x="20.0" y="172.0" width="240.0" height="50.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="32.0" y="193.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start" font-weight="bold">3단계</text>
+<text x="90.0" y="193.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start" font-weight="bold">학습경험과 수업 계획</text>
+<text x="90.0" y="212.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="start">활동, 자료, 순서</text>
+<text x="320.0" y="70.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">설계 순서</text>
+<line x1="320.0" y1="80.0" x2="320.0" y2="175.0" stroke="#7a766d" stroke-width="2"/>
+<polygon points="320.0,175.0 317.3,168.6 322.7,168.6" fill="#7a766d"/>
+<text x="320.0" y="196.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">결과에서</text>
+<text x="320.0" y="212.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">거꾸로</text>
+<text x="190.0" y="240.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">평가 증거를 활동보다 먼저 정한다</text>
+</svg>

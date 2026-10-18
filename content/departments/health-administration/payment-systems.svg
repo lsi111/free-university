@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="15" text-anchor="middle" font-weight="bold">진료비 지불제도 유형별 보상 단위와 공급자 유인</text>
+    <rect x="20" y="46" width="500" height="30" rx="4" fill="#d9d2c2" stroke="#7a766d"/>
+    <text x="75" y="66" font-size="12" text-anchor="middle" font-weight="bold">지불제도</text>
+    <text x="195" y="66" font-size="12" text-anchor="middle" font-weight="bold">보상 단위</text>
+    <text x="335" y="66" font-size="12" text-anchor="middle" font-weight="bold">의료량·원가 유인</text>
+    <text x="455" y="66" font-size="12" text-anchor="middle" font-weight="bold">핵심 한계와 부작용</text>
+    <rect x="20" y="76" width="500" height="42" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="75" y="102" font-size="12" text-anchor="middle" font-weight="bold">행위별수가제</text>
+    <text x="195" y="102" font-size="11" text-anchor="middle">개별 검사·처치당</text>
+    <text x="335" y="102" font-size="11" text-anchor="middle">진료량·검사 극대화</text>
+    <text x="455" y="102" font-size="11" text-anchor="middle">과잉진료·의료비 급증</text>
+    <rect x="20" y="118" width="500" height="42" rx="4" fill="#e3efe9" stroke="#7a766d"/>
+    <text x="75" y="144" font-size="12" text-anchor="middle" font-weight="bold">포괄수가제(DRG)</text>
+    <text x="195" y="144" font-size="11" text-anchor="middle">입원 질병군 건당 정액</text>
+    <text x="335" y="144" font-size="11" text-anchor="middle">건당 원가·재원일수 절감</text>
+    <text x="455" y="144" font-size="11" text-anchor="middle">조기퇴원·중증환자 기피</text>
+    <rect x="20" y="160" width="500" height="42" rx="4" fill="#fdf0d5" stroke="#7a766d"/>
+    <text x="75" y="186" font-size="12" text-anchor="middle" font-weight="bold">인두제</text>
+    <text x="195" y="186" font-size="11" text-anchor="middle">등록 주민 1인당 정액</text>
+    <text x="335" y="186" font-size="11" text-anchor="middle">예방·만성질환 관리 강화</text>
+    <text x="455" y="186" font-size="11" text-anchor="middle">과소진료·상급병원 의뢰 전가</text>
+    <rect x="20" y="202" width="500" height="42" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="75" y="228" font-size="12" text-anchor="middle" font-weight="bold">총액계약제</text>
+    <text x="195" y="228" font-size="11" text-anchor="middle">연간 전체 예산 총액</text>
+    <text x="335" y="228" font-size="11" text-anchor="middle">거시적 총의료비 통제</text>
+    <text x="455" y="228" font-size="11" text-anchor="middle">대기시간 증가·진료 배급화</text>
+    <rect x="20" y="256" width="500" height="46" rx="4" fill="#f4e9d6" stroke="#7a766d"/>
+    <text x="270" y="276" font-size="11" text-anchor="middle" font-weight="bold">사후보상(행위별)은 재정 위험을 보험자가 지고, 사전정액(포괄·인두·총액)은 공급자가 분담한다</text>
+    <text x="270" y="294" font-size="11" text-anchor="middle">현대 의료보장체계는 단일 제도의 부작용을 줄이기 위해 혼합 지불제와 가치기반 보상(P4P)을 결합한다</text>
+  </g>
+</svg>

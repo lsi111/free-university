@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="15" text-anchor="middle" font-weight="bold">켈리(Kelley)의 공변 모형: 3가지 정보와 귀인 방향</text>
+    <text x="270" y="48" font-size="12" text-anchor="middle" font-weight="bold" fill="#2f5d50">사례: '민수가 김 교수의 심리학 수업에서 졸았다'</text>
+    <rect x="25" y="62" width="490" height="32" rx="4" fill="#d9d2c2" stroke="#7a766d"/>
+    <text x="60" y="83" font-size="11" text-anchor="middle" font-weight="bold">패턴</text>
+    <text x="155" y="83" font-size="11" text-anchor="middle" font-weight="bold">합의성 (남들도?)</text>
+    <text x="265" y="83" font-size="11" text-anchor="middle" font-weight="bold">특이성 (다른 수업도?)</text>
+    <text x="375" y="83" font-size="11" text-anchor="middle" font-weight="bold">일관성 (매시간?)</text>
+    <text x="465" y="83" font-size="11" text-anchor="middle" font-weight="bold">귀인 결론</text>
+    <rect x="25" y="94" width="490" height="48" rx="4" fill="#e3efe9" stroke="#7a766d"/>
+    <text x="60" y="123" font-size="11" text-anchor="middle" font-weight="bold">유형 A</text>
+    <text x="155" y="123" font-size="11" text-anchor="middle">낮음 (민수만 좊)</text>
+    <text x="265" y="123" font-size="11" text-anchor="middle">낮음 (모든 수업 좊)</text>
+    <text x="375" y="123" font-size="11" text-anchor="middle">높음 (늘 좊)</text>
+    <text x="465" y="123" font-size="11" text-anchor="middle" font-weight="bold" fill="#2f5d50">내부 귀인 (민수 기질)</text>
+    <rect x="25" y="142" width="490" height="48" rx="4" fill="#fdf0d5" stroke="#7a766d"/>
+    <text x="60" y="171" font-size="11" text-anchor="middle" font-weight="bold">유형 B</text>
+    <text x="155" y="171" font-size="11" text-anchor="middle">높음 (모두 다 좊)</text>
+    <text x="265" y="171" font-size="11" text-anchor="middle">높음 (이 수업만 좊)</text>
+    <text x="375" y="171" font-size="11" text-anchor="middle">높음 (늘 좊)</text>
+    <text x="465" y="171" font-size="11" text-anchor="middle" font-weight="bold" fill="#e07a3f">외부 귀인 (김 교수 수업)</text>
+    <rect x="25" y="190" width="490" height="48" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="60" y="219" font-size="11" text-anchor="middle" font-weight="bold">유형 C</text>
+    <text x="155" y="219" font-size="11" text-anchor="middle">낮음 (민수만 좊)</text>
+    <text x="265" y="219" font-size="11" text-anchor="middle">높음 (이 수업만 좊)</text>
+    <text x="375" y="219" font-size="11" text-anchor="middle">낮음 (오늘만 좊)</text>
+    <text x="465" y="219" font-size="11" text-anchor="middle" font-weight="bold">상황·우연 귀인 (일시 사정)</text>
+    <rect x="25" y="250" width="490" height="52" rx="4" fill="#ffffff" stroke="#2f5d50"/>
+    <text x="270" y="270" font-size="11" text-anchor="middle" font-weight="bold">기본적 귀인 오류(FAE): 타인의 행동을 볼 때 상황 요인을 과소평가하고 내부(기질) 귀인으로 치우치는 경향</text>
+    <text x="270" y="290" font-size="11" text-anchor="middle">행위자-관찰자 편향: 내 실패는 상황(외부) 탓, 타인의 실패는 성격(내부) 탓으로 돌리는 비대칭</text>
+  </g>
+</svg>

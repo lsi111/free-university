@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" width="400" height="280">
+<rect width="400" height="280" fill="#f4efe6"/>
+<text x="200.0" y="20.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">읽기 유창성 진전도 (가상의 학생 라온)</text>
+<line x1="55.0" y1="40.0" x2="55.0" y2="220.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="109.2" y1="40.0" x2="109.2" y2="220.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="163.3" y1="40.0" x2="163.3" y2="220.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="217.5" y1="40.0" x2="217.5" y2="220.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="271.7" y1="40.0" x2="271.7" y2="220.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="325.8" y1="40.0" x2="325.8" y2="220.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="380.0" y1="40.0" x2="380.0" y2="220.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="55.0" y1="220.0" x2="380.0" y2="220.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="55.0" y1="175.0" x2="380.0" y2="175.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="55.0" y1="130.0" x2="380.0" y2="130.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="55.0" y1="85.0" x2="380.0" y2="85.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="55.0" y1="40.0" x2="380.0" y2="40.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="55.0" y1="220.0" x2="380.0" y2="220.0" stroke="#7a766d" stroke-width="1.5"/>
+<line x1="55.0" y1="40.0" x2="55.0" y2="220.0" stroke="#7a766d" stroke-width="1.5"/>
+<text x="55.0" y="235.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">0</text>
+<text x="109.2" y="235.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">2</text>
+<text x="163.3" y="235.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">4</text>
+<text x="217.5" y="235.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">6</text>
+<text x="271.7" y="235.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">8</text>
+<text x="325.8" y="235.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">10</text>
+<text x="380.0" y="235.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">12</text>
+<text x="49.0" y="224.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">0</text>
+<text x="49.0" y="179.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">10</text>
+<text x="49.0" y="134.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">20</text>
+<text x="49.0" y="89.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">30</text>
+<text x="49.0" y="44.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">40</text>
+<text x="380.0" y="250.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">주</text>
+<text x="59.0" y="34.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">1분에 바르게 읽은 낱말 수</text>
+<line x1="149.8" y1="40.0" x2="149.8" y2="220.0" stroke="#7a766d" stroke-width="1.5" stroke-dasharray="5,4"/>
+<text x="145.8" y="54.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">기초선</text>
+<text x="153.8" y="54.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">중재</text>
+<polyline points="136.2,130.0 380.0,49.0" fill="none" stroke="#e07a3f" stroke-width="2" stroke-dasharray="6,4"/>
+<text x="378.0" y="41.0" font-family="sans-serif" font-size="11" fill="#e07a3f" text-anchor="end">목표 38</text>
+<text x="124.2" y="152.0" font-family="sans-serif" font-size="11" fill="#e07a3f" text-anchor="end">시작 20</text>
+<polyline points="82.1,139.0 109.2,121.0 136.2,130.0" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<polyline points="163.3,121.0 190.4,121.0 217.5,116.5 244.6,112.0 271.7,112.0 298.8,107.5" fill="none" stroke="#2f5d50" stroke-width="2"/>
+<circle cx="82.1" cy="139.0" r="4" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<text x="82.1" y="130.0" font-family="sans-serif" font-size="11" fill="#2f5d50" text-anchor="middle">18</text>
+<circle cx="109.2" cy="121.0" r="4" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<text x="109.2" y="112.0" font-family="sans-serif" font-size="11" fill="#2f5d50" text-anchor="middle">22</text>
+<circle cx="136.2" cy="130.0" r="4" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<text x="136.2" y="121.0" font-family="sans-serif" font-size="11" fill="#2f5d50" text-anchor="middle">20</text>
+<circle cx="163.3" cy="121.0" r="4" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<text x="163.3" y="138.0" font-family="sans-serif" font-size="11" fill="#2f5d50" text-anchor="middle">22</text>
+<circle cx="190.4" cy="121.0" r="4" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<text x="190.4" y="138.0" font-family="sans-serif" font-size="11" fill="#2f5d50" text-anchor="middle">22</text>
+<circle cx="217.5" cy="116.5" r="4" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<text x="217.5" y="133.5" font-family="sans-serif" font-size="11" fill="#2f5d50" text-anchor="middle">23</text>
+<circle cx="244.6" cy="112.0" r="4" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<text x="244.6" y="129.0" font-family="sans-serif" font-size="11" fill="#2f5d50" text-anchor="middle">24</text>
+<circle cx="271.7" cy="112.0" r="4" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<text x="271.7" y="129.0" font-family="sans-serif" font-size="11" fill="#2f5d50" text-anchor="middle">24</text>
+<circle cx="298.8" cy="107.5" r="4" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<text x="298.8" y="124.5" font-family="sans-serif" font-size="11" fill="#2f5d50" text-anchor="middle">25</text>
+<line x1="70.0" y1="258.0" x2="95.0" y2="258.0" stroke="#e07a3f" stroke-width="2" stroke-dasharray="6,4"/>
+<text x="100.0" y="262.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">목표선</text>
+<circle cx="170.0" cy="258.0" r="4" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<text x="180.0" y="262.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">측정 점수 (실선)</text>
+</svg>

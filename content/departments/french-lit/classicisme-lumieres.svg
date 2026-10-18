@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="15" text-anchor="middle" font-weight="bold">17세기 고전주의 연극 규범과 18세기 계몽주의 문학</text>
+    <rect x="20" y="48" width="240" height="195" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="140" y="72" font-size="13" text-anchor="middle" font-weight="bold" fill="#2f5d50">17세기 고전주의 (Classicisme)</text>
+    <text x="32" y="98" font-size="11" text-anchor="start">시대 배경: 루이 14세 절대왕정과 이성주의</text>
+    <text x="32" y="118" font-size="11" text-anchor="start" font-weight="bold">삼일치 법칙 (Règle des trois unités):</text>
+    <text x="32" y="138" font-size="11" text-anchor="start">  · 행동의 일치 (단일한 중심 줄거리)</text>
+    <text x="32" y="158" font-size="11" text-anchor="start">  · 시간의 일치 (24시간 이내 완결)</text>
+    <text x="32" y="178" font-size="11" text-anchor="start">  · 장소의 일치 (단일한 무대 공간)</text>
+    <text x="32" y="198" font-size="11" text-anchor="start" font-weight="bold">미학 규범: 개연성(Vraisemblance)과 예절(Bienséance)</text>
+    <text x="32" y="218" font-size="11" text-anchor="start">대표 작가: 코르네유 · 라신(비극) · 몰리에르(희극)</text>
+    <rect x="280" y="48" width="240" height="195" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="400" y="72" font-size="13" text-anchor="middle" font-weight="bold" fill="#e07a3f">18세기 계몽주의 (Siècle des Lumières)</text>
+    <text x="292" y="98" font-size="11" text-anchor="start">시대 배경: 구체제(Ancien Régime) 비판과 시민의식</text>
+    <text x="292" y="118" font-size="11" text-anchor="start" font-weight="bold">핵심 프로젝트: 《백과전서》(디드로 · 달랑베르)</text>
+    <text x="292" y="138" font-size="11" text-anchor="start" font-weight="bold">주요 사상가와 문학 양식:</text>
+    <text x="292" y="158" font-size="11" text-anchor="start">  · 몽테스키외: 서간체 풍자 (《페르시아인의 편지》)</text>
+    <text x="292" y="178" font-size="11" text-anchor="start">  · 볼테르: 철학적 콩트 (《캉디드》) · 관용 투쟁</text>
+    <text x="292" y="198" font-size="11" text-anchor="start">  · 루소: 문명 비판 · 감수성 · 자서전 (《고백록》)</text>
+    <text x="292" y="218" font-size="11" text-anchor="start">  · 보마르셰: 사회 풍자 희극 (《피가로의 결혼》)</text>
+    <rect x="20" y="254" width="500" height="50" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="270" y="274" font-size="11" text-anchor="middle" font-weight="bold">문학적 전환: 17세기 보편적 인간 본성 탐구와 엄격한 형식미(운문 비극)</text>
+    <text x="270" y="294" font-size="11" text-anchor="middle">→ 18세기 사회·종교 제도 개혁을 위한 산문·풍자·철학 소설의 확산</text>
+  </g>
+</svg>

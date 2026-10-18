@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="14" text-anchor="middle" font-weight="bold">무차별곡선 접점과 가격 하락 시 대체·소득효과 분해</text>
+    <line x1="60" y1="45" x2="60" y2="260" stroke="#1d1c1a" stroke-width="2"/>
+    <line x1="60" y1="260" x2="330" y2="260" stroke="#1d1c1a" stroke-width="2"/>
+    <text x="45" y="55" font-size="12" text-anchor="middle" font-weight="bold">Y재</text>
+    <text x="325" y="280" font-size="12" text-anchor="middle" font-weight="bold">X재</text>
+    <line x1="60" y1="70" x2="210" y2="260" stroke="#7a766d" stroke-width="2"/>
+    <text x="42" y="74" font-size="11" text-anchor="end">20</text>
+    <text x="210" y="276" font-size="11" text-anchor="middle">10</text>
+    <line x1="60" y1="70" x2="310" y2="260" stroke="#2f5d50" stroke-width="2"/>
+    <text x="310" y="276" font-size="11" text-anchor="middle" font-weight="bold" fill="#2f5d50">20</text>
+    <line x1="60" y1="125" x2="245" y2="260" stroke="#e07a3f" stroke-width="1.8" stroke-dasharray="5,4"/>
+    <path d="M 85 85 Q 115 160 165 202 Q 210 225 255 232" stroke="#7a766d" stroke-width="2" fill="none"/>
+    <text x="262" y="235" font-size="11" text-anchor="start" font-weight="bold" fill="#7a766d">U1</text>
+    <path d="M 140 80 Q 185 165 225 195 Q 265 218 305 225" stroke="#2f5d50" stroke-width="2.2" fill="none"/>
+    <text x="310" y="226" font-size="11" text-anchor="start" font-weight="bold" fill="#2f5d50">U2</text>
+    <line x1="120" y1="146" x2="120" y2="260" stroke="#7a766d" stroke-dasharray="3,3"/>
+    <circle cx="120" cy="146" r="4.5" fill="#1d1c1a"/>
+    <text x="115" y="138" font-size="12" text-anchor="end" font-weight="bold">A</text>
+    <text x="120" y="276" font-size="11" text-anchor="middle" font-weight="bold">4</text>
+    <line x1="165" y1="202" x2="165" y2="260" stroke="#e07a3f" stroke-dasharray="3,3"/>
+    <circle cx="165" cy="202" r="4.5" fill="#e07a3f"/>
+    <text x="165" y="192" font-size="12" text-anchor="middle" font-weight="bold" fill="#e07a3f">B</text>
+    <text x="165" y="276" font-size="11" text-anchor="middle" font-weight="bold" fill="#e07a3f">7</text>
+    <line x1="225" y1="195" x2="225" y2="260" stroke="#2f5d50" stroke-dasharray="3,3"/>
+    <circle cx="225" cy="195" r="4.5" fill="#2f5d50"/>
+    <text x="232" y="188" font-size="12" text-anchor="start" font-weight="bold" fill="#2f5d50">C</text>
+    <text x="225" y="276" font-size="11" text-anchor="middle" font-weight="bold" fill="#2f5d50">11</text>
+    <rect x="345" y="50" width="175" height="210" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="432" y="72" font-size="12" text-anchor="middle" font-weight="bold">가격효과 분해 (정상재)</text>
+    <text x="357" y="96" font-size="11" text-anchor="start">• 초기 균형 A: X = 4</text>
+    <text x="357" y="116" font-size="11" text-anchor="start" fill="#e07a3f">• 보상 균형 B: X = 7</text>
+    <text x="357" y="136" font-size="11" text-anchor="start" fill="#2f5d50">• 최종 균형 C: X = 11</text>
+    <text x="357" y="164" font-size="11" text-anchor="start" font-weight="bold" fill="#e07a3f">대체효과(A→B): +3</text>
+    <text x="357" y="184" font-size="11" text-anchor="start" font-weight="bold" fill="#2f5d50">소득효과(B→C): +4</text>
+    <text x="357" y="204" font-size="11" text-anchor="start" font-weight="bold">총 가격효과(A→C): +7</text>
+    <text x="357" y="232" font-size="11" text-anchor="start">접점 조건: MRS = Px/Py</text>
+    <text x="270" y="304" font-size="11" text-anchor="middle" font-weight="bold">초기 X=4 → 대체효과로 X=7(+3) → 소득효과로 X=11(+4), 총 변화 +7</text>
+  </g>
+</svg>

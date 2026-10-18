@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="15" text-anchor="middle" font-weight="bold">일본어 수수표현(あげる·くれる·もらう)과 우치·소토 시점</text>
+    <rect x="20" y="45" width="235" height="130" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="137" y="67" font-size="12" text-anchor="middle" font-weight="bold" fill="#2f5d50">우치(内: 내집단) → 소토(外: 외집단)</text>
+    <text x="137" y="88" font-size="12" text-anchor="middle" font-weight="bold">원심적 방향: あげる (さしあげる / やる)</text>
+    <text x="137" y="110" font-size="11" text-anchor="middle">주어(주는 이): 나(私) 또는 내집단(우치)</text>
+    <text x="137" y="130" font-size="11" text-anchor="middle">예: 私が 友達に 本を あげた。</text>
+    <text x="137" y="150" font-size="10" text-anchor="middle" fill="#b3261e">제약: *友達が 私に あげた (비문: 나에게 줌 불가)</text>
+    <rect x="285" y="45" width="235" height="130" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="402" y="67" font-size="12" text-anchor="middle" font-weight="bold" fill="#e07a3f">소토(外: 외집단) → 우치(内: 내집단)</text>
+    <text x="402" y="88" font-size="12" text-anchor="middle" font-weight="bold">구심적 방향: くれる (くださる)</text>
+    <text x="402" y="110" font-size="11" text-anchor="middle">주어(주는 이): 타인 / 여격(받는 이): 나·우치</text>
+    <text x="402" y="130" font-size="11" text-anchor="middle">예: 友達が 私(妹)に 本を くれた。</text>
+    <text x="402" y="150" font-size="10" text-anchor="middle">핵심: 화자(또는 내집단) 쪽으로 이동할 때만 사용</text>
+    <rect x="20" y="190" width="500" height="110" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="270" y="212" font-size="12" text-anchor="middle" font-weight="bold">수령 중심 동사 もらう(いただく)와 혜택 보조동사 구문 비교</text>
+    <text x="75" y="234" font-size="11" text-anchor="middle" font-weight="bold">もらう (받다)</text>
+    <text x="235" y="234" font-size="10" text-anchor="middle">주어 = 받는 이(나·우치) / に(から) = 주는 이</text>
+    <text x="425" y="234" font-size="10" text-anchor="middle">예: 私が 友達に 本を もらった。</text>
+    <text x="75" y="252" font-size="11" text-anchor="middle" font-weight="bold">V-てあげる</text>
+    <text x="235" y="252" font-size="10" text-anchor="middle">화자·주어가 남을 위해 동작해 줌 (은혜 부각 주의)</text>
+    <text x="425" y="252" font-size="10" text-anchor="middle">예: 友達に 荷物を 持ってあげた。</text>
+    <text x="75" y="270" font-size="11" text-anchor="middle" font-weight="bold" fill="#2f5d50">V-てくれる</text>
+    <text x="235" y="270" font-size="10" text-anchor="middle">타인이 나(우치)를 위해 동작해 줌 (주어=타인, が)</text>
+    <text x="425" y="270" font-size="10" text-anchor="middle">예: 友達が 手伝ってくれた。</text>
+    <text x="75" y="288" font-size="11" text-anchor="middle" font-weight="bold" fill="#2f5d50">V-てもらう</text>
+    <text x="235" y="288" font-size="10" text-anchor="middle">나(우치)가 타인에게 부탁·수혜함 (주어=나, 타인+に)</text>
+    <text x="425" y="288" font-size="10" text-anchor="middle">예: (私が) 友達に 手伝ってもらった。</text>
+  </g>
+</svg>

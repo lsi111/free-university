@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 360" width="380" height="360">
+<rect width="380" height="360" fill="#f4efe6"/>
+<rect x="110.0" y="14.0" width="160.0" height="34.0" rx="4" fill="#f6d9c6" stroke="#e07a3f" stroke-width="2"/>
+<text x="190.0" y="35.5" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">기존 개념</text>
+<line x1="190.0" y1="48.0" x2="190.0" y2="64.0" stroke="#1d1c1a" stroke-width="1.5"/>
+<polygon points="190.0,64.0 187.7,58.5 192.3,58.5" fill="#1d1c1a"/>
+<rect x="40.0" y="66.0" width="300.0" height="44.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="190.0" y="86.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">조건 1  불만족</text>
+<text x="190.0" y="101.0" font-family="sans-serif" font-size="12" fill="#7a766d" text-anchor="middle">기존 생각으로는 설명이 안 된다</text>
+<line x1="190.0" y1="110.0" x2="190.0" y2="126.0" stroke="#1d1c1a" stroke-width="1.5"/>
+<polygon points="190.0,126.0 187.7,120.5 192.3,120.5" fill="#1d1c1a"/>
+<rect x="40.0" y="128.0" width="300.0" height="44.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="190.0" y="148.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">조건 2  이해 가능성</text>
+<text x="190.0" y="163.0" font-family="sans-serif" font-size="12" fill="#7a766d" text-anchor="middle">새 개념이 무슨 뜻인지 안다</text>
+<line x1="190.0" y1="172.0" x2="190.0" y2="188.0" stroke="#1d1c1a" stroke-width="1.5"/>
+<polygon points="190.0,188.0 187.7,182.5 192.3,182.5" fill="#1d1c1a"/>
+<rect x="40.0" y="190.0" width="300.0" height="44.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="190.0" y="210.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">조건 3  그럴듯함</text>
+<text x="190.0" y="225.0" font-family="sans-serif" font-size="12" fill="#7a766d" text-anchor="middle">새 개념이 참일 수 있다고 본다</text>
+<line x1="190.0" y1="234.0" x2="190.0" y2="250.0" stroke="#1d1c1a" stroke-width="1.5"/>
+<polygon points="190.0,250.0 187.7,244.5 192.3,244.5" fill="#1d1c1a"/>
+<rect x="40.0" y="252.0" width="300.0" height="44.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="190.0" y="272.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">조건 4  유용성</text>
+<text x="190.0" y="287.0" font-family="sans-serif" font-size="12" fill="#7a766d" text-anchor="middle">새 개념으로 더 많은 문제가 풀린다</text>
+<line x1="190.0" y1="296.0" x2="190.0" y2="312.0" stroke="#1d1c1a" stroke-width="1.5"/>
+<polygon points="190.0,312.0 187.7,306.5 192.3,306.5" fill="#1d1c1a"/>
+<rect x="110.0" y="312.0" width="160.0" height="34.0" rx="4" fill="#dbe7e1" stroke="#2f5d50" stroke-width="2"/>
+<text x="190.0" y="333.6" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">새 개념 수용</text>
+</svg>

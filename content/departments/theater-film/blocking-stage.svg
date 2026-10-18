@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+<rect width="400" height="240" fill="#f4efe6"/>
+<text x="200.0" y="20.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">연극 무대 9구역 블로킹(Stage Blocking)과 배우 동선</text>
+<rect x="50.0" y="35.0" width="300.0" height="140.0" rx="2" fill="#f4efe6" stroke="#1d1c1a" stroke-width="2"/>
+<line x1="150.0" y1="35.0" x2="150.0" y2="175.0" stroke="#ddd5c6" stroke-width="1.5"/>
+<line x1="250.0" y1="35.0" x2="250.0" y2="175.0" stroke="#ddd5c6" stroke-width="1.5"/>
+<line x1="50.0" y1="80.0" x2="350.0" y2="80.0" stroke="#ddd5c6" stroke-width="1.5"/>
+<line x1="50.0" y1="130.0" x2="350.0" y2="130.0" stroke="#ddd5c6" stroke-width="1.5"/>
+<text x="100.0" y="55.0" font-family="sans-serif" font-size="10" fill="#7a766d" text-anchor="middle">UR (상수 안쪽)</text>
+<text x="200.0" y="55.0" font-family="sans-serif" font-size="10" fill="#7a766d" text-anchor="middle">UC (중앙 안쪽)</text>
+<text x="300.0" y="55.0" font-family="sans-serif" font-size="10" fill="#7a766d" text-anchor="middle">UL (하수 안쪽)</text>
+<text x="370.0" y="55.0" font-family="sans-serif" font-size="9" fill="#7a766d" text-anchor="start">업스테이지 (원경·권위)</text>
+<text x="100.0" y="105.0" font-family="sans-serif" font-size="10" fill="#7a766d" text-anchor="middle">CR (상수 중앙)</text>
+<text x="200.0" y="105.0" font-family="sans-serif" font-size="11" fill="#2f5d50" text-anchor="middle" font-weight="bold">CS (무대 정중앙)</text>
+<text x="300.0" y="105.0" font-family="sans-serif" font-size="10" fill="#7a766d" text-anchor="middle">CL (하수 중앙)</text>
+<text x="370.0" y="105.0" font-family="sans-serif" font-size="9" fill="#7a766d" text-anchor="start">센터 (균형)</text>
+<text x="100.0" y="155.0" font-family="sans-serif" font-size="11" fill="#e07a3f" text-anchor="middle" font-weight="bold">DR (상수 앞)</text>
+<text x="200.0" y="155.0" font-family="sans-serif" font-size="11" fill="#e07a3f" text-anchor="middle" font-weight="bold">DC (다운센터)</text>
+<text x="300.0" y="155.0" font-family="sans-serif" font-size="11" fill="#e07a3f" text-anchor="middle" font-weight="bold">DL (하수 앞)</text>
+<text x="370.0" y="155.0" font-family="sans-serif" font-size="9" fill="#e07a3f" text-anchor="start" font-weight="bold">다운스테이지 (친밀·강조)</text>
+<text x="200.0" y="205.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">▼ 관객석 (Audience) ▼</text>
+<text x="200.0" y="225.0" font-family="sans-serif" font-size="10" fill="#7a766d" text-anchor="middle">* 좌/우 표기는 무대 위 배우 기준 (배우 오른쪽 = 관객 기준 왼쪽 '상수')</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+<rect width="400" height="250" fill="#f4efe6"/>
+<text x="200.0" y="22.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">인물 영화 촬영을 위한 3점 조명(Three-Point Lighting) 배치도</text>
+<circle cx="200.0" cy="120.0" r="22" fill="#ffffff" stroke="#1d1c1a" stroke-width="2"/>
+<text x="200.0" y="124.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle" font-weight="bold">배우</text>
+<polygon points="196.0,142.0 200.0,150.0 204.0,142.0" fill="#1d1c1a" stroke="#1d1c1a" stroke-width="1"/>
+<rect x="175.0" y="205.0" width="50.0" height="30.0" rx="3" fill="#ffffff" stroke="#1d1c1a" stroke-width="2"/>
+<text x="200.0" y="223.0" font-family="sans-serif" font-size="10" fill="#1d1c1a" text-anchor="middle" font-weight="bold">카메라</text>
+<line x1="200.0" y1="205.0" x2="200.0" y2="155.0" stroke="#1d1c1a" stroke-width="1.5"/>
+<polygon points="200.0,155.0 203.1,162.4 196.9,162.4" fill="#1d1c1a"/>
+<rect x="50.0" y="170.0" width="70.0" height="35.0" rx="3" fill="#ffffff" stroke="#e07a3f" stroke-width="2"/>
+<text x="85.0" y="186.0" font-family="sans-serif" font-size="10" fill="#e07a3f" text-anchor="middle" font-weight="bold">키 라이트</text>
+<text x="85.0" y="198.0" font-family="sans-serif" font-size="9" fill="#7a766d" text-anchor="middle">주광 (100%)</text>
+<line x1="95.0" y1="170.0" x2="180.0" y2="130.0" stroke="#e07a3f" stroke-width="2"/>
+<polygon points="180.0,130.0 174.7,136.0 172.0,130.3" fill="#e07a3f"/>
+<rect x="280.0" y="170.0" width="70.0" height="35.0" rx="3" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="315.0" y="186.0" font-family="sans-serif" font-size="10" fill="#2f5d50" text-anchor="middle" font-weight="bold">필 라이트</text>
+<text x="315.0" y="198.0" font-family="sans-serif" font-size="9" fill="#7a766d" text-anchor="middle">보조광 (50%)</text>
+<line x1="305.0" y1="170.0" x2="220.0" y2="130.0" stroke="#2f5d50" stroke-width="1.5"/>
+<polygon points="220.0,130.0 228.0,130.3 225.3,136.0" fill="#2f5d50"/>
+<rect x="260.0" y="45.0" width="75.0" height="35.0" rx="3" fill="#ffffff" stroke="#805ad5" stroke-width="2"/>
+<text x="297.0" y="61.0" font-family="sans-serif" font-size="10" fill="#805ad5" text-anchor="middle" font-weight="bold">백 라이트</text>
+<text x="297.0" y="73.0" font-family="sans-serif" font-size="9" fill="#7a766d" text-anchor="middle">배경 분리·림광</text>
+<line x1="260.0" y1="65.0" x2="215.0" y2="105.0" stroke="#805ad5" stroke-width="1.5"/>
+<polygon points="215.0,105.0 218.4,97.8 222.6,102.4" fill="#805ad5"/>
+<text x="200.0" y="245.0" font-family="sans-serif" font-size="10" fill="#7a766d" text-anchor="middle">주광으로 형태를 잡고, 보조광으로 그림자를 완화하며, 역광으로 배경과 분리</text>
+</svg>

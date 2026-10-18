@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 290" width="400" height="290">
+<rect width="400" height="290" fill="#f4efe6"/>
+<text x="200.0" y="20.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">경쟁행동 경로 모형 (가상의 학생 도윤)</text>
+<rect x="10.0" y="122.0" width="86.0" height="46.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="53.0" y="141.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">배경사건</text>
+<text x="53.0" y="159.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">잠이 부족함</text>
+<rect x="108.0" y="122.0" width="86.0" height="46.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="151.0" y="141.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">선행사건</text>
+<text x="151.0" y="159.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">긴 쓰기 과제</text>
+<rect x="206.0" y="122.0" width="86.0" height="46.0" rx="4" fill="#ffffff" stroke="#e07a3f" stroke-width="2"/>
+<text x="249.0" y="141.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">문제행동</text>
+<text x="249.0" y="159.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">책상 두드림</text>
+<rect x="304.0" y="122.0" width="86.0" height="46.0" rx="4" fill="#ffffff" stroke="#e07a3f" stroke-width="2"/>
+<text x="347.0" y="141.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">유지 결과</text>
+<text x="347.0" y="159.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">과제 회피</text>
+<rect x="206.0" y="40.0" width="86.0" height="46.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="249.0" y="59.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">바람직한 행동</text>
+<text x="249.0" y="77.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">과제 완성</text>
+<rect x="304.0" y="40.0" width="86.0" height="46.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="347.0" y="59.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">장기 결과</text>
+<text x="347.0" y="77.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">칭찬, 자유시간</text>
+<rect x="206.0" y="214.0" width="86.0" height="46.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="249.0" y="233.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">대체행동</text>
+<text x="249.0" y="251.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">휴식 카드 내밀기</text>
+<line x1="96.0" y1="145.0" x2="108.0" y2="145.0" stroke="#1d1c1a" stroke-width="2"/>
+<polygon points="108.0,145.0 100.6,148.1 100.6,141.9" fill="#1d1c1a"/>
+<line x1="194.0" y1="145.0" x2="206.0" y2="145.0" stroke="#1d1c1a" stroke-width="2"/>
+<polygon points="206.0,145.0 198.6,148.1 198.6,141.9" fill="#1d1c1a"/>
+<line x1="292.0" y1="145.0" x2="304.0" y2="145.0" stroke="#1d1c1a" stroke-width="2"/>
+<polygon points="304.0,145.0 296.6,148.1 296.6,141.9" fill="#1d1c1a"/>
+<line x1="151.0" y1="122.0" x2="206.0" y2="63.0" stroke="#1d1c1a" stroke-width="2"/>
+<polygon points="206.0,63.0 203.3,70.5 198.7,66.3" fill="#1d1c1a"/>
+<line x1="292.0" y1="63.0" x2="304.0" y2="63.0" stroke="#1d1c1a" stroke-width="2"/>
+<polygon points="304.0,63.0 296.6,66.1 296.6,59.9" fill="#1d1c1a"/>
+<line x1="151.0" y1="168.0" x2="206.0" y2="237.0" stroke="#1d1c1a" stroke-width="2"/>
+<polygon points="206.0,237.0 199.0,233.2 203.8,229.3" fill="#1d1c1a"/>
+<line x1="292.0" y1="237.0" x2="347.0" y2="168.0" stroke="#e07a3f" stroke-width="2"/>
+<polygon points="347.0,168.0 344.8,175.7 340.0,171.8" fill="#e07a3f"/>
+<text x="318.0" y="262.0" font-family="sans-serif" font-size="11" fill="#e07a3f" text-anchor="start">같은 결과</text>
+</svg>

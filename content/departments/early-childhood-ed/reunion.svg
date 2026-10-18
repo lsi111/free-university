@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 270" width="390" height="270">
+<rect width="390" height="270" fill="#f4efe6"/>
+<text x="195.0" y="22.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">낯선 상황 관찰 기록 (가상의 영아 세 명)</text>
+<rect x="10.0" y="34.0" width="370.0" height="26.0" rx="0" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<text x="35.0" y="52.0" font-family="sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">영아</text>
+<text x="135.0" y="52.0" font-family="sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">양육자가 나갈 때</text>
+<text x="295.0" y="52.0" font-family="sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">양육자가 돌아올 때</text>
+<rect x="10.0" y="60.0" width="370.0" height="60.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<line x1="60.0" y1="60.0" x2="60.0" y2="120.0" stroke="#7a766d" stroke-width="1"/>
+<line x1="210.0" y1="60.0" x2="210.0" y2="120.0" stroke="#7a766d" stroke-width="1"/>
+<text x="35.0" y="95.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">가</text>
+<text x="135.0" y="90.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">울며 문 쪽을 본다</text>
+<text x="295.0" y="82.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">다가가 안기고 곧 진정한다</text>
+<text x="295.0" y="98.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">다시 장난감으로 돌아간다</text>
+<rect x="10.0" y="120.0" width="370.0" height="60.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<line x1="60.0" y1="120.0" x2="60.0" y2="180.0" stroke="#7a766d" stroke-width="1"/>
+<line x1="210.0" y1="120.0" x2="210.0" y2="180.0" stroke="#7a766d" stroke-width="1"/>
+<text x="35.0" y="155.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">나</text>
+<text x="135.0" y="142.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">별다른 반응 없이</text>
+<text x="135.0" y="158.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">계속 논다</text>
+<text x="295.0" y="142.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">눈길을 돌리고</text>
+<text x="295.0" y="158.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">다가가지 않는다</text>
+<rect x="10.0" y="180.0" width="370.0" height="60.0" rx="0" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<line x1="60.0" y1="180.0" x2="60.0" y2="240.0" stroke="#7a766d" stroke-width="1"/>
+<line x1="210.0" y1="180.0" x2="210.0" y2="240.0" stroke="#7a766d" stroke-width="1"/>
+<text x="35.0" y="215.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">다</text>
+<text x="135.0" y="210.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">몹시 운다</text>
+<text x="295.0" y="202.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">안기려 하면서도 밀어낸다</text>
+<text x="295.0" y="218.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">오래 진정되지 않는다</text>
+<text x="195.0" y="260.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">기록은 한 번의 관찰이며 아이를 진단하지 않는다</text>
+</svg>

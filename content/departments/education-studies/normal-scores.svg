@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 215" width="380" height="215">
+<rect width="380" height="215" fill="#f4efe6"/>
+<text x="190.0" y="22.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">정규분포와 표준점수</text>
+<polyline points="40.0,148.9 42.5,148.7 45.0,148.5 47.5,148.3 50.0,148.0 52.5,147.7 55.0,147.4 57.5,147.0 60.0,146.6 62.5,146.1 65.0,145.6 67.5,145.0 70.0,144.4 72.5,143.7 75.0,142.9 77.5,142.0 80.0,141.1 82.5,140.1 85.0,139.0 87.5,137.8 90.0,136.5 92.5,135.1 95.0,133.6 97.5,131.9 100.0,130.2 102.5,128.4 105.0,126.4 107.5,124.4 110.0,122.2 112.5,119.9 115.0,117.5 117.5,115.0 120.0,112.5 122.5,109.8 125.0,107.0 127.5,104.2 130.0,101.3 132.5,98.4 135.0,95.4 137.5,92.4 140.0,89.3 142.5,86.3 145.0,83.3 147.5,80.3 150.0,77.4 152.5,74.5 155.0,71.7 157.5,69.0 160.0,66.5 162.5,64.0 165.0,61.8 167.5,59.6 170.0,57.7 172.5,55.9 175.0,54.4 177.5,53.1 180.0,52.0 182.5,51.1 185.0,50.5 187.5,50.1 190.0,50.0 192.5,50.1 195.0,50.5 197.5,51.1 200.0,52.0 202.5,53.1 205.0,54.4 207.5,55.9 210.0,57.7 212.5,59.6 215.0,61.8 217.5,64.0 220.0,66.5 222.5,69.0 225.0,71.7 227.5,74.5 230.0,77.4 232.5,80.3 235.0,83.3 237.5,86.3 240.0,89.3 242.5,92.4 245.0,95.4 247.5,98.4 250.0,101.3 252.5,104.2 255.0,107.0 257.5,109.8 260.0,112.5 262.5,115.0 265.0,117.5 267.5,119.9 270.0,122.2 272.5,124.4 275.0,126.4 277.5,128.4 280.0,130.2 282.5,131.9 285.0,133.6 287.5,135.1 290.0,136.5 292.5,137.8 295.0,139.0 297.5,140.1 300.0,141.1 302.5,142.0 305.0,142.9 307.5,143.7 310.0,144.4 312.5,145.0 315.0,145.6 317.5,146.1 320.0,146.6 322.5,147.0 325.0,147.4 327.5,147.7 330.0,148.0 332.5,148.3 335.0,148.5 337.5,148.7 340.0,148.9" fill="none" stroke="#2f5d50" stroke-width="2.5"/>
+<line x1="25.0" y1="150.0" x2="355.0" y2="150.0" stroke="#7a766d" stroke-width="1.5"/>
+<line x1="90.0" y1="136.5" x2="90.0" y2="150.0" stroke="#7a766d" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="140.0" y1="89.3" x2="140.0" y2="150.0" stroke="#7a766d" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="190.0" y1="50.0" x2="190.0" y2="150.0" stroke="#7a766d" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="240.0" y1="89.3" x2="240.0" y2="150.0" stroke="#7a766d" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="290.0" y1="136.5" x2="290.0" y2="150.0" stroke="#7a766d" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="165.0" y="132.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">34.1%</text>
+<text x="215.0" y="132.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">34.1%</text>
+<text x="115.0" y="144.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">13.6%</text>
+<text x="265.0" y="144.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">13.6%</text>
+<text x="62.5" y="128.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">2.3%</text>
+<text x="317.5" y="128.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">2.3%</text>
+<text x="14.0" y="170.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start" font-weight="bold">z</text>
+<text x="14.0" y="192.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start" font-weight="bold">T</text>
+<text x="40.0" y="170.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">-3</text>
+<text x="40.0" y="192.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">20</text>
+<text x="90.0" y="170.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">-2</text>
+<text x="90.0" y="192.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">30</text>
+<text x="140.0" y="170.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">-1</text>
+<text x="140.0" y="192.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">40</text>
+<text x="190.0" y="170.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">0</text>
+<text x="190.0" y="192.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">50</text>
+<text x="240.0" y="170.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">1</text>
+<text x="240.0" y="192.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">60</text>
+<text x="290.0" y="170.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">2</text>
+<text x="290.0" y="192.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">70</text>
+<text x="340.0" y="170.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">3</text>
+<text x="340.0" y="192.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">80</text>
+<text x="190.0" y="210.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">꼬리의 2.3%는 z가 2보다 큰(작은) 쪽 전체</text>
+</svg>

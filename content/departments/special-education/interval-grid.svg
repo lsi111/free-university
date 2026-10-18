@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 190" width="400" height="190">
+<rect width="400" height="190" fill="#f4efe6"/>
+<text x="200.0" y="22.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">부분 간격 기록지: 간격 30초, 모두 10분 (가상)</text>
+<text x="38.0" y="46.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">1</text>
+<rect x="20.0" y="50.0" width="36.0" height="30.0" rx="0" fill="#2f5d50" stroke="#1d1c1a" stroke-width="1"/>
+<text x="38.0" y="70.0" font-family="sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">O</text>
+<text x="74.0" y="46.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">2</text>
+<rect x="56.0" y="50.0" width="36.0" height="30.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="74.0" y="70.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">-</text>
+<text x="110.0" y="46.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">3</text>
+<rect x="92.0" y="50.0" width="36.0" height="30.0" rx="0" fill="#2f5d50" stroke="#1d1c1a" stroke-width="1"/>
+<text x="110.0" y="70.0" font-family="sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">O</text>
+<text x="146.0" y="46.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">4</text>
+<rect x="128.0" y="50.0" width="36.0" height="30.0" rx="0" fill="#2f5d50" stroke="#1d1c1a" stroke-width="1"/>
+<text x="146.0" y="70.0" font-family="sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">O</text>
+<text x="182.0" y="46.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">5</text>
+<rect x="164.0" y="50.0" width="36.0" height="30.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="182.0" y="70.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">-</text>
+<text x="218.0" y="46.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">6</text>
+<rect x="200.0" y="50.0" width="36.0" height="30.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="218.0" y="70.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">-</text>
+<text x="254.0" y="46.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">7</text>
+<rect x="236.0" y="50.0" width="36.0" height="30.0" rx="0" fill="#2f5d50" stroke="#1d1c1a" stroke-width="1"/>
+<text x="254.0" y="70.0" font-family="sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">O</text>
+<text x="290.0" y="46.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">8</text>
+<rect x="272.0" y="50.0" width="36.0" height="30.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="290.0" y="70.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">-</text>
+<text x="326.0" y="46.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">9</text>
+<rect x="308.0" y="50.0" width="36.0" height="30.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="326.0" y="70.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">-</text>
+<text x="362.0" y="46.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">10</text>
+<rect x="344.0" y="50.0" width="36.0" height="30.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="362.0" y="70.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">-</text>
+<text x="38.0" y="96.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">11</text>
+<rect x="20.0" y="100.0" width="36.0" height="30.0" rx="0" fill="#2f5d50" stroke="#1d1c1a" stroke-width="1"/>
+<text x="38.0" y="120.0" font-family="sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">O</text>
+<text x="74.0" y="96.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">12</text>
+<rect x="56.0" y="100.0" width="36.0" height="30.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="74.0" y="120.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">-</text>
+<text x="110.0" y="96.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">13</text>
+<rect x="92.0" y="100.0" width="36.0" height="30.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="110.0" y="120.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">-</text>
+<text x="146.0" y="96.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">14</text>
+<rect x="128.0" y="100.0" width="36.0" height="30.0" rx="0" fill="#2f5d50" stroke="#1d1c1a" stroke-width="1"/>
+<text x="146.0" y="120.0" font-family="sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">O</text>
+<text x="182.0" y="96.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">15</text>
+<rect x="164.0" y="100.0" width="36.0" height="30.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="182.0" y="120.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">-</text>
+<text x="218.0" y="96.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">16</text>
+<rect x="200.0" y="100.0" width="36.0" height="30.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="218.0" y="120.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">-</text>
+<text x="254.0" y="96.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">17</text>
+<rect x="236.0" y="100.0" width="36.0" height="30.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="254.0" y="120.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">-</text>
+<text x="290.0" y="96.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">18</text>
+<rect x="272.0" y="100.0" width="36.0" height="30.0" rx="0" fill="#2f5d50" stroke="#1d1c1a" stroke-width="1"/>
+<text x="290.0" y="120.0" font-family="sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">O</text>
+<text x="326.0" y="96.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">19</text>
+<rect x="308.0" y="100.0" width="36.0" height="30.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="326.0" y="120.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">-</text>
+<text x="362.0" y="96.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">20</text>
+<rect x="344.0" y="100.0" width="36.0" height="30.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1"/>
+<text x="362.0" y="120.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">-</text>
+<text x="20.0" y="166.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">O: 간격 안에 자리 이탈이 한 번이라도 있었음</text>
+<text x="20.0" y="182.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">-: 간격 안에 자리 이탈이 없었음</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="15" text-anchor="middle" font-weight="bold">국어 안은문장(내포문)의 다섯 가지 절 표지와 기능</text>
+    <rect x="25" y="42" width="490" height="28" rx="4" fill="#d9d2c2" stroke="#7a766d"/>
+    <text x="80" y="61" font-size="11" text-anchor="middle" font-weight="bold">안긴절 유형</text>
+    <text x="205" y="61" font-size="11" text-anchor="middle" font-weight="bold">절 표지(어미·조사)</text>
+    <text x="330" y="61" font-size="11" text-anchor="middle" font-weight="bold">문장 안 기능</text>
+    <text x="445" y="61" font-size="11" text-anchor="middle" font-weight="bold">대표 예문</text>
+    <rect x="25" y="70" width="490" height="36" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="80" y="93" font-size="12" text-anchor="middle" font-weight="bold">명사절</text>
+    <text x="205" y="93" font-size="11" text-anchor="middle">-(으)ㅁ, -기</text>
+    <text x="330" y="93" font-size="11" text-anchor="middle">주어 · 목적어 · 부사어</text>
+    <text x="445" y="93" font-size="11" text-anchor="middle">[봄이 옴]을 알았다</text>
+    <rect x="25" y="106" width="490" height="36" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="80" y="129" font-size="12" text-anchor="middle" font-weight="bold">관형절</text>
+    <text x="205" y="129" font-size="11" text-anchor="middle">-(으)ㄴ, -는, -(으)ㄹ, -던</text>
+    <text x="330" y="129" font-size="11" text-anchor="middle">체언 수식 (관형어)</text>
+    <text x="445" y="129" font-size="11" text-anchor="middle">[내가 읽은] 책</text>
+    <rect x="25" y="142" width="490" height="36" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="80" y="165" font-size="12" text-anchor="middle" font-weight="bold">부사절</text>
+    <text x="205" y="165" font-size="11" text-anchor="middle">-이, -게, -도록</text>
+    <text x="330" y="165" font-size="11" text-anchor="middle">용언 수식 (부사어)</text>
+    <text x="445" y="165" font-size="11" text-anchor="middle">비가 [소리도 없이] 내린다</text>
+    <rect x="25" y="178" width="490" height="36" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="80" y="201" font-size="12" text-anchor="middle" font-weight="bold">서술절</text>
+    <text x="205" y="201" font-size="11" text-anchor="middle">절 표지 없음 (겹주어 형태)</text>
+    <text x="330" y="201" font-size="11" text-anchor="middle">전체 문장의 서술어</text>
+    <text x="445" y="201" font-size="11" text-anchor="middle">코끼리는 [코가 길다]</text>
+    <rect x="25" y="214" width="490" height="36" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="80" y="237" font-size="12" text-anchor="middle" font-weight="bold">인용절</text>
+    <text x="205" y="237" font-size="11" text-anchor="middle">고(간접), 라고(직접)</text>
+    <text x="330" y="237" font-size="11" text-anchor="middle">발화·생각 인용 부사어</text>
+    <text x="445" y="237" font-size="11" text-anchor="middle">그는 [내일 오겠다]고 말했다</text>
+    <rect x="25" y="258" width="490" height="46" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="270" y="277" font-size="11" text-anchor="middle" font-weight="bold">핵심: 서술절은 어미 표지 없이 'NP1은 [NP2가 VP]' 구조로 안기며,</text>
+    <text x="270" y="295" font-size="11" text-anchor="middle">관형절은 생략된 성분이 수식받는 머리명사(책)와 같으면 관계관형절, 다르면 동격관형절이다.</text>
+  </g>
+</svg>

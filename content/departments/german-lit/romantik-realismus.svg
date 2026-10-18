@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="15" text-anchor="middle" font-weight="bold">19세기 독일 문학: 낭만주의 · 시적 사실주의 · 자연주의</text>
+    <rect x="20" y="50" width="150" height="175" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="95" y="74" font-size="13" text-anchor="middle" font-weight="bold">독일 낭만주의</text>
+    <text x="32" y="102" font-size="11" text-anchor="start">시대: 1790년대 ~ 1830년대</text>
+    <text x="32" y="125" font-size="11" text-anchor="start">핵심: 무한 동경 (푸른 꽃)</text>
+    <text x="32" y="148" font-size="11" text-anchor="start">기법: 낭만적 아이러니</text>
+    <text x="32" y="171" font-size="11" text-anchor="start">소재: 밤 · 꿈 · 무의식 · 민담</text>
+    <text x="32" y="194" font-size="11" text-anchor="start">작가: 노발리스 · 호프만</text>
+    <rect x="195" y="50" width="150" height="175" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="270" y="74" font-size="13" text-anchor="middle" font-weight="bold">시적 사실주의</text>
+    <text x="207" y="102" font-size="11" text-anchor="start">시대: 1848년 혁명 ~ 1880년대</text>
+    <text x="207" y="125" font-size="11" text-anchor="start">핵심: 시민 일상의 온건한 묘사</text>
+    <text x="207" y="148" font-size="11" text-anchor="start">기법: 현실 미화(변용, Verklärung)</text>
+    <text x="207" y="171" font-size="11" text-anchor="start">소재: 지방 공동체 · 가족 윤리</text>
+    <text x="207" y="194" font-size="11" text-anchor="start">작가: 켈러 · 슈토름 · 폰타네</text>
+    <rect x="370" y="50" width="150" height="175" rx="4" fill="#fbe6e1" stroke="#b3261e"/>
+    <text x="445" y="74" font-size="13" text-anchor="middle" font-weight="bold">자연주의</text>
+    <text x="382" y="102" font-size="11" text-anchor="start">시대: 1880년대 ~ 1900년경</text>
+    <text x="382" y="125" font-size="11" text-anchor="start">핵심: 유전·환경의 과학적 결정론</text>
+    <text x="382" y="148" font-size="11" text-anchor="start">기법: 초침 문체(Sekundenstil)</text>
+    <text x="382" y="171" font-size="11" text-anchor="start">소재: 도시 빈민 · 노동자 계급</text>
+    <text x="382" y="194" font-size="11" text-anchor="start">작가: 하웁트만 · 홀츠</text>
+    <rect x="20" y="240" width="500" height="62" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="270" y="262" font-size="11" text-anchor="middle" font-weight="bold">전환기 선구자: 게오르크 뷔히너(Büchner) — 1830년대에 이미 하층민을 비극 주인공으로 세워</text>
+    <text x="270" y="284" font-size="11" text-anchor="middle">낭만적 이상화를 깨뜨리고 후반부 자연주의와 20세기 현대극을 앞당겼다.</text>
+  </g>
+</svg>

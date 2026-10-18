@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 260" width="380" height="260">
+<rect width="380" height="260" fill="#f4efe6"/>
+<rect x="20.0" y="50.0" width="150.0" height="120.0" rx="0" fill="#e6efe9" stroke="#2f5d50" stroke-width="2"/>
+<rect x="50.0" y="80.0" width="90.0" height="72.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="2"/>
+<text x="95.0" y="114.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">건물</text>
+<text x="95.0" y="130.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">15 m x 12 m</text>
+<text x="95.0" y="42.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">대지 25 m</text>
+<text x="95.0" y="188.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">대지 깊이 20 m</text>
+<text x="95.0" y="28.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">배치도(위에서 본 모습)</text>
+<text x="290.0" y="28.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">단면(옆에서 본 모습)</text>
+<rect x="230.0" y="164.0" width="90.0" height="26.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="275.0" y="181.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">지상 1층</text>
+<rect x="230.0" y="138.0" width="90.0" height="26.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="275.0" y="155.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">지상 2층</text>
+<rect x="230.0" y="112.0" width="90.0" height="26.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="275.0" y="129.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">지상 3층</text>
+<rect x="230.0" y="86.0" width="90.0" height="26.0" rx="0" fill="#ffffff" stroke="#1d1c1a" stroke-width="1.5"/>
+<text x="275.0" y="103.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">지상 4층</text>
+<rect x="230" y="190" width="90" height="26" fill="none" stroke="#7a766d" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="275.0" y="207.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">지하 1층</text>
+<line x1="200.0" y1="190.0" x2="370.0" y2="190.0" stroke="#2f5d50" stroke-width="2"/>
+<text x="370.0" y="186.0" font-family="sans-serif" font-size="11" fill="#2f5d50" text-anchor="end">지면</text>
+<text x="190.0" y="245.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">모든 층의 바닥면적은 1층과 같다</text>
+</svg>

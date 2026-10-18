@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="15" text-anchor="middle" font-weight="bold">국어 음운 변동의 네 유형과 다단계 도출</text>
+    <rect x="25" y="44" width="490" height="38" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="38" y="68" font-size="12" text-anchor="start" font-weight="bold">교체 (A → B)</text>
+    <text x="155" y="68" font-size="11" text-anchor="start">음절 끝소리 규칙, 비음화, 유음화, 구개음화</text>
+    <text x="498" y="68" font-size="11" text-anchor="end" font-weight="bold">음운 수는 그대로</text>
+    <rect x="25" y="88" width="490" height="38" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="38" y="112" font-size="12" text-anchor="start" font-weight="bold">탈락 (AB → A)</text>
+    <text x="155" y="112" font-size="11" text-anchor="start">자음군 단순화, ㅎ 탈락, ㅡ 탈락</text>
+    <text x="498" y="112" font-size="11" text-anchor="end" font-weight="bold">음운 수 -1 감소</text>
+    <rect x="25" y="132" width="490" height="38" rx="4" fill="#e9e1cf" stroke="#7a766d"/>
+    <text x="38" y="156" font-size="12" text-anchor="start" font-weight="bold">첨가 (A → AB)</text>
+    <text x="155" y="156" font-size="11" text-anchor="start">합성어·파생어의 ㄴ 첨가 (솜이불→솜니불)</text>
+    <text x="498" y="156" font-size="11" text-anchor="end" font-weight="bold">음운 수 +1 증가</text>
+    <rect x="25" y="176" width="490" height="38" rx="4" fill="#fbe6e1" stroke="#b3261e"/>
+    <text x="38" y="200" font-size="12" text-anchor="start" font-weight="bold">축약 (AB → C)</text>
+    <text x="155" y="200" font-size="11" text-anchor="start">거센소리되기 (ㄱ·ㄷ·ㅂ·ㅈ + ㅎ → ㅋ·ㅌ·ㅍ·ㅊ)</text>
+    <text x="498" y="200" font-size="11" text-anchor="end" font-weight="bold">음운 수 -1 감소</text>
+    <rect x="25" y="228" width="490" height="74" rx="4" fill="#ffffff" stroke="#2f5d50"/>
+    <text x="270" y="248" font-size="12" text-anchor="middle" font-weight="bold">다단계 도출 예: /읊고/ → [읍꼬]  vs.  /놓다/ → [노타]</text>
+    <text x="40" y="270" font-size="11" text-anchor="start">① /읊고/: 자음군 단순화(탈락, ㄿ→ㅂ) → /읍고/ → 된소리되기(교체) → [읍꼬] (총 음운 5→4개)</text>
+    <text x="40" y="290" font-size="11" text-anchor="start">② /놓다/: ㅎ과 ㄷ이 만나 거센소리되기(축약, ㅎ+ㄷ→ㅌ) → [노타] (총 음운 5→4개)</text>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="15" text-anchor="middle" font-weight="bold">배들리(Baddeley)의 다중성분 작업기억 모형</text>
+    <rect x="170" y="48" width="200" height="52" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="270" y="70" font-size="13" text-anchor="middle" font-weight="bold" fill="#2f5d50">중앙집행기 (Central Executive)</text>
+    <text x="270" y="89" font-size="11" text-anchor="middle">주의 배분 · 억제 · 과제 전환 통제</text>
+    <rect x="20" y="140" width="150" height="75" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="95" y="162" font-size="13" text-anchor="middle" font-weight="bold">음운 루프</text>
+    <text x="95" y="180" font-size="10" text-anchor="middle" fill="#7a766d">(Phonological Loop)</text>
+    <text x="95" y="198" font-size="10" text-anchor="middle">말소리 저장(약 2초) + 되뇌기</text>
+    <rect x="195" y="140" width="150" height="75" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="270" y="162" font-size="13" text-anchor="middle" font-weight="bold" fill="#e07a3f">일화 완충기</text>
+    <text x="270" y="180" font-size="10" text-anchor="middle" fill="#7a766d">(Episodic Buffer)</text>
+    <text x="270" y="198" font-size="10" text-anchor="middle">다중감각 통합 · 장기기억 연결</text>
+    <rect x="370" y="140" width="150" height="75" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="445" y="162" font-size="13" text-anchor="middle" font-weight="bold">시공간 잡기장</text>
+    <text x="445" y="180" font-size="10" text-anchor="middle" fill="#7a766d">(Visuospatial Sketchpad)</text>
+    <text x="445" y="198" font-size="10" text-anchor="middle">시각 형태 · 공간 위치 심상 조작</text>
+    <rect x="70" y="245" width="400" height="48" rx="4" fill="#e9e1cf" stroke="#7a766d"/>
+    <text x="270" y="267" font-size="12" text-anchor="middle" font-weight="bold">장기기억 (Long-Term Memory): 언어 · 의미 · 시공간 · 일화 지식</text>
+    <text x="270" y="284" font-size="11" text-anchor="middle">청킹(Chunking)과 정교화 부호화로 작업기억 용량 한계(4±1 청크) 보완</text>
+    <path d="M220 100 L95 140 M270 100 L270 140 M320 100 L445 140" stroke="#2f5d50" stroke-width="2" fill="none"/>
+    <path d="M95 215 L150 245 M270 215 L270 245 M445 215 L390 245" stroke="#7a766d" stroke-width="1.8" stroke-dasharray="4,3" fill="none"/>
+  </g>
+</svg>

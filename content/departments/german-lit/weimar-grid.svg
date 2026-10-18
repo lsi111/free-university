@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="15" text-anchor="middle" font-weight="bold">계몽주의 · 질풍노도 · 바이마르 고전주의 비교</text>
+    <rect x="20" y="45" width="80" height="30" rx="4" fill="#d9d2c2" stroke="#7a766d"/>
+    <text x="60" y="65" font-size="11" text-anchor="middle" font-weight="bold">구분</text>
+    <rect x="105" y="45" width="140" height="30" rx="4" fill="#d9d2c2" stroke="#7a766d"/>
+    <text x="175" y="65" font-size="11" text-anchor="middle" font-weight="bold">계몽주의 (Aufklärung)</text>
+    <rect x="250" y="45" width="140" height="30" rx="4" fill="#d9d2c2" stroke="#7a766d"/>
+    <text x="320" y="65" font-size="11" text-anchor="middle" font-weight="bold">질풍노도 (Sturm u. Drang)</text>
+    <rect x="395" y="45" width="125" height="30" rx="4" fill="#d9d2c2" stroke="#7a766d"/>
+    <text x="457" y="65" font-size="11" text-anchor="middle" font-weight="bold">바이마르 고전주의</text>
+    <rect x="20" y="78" width="80" height="38" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="60" y="101" font-size="11" text-anchor="middle" font-weight="bold">핵심 가치</text>
+    <rect x="105" y="78" width="140" height="38" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="175" y="101" font-size="11" text-anchor="middle">이성 · 관용 · 시민 도덕</text>
+    <rect x="250" y="78" width="140" height="38" rx="4" fill="#fdf0d5" stroke="#7a766d"/>
+    <text x="320" y="101" font-size="11" text-anchor="middle">천재성 · 자연 · 격정</text>
+    <rect x="395" y="78" width="125" height="38" rx="4" fill="#e3efe9" stroke="#7a766d"/>
+    <text x="457" y="101" font-size="11" text-anchor="middle">이성과 감성의 조화</text>
+    <rect x="20" y="120" width="80" height="38" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="60" y="143" font-size="11" text-anchor="middle" font-weight="bold">형식 미학</text>
+    <rect x="105" y="120" width="140" height="38" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="175" y="143" font-size="11" text-anchor="middle">교훈적 시민극 · 우화</text>
+    <rect x="250" y="120" width="140" height="38" rx="4" fill="#fdf0d5" stroke="#7a766d"/>
+    <text x="320" y="143" font-size="11" text-anchor="middle">규칙 타파 · 자유 형식</text>
+    <rect x="395" y="120" width="125" height="38" rx="4" fill="#e3efe9" stroke="#7a766d"/>
+    <text x="457" y="143" font-size="11" text-anchor="middle">균형 · 절제 · 고전 형식</text>
+    <rect x="20" y="162" width="80" height="38" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="60" y="185" font-size="11" text-anchor="middle" font-weight="bold">인간관</text>
+    <rect x="105" y="162" width="140" height="38" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="175" y="185" font-size="11" text-anchor="middle">합리적 계몽 시민</text>
+    <rect x="250" y="162" width="140" height="38" rx="4" fill="#fdf0d5" stroke="#7a766d"/>
+    <text x="320" y="185" font-size="11" text-anchor="middle">규범에 저항하는 반항아</text>
+    <rect x="395" y="162" width="125" height="38" rx="4" fill="#e3efe9" stroke="#7a766d"/>
+    <text x="457" y="185" font-size="11" text-anchor="middle">전인적 교양인(Bildung)</text>
+    <rect x="20" y="204" width="80" height="38" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="60" y="227" font-size="11" text-anchor="middle" font-weight="bold">대표 작가</text>
+    <rect x="105" y="204" width="140" height="38" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="175" y="227" font-size="11" text-anchor="middle">레싱 (Lessing)</text>
+    <rect x="250" y="204" width="140" height="38" rx="4" fill="#fdf0d5" stroke="#7a766d"/>
+    <text x="320" y="227" font-size="11" text-anchor="middle">청년 괴테 · 청년 실러</text>
+    <rect x="395" y="204" width="125" height="38" rx="4" fill="#e3efe9" stroke="#7a766d"/>
+    <text x="457" y="227" font-size="11" text-anchor="middle">성숙기 괴테 · 실러</text>
+    <rect x="20" y="254" width="500" height="50" rx="4" fill="#f4e9d6" stroke="#7a766d"/>
+    <text x="270" y="274" font-size="11" text-anchor="middle" font-weight="bold">변증법적 흐름: 이성 중심(계몽주의) → 감정·자연 폭발(질풍노도) → 이성과 감성의 조화(고전주의)</text>
+    <text x="270" y="294" font-size="11" text-anchor="middle">고전주의 시기에 내면적 성숙을 다룬 독일 고유의 교양소설(Bildungsroman)이 확립되었다.</text>
+  </g>
+</svg>

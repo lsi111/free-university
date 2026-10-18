@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="26" font-size="15" text-anchor="middle" font-weight="bold">대서양 3대 시민혁명의 전개와 헌정 원리 비교</text>
+    <rect x="20" y="45" width="500" height="28" rx="4" fill="#d9d2c2" stroke="#7a766d"/>
+    <text x="60" y="64" font-size="11" text-anchor="middle" font-weight="bold">구분</text>
+    <text x="175" y="64" font-size="11" text-anchor="middle" font-weight="bold">영국 혁명 (1642~1689)</text>
+    <text x="315" y="64" font-size="11" text-anchor="middle" font-weight="bold">미국 독립혁명 (1776~1787)</text>
+    <text x="450" y="64" font-size="11" text-anchor="middle" font-weight="bold">프랑스 혁명 (1789~1799)</text>
+    <rect x="20" y="73" width="500" height="42" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="60" y="99" font-size="11" text-anchor="middle" font-weight="bold">발단 계기</text>
+    <text x="175" y="99" font-size="10" text-anchor="middle">찰스 1세 전제·과세 갈등</text>
+    <text x="315" y="99" font-size="10" text-anchor="middle">인지세·차세(대표 없이 과세 없다)</text>
+    <text x="450" y="99" font-size="10" text-anchor="middle">구제도 신분 특권·재정 위기</text>
+    <rect x="20" y="115" width="500" height="42" rx="4" fill="#f8f4ec" stroke="#7a766d"/>
+    <text x="60" y="141" font-size="11" text-anchor="middle" font-weight="bold">핵심 문서</text>
+    <text x="175" y="141" font-size="10" text-anchor="middle">권리장전 (1689)</text>
+    <text x="315" y="141" font-size="10" text-anchor="middle">독립선언문·연방헌법 (1787)</text>
+    <text x="450" y="141" font-size="10" text-anchor="middle">인간과 시민의 권리 선언 (1789)</text>
+    <rect x="20" y="157" width="500" height="42" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="60" y="183" font-size="11" text-anchor="middle" font-weight="bold">정치 체제</text>
+    <text x="175" y="183" font-size="10" text-anchor="middle">입헌군주제 · 의회주권</text>
+    <text x="315" y="183" font-size="10" text-anchor="middle">연방 공화제 · 삼권분립</text>
+    <text x="450" y="183" font-size="10" text-anchor="middle">공화정 실험 → 나폴레옹 제정</text>
+    <rect x="20" y="199" width="500" height="42" rx="4" fill="#f8f4ec" stroke="#7a766d"/>
+    <text x="60" y="225" font-size="11" text-anchor="middle" font-weight="bold">참정권 한계</text>
+    <text x="175" y="225" font-size="10" text-anchor="middle">소수 유산자 선거권</text>
+    <text x="315" y="225" font-size="10" text-anchor="middle">백인 남성 중심(노예제 존속)</text>
+    <text x="450" y="225" font-size="10" text-anchor="middle">능동/수동 시민 구분(1791 헌법)</text>
+    <rect x="20" y="252" width="500" height="48" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="270" y="272" font-size="11" text-anchor="middle" font-weight="bold">공통 원리: 천부인권 · 사회계약 · 국민주권 · 권력분립</text>
+    <text x="270" y="290" font-size="10" text-anchor="middle">역사적 과제: 초기 '유산 백인 남성'에 국한된 시민권을 19~20세기 노동자·여성·소수자로 확장</text>
+  </g>
+</svg>

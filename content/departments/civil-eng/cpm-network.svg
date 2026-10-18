@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 250" width="420" height="250">
+<rect width="420" height="250" fill="#f4efe6"/>
+<rect x="8.0" y="108.0" width="48.0" height="40.0" rx="4" fill="#ffffff" stroke="#7a766d" stroke-width="2"/>
+<text x="32.0" y="132.2" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">시작</text>
+<rect x="72.0" y="30.0" width="70.0" height="40.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="107.0" y="48.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">A 터파기</text>
+<text x="107.0" y="62.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">4일</text>
+<rect x="162.0" y="30.0" width="76.0" height="40.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="200.0" y="48.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">B 기초타설</text>
+<text x="200.0" y="62.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">3일</text>
+<rect x="162.0" y="108.0" width="76.0" height="40.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="200.0" y="126.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">C 자재반입</text>
+<text x="200.0" y="140.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">2일</text>
+<rect x="162.0" y="186.0" width="76.0" height="40.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="200.0" y="204.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">E 배수관</text>
+<text x="200.0" y="218.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">3일</text>
+<rect x="258.0" y="69.0" width="76.0" height="40.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="296.0" y="87.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">D 벽체시공</text>
+<text x="296.0" y="101.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">5일</text>
+<rect x="346.0" y="147.0" width="70.0" height="40.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="381.0" y="165.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">F 되메우기</text>
+<text x="381.0" y="179.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">2일</text>
+<line x1="56.0" y1="128.0" x2="72.0" y2="50.0" stroke="#7a766d" stroke-width="1.5"/>
+<polygon points="72.0,50.0 73.4,56.9 68.0,55.8" fill="#7a766d"/>
+<line x1="56.0" y1="128.0" x2="162.0" y2="128.0" stroke="#7a766d" stroke-width="1.5"/>
+<polygon points="162.0,128.0 155.6,130.7 155.6,125.3" fill="#7a766d"/>
+<line x1="142.0" y1="50.0" x2="162.0" y2="50.0" stroke="#7a766d" stroke-width="1.5"/>
+<polygon points="162.0,50.0 155.6,52.7 155.6,47.3" fill="#7a766d"/>
+<line x1="142.0" y1="50.0" x2="162.0" y2="206.0" stroke="#7a766d" stroke-width="1.5"/>
+<polygon points="162.0,206.0 158.5,200.0 163.9,199.3" fill="#7a766d"/>
+<line x1="238.0" y1="50.0" x2="258.0" y2="89.0" stroke="#7a766d" stroke-width="1.5"/>
+<polygon points="258.0,89.0 252.6,84.5 257.5,82.0" fill="#7a766d"/>
+<line x1="238.0" y1="128.0" x2="258.0" y2="89.0" stroke="#7a766d" stroke-width="1.5"/>
+<polygon points="258.0,89.0 257.5,96.0 252.6,93.5" fill="#7a766d"/>
+<line x1="334.0" y1="89.0" x2="346.0" y2="167.0" stroke="#7a766d" stroke-width="1.5"/>
+<polygon points="346.0,167.0 342.3,161.0 347.7,160.2" fill="#7a766d"/>
+<line x1="238.0" y1="206.0" x2="346.0" y2="167.0" stroke="#7a766d" stroke-width="1.5"/>
+<polygon points="346.0,167.0 340.9,171.8 339.0,166.6" fill="#7a766d"/>
+<text x="210.0" y="243.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">화살표: 앞 작업이 끝나야 다음 작업을 시작한다</text>
+</svg>

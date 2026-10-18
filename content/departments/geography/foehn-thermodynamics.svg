@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320">
+  <rect width="540" height="320" fill="#f4efe6" rx="8"/>
+  <g font-family="sans-serif" fill="#1d1c1a">
+    <text x="270" y="25" font-size="15" text-anchor="middle" font-weight="bold">지형성 강수와 푄(Föhn) 현상의 단열 기온 변화</text>
+    <polygon points="60,235 250,75 440,235" fill="#d9d2c2" stroke="#7a766d" stroke-width="2"/>
+    <line x1="20" y1="235" x2="520" y2="235" stroke="#2f5d50" stroke-width="2"/>
+    <line x1="30" y1="185" x2="250" y2="185" stroke="#2f5d50" stroke-dasharray="4,4" stroke-width="1.5"/>
+    <text x="35" y="179" font-size="11" text-anchor="start" font-weight="bold" fill="#2f5d50">상승응결고도(LCL) 600m · 14°C</text>
+    <rect x="135" y="95" width="85" height="32" rx="4" fill="#e3efe9" stroke="#2f5d50"/>
+    <text x="177" y="115" font-size="11" text-anchor="middle" font-weight="bold" fill="#2f5d50">구름·강수(잠열)</text>
+    <path d="M55,225 L125,170 L235,82" stroke="#2f5d50" stroke-width="2.5" fill="none"/>
+    <path d="M265,82 L435,225" stroke="#e07a3f" stroke-width="2.5" fill="none"/>
+    <rect x="18" y="242" width="130" height="48" rx="4" fill="#ffffff" stroke="#2f5d50"/>
+    <text x="83" y="260" font-size="11" text-anchor="middle" font-weight="bold">바람받이 해안 (0m)</text>
+    <text x="83" y="278" font-size="12" text-anchor="middle" font-weight="bold" fill="#2f5d50">기온 20°C (습윤)</text>
+    <rect x="195" y="36" width="110" height="34" rx="4" fill="#ffffff" stroke="#7a766d"/>
+    <text x="250" y="51" font-size="11" text-anchor="middle" font-weight="bold">산 정상 (2,000m)</text>
+    <text x="250" y="65" font-size="12" text-anchor="middle" font-weight="bold">기온 7°C</text>
+    <rect x="385" y="242" width="135" height="48" rx="4" fill="#fdf0d5" stroke="#e07a3f"/>
+    <text x="452" y="260" font-size="11" text-anchor="middle" font-weight="bold">바람그늘 평지 (0m)</text>
+    <text x="452" y="278" font-size="12" text-anchor="middle" font-weight="bold" fill="#e07a3f">기온 27°C (고온건조)</text>
+    <text x="80" y="212" font-size="10" text-anchor="start">건조단열 -1.0°C/100m</text>
+    <text x="105" y="145" font-size="10" text-anchor="start" font-weight="bold" fill="#2f5d50">습윤단열 -0.5°C/100m</text>
+    <text x="345" y="150" font-size="11" text-anchor="start" font-weight="bold" fill="#e07a3f">전 구간 건조단열 +1.0°C/100m</text>
+    <text x="270" y="308" font-size="11" text-anchor="middle" font-weight="bold">비 구름 구간(1,400m)에서 잠열 방출로 덜 식기 때문에 넘은 뒤 +7°C 상승</text>
+  </g>
+</svg>
