@@ -1,6 +1,8 @@
 // 진도 규칙. 저장 방식과 분리된 순수 함수다.
 // 진도 형태: { [deptId]: { lessons: { [lessonId]: { kind: 'auto'|'self', at, version } }, submissions: {...} } }
 
+import { t } from '../i18n.js';
+
 export function emptyProgress() {
   return {};
 }
@@ -43,7 +45,10 @@ export function saveSubmission(progress, deptId, key, payload) {
 }
 
 /** 단계 이름. 학과와 무관한 학사 과정의 층위다. */
-export const STAGE_NAMES = { 1: '전공기초', 2: '전공필수 I', 3: '전공필수 II', 4: '전공필수 III', 5: '전공심화 IV', 6: '전공종합 V' };
+export function stageName(stage) {
+  const names = { 1: t('전공기초'), 2: t('전공필수 I'), 3: t('전공필수 II'), 4: t('전공필수 III'), 5: t('전공심화 IV'), 6: t('전공종합 V') };
+  return names[stage];
+}
 
 export function branchStage(branch) {
   return branch?.stage ?? 2;
@@ -78,7 +83,7 @@ export function lessonOrder(dept) {
 export function stageSummary(dept, dp) {
   const groups = new Map();
   const add = (stage, branch, ids) => {
-    if (!groups.has(stage)) groups.set(stage, { stage, name: STAGE_NAMES[stage] || `${stage}단계`, branches: [], lessons: [] });
+    if (!groups.has(stage)) groups.set(stage, { stage, name: stageName(stage) || t('{n}단계', { n: stage }), branches: [], lessons: [] });
     const g = groups.get(stage);
     if (branch) g.branches.push(branch);
     g.lessons.push(...ids);

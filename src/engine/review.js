@@ -1,11 +1,16 @@
 // 검수 기록 규칙. 화면과 도구가 같은 규칙을 쓴다.
 // reviews.json 형태: { [deptId]: { [lessonId]: { reviewer, date, version, notes? } } }
 
-export const REVIEW_STATES = {
-  unreviewed: '검수 전 · AI 초안',
-  reviewed: '검수됨',
-  stale: '검수 뒤 내용이 바뀜',
-};
+import { t } from '../i18n.js';
+
+export function reviewLabel(state) {
+  const labels = {
+    unreviewed: t('검수 전 · AI 초안'),
+    reviewed: t('검수됨'),
+    stale: t('검수 뒤 내용이 바뀜'),
+  };
+  return labels[state];
+}
 
 export function lessonVersion(lesson) {
   return lesson.version || 1;

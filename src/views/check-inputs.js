@@ -2,6 +2,7 @@
 
 import { h, seededShuffle } from '../dom.js';
 import { inline } from '../md.js';
+import { t } from '../i18n.js';
 
 let uid = 0;
 const nextId = (p) => `${p}-${++uid}`;
@@ -9,7 +10,7 @@ const nextId = (p) => `${p}-${++uid}`;
 const INPUTS = {
   numeric(check, { saved, onSubmit }) {
     const input = h('input', {
-      type: 'text', inputmode: 'decimal', class: 'text-input', autocomplete: 'off', 'aria-label': '답',
+      type: 'text', inputmode: 'decimal', class: 'text-input', autocomplete: 'off', 'aria-label': t('답'),
       value: saved?.text || '',
     });
     input.addEventListener('keydown', (e) => {
@@ -20,13 +21,13 @@ const INPUTS = {
 
   expression(check, { saved, onSubmit }) {
     const input = h('input', {
-      type: 'text', class: 'text-input mono', autocomplete: 'off', spellcheck: 'false', 'aria-label': '식',
+      type: 'text', class: 'text-input mono', autocomplete: 'off', spellcheck: 'false', 'aria-label': t('식'),
       value: saved?.text || '',
     });
     input.addEventListener('keydown', (e) => {
       if (e.key === 'Enter') { e.preventDefault(); onSubmit?.(); }
     });
-    const note = h('p', { class: 'input-note' }, '쓸 수 있는 것: + - * / ^ ( ), 2x 같은 곱 생략, sin cos exp ln sqrt, pi');
+    const note = h('p', { class: 'input-note' }, t('쓸 수 있는 것: + - * / ^ ( ), 2x 같은 곱 생략, sin cos exp ln sqrt, pi'));
     return { el: h('div', {}, h('div', { class: 'answer-row' }, input), note), read: () => input.value, focusable: input };
   },
 
@@ -38,8 +39,8 @@ const INPUTS = {
       return { input, label: h('label', { class: 'option' }, input, h('span', { html: inline(opt, { math }) })) };
     });
     const el = h('fieldset', { class: 'options' },
-      h('legend', { class: 'sr-only' }, '선택지'),
-      multi ? h('p', { class: 'input-note' }, '해당하는 것을 모두 고르세요.') : null,
+      h('legend', { class: 'sr-only' }, t('선택지')),
+      multi ? h('p', { class: 'input-note' }, t('해당하는 것을 모두 고르세요.')) : null,
       boxes.map((b) => b.label));
     return { el, read: () => boxes.filter((b) => b.input.checked).map((b) => Number(b.input.value)), focusable: boxes[0].input };
   },
@@ -50,7 +51,7 @@ const INPUTS = {
     const selects = check.pairs.map(([left]) => {
       const id = nextId('match');
       const select = h('select', { id, class: 'select' },
-        h('option', { value: '' }, '고르세요'),
+        h('option', { value: '' }, t('고르세요')),
         rights.map((r) => h('option', { value: r }, r)));
       return { select, row: h('div', { class: 'match-row' }, h('label', { for: id, class: 'match-left', html: inline(left, { math }) }), select) };
     });
@@ -63,8 +64,8 @@ const INPUTS = {
     const list = h('ol', { class: 'order-list' });
     const draw = (focusIndex, dir) => {
       list.replaceChildren(...items.map((text, i) => {
-        const up = h('button', { type: 'button', class: 'icon-btn', 'aria-label': `"${text}" 위로`, disabled: i === 0, onclick: () => move(i, -1) }, '↑');
-        const down = h('button', { type: 'button', class: 'icon-btn', 'aria-label': `"${text}" 아래로`, disabled: i === items.length - 1, onclick: () => move(i, 1) }, '↓');
+        const up = h('button', { type: 'button', class: 'icon-btn', 'aria-label': t('"{text}" 위로', { text }), disabled: i === 0, onclick: () => move(i, -1) }, '↑');
+        const down = h('button', { type: 'button', class: 'icon-btn', 'aria-label': t('"{text}" 아래로', { text }), disabled: i === items.length - 1, onclick: () => move(i, 1) }, '↓');
         return h('li', { class: 'order-item' }, h('span', { class: 'order-text', html: inline(text, { math }) }), h('span', { class: 'order-btns' }, up, down));
       }));
       if (focusIndex != null) {
@@ -83,11 +84,11 @@ const INPUTS = {
   },
 
   keywords(check, { saved, onDraft }) {
-    const ta = h('textarea', { class: 'textarea', rows: '5', 'aria-label': '서술 답안' });
+    const ta = h('textarea', { class: 'textarea', rows: '5', 'aria-label': t('서술 답안') });
     ta.value = saved?.text || '';
     const min = check.minLength ?? 30;
     const count = h('span', { class: 'input-note' });
-    const updateCount = () => { count.textContent = `${ta.value.replace(/\s/g, '').length}자 (공백 제외, 최소 ${min}자)`; };
+    const updateCount = () => { count.textContent = t('{n}자 (공백 제외, 최소 {min}자)', { n: ta.value.replace(/\s/g, '').length, min }); };
     updateCount();
     ta.addEventListener('input', () => {
       updateCount();
@@ -97,10 +98,10 @@ const INPUTS = {
   },
 
   submit(check, { saved, onDraft }) {
-    const ta = h('textarea', { class: 'textarea', rows: '8', 'aria-label': '제출 글' });
+    const ta = h('textarea', { class: 'textarea', rows: '8', 'aria-label': t('제출 글') });
     ta.value = saved?.text || '';
     const count = h('span', { class: 'input-note' });
-    const updateCount = () => { count.textContent = `${ta.value.replace(/\s/g, '').length}자 (공백 제외, 최소 ${check.minLength ?? 1}자)`; };
+    const updateCount = () => { count.textContent = t('{n}자 (공백 제외, 최소 {min}자)', { n: ta.value.replace(/\s/g, '').length, min: check.minLength ?? 1 }); };
     updateCount();
     const boxes = check.checklist.map((item, i) => {
       const input = h('input', { type: 'checkbox' });
@@ -111,13 +112,13 @@ const INPUTS = {
     ta.addEventListener('input', () => { updateCount(); onDraft?.(read()); });
     boxes.forEach((b) => b.input.addEventListener('change', () => onDraft?.(read())));
     const el = h('div', {}, ta, count,
-      h('fieldset', { class: 'options checklist' }, h('legend', {}, '자기 점검'), boxes.map((b) => b.label)));
+      h('fieldset', { class: 'options checklist' }, h('legend', {}, t('자기 점검')), boxes.map((b) => b.label)));
     return { el, read, focusable: ta };
   },
 };
 
 export function renderInput(check, ctx) {
   const make = INPUTS[check.type];
-  if (!make) return { el: h('p', { class: 'error' }, `이 화면이 모르는 문항 유형: ${check.type}`), read: () => null };
+  if (!make) return { el: h('p', { class: 'error' }, t('이 화면이 모르는 문항 유형: {type}', { type: check.type })), read: () => null };
   return make(check, ctx);
 }

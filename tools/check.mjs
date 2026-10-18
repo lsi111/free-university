@@ -15,6 +15,7 @@ import { validateReviews } from '../src/engine/review.js';
 import { validateSite } from '../src/engine/report.js';
 import { groupByField } from '../src/data.js';
 import { knownFeatures } from '../src/features.js';
+import { checkUiDictionaries } from './i18n-keys.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const readJson = async (p) => JSON.parse(await readFile(join(root, p), 'utf8'));
@@ -142,6 +143,15 @@ for (const file of [...uiFiles, ...await svgFiles()]) {
   for (const re of BANNED) if (re.test(text)) fail(`${rel}: 외부 서비스 호출로 보이는 코드 (${re})`);
 }
 console.log(`  허용 목록 ${ALLOWED_HOSTS.size}곳, 발견된 외부 주소 ${externalSeen}개`);
+
+// 3c
+section('화면 번역 사전');
+{
+  // 화면 코드가 쓰는 t('…') 키와 data-i18n 키가 en·es 사전(content/i18n/<언어>/ui.json)에 정확히 있어야 한다.
+  const { count, errors } = await checkUiDictionaries();
+  for (const e of errors) fail(e);
+  console.log(`  화면 문구 키 ${count}개 × 언어 en·es 확인`);
+}
 
 // 4
 section('어느 학과를 빼도 교실이 성립');

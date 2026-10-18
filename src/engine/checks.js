@@ -7,6 +7,7 @@
 //   { status: 'fail', message }             다시 시도
 
 import { compile, value, equivalent, close, ExprError } from './expr.js';
+import { t } from '../i18n.js';
 
 const isStr = (v) => typeof v === 'string' && v.trim().length > 0;
 const isNonEmptyArray = (v) => Array.isArray(v) && v.length > 0;
@@ -31,14 +32,14 @@ export const CHECK_TYPES = {
       return e;
     },
     grade(c, resp) {
-      if (!isStr(resp)) return { status: 'fail', message: '값을 입력하세요.' };
+      if (!isStr(resp)) return { status: 'fail', message: t('값을 입력하세요.') };
       let got;
       try { got = value(resp); } catch (err) {
-        return { status: 'fail', message: err instanceof ExprError ? err.message : '값을 읽을 수 없습니다.' };
+        return { status: 'fail', message: err instanceof ExprError ? err.message : t('값을 읽을 수 없습니다.') };
       }
       const want = value(String(c.answer));
       const ok = c.tolerance != null ? Math.abs(got - want) <= c.tolerance : close(got, want, 1e-9);
-      return ok ? { status: 'pass', kind: 'auto' } : { status: 'fail', message: '값이 다릅니다.' };
+      return ok ? { status: 'pass', kind: 'auto' } : { status: 'fail', message: t('값이 다릅니다.') };
     },
   },
 
@@ -55,12 +56,12 @@ export const CHECK_TYPES = {
       return e;
     },
     grade(c, resp) {
-      if (!isStr(resp)) return { status: 'fail', message: '식을 입력하세요.' };
+      if (!isStr(resp)) return { status: 'fail', message: t('식을 입력하세요.') };
       try {
         const ok = equivalent(resp, c.answer, { vars: c.vars || ['x'], upToConstant: !!c.upToConstant });
-        return ok ? { status: 'pass', kind: 'auto' } : { status: 'fail', message: '기대한 식과 값이 다릅니다.' };
+        return ok ? { status: 'pass', kind: 'auto' } : { status: 'fail', message: t('기대한 식과 값이 다릅니다.') };
       } catch (err) {
-        return { status: 'fail', message: err instanceof ExprError ? err.message : '식을 읽을 수 없습니다.' };
+        return { status: 'fail', message: err instanceof ExprError ? err.message : t('식을 읽을 수 없습니다.') };
       }
     },
   },
@@ -77,10 +78,10 @@ export const CHECK_TYPES = {
     },
     grade(c, resp) {
       const picked = [...new Set(resp || [])].sort();
-      if (picked.length === 0) return { status: 'fail', message: '하나를 고르세요.' };
+      if (picked.length === 0) return { status: 'fail', message: t('하나를 고르세요.') };
       const want = [...c.answer].sort();
       const ok = picked.length === want.length && picked.every((v, i) => v === want[i]);
-      return ok ? { status: 'pass', kind: 'auto' } : { status: 'fail', message: '정답이 아닙니다.' };
+      return ok ? { status: 'pass', kind: 'auto' } : { status: 'fail', message: t('정답이 아닙니다.') };
     },
   },
 
@@ -96,10 +97,10 @@ export const CHECK_TYPES = {
     // resp: 왼쪽 i번에 고른 오른쪽 문자열 배열
     grade(c, resp) {
       if (!Array.isArray(resp) || resp.length !== c.pairs.length || resp.some((r) => !isStr(r))) {
-        return { status: 'fail', message: '모든 짝을 고르세요.' };
+        return { status: 'fail', message: t('모든 짝을 고르세요.') };
       }
       const wrong = c.pairs.filter((p, i) => p[1] !== resp[i]).length;
-      return wrong === 0 ? { status: 'pass', kind: 'auto' } : { status: 'fail', message: `${wrong}개의 짝이 맞지 않습니다.` };
+      return wrong === 0 ? { status: 'pass', kind: 'auto' } : { status: 'fail', message: t('{n}개의 짝이 맞지 않습니다.', { n: wrong }) };
     },
   },
 
@@ -115,7 +116,7 @@ export const CHECK_TYPES = {
     // resp: 학습자가 배열한 items
     grade(c, resp) {
       const ok = Array.isArray(resp) && resp.length === c.items.length && resp.every((v, i) => v === c.items[i]);
-      return ok ? { status: 'pass', kind: 'auto' } : { status: 'fail', message: '순서가 맞지 않습니다.' };
+      return ok ? { status: 'pass', kind: 'auto' } : { status: 'fail', message: t('순서가 맞지 않습니다.') };
     },
   },
 
@@ -132,10 +133,10 @@ export const CHECK_TYPES = {
     grade(c, resp) {
       const text = String(resp || '');
       const min = c.minLength ?? 30;
-      if (text.replace(/\s/g, '').length < min) return { status: 'fail', message: `조금 더 써 주세요. (공백 제외 ${min}자 이상)` };
+      if (text.replace(/\s/g, '').length < min) return { status: 'fail', message: t('조금 더 써 주세요. (공백 제외 {min}자 이상)', { min }) };
       const flat = normText(text);
       const missing = c.groups.filter((g) => !g.some((w) => flat.includes(normText(w)))).length;
-      if (missing > 0) return { status: 'fail', message: `다뤄야 할 핵심 개념 중 ${missing}개가 글에 보이지 않습니다.` };
+      if (missing > 0) return { status: 'fail', message: t('다뤄야 할 핵심 개념 중 {n}개가 글에 보이지 않습니다.', { n: missing }) };
       return { status: 'self-check' };
     },
   },
@@ -152,9 +153,9 @@ export const CHECK_TYPES = {
     grade(c, resp) {
       const text = String(resp?.text || '');
       const min = c.minLength ?? 1;
-      if (text.replace(/\s/g, '').length < min) return { status: 'fail', message: `공백 제외 ${min}자 이상 남겨 주세요.` };
+      if (text.replace(/\s/g, '').length < min) return { status: 'fail', message: t('공백 제외 {min}자 이상 남겨 주세요.', { min }) };
       const checked = resp?.checked || [];
-      if (c.checklist.some((_, i) => !checked[i])) return { status: 'fail', message: '자기 점검 항목을 모두 확인하세요.' };
+      if (c.checklist.some((_, i) => !checked[i])) return { status: 'fail', message: t('자기 점검 항목을 모두 확인하세요.') };
       return { status: 'pass', kind: 'self' };
     },
   },
@@ -162,8 +163,22 @@ export const CHECK_TYPES = {
 
 export function grade(check, response) {
   const type = CHECK_TYPES[check.type];
-  if (!type) return { status: 'fail', message: `알 수 없는 문항 유형: ${check.type}` };
+  if (!type) return { status: 'fail', message: t('알 수 없는 문항 유형: {type}', { type: check.type }) };
   return type.grade(check, response);
+}
+
+/** 화면에 보이는 문항 유형 이름. CHECK_TYPES의 label은 검증 도구용 한국어 원문이다. */
+export function checkTypeLabel(type) {
+  const labels = {
+    numeric: t('계산'),
+    expression: t('식'),
+    choice: t('선택'),
+    match: t('짝짓기'),
+    order: t('순서'),
+    keywords: t('핵심어 서술'),
+    submit: t('제출'),
+  };
+  return labels[type] || type;
 }
 
 /** 문항 유형이 요구하는 화면 기능(예: 수식 렌더러) */

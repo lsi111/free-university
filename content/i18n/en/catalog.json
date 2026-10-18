@@ -1,0 +1,338 @@
+{
+  "fields": {
+    "business": {
+      "name": "Business",
+      "note": "Calculation and cases"
+    },
+    "engineering": {
+      "name": "Engineering",
+      "note": "Design and analysis"
+    },
+    "education": {
+      "name": "Education",
+      "note": "Theory is open; practicum is submitted"
+    },
+    "social": {
+      "name": "Social Sciences",
+      "note": "Concepts and data"
+    },
+    "arts": {
+      "name": "Arts",
+      "note": "Form analysis is graded; works are submitted"
+    },
+    "humanities": {
+      "name": "Humanities",
+      "note": "Texts and argument"
+    },
+    "natural": {
+      "name": "Natural Sciences",
+      "note": "Calculation and models"
+    }
+  },
+  "departments": {
+    "korean-lit": {
+      "name": "Korean Language and Literature",
+      "summary": "Read the structure of the Korean language and the currents of Korean literature.",
+      "audience": "A non-major encountering the Korean language and Korean literature through theory for the first time. Someone who wants to learn how Hangul works, parts of speech, literary genres, and how to read poems and stories.",
+      "limits": "No real works are quoted; analysis uses only fictional works written for this course. Literary history and commentary on actual works are out of scope."
+    },
+    "german-lit": {
+      "name": "German Language and Literature",
+      "summary": "Read the German language and the literature and thought of the German-speaking world.",
+      "audience": "A non-major new to German who wants to take a first step by reading the alphabet, pronunciation, basic grammar, and short dialogues.",
+      "limits": "Covers only A1-level introductory grammar. Analysis of German literary works, the dative and genitive cases, and conversation exam preparation are out of scope. No sound is played."
+    },
+    "history-studies": {
+      "name": "History",
+      "summary": "Learn how to read sources and interpret the past.",
+      "audience": "A non-major new to history. Someone who wants to learn not the history of a particular country but how to read sources and reason about time, causes, and narrative.",
+      "limits": "Does not cover historical knowledge about any particular era or country."
+    },
+    "linguistics": {
+      "name": "Linguistics",
+      "summary": "Find the rules by which sounds, words, sentences, and meaning are put together.",
+      "audience": "A non-major who, as a Korean speaker, wants to look systematically for the first time at speech sounds, words, sentences, meaning, and language change.",
+      "limits": "An introduction centered on Korean. A conceptual course that treats phonology, morphology, syntax, semantics, history, and sociolinguistics with fictional data. Cutting-edge theoretical debates, real fieldwork, and clinical diagnosis are out of scope."
+    },
+    "english-lit": {
+      "name": "English Language and Literature",
+      "summary": "Read the structure of English and the literature of the English-speaking world.",
+      "audience": "A non-major looking at English and English literature through theory for the first time. Someone who wants to learn the basics of English structure and of reading short texts.",
+      "limits": "No sound is played. No real works are quoted; only short fictional texts written for this course are used. Exam and certification preparation are out of scope."
+    },
+    "japanese-lit": {
+      "name": "Japanese Language and Literature",
+      "summary": "Read the Japanese language and Japanese literature and culture.",
+      "audience": "A non-major new to Japanese who wants to learn the writing systems and basic sentences and get a starting point for studying Japanese.",
+      "limits": "Does not cover appreciation of literary works, advanced Japanese history and culture, conversation and listening training, or advanced grammar. No sound is played."
+    },
+    "chinese-lit": {
+      "name": "Chinese Language and Literature",
+      "summary": "Read the Chinese language and Chinese literature and classics.",
+      "audience": "A non-major new to Chinese. A learner who wants to read and write basic sentences and a self-introduction using simplified characters and pinyin.",
+      "limits": "No sound is played, and only introductory vocabulary and grammar are covered. Writing traditional characters, advanced grammar, reading real works, and exam or certification preparation are out of scope."
+    },
+    "philosophy": {
+      "name": "Philosophy",
+      "summary": "Learn how to weigh claims against their grounds.",
+      "audience": "Anyone, whether humanities, science, or non-major. If you can read a text to the end, that is enough. No background knowledge is needed."
+    },
+    "french-lit": {
+      "name": "French Language and Literature",
+      "summary": "Read the French language and the literature and thought of the French-speaking world.",
+      "audience": "A non-major new to French who wants to learn the letters, pronunciation, basic grammar, and greetings in Korean.",
+      "limits": "Covers only introductory reading and writing. No sound is played, only approximate Hangul transcriptions are given, and literary works are not covered."
+    },
+    "economics": {
+      "name": "Economics",
+      "summary": "Explain with models how people divide scarce resources.",
+      "audience": "A non-major learning economics for the first time. Someone who wants to learn, through simple calculations and graphs, everything from scarcity to supply and demand, costs, market failure, and an introduction to macroeconomics.",
+      "limits": "Uses only fictional markets and figures and is not investment or policy advice. Advanced theory is out of scope."
+    },
+    "library-science": {
+      "name": "Library and Information Science",
+      "summary": "Learn the principles of gathering, classifying, and retrieving information.",
+      "audience": "A non-major learning for the first time how to gather, classify, and find information. Someone who wants to learn the basics of classification, catalogs, search, and evaluating information.",
+      "limits": "Covers concepts only, with fictional materials. Copyright is covered only at the level of general principles and is not legal advice. Librarian certification is out of scope."
+    },
+    "media-communication": {
+      "name": "Media and Communication",
+      "summary": "Look at how messages are made, spread, and interpreted.",
+      "audience": "A non-major learning about media and the news systematically for the first time.",
+      "limits": "Covers only fictional media and articles. Analysis of real news organizations or platforms, media law, and production practice are out of scope."
+    },
+    "law-studies": {
+      "name": "Law",
+      "summary": "Learn what law is and how it is interpreted and applied. Legal consultation is out of scope.",
+      "audience": "A non-major encountering law for the first time.",
+      "limits": "Uses only cases from the fictional country of Ganara and does not treat real laws as fact. This is not legal advice."
+    },
+    "health-administration": {
+      "name": "Health Administration",
+      "summary": "Covers health systems and policy and how they are run. Medical practice is out of scope.",
+      "audience": "A non-major learning about health and medical systems and health indicators for the first time.",
+      "limits": "A conceptual introduction centered on fictional cases. Does not cover diagnosis, treatment, health advice, or judgments about real policies or regulations."
+    },
+    "sociology": {
+      "name": "Sociology",
+      "summary": "Look at the social structures and relationships that shape individual lives.",
+      "audience": "A non-major learning for the first time to read society not as an individual matter but through relationships, structures, and statistics.",
+      "limits": "Covers only the common basics, and all figures are fictional. Actual social analysis of a particular country or current issues is not covered."
+    },
+    "social-welfare": {
+      "name": "Social Welfare",
+      "summary": "Learn about welfare systems and their theoretical foundations. Field practicum is out of scope.",
+      "audience": "A non-major with a first interest in social welfare, who wants to learn the basic concepts of welfare systems and the debates over ideology in a balanced way.",
+      "limits": "Covers concepts only, using a fictional country and figures. Field practicum, certification, guidance on using real programs, and counseling are out of scope."
+    },
+    "psychology": {
+      "name": "Psychology",
+      "summary": "Explain the mind and behavior through experiments and data. Counseling and diagnosis are out of scope.",
+      "audience": "A non-major new to psychology. Someone who wants to learn, as general theory, how the mind and behavior are studied scientifically and the basic concepts.",
+      "limits": "A general-theory course for broad education. It is not diagnosis, counseling, or treatment, and it is not meant for assessing yourself or others."
+    },
+    "anthropology": {
+      "name": "Anthropology",
+      "summary": "Understand culture through other ways of life.",
+      "audience": "Non-major adults and teenagers new to anthropology.",
+      "limits": "Covers only fictional societies and does not address facts about any real ethnic group or community."
+    },
+    "political-science": {
+      "name": "Political Science and Diplomacy",
+      "summary": "Analyze power, institutions, and relations between states.",
+      "audience": "A non-major learning about politics and international relations for the first time. Suited to someone who wants to read political terms in the news and poll numbers calmly.",
+      "limits": "Covers concepts and tools using fictional cases. Evaluating real countries, parties, or current issues, and explaining the institutions of a particular country, are out of scope."
+    },
+    "geography": {
+      "name": "Geography",
+      "summary": "See how place and space bind people and nature together.",
+      "audience": "A non-major beginner interested in maps, places, and the ways people live. Readable from middle school up.",
+      "limits": "Covers only fictional islands and villages. Statistics of real countries and cities, territorial and border disputes, and map-making and GIS technology are not covered."
+    },
+    "public-administration": {
+      "name": "Public Administration",
+      "summary": "Learn how government makes and carries out policy.",
+      "audience": "A non-major new to public administration. Someone who wants to learn the basic concepts of government, policy, budgets, and civic participation through fictional city cases.",
+      "limits": "Uses only fictional cities and figures. Evaluating particular policies or governments, legal or administrative practice advice, and civil service exams or certification are out of scope."
+    },
+    "business-administration": {
+      "name": "Business Administration",
+      "summary": "Learn how organizations set goals and use resources.",
+      "audience": "Non-major adults and teenagers who want to know for the first time how companies and organizations operate.",
+      "limits": "An introduction to basic concepts, not advice for managing a real company, investing, or starting a business. All companies are fictional."
+    },
+    "international-trade": {
+      "name": "International Trade",
+      "summary": "Covers trade between countries and its rules.",
+      "audience": "Beginners who want to understand news about trade and exchange rates, and teenagers and adults curious about international trade.",
+      "limits": "Uses only fictional countries and figures and is not material for real trade policy, law, or investment decisions."
+    },
+    "marketing": {
+      "name": "Marketing",
+      "summary": "Understand what customers choose and why, and deliver value.",
+      "audience": "A non-major learning marketing for the first time. Someone who wants to learn the basics of customer value, market segmentation, the 4Ps, purchase decisions, branding, and how to read research.",
+      "limits": "Covers only basic concepts and simple calculations (A/B comparison, customer lifetime value, and so on). Advertising regulation, sophisticated statistical analysis, and digital marketing practice are out of scope."
+    },
+    "finance": {
+      "name": "Finance",
+      "summary": "Calculate the time value of money and risk. Investment advice is out of scope.",
+      "audience": "A non-major learning for the first time the basic concepts of the time value of money, present value, risk, and financing.",
+      "limits": "Uses only fictional companies and figures; portfolios, bonds, and options are also covered as concepts and calculations only. This is not investment, loan, or tax advice."
+    },
+    "accounting": {
+      "name": "Accounting",
+      "summary": "Learn to record transactions and read them as financial statements.",
+      "audience": "A non-major new to accounting. Someone who wants to learn the basic concepts of ledgers and financial statements through the case of a fictional shop.",
+      "limits": "Tax filing, audit practice, certification exams, and investment decisions are out of scope. Concepts such as audit risk are covered only at an introductory level with fictional cases."
+    },
+    "physics": {
+      "name": "Physics",
+      "summary": "Explain motion and energy with a few laws.",
+      "audience": "A non-major learning physics for the first time. Someone who wants to learn the basics of measurement, motion, force, energy, waves, and electricity through simple calculations and figures.",
+      "limits": "Covers only concepts and simple calculations. This is not a guide to experimental or electrical work methods or to safety."
+    },
+    "life-science": {
+      "name": "Life Science",
+      "summary": "See the principles by which life works, from cells to ecosystems.",
+      "audience": "Someone learning life science for the first time. An introduction that starts at a high school level.",
+      "limits": "Medicine, such as diagnosing and treating disease, and experimental methods and safety guidelines are out of scope; the molecular and cellular levels are covered only as concepts and simple calculations."
+    },
+    "mathematics": {
+      "name": "Mathematics",
+      "summary": "Learn the language that starts from definitions and confirms by proof.",
+      "audience": "Anyone, whether humanities, science, or non-major. You only need to be comfortable with the four arithmetic operations and expressions that use letters like x."
+    },
+    "earth-science": {
+      "name": "Earth Science",
+      "summary": "See how land, ocean, and atmosphere affect one another.",
+      "audience": "A non-major learning earth science for the first time.",
+      "limits": "Covers only introductory concepts. This is not guidance for weather forecasting, geological surveys, or disaster preparedness decisions."
+    },
+    "astronomy": {
+      "name": "Astronomy",
+      "summary": "Read light to infer the structure of stars and the universe.",
+      "audience": "A non-major learning astronomy for the first time. Someone who wants a broad sweep of sky observation, the solar system, stars and galaxies, and how astronomy knows what it knows.",
+      "limits": "Does not cover the controversial parts of cosmology or the latest discoveries; calculation is limited to simple estimates of physical quantities."
+    },
+    "statistics": {
+      "name": "Statistics",
+      "summary": "Learn to draw conclusions from data in the face of uncertainty.",
+      "audience": "A non-major learning statistics for the first time. Someone who wants to read and summarize data and understand uncertainty and the difference between correlation and causation.",
+      "limits": "Covers concepts and simple hand calculations with fictional data. Statistical software practice, analysis of real data, and research design consulting are out of scope."
+    },
+    "chemistry": {
+      "name": "Chemistry",
+      "summary": "See what matter is made of and how it changes.",
+      "audience": "A non-major learning chemistry for the first time. Someone who wants to learn the basics of atoms, the periodic table, bonding, reaction equations, the mole, and acids and bases.",
+      "limits": "Covers only concepts and simple calculations. This is not a guide to experimental methods or safety."
+    },
+    "architecture": {
+      "name": "Architecture",
+      "summary": "Learn the principles of conceiving space and building it as structure.",
+      "audience": "A non-major learning architecture for the first time. Someone who wants to learn the basic concepts of space, floor plans, structure, light and wind, and materials through the example of a fictional house.",
+      "limits": "An introductory course that does not cover architect licensing, structural safety calculations, building codes, or facts about real buildings."
+    },
+    "mechanical-eng": {
+      "name": "Mechanical Engineering",
+      "summary": "Analyze and design devices that handle force, heat, and motion.",
+      "audience": "A non-major learning for the first time how machines handle force and energy. Someone who wants to learn levers, stress, engines, and gears through concepts and simple calculations.",
+      "limits": "This is not a guide to design, fabrication, or safety judgments. Covers only concepts and simple calculations."
+    },
+    "industrial-eng": {
+      "name": "Industrial Engineering",
+      "summary": "Optimize systems in which people, machines, and resources work together.",
+      "audience": "Non-majors and engineering beginners curious about handling the flow of work, time, inventory, quality, and uncertain decisions with numbers.",
+      "limits": "Covers only concepts and simple fictional calculations and is not a guide to real factory design, safety, or investment decisions."
+    },
+    "materials-eng": {
+      "name": "Materials Science and Engineering",
+      "summary": "Learn the relationship between the structure and properties of materials.",
+      "audience": "Non-majors and engineering beginners who want to learn for the first time what metals, ceramics, and polymers are and why their properties differ.",
+      "limits": "Covers only concepts and simple calculations, and the figures in the materials tables are fictional. This is not a guide to real design, safety, or construction decisions."
+    },
+    "electrical-eng": {
+      "name": "Electrical and Electronic Engineering",
+      "summary": "Learn about circuits and systems that handle electrical signals and energy.",
+      "audience": "A non-major learning the basic principles of electricity and electronics for the first time. Someone who wants to learn current, voltage, resistance, power, and signals through concepts and simple calculations.",
+      "limits": "Covers only concepts and simple calculations. This is not a guide to wiring, hands-on work, or high-voltage work methods or safety."
+    },
+    "computer-science": {
+      "name": "Computer Science",
+      "summary": "Learn to define computation and solve problems with programs.",
+      "audience": "A non-major new to coding. Someone who wants to learn how computers handle information and to build algorithmic thinking.",
+      "limits": "Does not cover any particular programming language or hands-on practice. Code is only pseudocode that you trace by hand, and cryptography is covered only as principles, not as a guide to security practice."
+    },
+    "civil-eng": {
+      "name": "Civil Engineering",
+      "summary": "Analyze infrastructure such as bridges, roads, and water resources.",
+      "audience": "A non-major new to engineering who wants to know, through concepts and simple calculations, on what principles social infrastructure such as roads, bridges, and water stands.",
+      "limits": "This is not a standard for design, construction, or safety judgments, and all projects and figures are fictional."
+    },
+    "chemical-eng": {
+      "name": "Chemical Engineering",
+      "summary": "Learn the principles of scaling chemical reactions up to the process level.",
+      "audience": "Non-majors and engineering beginners meeting for the first time how processes turn raw materials into products.",
+      "limits": "Covers only concepts and simple calculations and is not a guide to design, safety, or operation. All processes and figures are fictional."
+    },
+    "environmental-eng": {
+      "name": "Environmental Engineering",
+      "summary": "Handle problems of water, air, and waste with engineering.",
+      "audience": "Non-majors new to environmental issues and learners exploring environmental engineering as a field of study.",
+      "limits": "This is not guidance for design, safety, or construction judgments or for regulations, and projects and figures are fictional."
+    },
+    "education-studies": {
+      "name": "Education Studies",
+      "summary": "See in theory how people learn and what helps learning.",
+      "audience": "A non-major encountering education through theory for the first time. Someone who wants to learn the basic concepts of learning, development, motivation, instructional design, and equity.",
+      "limits": "A theoretical introduction unrelated to teacher certification, appointment exam preparation, or evaluating education policy."
+    },
+    "subject-education": {
+      "name": "Subject Matter Education",
+      "summary": "Learn to turn subject content into something that can be taught. Unrelated to teacher certification.",
+      "audience": "An education beginner who wants to find out for the first time how to teach a subject and help others learn it.",
+      "limits": "Theory unrelated to teacher certification, appointment, or field practicum; lesson examples are fictional."
+    },
+    "early-childhood-ed": {
+      "name": "Early Childhood Education",
+      "summary": "Learn the theory of infant and child development and play-based learning. Field practicum is left to submission only.",
+      "audience": "A non-major new to early childhood education.",
+      "limits": "Theory unrelated to certification, appointment, or practicum; it does not cover safety standards, care guidelines, or diagnosis, and all cases are fictional."
+    },
+    "special-education": {
+      "name": "Special Education",
+      "summary": "Learn the principles of education tailored to diverse learning needs. Field practicum is left to submission only.",
+      "audience": "A non-major new to special education who wants to learn, in theory, the basic ideas of diverse learning needs and support.",
+      "limits": "Does not cover diagnosis, determination of eligibility, treatment, teacher certification, or drawing up real support plans, and all cases are fictional."
+    },
+    "design-studies": {
+      "name": "Design",
+      "summary": "Analyze and try making how form, color, and layout convey meaning.",
+      "audience": "Anyone, whether humanities, science, or non-major. No drawing skill or tools are needed. You learn how to look with your eyes and judge.",
+      "limits": "Does not judge whether works are good or bad. No works are uploaded; you only record your making process in writing."
+    },
+    "fine-arts": {
+      "name": "Fine Arts",
+      "summary": "Read works through form and context, and try making them yourself.",
+      "audience": "A beginner who has never studied art but wants an eye for looking at works and basic terms.",
+      "limits": "A very broad overview centered on Western art. Studio instruction and in-depth study of East Asian or contemporary art are not covered."
+    },
+    "theater-film": {
+      "name": "Theater and Film",
+      "summary": "Analyze how scenes are constructed and reach the audience.",
+      "audience": "A beginner new to theater and film who is interested in how stories are made into scenes and images.",
+      "limits": "Covers only fictional works. Evaluating real works or people, acting practice, and shooting and editing technique training are out of scope."
+    },
+    "music-studies": {
+      "name": "Music",
+      "summary": "Read and listen to the structure of pitch, rhythm, and harmony.",
+      "audience": "A non-major seeing a musical score for the first time. Someone who wants to learn the basics of music theory through pictures and words, without sound.",
+      "limits": "Since no sound is played, ear training is not included. Covers only C major and basic theory, and does not cover music history or analysis of real pieces."
+    },
+    "sport-science": {
+      "name": "Sport Science",
+      "summary": "Understand movement and training through science and theory. Practical skills are out of scope.",
+      "audience": "A non-major new to sport science who wants to survey, in theory, physical activity, the principles of exercise, sport psychology, the rules of games, and sport and society.",
+      "limits": "Does not cover practical skills, exercise prescription, training plans, or advice on treating injuries; the rule examples use fictional sports."
+    }
+  }
+}

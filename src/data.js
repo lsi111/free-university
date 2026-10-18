@@ -2,13 +2,13 @@
 
 import { validateCatalog, validateDepartment } from './engine/schema.js';
 import { applyDeptOverlay, applyCatalogOverlay } from './engine/i18n.js';
-import { getLang, locale } from './i18n.js';
+import { getLang, locale, t } from './i18n.js';
 
 const cache = { fields: null, catalog: null, depts: new Map(), allLoaded: false };
 
 async function getJson(path) {
   const res = await fetch(path, { cache: 'no-cache' });
-  if (!res.ok) throw new Error(`${path}를 불러오지 못했습니다 (${res.status})`);
+  if (!res.ok) throw new Error(t('{path}를 불러오지 못했습니다 ({status})', { path, status: res.status }));
   return res.json();
 }
 

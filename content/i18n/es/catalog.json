@@ -1,0 +1,338 @@
+{
+  "fields": {
+    "business": {
+      "name": "Empresa",
+      "note": "Cálculo y casos"
+    },
+    "engineering": {
+      "name": "Ingeniería",
+      "note": "Diseño y análisis"
+    },
+    "education": {
+      "name": "Educación",
+      "note": "La teoría está abierta; la práctica se entrega"
+    },
+    "social": {
+      "name": "Ciencias Sociales",
+      "note": "Conceptos y datos"
+    },
+    "arts": {
+      "name": "Artes",
+      "note": "El análisis de la forma se califica; las obras se entregan"
+    },
+    "humanities": {
+      "name": "Humanidades",
+      "note": "Textos y argumentación"
+    },
+    "natural": {
+      "name": "Ciencias Naturales",
+      "note": "Cálculo y modelos"
+    }
+  },
+  "departments": {
+    "korean-lit": {
+      "name": "Lengua y Literatura Coreanas",
+      "summary": "Lee la estructura de la lengua coreana y el curso de la literatura coreana.",
+      "audience": "Persona sin formación en el área que se acerca por primera vez, desde la teoría, a la lengua y la literatura coreanas. Quien quiera aprender cómo funciona el hangul, las clases de palabras, los géneros literarios y cómo leer poemas y relatos.",
+      "limits": "No se citan obras reales; el análisis usa solo obras ficticias escritas para este curso. La historia de la literatura y el comentario de obras reales quedan fuera del alcance."
+    },
+    "german-lit": {
+      "name": "Lengua y Literatura Alemanas",
+      "summary": "Lee la lengua alemana y la literatura y el pensamiento del mundo germanohablante.",
+      "audience": "Persona sin formación en el área que no conoce el alemán y quiere dar un primer paso leyendo el alfabeto, la pronunciación, la gramática básica y diálogos breves.",
+      "limits": "Solo se trata la gramática introductoria de nivel A1. El análisis de obras literarias alemanas, el dativo y el genitivo, y la preparación de exámenes de conversación quedan fuera del alcance. No se reproduce sonido."
+    },
+    "history-studies": {
+      "name": "Historia",
+      "summary": "Aprende a leer fuentes e interpretar el pasado.",
+      "audience": "Persona sin formación en el área que se inicia en la historia. Quien quiera aprender, más que la historia de un país concreto, a leer fuentes y razonar sobre el tiempo, las causas y la narración.",
+      "limits": "No se trata el conocimiento histórico de ninguna época ni país en particular."
+    },
+    "linguistics": {
+      "name": "Lingüística",
+      "summary": "Descubre las reglas con que se organizan los sonidos, las palabras, las oraciones y el significado.",
+      "audience": "Persona sin formación en el área que, como hablante de coreano, quiere examinar por primera vez de forma sistemática los sonidos del habla, las palabras, las oraciones, el significado y el cambio lingüístico.",
+      "limits": "Es una introducción centrada en el coreano. Curso conceptual que trata fonología, morfología, sintaxis, semántica, historia y sociolingüística con datos ficticios. Los debates teóricos de vanguardia, el trabajo de campo real y el diagnóstico clínico quedan fuera del alcance."
+    },
+    "english-lit": {
+      "name": "Lengua y Literatura Inglesas",
+      "summary": "Lee la estructura del inglés y la literatura del mundo anglófono.",
+      "audience": "Persona sin formación en el área que se acerca por primera vez, desde la teoría, al inglés y a su literatura. Quien quiera aprender los fundamentos de la estructura del inglés y de la lectura de textos breves.",
+      "limits": "No se reproduce sonido. No se citan obras reales; solo se usan textos breves ficticios escritos para este curso. La preparación de exámenes y certificaciones queda fuera del alcance."
+    },
+    "japanese-lit": {
+      "name": "Lengua y Literatura Japonesas",
+      "summary": "Lee la lengua japonesa y la literatura y la cultura de Japón.",
+      "audience": "Persona sin formación en el área que no conoce el japonés y quiere aprender los sistemas de escritura y las oraciones básicas para tener un punto de partida en el estudio del japonés.",
+      "limits": "No se trata la apreciación de obras literarias, la historia y la cultura de Japón en profundidad, el entrenamiento de conversación y comprensión auditiva ni la gramática avanzada. No se reproduce sonido."
+    },
+    "chinese-lit": {
+      "name": "Lengua y Literatura Chinas",
+      "summary": "Lee la lengua china y la literatura y los clásicos de China.",
+      "audience": "Persona sin formación en el área que no conoce el chino. Estudiante que quiere leer y escribir oraciones básicas y una presentación personal con caracteres simplificados y pinyin.",
+      "limits": "No se reproduce sonido y solo se trata el vocabulario y la gramática introductorios. La escritura de caracteres tradicionales, la gramática avanzada, la lectura de obras reales y la preparación de exámenes o certificaciones quedan fuera del alcance."
+    },
+    "philosophy": {
+      "name": "Filosofía",
+      "summary": "Aprende a examinar las afirmaciones según sus fundamentos.",
+      "audience": "Cualquier persona, de letras, de ciencias o sin formación en el área. Basta con poder leer un texto hasta el final. No se necesitan conocimientos previos."
+    },
+    "french-lit": {
+      "name": "Lengua y Literatura Francesas",
+      "summary": "Lee la lengua francesa y la literatura y el pensamiento del mundo francófono.",
+      "audience": "Persona sin formación en el área que no conoce el francés y quiere aprender en coreano las letras, la pronunciación, la gramática básica y los saludos.",
+      "limits": "Solo se trata la lectura y la escritura de nivel introductorio. No se reproduce sonido, solo se ofrecen transcripciones aproximadas en hangul, y no se tratan obras literarias."
+    },
+    "economics": {
+      "name": "Economía",
+      "summary": "Explica con modelos cómo reparten las personas los recursos escasos.",
+      "audience": "Persona sin formación en el área que estudia economía por primera vez. Quien quiera aprender, con cálculos sencillos y gráficos, desde la escasez hasta la oferta y la demanda, los costos, los fallos de mercado y una introducción a la macroeconomía.",
+      "limits": "Usa solo mercados y cifras ficticios y no es asesoría de inversión ni de políticas. La teoría avanzada queda fuera del alcance."
+    },
+    "library-science": {
+      "name": "Bibliotecología y Ciencias de la Información",
+      "summary": "Aprende los principios para reunir, clasificar y recuperar información.",
+      "audience": "Persona sin formación en el área que aprende por primera vez a reunir, clasificar y buscar información. Quien quiera aprender los fundamentos de la clasificación, los catálogos, la búsqueda y la evaluación de la información.",
+      "limits": "Trata solo conceptos, con materiales ficticios. Los derechos de autor se tratan únicamente en sus principios generales y no constituyen asesoría legal. La habilitación como bibliotecario queda fuera del alcance."
+    },
+    "media-communication": {
+      "name": "Medios y Comunicación",
+      "summary": "Observa cómo se crean, se difunden y se interpretan los mensajes.",
+      "audience": "Persona sin formación en el área que aprende por primera vez de forma sistemática sobre los medios y las noticias.",
+      "limits": "Trata solo medios y artículos ficticios. El análisis de medios o plataformas reales, la legislación sobre medios y la práctica de producción quedan fuera del alcance."
+    },
+    "law-studies": {
+      "name": "Derecho",
+      "summary": "Aprende qué es el derecho y cómo se interpreta y se aplica. La asesoría legal queda fuera del alcance.",
+      "audience": "Persona sin formación en el área que se acerca al derecho por primera vez.",
+      "limits": "Usa solo casos del país ficticio de Ganara y no trata las leyes reales como hechos. No es asesoría legal."
+    },
+    "health-administration": {
+      "name": "Administración de la Salud",
+      "summary": "Trata los sistemas y las políticas de salud y su gestión. La práctica médica queda fuera del alcance.",
+      "audience": "Persona sin formación en el área que aprende por primera vez sobre los sistemas de salud y atención médica y sobre los indicadores de salud.",
+      "limits": "Introducción conceptual centrada en casos ficticios. No trata diagnóstico, tratamiento, consejos de salud ni juicios sobre políticas o normas reales."
+    },
+    "sociology": {
+      "name": "Sociología",
+      "summary": "Observa las estructuras y las relaciones sociales que moldean la vida de las personas.",
+      "audience": "Persona sin formación en el área que aprende por primera vez a leer la sociedad no como un asunto individual, sino a través de relaciones, estructuras y estadísticas.",
+      "limits": "Trata solo los fundamentos comunes y todas las cifras son ficticias. No se trata el análisis social real de un país concreto ni de temas de actualidad."
+    },
+    "social-welfare": {
+      "name": "Bienestar Social",
+      "summary": "Aprende sobre los sistemas de bienestar y sus fundamentos teóricos. Las prácticas de campo quedan fuera del alcance.",
+      "audience": "Persona sin formación en el área que se interesa por primera vez en el bienestar social y quiere aprender de forma equilibrada los conceptos básicos de los sistemas de bienestar y los debates ideológicos.",
+      "limits": "Trata solo conceptos, con un país y cifras ficticios. Las prácticas de campo, la habilitación profesional, la orientación sobre el uso de programas reales y el asesoramiento quedan fuera del alcance."
+    },
+    "psychology": {
+      "name": "Psicología",
+      "summary": "Explica la mente y la conducta con experimentos y datos. La orientación y el diagnóstico quedan fuera del alcance.",
+      "audience": "Persona sin formación en el área que se inicia en la psicología. Quien quiera aprender, como teoría general, cómo se investiga científicamente la mente y la conducta, y sus conceptos básicos.",
+      "limits": "Curso de cultura general basado en teoría general. No es diagnóstico, orientación ni tratamiento, y no sirve para evaluarte a ti ni a otras personas."
+    },
+    "anthropology": {
+      "name": "Antropología",
+      "summary": "Comprende la cultura a través de otras formas de vida.",
+      "audience": "Adultos y jóvenes sin formación en el área que se inician en la antropología.",
+      "limits": "Trata solo sociedades ficticias y no aborda hechos sobre pueblos o grupos reales."
+    },
+    "political-science": {
+      "name": "Ciencias Políticas y Relaciones Internacionales",
+      "summary": "Analiza el poder, las instituciones y las relaciones entre Estados.",
+      "audience": "Persona sin formación en el área que aprende por primera vez sobre política y relaciones internacionales. Es adecuado para quien quiera leer con calma los términos políticos de las noticias y las cifras de las encuestas.",
+      "limits": "Trata solo conceptos y herramientas con casos ficticios. La valoración de países, partidos o asuntos reales y la explicación de las instituciones de un país concreto quedan fuera del alcance."
+    },
+    "geography": {
+      "name": "Geografía",
+      "summary": "Observa cómo el lugar y el espacio unen a las personas con la naturaleza.",
+      "audience": "Principiante sin formación en el área interesado en los mapas, los lugares y las formas de vida de las personas. Se puede leer desde la secundaria.",
+      "limits": "Trata solo islas y pueblos ficticios. No se tratan las estadísticas de países y ciudades reales, los conflictos territoriales y fronterizos, ni la elaboración de mapas y la tecnología SIG."
+    },
+    "public-administration": {
+      "name": "Administración Pública",
+      "summary": "Aprende cómo el gobierno elabora y ejecuta las políticas.",
+      "audience": "Persona sin formación en el área que se inicia en la administración pública. Quien quiera aprender los conceptos básicos de gobierno, políticas, presupuesto y participación ciudadana con casos de una ciudad ficticia.",
+      "limits": "Usa solo ciudades y cifras ficticias. La valoración de políticas o gobiernos concretos, el asesoramiento legal o de práctica administrativa y los exámenes o certificaciones de función pública quedan fuera del alcance."
+    },
+    "business-administration": {
+      "name": "Administración de Empresas",
+      "summary": "Aprende cómo las organizaciones fijan metas y utilizan los recursos.",
+      "audience": "Adultos y jóvenes sin formación en el área que quieren saber por primera vez cómo funcionan las empresas y las organizaciones.",
+      "limits": "Es una introducción a conceptos básicos, no asesoría para dirigir una empresa real, invertir o emprender. Todas las empresas son ficticias."
+    },
+    "international-trade": {
+      "name": "Comercio Internacional",
+      "summary": "Trata el intercambio entre países y sus reglas.",
+      "audience": "Principiantes que quieren entender las noticias sobre comercio y tipos de cambio, y jóvenes y adultos con curiosidad por el comercio internacional.",
+      "limits": "Usa solo países y cifras ficticios y no es material para decisiones reales de política comercial, legales o de inversión."
+    },
+    "marketing": {
+      "name": "Marketing",
+      "summary": "Comprende qué eligen los clientes y por qué, y cómo transmitir valor.",
+      "audience": "Persona sin formación en el área que estudia marketing por primera vez. Quien quiera aprender los fundamentos del valor para el cliente, la segmentación del mercado, las 4P, las decisiones de compra, la marca y cómo leer una investigación.",
+      "limits": "Trata solo conceptos básicos y cálculos sencillos (comparación A/B, valor del tiempo de vida del cliente, etc.). La normativa publicitaria, el análisis estadístico sofisticado y la práctica del marketing digital quedan fuera del alcance."
+    },
+    "finance": {
+      "name": "Finanzas",
+      "summary": "Calcula el valor del dinero en el tiempo y el riesgo. El asesoramiento de inversión queda fuera del alcance.",
+      "audience": "Persona sin formación en el área que aprende por primera vez los conceptos básicos del valor del dinero en el tiempo, el valor presente, el riesgo y la financiación.",
+      "limits": "Usa solo empresas y cifras ficticias; las carteras, los bonos y las opciones también se tratan solo como conceptos y cálculos. No es asesoría de inversión, de crédito ni fiscal."
+    },
+    "accounting": {
+      "name": "Contabilidad",
+      "summary": "Aprende a registrar transacciones y a leerlas como estados financieros.",
+      "audience": "Persona sin formación en el área que se inicia en la contabilidad. Quien quiera aprender los conceptos básicos de los libros contables y los estados financieros con el caso de una tienda ficticia.",
+      "limits": "La declaración de impuestos, la práctica de auditoría, los exámenes de certificación y las decisiones de inversión quedan fuera del alcance. Conceptos como el riesgo de auditoría se tratan solo a nivel introductorio con casos ficticios."
+    },
+    "physics": {
+      "name": "Física",
+      "summary": "Explica el movimiento y la energía con unas pocas leyes.",
+      "audience": "Persona sin formación en el área que estudia física por primera vez. Quien quiera aprender los fundamentos de la medición, el movimiento, la fuerza, la energía, las ondas y la electricidad con cálculos sencillos y figuras.",
+      "limits": "Trata solo conceptos y cálculos sencillos. No es una guía de métodos de experimentación o de trabajo eléctrico ni de seguridad."
+    },
+    "life-science": {
+      "name": "Ciencias de la Vida",
+      "summary": "Observa los principios con que funciona la vida, desde la célula hasta el ecosistema.",
+      "audience": "Persona que estudia ciencias de la vida por primera vez. Es una introducción que parte del nivel de secundaria superior.",
+      "limits": "La medicina, como el diagnóstico y el tratamiento de enfermedades, y los métodos experimentales y las pautas de seguridad quedan fuera del alcance; los niveles molecular y celular se tratan solo como conceptos y cálculos sencillos."
+    },
+    "mathematics": {
+      "name": "Matemáticas",
+      "summary": "Aprende el lenguaje que parte de las definiciones y se confirma con demostraciones.",
+      "audience": "Cualquier persona, de letras, de ciencias o sin formación en el área. Basta con no sentir rechazo por las cuatro operaciones y por las expresiones con letras como x."
+    },
+    "earth-science": {
+      "name": "Ciencias de la Tierra",
+      "summary": "Observa cómo interactúan la tierra, el mar y la atmósfera.",
+      "audience": "Persona sin formación en el área que estudia ciencias de la Tierra por primera vez.",
+      "limits": "Trata solo conceptos introductorios. No es una guía para decisiones sobre pronóstico del tiempo, estudios geológicos ni prevención de desastres."
+    },
+    "astronomy": {
+      "name": "Astronomía",
+      "summary": "Lee la luz para inferir la estructura de las estrellas y del universo.",
+      "audience": "Persona sin formación en el área que estudia astronomía por primera vez. Quien quiera recorrer a grandes rasgos la observación del cielo, el sistema solar, las estrellas y las galaxias, y cómo sabe lo que sabe la astronomía.",
+      "limits": "No trata las partes controvertidas de la cosmología ni los descubrimientos más recientes; el cálculo se limita a estimaciones sencillas de magnitudes físicas."
+    },
+    "statistics": {
+      "name": "Estadística",
+      "summary": "Aprende a sacar conclusiones a partir de datos teniendo en cuenta la incertidumbre.",
+      "audience": "Persona sin formación en el área que estudia estadística por primera vez. Quien quiera leer y resumir datos y comprender la incertidumbre y la diferencia entre correlación y causalidad.",
+      "limits": "Trata conceptos y cálculos sencillos hechos a mano con datos ficticios. La práctica con software estadístico, el análisis de datos reales y la asesoría de diseño de investigación quedan fuera del alcance."
+    },
+    "chemistry": {
+      "name": "Química",
+      "summary": "Observa de qué está hecha la materia y cómo cambia.",
+      "audience": "Persona sin formación en el área que estudia química por primera vez. Quien quiera aprender los fundamentos de los átomos, la tabla periódica, los enlaces, las ecuaciones de reacción, el mol y los ácidos y las bases.",
+      "limits": "Trata solo conceptos y cálculos sencillos. No es una guía de métodos experimentales ni de seguridad."
+    },
+    "architecture": {
+      "name": "Arquitectura",
+      "summary": "Aprende los principios para concebir el espacio y levantarlo como estructura.",
+      "audience": "Persona sin formación en el área que estudia arquitectura por primera vez. Quien quiera aprender los conceptos básicos del espacio, la planta, la estructura, la luz y el viento, y los materiales con el ejemplo de una casa ficticia.",
+      "limits": "Es un curso introductorio que no trata la habilitación de arquitecto, los cálculos de seguridad estructural, la normativa de construcción ni hechos sobre edificios reales."
+    },
+    "mechanical-eng": {
+      "name": "Ingeniería Mecánica",
+      "summary": "Analiza y diseña dispositivos que manejan fuerza, calor y movimiento.",
+      "audience": "Persona sin formación en el área que aprende por primera vez cómo manejan las máquinas la fuerza y la energía. Quien quiera aprender palancas, esfuerzo, motores y engranajes con conceptos y cálculos sencillos.",
+      "limits": "No es una guía de diseño, fabricación ni juicios de seguridad. Trata solo conceptos y cálculos sencillos."
+    },
+    "industrial-eng": {
+      "name": "Ingeniería Industrial",
+      "summary": "Optimiza los sistemas en los que trabajan juntos personas, máquinas y recursos.",
+      "audience": "Personas sin formación en el área e iniciados en la ingeniería con curiosidad por cómo se tratan con números el flujo de trabajo, el tiempo, el inventario, la calidad y las decisiones inciertas.",
+      "limits": "Trata solo conceptos y cálculos ficticios sencillos y no es una guía para el diseño real de fábricas, la seguridad ni decisiones de inversión."
+    },
+    "materials-eng": {
+      "name": "Ingeniería de Materiales",
+      "summary": "Aprende la relación entre la estructura y las propiedades de los materiales.",
+      "audience": "Personas sin formación en el área e iniciados en la ingeniería que quieren aprender por primera vez qué son los metales, las cerámicas y los polímeros y por qué sus propiedades son distintas.",
+      "limits": "Trata solo conceptos y cálculos sencillos, y las cifras de las tablas de materiales son ficticias. No es una guía para decisiones reales de diseño, seguridad ni construcción."
+    },
+    "electrical-eng": {
+      "name": "Ingeniería Eléctrica y Electrónica",
+      "summary": "Aprende sobre los circuitos y sistemas que manejan señales y energía eléctricas.",
+      "audience": "Persona sin formación en el área que aprende por primera vez los principios básicos de la electricidad y la electrónica. Quien quiera aprender corriente, voltaje, resistencia, potencia y señales con conceptos y cálculos sencillos.",
+      "limits": "Trata solo conceptos y cálculos sencillos. No es una guía de cableado, de prácticas ni de métodos o seguridad en trabajos de alto voltaje."
+    },
+    "computer-science": {
+      "name": "Ciencias de la Computación",
+      "summary": "Aprende a definir el cálculo y a resolver problemas con programas.",
+      "audience": "Persona sin formación en el área que se inicia en la programación. Quien quiera aprender cómo maneja la información un computador y desarrollar el pensamiento algorítmico.",
+      "limits": "No se tratan lenguajes de programación concretos ni prácticas. El código es solo pseudocódigo que se sigue a mano, y la criptografía se trata solo en sus principios y no es una guía de prácticas de seguridad."
+    },
+    "civil-eng": {
+      "name": "Ingeniería Civil",
+      "summary": "Analiza infraestructuras como puentes, carreteras y recursos hídricos.",
+      "audience": "Persona sin formación en el área que se inicia en la ingeniería y quiere saber, con conceptos y cálculos sencillos, con qué principios se sostienen infraestructuras sociales como carreteras, puentes y obras hidráulicas.",
+      "limits": "No es un criterio de diseño, construcción ni juicio de seguridad, y todos los proyectos y cifras son ficticios."
+    },
+    "chemical-eng": {
+      "name": "Ingeniería Química",
+      "summary": "Aprende los principios para llevar las reacciones químicas a escala de proceso.",
+      "audience": "Personas sin formación en el área e iniciados en la ingeniería que conocen por primera vez cómo los procesos transforman materias primas en productos.",
+      "limits": "Trata solo conceptos y cálculos sencillos y no es una guía de diseño, seguridad ni operación. Todos los procesos y cifras son ficticios."
+    },
+    "environmental-eng": {
+      "name": "Ingeniería Ambiental",
+      "summary": "Aborda con ingeniería los problemas del agua, el aire y los residuos.",
+      "audience": "Personas sin formación en el área que se inician en los problemas ambientales y estudiantes que exploran la ingeniería ambiental como opción de estudios.",
+      "limits": "No es una guía para juicios de diseño, seguridad ni construcción ni para normativas, y los proyectos y las cifras son ficticios."
+    },
+    "education-studies": {
+      "name": "Ciencias de la Educación",
+      "summary": "Observa desde la teoría cómo aprenden las personas y qué ayuda al aprendizaje.",
+      "audience": "Persona sin formación en el área que se acerca a la educación desde la teoría por primera vez. Quien quiera aprender los conceptos básicos del aprendizaje, el desarrollo, la motivación, el diseño de la enseñanza y la equidad.",
+      "limits": "Introducción teórica sin relación con la habilitación docente, la preparación de oposiciones ni la evaluación de políticas educativas."
+    },
+    "subject-education": {
+      "name": "Didáctica de las Disciplinas",
+      "summary": "Aprende a convertir el contenido de una disciplina en algo que se pueda enseñar. No tiene relación con la habilitación docente.",
+      "audience": "Principiante en educación que quiere conocer por primera vez cómo enseñar una disciplina y cómo lograr que otros la aprendan.",
+      "limits": "Teoría sin relación con la habilitación docente, el nombramiento ni las prácticas de campo; los ejemplos de clase son ficticios."
+    },
+    "early-childhood-ed": {
+      "name": "Educación Infantil",
+      "summary": "Aprende la teoría del desarrollo de la primera infancia y del aprendizaje basado en el juego. Las prácticas de campo se dejan solo como entrega.",
+      "audience": "Persona sin formación en el área que se inicia en la educación infantil.",
+      "limits": "Teoría sin relación con la habilitación, el nombramiento ni las prácticas; no trata normas de seguridad, pautas de cuidado ni diagnóstico, y todos los casos son ficticios."
+    },
+    "special-education": {
+      "name": "Educación Especial",
+      "summary": "Aprende los principios de una educación adaptada a necesidades de aprendizaje diversas. Las prácticas de campo se dejan solo como entrega.",
+      "audience": "Persona sin formación en el área que se inicia en la educación especial y quiere aprender, desde la teoría, las ideas básicas sobre las necesidades de aprendizaje diversas y el apoyo.",
+      "limits": "No trata diagnóstico, determinación de elegibilidad, tratamiento, habilitación docente ni la elaboración de planes de apoyo reales, y todos los casos son ficticios."
+    },
+    "design-studies": {
+      "name": "Diseño",
+      "summary": "Analiza y prueba a crear cómo la forma, el color y la composición transmiten significado.",
+      "audience": "Cualquier persona, de letras, de ciencias o sin formación en el área. No se necesita habilidad para dibujar ni herramientas. Aprendes a mirar con los ojos y a juzgar.",
+      "limits": "No se evalúa si las obras son buenas o malas. No se suben obras; solo se deja por escrito el proceso de creación."
+    },
+    "fine-arts": {
+      "name": "Bellas Artes",
+      "summary": "Lee las obras por su forma y su contexto, y pruébate creándolas.",
+      "audience": "Principiante que nunca ha estudiado arte pero quiere desarrollar la mirada para las obras y aprender la terminología básica.",
+      "limits": "Es un panorama muy amplio centrado en el arte occidental. No se trata la instrucción práctica ni el estudio en profundidad del arte de Asia oriental o del arte contemporáneo."
+    },
+    "theater-film": {
+      "name": "Teatro y Cine",
+      "summary": "Analiza cómo se construyen las escenas y cómo llegan al público.",
+      "audience": "Principiante que se acerca por primera vez al teatro y al cine y se interesa por cómo se convierten las historias en escenas e imágenes.",
+      "limits": "Trata solo obras ficticias. La valoración de obras o personas reales, la práctica de actuación y el entrenamiento en técnicas de rodaje y montaje quedan fuera del alcance."
+    },
+    "music-studies": {
+      "name": "Música",
+      "summary": "Lee y escucha la estructura de la altura, el ritmo y la armonía.",
+      "audience": "Persona sin formación en el área que ve una partitura por primera vez. Quien quiera aprender los fundamentos de la teoría musical con imágenes y texto, sin sonido.",
+      "limits": "Como no se reproduce sonido, no se incluye el entrenamiento auditivo. Solo se trata Do mayor y la teoría básica, y no se trata la historia de la música ni el análisis de piezas reales."
+    },
+    "sport-science": {
+      "name": "Ciencias del Deporte",
+      "summary": "Comprende el movimiento y el entrenamiento con ciencia y teoría. La práctica queda fuera del alcance.",
+      "audience": "Persona sin formación en el área que se inicia en las ciencias del deporte y quiere recorrer, desde la teoría, la actividad física, los principios del ejercicio, la psicología del deporte, las reglas de juego y el deporte y la sociedad.",
+      "limits": "No se tratan la práctica, la prescripción de ejercicio, los planes de entrenamiento ni consejos para tratar lesiones; los ejemplos de reglas usan deportes ficticios."
+    }
+  }
+}

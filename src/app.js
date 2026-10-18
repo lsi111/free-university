@@ -5,7 +5,15 @@ import { renderDepartment, errorPanel } from './views/department.js';
 import { renderLesson } from './views/lesson.js';
 import { renderProgress } from './views/progress.js';
 import { h } from './dom.js';
-import { LANGS, getLang, initI18n, setLang, t } from './i18n.js';
+import { LANGS, getLang, initI18n, setLang, t, t as lookup } from './i18n.js';
+
+/** index.html의 정적 문구를 현재 언어로 바꾼다. 한국어 원문이 키이고, HTML에는 한국어가 기본값으로 들어 있다.
+ *  data-i18n="원문" → 글자, data-i18n-aria-label="원문" / data-i18n-content="원문" → 해당 속성 */
+function translateStatic() {
+  for (const el of document.querySelectorAll('[data-i18n]')) el.textContent = lookup(el.getAttribute('data-i18n'));
+  for (const el of document.querySelectorAll('[data-i18n-aria-label]')) el.setAttribute('aria-label', lookup(el.getAttribute('data-i18n-aria-label')));
+  for (const el of document.querySelectorAll('[data-i18n-content]')) el.setAttribute('content', lookup(el.getAttribute('data-i18n-content')));
+}
 
 const main = document.getElementById('main');
 
@@ -20,7 +28,7 @@ function setupThemeToggle() {
   const btn = h('button', {
     type: 'button',
     class: 'theme-btn',
-    'aria-label': '화면 밝기 테마 전환',
+    'aria-label': t('화면 밝기 테마 전환'),
     onclick: () => {
       const next = THEME_ORDER[(THEME_ORDER.indexOf(loadTheme()) + 1) % THEME_ORDER.length];
       saveTheme(next);
@@ -67,7 +75,7 @@ async function render() {
   } else {
     const loaded = await loadDepartment(route.dept);
     if (!loaded) {
-      view.replaceChildren(h('h1', { tabindex: '-1' }, '없는 학과입니다'), h('p', {}, h('a', { href: '#/' }, '학과 선택으로')));
+      view.replaceChildren(h('h1', { tabindex: '-1' }, t('없는 학과입니다')), h('p', {}, h('a', { href: '#/' }, t('학과 선택으로'))));
     } else if (route.name === 'dept' || !loaded.dept) {
       renderDepartment(view, { ...loaded, fields, catalog, progress, reviews });
     } else {
@@ -95,10 +103,11 @@ async function render() {
   if (q && LANGS[q]) { setLang(q); history.replaceState(null, '', location.pathname + location.hash); }
 }
 await initI18n();
+translateStatic();
 setupThemeToggle();
 setupLangSwitch();
 window.addEventListener('hashchange', render);
 render().catch((err) => {
-  main.replaceChildren(h('section', { class: 'panel error' }, h('h1', {}, '불러오지 못했습니다'), h('p', {}, String(err.message || err)),
-    h('p', { class: 'input-note' }, 'index.html을 파일로 직접 열면 콘텐츠를 읽을 수 없습니다. 로컬 서버로 여세요 (README 참고).')));
+  main.replaceChildren(h('section', { class: 'panel error' }, h('h1', {}, t('불러오지 못했습니다')), h('p', {}, String(err.message || err)),
+    h('p', { class: 'input-note' }, t('index.html을 파일로 직접 열면 콘텐츠를 읽을 수 없습니다. 로컬 서버로 여세요 (README 참고).'))));
 });
