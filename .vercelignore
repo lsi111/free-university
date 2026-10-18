@@ -1,0 +1,6 @@
+stages
+tasks
+docs
+tools
+tests
+*.py
