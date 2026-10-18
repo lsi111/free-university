@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 270" width="380" height="270">
+<rect width="380" height="270" fill="#f4efe6"/>
+<text x="110.0" y="22.0" font-family="sans-serif" font-size="13" fill="#2f5d50" text-anchor="middle" font-weight="bold">적합 문서 20건</text>
+<text x="268.0" y="22.0" font-family="sans-serif" font-size="13" fill="#e07a3f" text-anchor="middle" font-weight="bold">검색된 문서 25건</text>
+<rect x="15.0" y="34.0" width="350.0" height="225.0" rx="0" fill="#fffaf0" stroke="#7a766d" stroke-width="1.5"/>
+<circle cx="140.0" cy="135.0" r="62" fill="#2f5d50" stroke="#2f5d50" stroke-width="2" fill-opacity="0.3"/>
+<circle cx="230.0" cy="135.0" r="62" fill="#e07a3f" stroke="#e07a3f" stroke-width="2" fill-opacity="0.3"/>
+<text x="112.0" y="138.0" font-family="sans-serif" font-size="20" fill="#1d1c1a" text-anchor="middle" font-weight="bold">5</text>
+<text x="112.0" y="156.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">적합만</text>
+<text x="185.0" y="138.0" font-family="sans-serif" font-size="20" fill="#1d1c1a" text-anchor="middle" font-weight="bold">15</text>
+<text x="185.0" y="156.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">둘 다</text>
+<text x="258.0" y="138.0" font-family="sans-serif" font-size="20" fill="#1d1c1a" text-anchor="middle" font-weight="bold">10</text>
+<text x="258.0" y="156.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">검색만</text>
+<text x="25.0" y="248.0" font-family="sans-serif" font-size="12" fill="#7a766d" text-anchor="start">그 밖의 문서 70건 (전체 100건)</text>
+</svg>

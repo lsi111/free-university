@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 260" width="360" height="260">
+<rect width="360" height="260" fill="#f4efe6"/>
+<text x="180.0" y="22.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">일별 재원 환자 수 (가상 병동, 1주)</text>
+<line x1="50.0" y1="214.0" x2="340.0" y2="214.0" stroke="#ddd5c6" stroke-width="1"/>
+<text x="44.0" y="218.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">0</text>
+<line x1="50.0" y1="185.7" x2="340.0" y2="185.7" stroke="#ddd5c6" stroke-width="1"/>
+<text x="44.0" y="189.7" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">10</text>
+<line x1="50.0" y1="157.3" x2="340.0" y2="157.3" stroke="#ddd5c6" stroke-width="1"/>
+<text x="44.0" y="161.3" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">20</text>
+<line x1="50.0" y1="129.0" x2="340.0" y2="129.0" stroke="#ddd5c6" stroke-width="1"/>
+<text x="44.0" y="133.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">30</text>
+<line x1="50.0" y1="100.7" x2="340.0" y2="100.7" stroke="#ddd5c6" stroke-width="1"/>
+<text x="44.0" y="104.7" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">40</text>
+<line x1="50.0" y1="72.3" x2="340.0" y2="72.3" stroke="#ddd5c6" stroke-width="1"/>
+<text x="44.0" y="76.3" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">50</text>
+<line x1="50.0" y1="44.0" x2="340.0" y2="44.0" stroke="#ddd5c6" stroke-width="1"/>
+<text x="44.0" y="48.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">60</text>
+<line x1="50.0" y1="214.0" x2="340.0" y2="214.0" stroke="#7a766d" stroke-width="1.5"/>
+<line x1="50.0" y1="44.0" x2="50.0" y2="214.0" stroke="#7a766d" stroke-width="1.5"/>
+<rect x="56.7" y="100.7" width="28.0" height="113.3" rx="2" fill="#2f5d50" fill-opacity="0.85" stroke="#2f5d50" stroke-width="1"/>
+<text x="70.7" y="95.7" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">40</text>
+<text x="70.7" y="230.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">월</text>
+<rect x="98.1" y="86.5" width="28.0" height="127.5" rx="2" fill="#2f5d50" fill-opacity="0.85" stroke="#2f5d50" stroke-width="1"/>
+<text x="112.1" y="81.5" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">45</text>
+<text x="112.1" y="230.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">화</text>
+<rect x="139.6" y="72.3" width="28.0" height="141.7" rx="2" fill="#2f5d50" fill-opacity="0.85" stroke="#2f5d50" stroke-width="1"/>
+<text x="153.6" y="67.3" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">50</text>
+<text x="153.6" y="230.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">수</text>
+<rect x="181.0" y="114.8" width="28.0" height="99.2" rx="2" fill="#2f5d50" fill-opacity="0.85" stroke="#2f5d50" stroke-width="1"/>
+<text x="195.0" y="109.8" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">35</text>
+<text x="195.0" y="230.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">목</text>
+<rect x="222.4" y="129.0" width="28.0" height="85.0" rx="2" fill="#2f5d50" fill-opacity="0.85" stroke="#2f5d50" stroke-width="1"/>
+<text x="236.4" y="124.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">30</text>
+<text x="236.4" y="230.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">금</text>
+<rect x="263.9" y="143.2" width="28.0" height="70.8" rx="2" fill="#2f5d50" fill-opacity="0.85" stroke="#2f5d50" stroke-width="1"/>
+<text x="277.9" y="138.2" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">25</text>
+<text x="277.9" y="230.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">토</text>
+<rect x="305.3" y="114.8" width="28.0" height="99.2" rx="2" fill="#2f5d50" fill-opacity="0.85" stroke="#2f5d50" stroke-width="1"/>
+<text x="319.3" y="109.8" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">35</text>
+<text x="319.3" y="230.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">일</text>
+<line x1="50.0" y1="72.3" x2="340.0" y2="72.3" stroke="#e07a3f" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="340.0" y="56.3" font-family="sans-serif" font-size="11" fill="#e07a3f" text-anchor="end">허가병상 50</text>
+<text x="54.0" y="38.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">환자 수(명)</text>
+<text x="180.0" y="252.0" font-family="sans-serif" font-size="12" fill="#7a766d" text-anchor="middle">막대 높이: 그날 입원해 있던 환자 수</text>
+</svg>

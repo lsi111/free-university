@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 290" width="400" height="290">
+<rect width="400" height="290" fill="#f4efe6"/>
+<text x="200.0" y="24.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">한 사람에게 겹친 세 사건 (가상)</text>
+<rect x="20.0" y="44.0" width="64.0" height="64.0" rx="4" fill="#2f5d50" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="52.0" y="81.0" font-family="sans-serif" font-size="13" fill="#fffaf0" text-anchor="middle" font-weight="bold">행정</text>
+<rect x="92.0" y="44.0" width="288.0" height="64.0" rx="4" fill="#ffffff" stroke="#7a766d" stroke-width="1.2"/>
+<text x="102.0" y="71.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">3월 1일: 시장이 갑의 식당에</text>
+<text x="102.0" y="91.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">영업정지 30일 처분 (처분서를 받음)</text>
+<rect x="20.0" y="120.0" width="64.0" height="64.0" rx="4" fill="#2f5d50" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="52.0" y="157.0" font-family="sans-serif" font-size="13" fill="#fffaf0" text-anchor="middle" font-weight="bold">민사</text>
+<rect x="92.0" y="120.0" width="288.0" height="64.0" rx="4" fill="#ffffff" stroke="#7a766d" stroke-width="1.2"/>
+<text x="102.0" y="147.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">3월 5일: 을의 거짓말에 속아 기계 구매</text>
+<text x="102.0" y="167.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">대금 300만 원, 계약금 100만 원 지급</text>
+<rect x="20.0" y="196.0" width="64.0" height="64.0" rx="4" fill="#2f5d50" stroke="#2f5d50" stroke-width="1.5"/>
+<text x="52.0" y="233.0" font-family="sans-serif" font-size="13" fill="#fffaf0" text-anchor="middle" font-weight="bold">형사</text>
+<rect x="92.0" y="196.0" width="288.0" height="64.0" rx="4" fill="#ffffff" stroke="#7a766d" stroke-width="1.2"/>
+<text x="102.0" y="223.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">3월 9일: 갑을 때리려는 병을 갑이 밀침</text>
+<text x="102.0" y="243.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">병이 넘어져 다침 (정당방위인지 문제)</text>
+<text x="200.0" y="278.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">한 사람의 사건 묶음에도 영역마다 다른 질문이 걸린다</text>
+</svg>

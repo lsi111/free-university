@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 230" width="380" height="230">
+<rect width="380" height="230" fill="#f4efe6"/>
+<text x="190.0" y="24.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">라틴어에서 갈라진 세 언어의 낱말 (철자 기준)</text>
+<text x="55.0" y="52.0" font-family="sans-serif" font-size="12" fill="#2f5d50" text-anchor="middle" font-weight="bold">라틴어</text>
+<text x="145.0" y="52.0" font-family="sans-serif" font-size="12" fill="#2f5d50" text-anchor="middle" font-weight="bold">이탈리아어</text>
+<text x="245.0" y="52.0" font-family="sans-serif" font-size="12" fill="#2f5d50" text-anchor="middle" font-weight="bold">에스파냐어</text>
+<text x="335.0" y="52.0" font-family="sans-serif" font-size="12" fill="#2f5d50" text-anchor="middle" font-weight="bold">프랑스어</text>
+<line x1="15.0" y1="62.0" x2="365.0" y2="62.0" stroke="#7a766d" stroke-width="1.2"/>
+<rect x="15.0" y="70.0" width="350.0" height="34.0" rx="0" fill="#ece5d6" stroke="none" stroke-width="0"/>
+<text x="55.0" y="90.0" font-family="sans-serif" font-size="14" fill="#e07a3f" text-anchor="middle" font-weight="bold">octo</text>
+<text x="145.0" y="90.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">otto</text>
+<text x="245.0" y="90.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">ocho</text>
+<text x="335.0" y="90.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">huit</text>
+<text x="55.0" y="128.0" font-family="sans-serif" font-size="14" fill="#e07a3f" text-anchor="middle" font-weight="bold">noctem</text>
+<text x="145.0" y="128.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">notte</text>
+<text x="245.0" y="128.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">noche</text>
+<text x="335.0" y="128.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">nuit</text>
+<rect x="15.0" y="146.0" width="350.0" height="34.0" rx="0" fill="#ece5d6" stroke="none" stroke-width="0"/>
+<text x="55.0" y="166.0" font-family="sans-serif" font-size="14" fill="#e07a3f" text-anchor="middle" font-weight="bold">factum</text>
+<text x="145.0" y="166.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">fatto</text>
+<text x="245.0" y="166.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">hecho</text>
+<text x="335.0" y="166.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">fait</text>
+<text x="55.0" y="204.0" font-family="sans-serif" font-size="14" fill="#e07a3f" text-anchor="middle" font-weight="bold">lectum</text>
+<text x="145.0" y="204.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">letto</text>
+<text x="245.0" y="204.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">lecho</text>
+<text x="335.0" y="204.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">lit</text>
+<line x1="15.0" y1="220.0" x2="365.0" y2="220.0" stroke="#7a766d" stroke-width="1.2"/>
+<text x="15.0" y="240.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">라틴어 낱말은 옛 형태를 학자가 적은 것이다.</text>
+<text x="15.0" y="256.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">뜻: 여덟, 밤, 일(사실), 침대 (차례대로).</text>
+</svg>

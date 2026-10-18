@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 175" width="400" height="175">
+<rect width="400" height="175" fill="#f4efe6"/>
+<text x="14.0" y="22.0" font-family="sans-serif" font-size="12" fill="#7a766d" text-anchor="start">The morning light came softly through the door</text>
+<text x="33.0" y="60.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">The</text>
+<circle cx="33.0" cy="84.0" r="4" fill="#f4efe6" stroke="#7a766d" stroke-width="1.5"/>
+<text x="70.0" y="60.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">mor</text>
+<circle cx="70.0" cy="84.0" r="7" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<text x="107.0" y="60.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">ning</text>
+<circle cx="107.0" cy="84.0" r="4" fill="#f4efe6" stroke="#7a766d" stroke-width="1.5"/>
+<text x="144.0" y="60.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">light</text>
+<circle cx="144.0" cy="84.0" r="7" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<text x="181.0" y="60.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">came</text>
+<circle cx="181.0" cy="84.0" r="4" fill="#f4efe6" stroke="#7a766d" stroke-width="1.5"/>
+<text x="218.0" y="60.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">soft</text>
+<circle cx="218.0" cy="84.0" r="7" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<text x="255.0" y="60.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">ly</text>
+<circle cx="255.0" cy="84.0" r="4" fill="#f4efe6" stroke="#7a766d" stroke-width="1.5"/>
+<text x="292.0" y="60.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">through</text>
+<circle cx="292.0" cy="84.0" r="7" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<text x="329.0" y="60.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">the</text>
+<circle cx="329.0" cy="84.0" r="4" fill="#f4efe6" stroke="#7a766d" stroke-width="1.5"/>
+<text x="366.0" y="60.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">door</text>
+<circle cx="366.0" cy="84.0" r="7" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<line x1="17.0" y1="106.0" x2="86.0" y2="106.0" stroke="#e07a3f" stroke-width="2"/>
+<line x1="17.0" y1="100.0" x2="17.0" y2="106.0" stroke="#e07a3f" stroke-width="2"/>
+<line x1="86.0" y1="100.0" x2="86.0" y2="106.0" stroke="#e07a3f" stroke-width="2"/>
+<text x="51.5" y="126.0" font-family="sans-serif" font-size="13" fill="#e07a3f" text-anchor="middle" font-weight="bold">1</text>
+<line x1="91.0" y1="106.0" x2="160.0" y2="106.0" stroke="#e07a3f" stroke-width="2"/>
+<line x1="91.0" y1="100.0" x2="91.0" y2="106.0" stroke="#e07a3f" stroke-width="2"/>
+<line x1="160.0" y1="100.0" x2="160.0" y2="106.0" stroke="#e07a3f" stroke-width="2"/>
+<text x="125.5" y="126.0" font-family="sans-serif" font-size="13" fill="#e07a3f" text-anchor="middle" font-weight="bold">2</text>
+<line x1="165.0" y1="106.0" x2="234.0" y2="106.0" stroke="#e07a3f" stroke-width="2"/>
+<line x1="165.0" y1="100.0" x2="165.0" y2="106.0" stroke="#e07a3f" stroke-width="2"/>
+<line x1="234.0" y1="100.0" x2="234.0" y2="106.0" stroke="#e07a3f" stroke-width="2"/>
+<text x="199.5" y="126.0" font-family="sans-serif" font-size="13" fill="#e07a3f" text-anchor="middle" font-weight="bold">3</text>
+<line x1="239.0" y1="106.0" x2="308.0" y2="106.0" stroke="#e07a3f" stroke-width="2"/>
+<line x1="239.0" y1="100.0" x2="239.0" y2="106.0" stroke="#e07a3f" stroke-width="2"/>
+<line x1="308.0" y1="100.0" x2="308.0" y2="106.0" stroke="#e07a3f" stroke-width="2"/>
+<text x="273.5" y="126.0" font-family="sans-serif" font-size="13" fill="#e07a3f" text-anchor="middle" font-weight="bold">4</text>
+<line x1="313.0" y1="106.0" x2="382.0" y2="106.0" stroke="#e07a3f" stroke-width="2"/>
+<line x1="313.0" y1="100.0" x2="313.0" y2="106.0" stroke="#e07a3f" stroke-width="2"/>
+<line x1="382.0" y1="100.0" x2="382.0" y2="106.0" stroke="#e07a3f" stroke-width="2"/>
+<text x="347.5" y="126.0" font-family="sans-serif" font-size="13" fill="#e07a3f" text-anchor="middle" font-weight="bold">5</text>
+<circle cx="24.0" cy="154.0" r="4" fill="#f4efe6" stroke="#7a766d" stroke-width="1.5"/>
+<text x="34.0" y="158.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">약한 음절</text>
+<circle cx="122.0" cy="154.0" r="7" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<text x="134.0" y="158.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">강한 음절</text>
+<line x1="220.0" y1="152.0" x2="244.0" y2="152.0" stroke="#e07a3f" stroke-width="2"/>
+<text x="252.0" y="158.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">숫자 = 음보 번호</text>
+</svg>

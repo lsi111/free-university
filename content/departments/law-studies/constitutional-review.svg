@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+<rect width="400" height="300" fill="#f4efe6"/>
+<text x="200.0" y="24.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">가나라 헌법재판 경로 (가상)</text>
+<rect x="20.0" y="44.0" width="140.0" height="50.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="90.0" y="66.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">법원 (재판 진행 중)</text>
+<text x="90.0" y="84.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">법률이 위헌이라 의심</text>
+<rect x="20.0" y="134.0" width="140.0" height="60.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="90.0" y="155.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">국민</text>
+<text x="90.0" y="172.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">공권력으로 기본권을</text>
+<text x="90.0" y="187.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">직접 침해당함</text>
+<rect x="250.0" y="44.0" width="130.0" height="150.0" rx="4" fill="#fffaf0" stroke="#e07a3f" stroke-width="2"/>
+<text x="315.0" y="80.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">헌법재판소</text>
+<text x="315.0" y="112.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">위헌법률심판</text>
+<text x="315.0" y="150.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle">헌법소원심판</text>
+<line x1="160.0" y1="69.0" x2="250.0" y2="69.0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="250.0,69.0 242.6,72.1 242.6,65.9" fill="#2f5d50"/>
+<text x="205.0" y="60.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">위헌제청</text>
+<line x1="160.0" y1="164.0" x2="250.0" y2="164.0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="250.0,164.0 242.6,167.1 242.6,160.9" fill="#2f5d50"/>
+<text x="205.0" y="155.0" font-family="sans-serif" font-size="11" fill="#1d1c1a" text-anchor="middle">헌법소원 청구</text>
+<text x="20.0" y="212.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">보충성: 다른 구제절차를 먼저 거침</text>
+<line x1="315.0" y1="194.0" x2="315.0" y2="226.0" stroke="#e07a3f" stroke-width="2"/>
+<polygon points="315.0,226.0 311.9,218.6 318.1,218.6" fill="#e07a3f"/>
+<rect x="20.0" y="228.0" width="360.0" height="52.0" rx="4" fill="#ffffff" stroke="#e07a3f" stroke-width="2"/>
+<text x="200.0" y="250.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">재판관 9인 중 6인 이상 찬성 시 위헌 결정</text>
+<text x="200.0" y="268.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">(가상의 나라 가나라 기준)</text>
+</svg>

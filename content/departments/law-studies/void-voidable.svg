@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+<rect width="400" height="300" fill="#f4efe6"/>
+<text x="200.0" y="24.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">의사표시 하자와 효과 (가상 사례)</text>
+<text x="20.0" y="48.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start" font-weight="bold">사례</text>
+<text x="290.0" y="48.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start" font-weight="bold">효과</text>
+<rect x="20.0" y="56.0" width="255.0" height="38.0" rx="4" fill="#ffffff" stroke="#7a766d" stroke-width="1.2"/>
+<text x="30.0" y="80.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">상대방과 짜고 한 허위 매매</text>
+<rect x="285.0" y="56.0" width="95.0" height="38.0" rx="4" fill="#e07a3f" stroke="#e07a3f" stroke-width="1.2"/>
+<text x="332.5" y="80.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">무효</text>
+<rect x="20.0" y="100.0" width="255.0" height="38.0" rx="4" fill="#ffffff" stroke="#7a766d" stroke-width="1.2"/>
+<text x="30.0" y="124.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">사기에 속아 맺은 계약</text>
+<rect x="285.0" y="100.0" width="95.0" height="38.0" rx="4" fill="#2f5d50" stroke="#2f5d50" stroke-width="1.2"/>
+<text x="332.5" y="124.0" font-family="sans-serif" font-size="12" fill="#fffaf0" text-anchor="middle" font-weight="bold">취소 가능</text>
+<rect x="20.0" y="144.0" width="255.0" height="38.0" rx="4" fill="#ffffff" stroke="#7a766d" stroke-width="1.2"/>
+<text x="30.0" y="168.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">범죄를 시키고 대가를 주기로 한 약속</text>
+<rect x="285.0" y="144.0" width="95.0" height="38.0" rx="4" fill="#e07a3f" stroke="#e07a3f" stroke-width="1.2"/>
+<text x="332.5" y="168.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">무효</text>
+<rect x="20.0" y="188.0" width="255.0" height="38.0" rx="4" fill="#ffffff" stroke="#7a766d" stroke-width="1.2"/>
+<text x="30.0" y="212.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">강박에 못 이겨 맺은 계약</text>
+<rect x="285.0" y="188.0" width="95.0" height="38.0" rx="4" fill="#2f5d50" stroke="#2f5d50" stroke-width="1.2"/>
+<text x="332.5" y="212.0" font-family="sans-serif" font-size="12" fill="#fffaf0" text-anchor="middle" font-weight="bold">취소 가능</text>
+<rect x="20.0" y="232.0" width="255.0" height="38.0" rx="4" fill="#ffffff" stroke="#7a766d" stroke-width="1.2"/>
+<text x="30.0" y="256.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">미성년자가 혼자 맺은 계약</text>
+<rect x="285.0" y="232.0" width="95.0" height="38.0" rx="4" fill="#2f5d50" stroke="#2f5d50" stroke-width="1.2"/>
+<text x="332.5" y="256.0" font-family="sans-serif" font-size="12" fill="#fffaf0" text-anchor="middle" font-weight="bold">취소 가능</text>
+<text x="200.0" y="284.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">무효는 처음부터 효력이 없고, 취소 가능은 취소하기 전까지 유효</text>
+</svg>

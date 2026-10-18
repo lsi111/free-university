@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+<rect width="400" height="200" fill="#f4efe6"/>
+<text x="14.0" y="24.0" font-family="sans-serif" font-size="12" fill="#7a766d" text-anchor="start">평서문(기본 어순)</text>
+<rect x="14.0" y="34.0" width="62.0" height="30.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="45.0" y="53.5" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">Mina</text>
+<rect x="90.0" y="34.0" width="62.0" height="30.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="121.0" y="53.5" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">will</text>
+<rect x="166.0" y="34.0" width="62.0" height="30.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="197.0" y="53.5" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">buy</text>
+<rect x="242.0" y="34.0" width="62.0" height="30.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="273.0" y="53.5" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">what</text>
+<text x="14.0" y="100.0" font-family="sans-serif" font-size="12" fill="#7a766d" text-anchor="start">의문문(표면 어순)</text>
+<rect x="14.0" y="134.0" width="62.0" height="30.0" rx="4" fill="#ffffff" stroke="#e07a3f" stroke-width="2"/>
+<text x="45.0" y="153.6" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">What</text>
+<rect x="90.0" y="134.0" width="62.0" height="30.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="121.0" y="153.6" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">will</text>
+<rect x="166.0" y="134.0" width="62.0" height="30.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="197.0" y="153.6" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">Mina</text>
+<rect x="242.0" y="134.0" width="62.0" height="30.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="273.0" y="153.6" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle">buy</text>
+<rect x="318.0" y="134.0" width="62.0" height="30.0" rx="4" fill="#f4efe6" stroke="#7a766d" stroke-width="1.5"/>
+<rect x="318" y="134" width="62" height="30" rx="4" fill="none" stroke="#7a766d" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="349.0" y="154.0" font-family="sans-serif" font-size="12" fill="#7a766d" text-anchor="middle">( 빈칸 )</text>
+<path d="M349,134 C349,92 45,92 45,133" fill="none" stroke="#e07a3f" stroke-width="2"/>
+<polygon points="45,133 40,124 50,124" fill="#e07a3f"/>
+<text x="200.0" y="105.0" font-family="sans-serif" font-size="12" fill="#e07a3f" text-anchor="middle">이동</text>
+<text x="45.0" y="184.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">wh구</text>
+<text x="121.0" y="184.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">조동사</text>
+<text x="197.0" y="184.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">주어</text>
+<text x="273.0" y="184.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">동사</text>
+</svg>

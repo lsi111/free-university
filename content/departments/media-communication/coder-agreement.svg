@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+<rect width="400" height="250" fill="#f4efe6"/>
+<text x="200.0" y="24.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">두 코더의 분류 결과 (기사 100건)</text>
+<text x="200.0" y="44.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">분류 기준: 기사에 갈등 프레임이 있는가</text>
+<rect x="15.0" y="56.0" width="370.0" height="30.0" rx="2" fill="#e9e1cf" stroke="#7a766d" stroke-width="1"/>
+<text x="170.0" y="76.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">코더 B: 있음</text>
+<text x="250.0" y="76.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">코더 B: 없음</text>
+<text x="330.0" y="76.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">합계</text>
+<rect x="15.0" y="86.0" width="370.0" height="40.0" rx="2" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="22.0" y="111.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start" font-weight="bold">코더 A: 있음</text>
+<text x="170.0" y="112.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">30</text>
+<text x="250.0" y="112.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">10</text>
+<text x="330.0" y="112.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">40</text>
+<rect x="15.0" y="126.0" width="370.0" height="40.0" rx="2" fill="#ffffff" stroke="#7a766d" stroke-width="1"/>
+<text x="22.0" y="151.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start" font-weight="bold">코더 A: 없음</text>
+<text x="170.0" y="152.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">5</text>
+<text x="250.0" y="152.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">55</text>
+<text x="330.0" y="152.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">60</text>
+<rect x="15.0" y="166.0" width="370.0" height="40.0" rx="2" fill="#faf6ee" stroke="#7a766d" stroke-width="1"/>
+<text x="22.0" y="191.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start" font-weight="bold">합계</text>
+<text x="170.0" y="192.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">35</text>
+<text x="250.0" y="192.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">65</text>
+<text x="330.0" y="192.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle">100</text>
+<text x="200.0" y="226.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">좌상 30과 우하 55는 두 코더의 판단이 같은 칸이다</text>
+</svg>

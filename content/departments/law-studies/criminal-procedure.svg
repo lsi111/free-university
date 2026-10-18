@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" width="400" height="280">
+<rect width="400" height="280" fill="#f4efe6"/>
+<text x="200.0" y="24.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">형사절차의 흐름 (가상 나라 가나라)</text>
+<rect x="10.0" y="44.0" width="77.0" height="70.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="48.5" y="66.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">수사</text>
+<text x="48.5" y="88.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">혐의를</text>
+<text x="48.5" y="104.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">조사한다</text>
+<rect x="111.0" y="44.0" width="77.0" height="70.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="149.5" y="66.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">기소</text>
+<text x="149.5" y="88.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">검사가</text>
+<text x="149.5" y="104.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">재판을 청구</text>
+<rect x="212.0" y="44.0" width="77.0" height="70.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="250.5" y="66.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">공판</text>
+<text x="250.5" y="88.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">법정에서</text>
+<text x="250.5" y="104.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">증거 조사</text>
+<rect x="313.0" y="44.0" width="77.0" height="70.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="351.5" y="66.0" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="middle" font-weight="bold">판결</text>
+<text x="351.5" y="88.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">법원이</text>
+<text x="351.5" y="104.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">유무죄 결정</text>
+<line x1="87.0" y1="79.0" x2="111.0" y2="79.0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="111.0,79.0 104.6,81.7 104.6,76.3" fill="#2f5d50"/>
+<line x1="188.0" y1="79.0" x2="212.0" y2="79.0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="212.0,79.0 205.6,81.7 205.6,76.3" fill="#2f5d50"/>
+<line x1="289.0" y1="79.0" x2="313.0" y2="79.0" stroke="#2f5d50" stroke-width="2"/>
+<polygon points="313.0,79.0 306.6,81.7 306.6,76.3" fill="#2f5d50"/>
+<rect x="10.0" y="140.0" width="190.0" height="120.0" rx="4" fill="#fffaf0" stroke="#e07a3f" stroke-width="2"/>
+<text x="105.0" y="162.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">수사 단계의 구속 기간</text>
+<text x="22.0" y="188.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">경찰 단계: 최대 10일</text>
+<text x="22.0" y="210.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">검사 단계: 최대 10일</text>
+<text x="22.0" y="236.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start" font-weight="bold">수사 단계 합계: 최대 20일</text>
+<rect x="212.0" y="140.0" width="178.0" height="120.0" rx="4" fill="#ffffff" stroke="#2f5d50" stroke-width="2"/>
+<text x="301.0" y="162.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="middle" font-weight="bold">공판 단계의 원칙</text>
+<text x="224.0" y="188.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">무죄 추정</text>
+<text x="224.0" y="210.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">위법하게 얻은 증거는</text>
+<text x="224.0" y="228.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">증거로 쓰지 않음</text>
+</svg>

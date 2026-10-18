@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" width="400" height="340">
+<rect width="400" height="340" fill="#f4efe6"/>
+<text x="200.0" y="22.0" font-family="sans-serif" font-size="14" fill="#1d1c1a" text-anchor="middle" font-weight="bold">대안별 효과와 비용 (가상)</text>
+<line x1="111.7" y1="44.0" x2="111.7" y2="254.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="163.3" y1="44.0" x2="163.3" y2="254.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="215.0" y1="44.0" x2="215.0" y2="254.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="266.7" y1="44.0" x2="266.7" y2="254.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="318.3" y1="44.0" x2="318.3" y2="254.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="370.0" y1="44.0" x2="370.0" y2="254.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="60.0" y1="234.9" x2="370.0" y2="234.9" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="60.0" y1="196.7" x2="370.0" y2="196.7" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="60.0" y1="158.5" x2="370.0" y2="158.5" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="60.0" y1="120.4" x2="370.0" y2="120.4" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="60.0" y1="82.2" x2="370.0" y2="82.2" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="60.0" y1="44.0" x2="370.0" y2="44.0" stroke="#ddd5c6" stroke-width="1"/>
+<line x1="60.0" y1="254.0" x2="370.0" y2="254.0" stroke="#7a766d" stroke-width="1.5"/>
+<line x1="60.0" y1="44.0" x2="60.0" y2="254.0" stroke="#7a766d" stroke-width="1.5"/>
+<text x="111.7" y="269.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">2</text>
+<text x="163.3" y="269.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">2.5</text>
+<text x="215.0" y="269.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">3</text>
+<text x="266.7" y="269.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">3.5</text>
+<text x="318.3" y="269.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">4</text>
+<text x="370.0" y="269.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="middle">4.5</text>
+<text x="54.0" y="238.9" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">500</text>
+<text x="54.0" y="200.7" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">700</text>
+<text x="54.0" y="162.5" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">900</text>
+<text x="54.0" y="124.4" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">1100</text>
+<text x="54.0" y="86.2" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">1300</text>
+<text x="54.0" y="48.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">1500</text>
+<text x="370.0" y="284.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="end">효과(QALY)</text>
+<text x="64.0" y="38.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">비용(만원)</text>
+<circle cx="111.7" cy="234.9" r="5" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<text x="120.7" y="227.9" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="start" font-weight="bold">A</text>
+<circle cx="215.0" cy="177.6" r="5" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<text x="224.0" y="170.6" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="start" font-weight="bold">B</text>
+<circle cx="163.3" cy="158.5" r="5" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<text x="172.3" y="151.5" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="start" font-weight="bold">C</text>
+<circle cx="318.3" cy="63.1" r="5" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<text x="327.3" y="56.1" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="start" font-weight="bold">D</text>
+<circle cx="266.7" cy="82.2" r="5" fill="#2f5d50" stroke="none" stroke-width="1.5"/>
+<text x="275.7" y="75.2" font-family="sans-serif" font-size="13" fill="#1d1c1a" text-anchor="start" font-weight="bold">E</text>
+<text x="20.0" y="296.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">A (2.0, 500)   B (3.0, 800)   C (2.5, 900)</text>
+<text x="20.0" y="314.0" font-family="sans-serif" font-size="12" fill="#1d1c1a" text-anchor="start">D (4.0, 1400)   E (3.5, 1300)</text>
+<text x="20.0" y="332.0" font-family="sans-serif" font-size="11" fill="#7a766d" text-anchor="start">괄호는 (효과 QALY, 비용 만원)</text>
+</svg>
