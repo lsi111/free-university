@@ -43,7 +43,7 @@ function strings(v, path = '', out = []) {
 }
 
 /** $...$ 안의 식(\text{} 속 글자는 제외)이 원문과 같은지 */
-const mathOf = (s) => (s.match(/\$[^$]+\$/g) || []).map((m) => m.replace(/\text\{[^}]*\}/g, '\text{}').replace(/\s+/g, ''));
+const mathOf = (s) => (s.match(/\$\$[\s\S]+?\$\$|\$[^$]+\$/g) || []).map((m) => m.replace(/\\text\{[^}]*\}/g, '\\text{}').replace(/\s+/g, ''));
 
 function textErrors(src, tr, lang) {
   const errs = [];
@@ -52,7 +52,8 @@ function textErrors(src, tr, lang) {
     const o = a.get(p);
     if (!s.trim()) { errs.push(`${p}: 빈 문장`); continue; }
     if (o == null) continue;
-    if (mathOf(o).join('\u0001') !== mathOf(s).join('\u0001')) errs.push(`${p}: $...$ 수식이 원문과 다릅니다`);
+    if (/[\x00-\x09\x0b-\x1f]/.test(s)) errs.push(`${p}: 제어문자(탭 등)가 들어 있습니다 — LaTeX 역슬래시가 JSON에서 깨졌을 수 있습니다`);
+    if (mathOf(o).sort().join('\u0001') !== mathOf(s).sort().join('\u0001')) errs.push(`${p}: $...$ 수식이 원문과 다릅니다`);
     if ((o.match(/\*\*/g) || []).length !== (s.match(/\*\*/g) || []).length) errs.push(`${p}: ** 강조 표시 개수가 원문과 다릅니다`);
     if ((o.match(/\n/g) || []).length !== (s.match(/\n/g) || []).length) errs.push(`${p}: 줄바꿈 개수가 원문과 다릅니다`);
   }
